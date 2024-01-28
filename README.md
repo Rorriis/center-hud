@@ -1,4 +1,4 @@
-![centerhudlogo](https://github.com/Eerorri/Center-Hud/assets/97610612/7acf5cb2-adcf-4d43-811c-9e64e5991630)
+![centerhudlogo](https://github.com/Eerorri/Center-Hud/assets/97610612/71734771-e68e-445d-8a93-7c3ab9ceacf6)
 A TF2 HUD focused on putting critical HUD info in the center, while improving certain aspects and keeping the artstyle of TF2.
 
 ### Links :
