@@ -1,12 +1,1 @@
-sound.cache
-hud_crosshair_color.txt
-hud_crosshair_size.txt
-hud_crosshair_style.txt
-hud_crosshair_visibility.txt
-hud_float_damage.txt
-hud_killfeed.txt
-hud_last_damage.txt
-hud_player_model.txt
-hud_speedometer.txt
-hud_spy_disguise.txt
-hud_transparent_viewmodels.txt
+center-hud-lite/sound/sound.cache
