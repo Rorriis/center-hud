@@ -10,5 +10,4 @@ A TF2 HUD focused on putting critical HUD info in the center, while improving ce
 
 ### Credits :
 - [TF2 HUD Resource](https://github.com/JarateKing/TF2-Hud-Reference)
-- [Community HUD Fixes](https://github.com/CriticalFlaw/TF2HUD.Fixes)
 - [GoopSwagger](https://gamebanana.com/members/1672887)
