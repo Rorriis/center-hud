@@ -1,0 +1,20 @@
+ 
+--CenterHud Credits--
+
+Eerorri - Maker of the HUD
+
+Firebert_ - Made the original Vanilla Centered HUD, which very much inspired this HUD
+
+GoopSwagger - Made the VTFs for the meters
+
+ToonHUD Creators - SourceScheme Generator
+
+-Community HUD Fixes-
+
+Critical Flaw - Maker and maintainer of Community HUD Fixes
+
+All other contributors - Making these fixes to the default HUD some of us love
+
+Check it out here: https://gamebanana.com/mods/26450
+
+

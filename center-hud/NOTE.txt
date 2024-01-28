@@ -1,0 +1,10 @@
+custom hud options button icon
+like half done Move contractor and blog button to bottom (also notif button) [ Also new image ]
+better addon health image
+true 4:3 addon (other aspect ratio, but all hud elements are 4:3)
+✔ 21:9 addon (Fixes + BGs)
+steamdeck addon (wait for valve SD patch [?] )
+infomercial update (lines: Easy Addon system from BudHud, 21:9 Fixes and SD improvements [ after the infomercial show of 21:9 update and SD update] )
+✔ stop being introverted and ask critical flaw for permisson for hud fixes
+????
+✔ Infinite wealth
