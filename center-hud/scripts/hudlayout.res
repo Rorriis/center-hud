@@ -93,11 +93,12 @@
 		"xpos"			"c163"
 		"xpos_minmode"	"c150"
 		"ypos"			"r21"
-		"ypos_minmode"	"r62"
+		"ypos_minmode"	"r58"
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"60"
 		"wide_minmode"	"50"
 		"tall"			"8"
+		"tall_minmode"	"14"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -198,7 +199,7 @@
 		"xpos"					"c210"
 		"ypos"					"r151"
 		"ypos_minmode"			"r134"
-		"xpos_minmode"			"c220"
+		"xpos_minmode"			"c210"
 		"zpos"					"1"			// draw in front of ammo
 		"wide"					"116"
 		"tall"  				"180"
@@ -993,9 +994,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c210"
+		"xpos_minmode"	"c150"
 		"ypos"			"r54"
-		"ypos_minmode"	"r30"
+		"ypos_minmode"	"r48"
 		"wide"			"100"
+		"wide_minmode"	"200"
 		"tall"			"50"
 	}
 
