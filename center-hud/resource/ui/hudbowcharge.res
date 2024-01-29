@@ -2,10 +2,6 @@
 {
 	"ChargeMeter"
 	{
-		"ControlName"	"ContinuousProgressBar"
-		"fieldName"		"ChargeMeter"
-		"xpos"			"9999"
-		"visible"		"0"
-		"enabled"		"0"
+		"wide"	"0"
 	}
 }

@@ -1,3 +1,4 @@
+#base "customfontfiles.res"
 #base "ui/#customizations/crosshair/crosshair_scheme.res"
 
 //
@@ -470,6 +471,7 @@ Scheme
 		// fonts are used in order that they are listed
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
+
 		"Default"
 		{
 			"1"

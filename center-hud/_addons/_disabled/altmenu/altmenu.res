@@ -563,7 +563,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton2"
-		"xpos"			"c-110"
+		"xpos"			"c-109"
 		"ypos"			"426"
 		"zpos"			"10"
 		"wide"			"36"
@@ -573,7 +573,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 
-		"Notifications_ShowButtonPanel_SB"
+		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"SubButton"
@@ -587,14 +587,19 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labelText"		""
+			"labeltext"		"Z"
+			"textinsety"	"-3"
+			"font"				"TFHudIcons"
+			"use_proportional_insets"	"1"
+			"textAlignment"		"center"
+			"centerwrap"	"1"
 			"default"		"1"
 			"actionsignallevel" "2"
 
 			"Command"		"questlog"
 
 			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			"sound_released"	"vo/null.mp3"
 
 			"border_default"    "MainMenuButtonDefault"
 			"border_armed"      "MainMenuButtonArmed"
@@ -603,50 +608,32 @@
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "235 226 202 255"
 			"depressedFgColor_override" "46 43 42 255"
-
-			"image_drawcolor"	"97 87 74 255"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"5"
-				"ypos"			"5"
-				"zpos"			"1"
-				"wide"			"16"
-				"tall"			"16"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"glyph_tv"
-				"scaleImage"	"1"
-			}
 		}
 	}
 
 	"MOTD_ShowButtonPanel"
 	{
+		"wide"			"0"
+	}
+
+	"MOTD_ShowButtonPanel2"
+	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"MOTD_ShowButtonPanel"
+		"fieldName"		"MOTD_ShowButtonPanel2"
 		"xpos"			"c90"
 		"ypos"			"426"
-		"zpos"			"1"
-		"wide"			"32"
-		"tall"			"32"
+		"zpos"			"10"
+		"wide"			"36"
+		"tall"			"36"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
 
-		"navUp"			"MOTD_Panel"				// pass through when naving up to this or the fully displayed MOTD
-		"navDown"		"Notifications_Panel"		// when a sub element can't nav down it will pass through this
-		"navLeft"		"Notifications_Panel"		// when a sub element can't nav left it will pass through this
-		"navRight"		"MOTD_Panel"				// pass through when naving right to this or the fully displayed MOTD
-		"navToRelay"	"MOTD_ShowButtonPanel_SB"	// when naving to this it auto navs to this child instead
-
-		"MOTD_ShowButtonPanel_SB"
+		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
-			"fieldName"		"MOTD_ShowButtonPanel_SB"
+			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
@@ -657,11 +644,12 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labelText"		""
-			"font"			"HudFontSmallestBold"
-			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			"labeltext"		"Z"
+			"textinsety"	"-3"
+			"font"				"TFHudIcons"
+			"use_proportional_insets"	"1"
+			"textAlignment"		"center"
+			"centerwrap"	"1"
 			"default"		"1"
 
 			"actionsignallevel" "2"
@@ -678,23 +666,6 @@
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "235 226 202 255"
 			"depressedFgColor_override" "46 43 42 255"
-
-			"image_drawcolor"	"117 107 94 255"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"4"
-				"ypos"			"4"
-				"zpos"			"1"
-				"wide"			"18"
-				"tall"			"18"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"glyph_message"
-				"scaleImage"	"1"
-			}
 		}
 	}
 
@@ -1480,10 +1451,11 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"textinsetx"	"100"
-			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"west"
+			"textinsety"	"-3"
+			"font"				"TFHudIcons"
+			"use_proportional_insets"	"1"
+			"textAlignment"		"center"
+			"centerwrap"	"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
@@ -1497,23 +1469,6 @@
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "235 226 202 255"
 			"depressedFgColor_override" "46 43 42 255"
-
-			"image_drawcolor"	"167 167 154 255"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"5"
-				"ypos"			"5"
-				"zpos"			"1"
-				"wide"			"16"
-				"tall"			"16"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"glyph_create"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-			}				
 		}
 	}
 
@@ -1546,16 +1501,14 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"textinsetx"	"100"
-			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"west"
+			"textinsety"	"-3"
+			"font"				"TFHudIcons"
+			"use_proportional_insets"	"1"
+			"textAlignment"		"center"
+			"centerwrap"	"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
@@ -1566,23 +1519,6 @@
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "235 226 202 255"
 			"depressedFgColor_override" "46 43 42 255"
-
-			"image_drawcolor"	"97 87 74 255"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"5"
-				"ypos"			"5"
-				"zpos"			"1"
-				"wide"			"16"
-				"tall"			"16"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"glyph_create"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-			}				
 		}
 	}
 	"MutePlayersButton"
@@ -1614,10 +1550,11 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"textinsetx"	"100"
-			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"west"
+			"textinsety"	"-3"
+			"font"				"TFHudIcons"
+			"use_proportional_insets"	"1"
+			"textAlignment"		"center"
+			"centerwrap"	"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
@@ -1631,23 +1568,6 @@
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "235 226 202 255"
 			"depressedFgColor_override" "46 43 42 255"
-
-			"image_drawcolor"	"117 107 94 255"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"5"
-				"ypos"			"5"
-				"zpos"			"1"
-				"wide"			"16"
-				"tall"			"16"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"glyph_create"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-			}				
 		}
 	}
 
@@ -1680,10 +1600,11 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"textinsetx"	"100"
-			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"west"
+			"textinsety"	"-3"
+			"font"				"TFHudIcons"
+			"use_proportional_insets"	"1"
+			"textAlignment"		"center"
+			"centerwrap"	"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
@@ -1698,23 +1619,6 @@
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "235 226 202 255"
 			"depressedFgColor_override" "46 43 42 255"
-
-			"image_drawcolor"	"117 107 94 255"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"5"
-				"ypos"			"5"
-				"zpos"			"1"
-				"wide"			"16"
-				"tall"			"16"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"glyph_create"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-			}				
 		}
 	}
 	"MenuContainerBG"
@@ -1764,7 +1668,7 @@
 		"armedFgColor_override" "235 226 202 255"
 		"depressedFgColor_override" "46 43 42 255"
 
-		"image_drawcolor"	"117 107 94 255"
+		"image_drawcolor"	"50 50 50 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -1817,7 +1721,7 @@
 		"armedFgColor_override" "235 226 202 255"
 		"depressedFgColor_override" "46 43 42 255"
 
-		"image_drawcolor"	"117 107 94 255"
+		"image_drawcolor"	"50 50 50 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -1876,7 +1780,7 @@
 		"armedFgColor_override" "235 226 202 255"
 		"depressedFgColor_override" "46 43 42 255"
 
-		"image_drawcolor"	"117 107 94 255"
+		"image_drawcolor"	"50 50 50 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -1926,7 +1830,7 @@
 		"armedFgColor_override" "235 226 202 255"
 		"depressedFgColor_override" "46 43 42 255"
 
-		"image_drawcolor"	"117 107 94 255"
+		"image_drawcolor"	"50 50 50 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -1957,12 +1861,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"+"
-		"textAlignment"	"north-west"
-		"font"			"StorePromotionsTitle"
-		"textinsetx"	"16"
-		"textinsety"	"4"
-		"use_proportional_insets" "1"
+		"textinsetx"	"2"
+		"textinsety"	"-3"
+		"font"				"TFHudIcons"
+		"use_proportional_insets"	"1"
+		"textAlignment"		"center"
+		"centerwrap"	"1"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
@@ -1980,23 +1884,6 @@
 		"defaultFgColor_override" "46 43 42 255"
 		"armedFgColor_override" "235 226 202 255"
 		"depressedFgColor_override" "46 43 42 255"
-
-		"image_drawcolor"	"117 107 94 255"
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"6"
-			"ypos"			"6"
-			"zpos"			"1"
-			"wide"			"14"
-			"tall"			"14"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
-			"image"			"glyph_options"
-			"scaleImage"	"1"
-		}				
 	}
 
 	"NewUserForumsButton"
@@ -2013,9 +1900,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		""
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
+		"textinsety"	"-3"
+		"font"				"TFHudIcons"
+		"use_proportional_insets"	"1"
+		"textAlignment"		"center"
+		"centerwrap"	"1"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
@@ -2031,22 +1920,6 @@
 		"defaultFgColor_override" "46 43 42 255"
 		"armedFgColor_override" "235 226 202 255"
 		"depressedFgColor_override" "46 43 42 255"
-
-		"image_drawcolor"	"117 107 94 255"
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"5"
-			"ypos"			"5"
-			"zpos"			"1"
-			"wide"			"16"
-			"tall"			"16"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"glyph_tutorial"
-			"scaleImage"	"1"
-		}				
 	}		
 	
 	"AchievementsButton"
@@ -2063,9 +1936,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		""
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
+		"textinsety"	"-3"
+		"font"				"TFHudIcons"
+		"use_proportional_insets"	"1"
+		"textAlignment"		"center"
+		"centerwrap"	"1"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
@@ -2085,22 +1960,6 @@
 		"defaultFgColor_override" "46 43 42 255"
 		"armedFgColor_override" "235 226 202 255"
 		"depressedFgColor_override" "46 43 42 255"
-
-		"image_drawcolor"	"117 107 94 255"
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"5"
-			"ypos"			"5"
-			"zpos"			"1"
-			"wide"			"16"
-			"tall"			"16"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"glyph_achievements"
-			"scaleImage"	"1"
-		}				
 	}		
 	
 	"CommentaryButton"
@@ -2117,9 +1976,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		""
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
+		"textinsety"	"-3"
+		"font"				"TFHudIcons"
+		"use_proportional_insets"	"1"
+		"textAlignment"		"center"
+		"centerwrap"	"1"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
@@ -2139,22 +2000,6 @@
 		"defaultFgColor_override" "46 43 42 255"
 		"armedFgColor_override" "235 226 202 255"
 		"depressedFgColor_override" "46 43 42 255"
-
-		"image_drawcolor"	"117 107 94 255"
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"5"
-			"ypos"			"5"
-			"zpos"			"1"
-			"wide"			"16"
-			"tall"			"16"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"glyph_forums"
-			"scaleImage"	"1"
-		}
 	}
 
 	"CoachPlayersButton"
@@ -2171,9 +2016,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		""
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
+		"textinsety"	"-3"
+		"font"				"TFHudIcons"
+		"use_proportional_insets"	"1"
+		"textAlignment"		"center"
+		"centerwrap"	"1"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
@@ -2193,22 +2040,6 @@
 		"defaultFgColor_override" "46 43 42 255"
 		"armedFgColor_override" "235 226 202 255"
 		"depressedFgColor_override" "46 43 42 255"
-
-		"image_drawcolor"	"117 107 94 255"
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"5"
-			"ypos"			"5"
-			"zpos"			"1"
-			"wide"			"16"
-			"tall"			"16"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"glyph_commentary"
-			"scaleImage"	"1"
-		}				
 	}		
 
 	"WorkshopButton"
@@ -2225,9 +2056,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		""
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
+		"textinsety"	"-3"
+		"font"				"TFHudIcons"
+		"use_proportional_insets"	"1"
+		"textAlignment"		"center"
+		"centerwrap"	"1"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
@@ -2247,22 +2080,6 @@
 		"defaultFgColor_override" "46 43 42 255"
 		"armedFgColor_override" "235 226 202 255"
 		"depressedFgColor_override" "46 43 42 255"
-
-		"image_drawcolor"	"117 107 94 255"
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"5"
-			"ypos"			"5"
-			"zpos"			"1"
-			"wide"			"16"
-			"tall"			"16"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"glyph_steamworkshop"
-			"scaleImage"	"1"
-		}				
 	}	
 
 	"ReportBugButton"
@@ -2279,9 +2096,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		""
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
+		"textinsety"	"-3"
+		"font"				"TFHudIcons"
+		"use_proportional_insets"	"1"
+		"textAlignment"		"center"
+		"centerwrap"	"1"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
@@ -2300,23 +2119,69 @@
 		"defaultFgColor_override" "46 43 42 255"
 		"armedFgColor_override" "235 226 202 255"
 		"depressedFgColor_override" "46 43 42 255"
-
-		"image_drawcolor"	"117 107 94 255"
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"5"
-			"ypos"			"5"
-			"zpos"			"1"
-			"wide"			"16"
-			"tall"			"16"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"glyph_bug"
-			"scaleImage"	"1"
-		}				
 	}			
+	"HudOptionPin"
+	{
+		"ControlName"	"Label"
+		"fieldName"		"HudOptionPin"
+		"xpos"			"c-84+25+25+25+25+25+25"
+		"ypos"			"426"
+		"zpos"			"0"
+		"wide"			"100"
+		"tall"			"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"0 0 0 0"
+	}
+	"ShowHUDOptionsButtonTooltip"
+	{
+		"pin_to_sibling"			"HudOptionPin"
+		"pin_corner_to_sibling"		"HudOptionPin"
+		"pin_to_sibling_corner"		"0"
+
+		"ControlName"	"EditablePanel"
+		"fieldname"		"ShowHUDOptionsButtonTooltip"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"5"
+		"wide"			"26"
+		"tall"			"26"
+		"visible"		"0"
+
+		"SubButton"
+		{
+			"ControlName"		"CExImageButton"
+			"fieldName"			"SubButton"
+			"xpos"				"0"
+			"ypos"				"0"
+			"wide"				"26"
+			"tall"				"26"
+			"autoResize"		"0"
+			"pinCorner"			"3"
+			"visible"			"1"
+			"enabled"			"1"
+			"tabPosition"		"0"
+			"textinsety"	"-3"
+			"font"				"TFHudIcons"
+			"use_proportional_insets"	"1"
+			"textAlignment"		"center"
+			"centerwrap"	"1"
+			"dulltext"			"0"
+			"brighttext"		"0"
+			"default"			"1"
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
+			"border_default"    "MainMenuButtonDefault"
+			"border_armed"      "MainMenuButtonArmed"
+			"paintbackground"   "0"
+
+			"defaultFgColor_override" "46 43 42 255"
+			"armedFgColor_override" "235 226 202 255"
+			"depressedFgColor_override" "46 43 42 255"
+		}
+	}
 
 	"BackgroundFooter"
 	{
@@ -2425,81 +2290,5 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"StoreHasNewItemsImage"
 		"wide"
-	}
-	"HudOptionPin"
-	{
-		"ControlName"	"Label"
-		"fieldName"		"HudOptionPin"
-		"xpos"			"c-84+25+25+25+25+25+25"
-		"ypos"			"426"
-		"zpos"			"0"
-		"wide"			"100"
-		"tall"			"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"bgcolor_override"	"0 0 0 0"
-	}
-	"ShowHUDOptionsButtonTooltip"
-	{
-		"pin_to_sibling"			"HudOptionPin"
-		"pin_corner_to_sibling"		"HudOptionPin"
-		"pin_to_sibling_corner"		"0"
-
-		"ControlName"	"EditablePanel"
-		"fieldname"		"ShowHUDOptionsButtonTooltip"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"5"
-		"wide"			"26"
-		"tall"			"26"
-		"visible"		"0"
-
-		"SubButton"
-		{
-			"ControlName"		"CExImageButton"
-			"fieldName"			"SubButton"
-			"xpos"				"0"
-			"ypos"				"0"
-			"wide"				"26"
-			"tall"				"26"
-			"autoResize"		"0"
-			"pinCorner"			"3"
-			"visible"			"1"
-			"enabled"			"1"
-			"tabPosition"		"0"
-			"labeltext"			""
-			"use_proportional_insets"	"1"
-			"textAlignment"		"west"
-			"dulltext"			"0"
-			"brighttext"		"0"
-			"default"			"1"
-
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"border_default"    "MainMenuButtonDefault"
-			"border_armed"      "MainMenuButtonArmed"
-			"paintbackground"   "0"
-
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "46 43 42 255"
-
-			"image_drawcolor"	"117 107 94 255"
-			"SubImage"
-			{
-					"ControlName"	"ImagePanel"
-					"fieldName"		"SubImage"
-					"xpos"			"5"
-					"ypos"			"5"
-					"zpos"			"1"
-					"wide"			"16"
-					"tall"			"16"
-					"visible"		"1"
-					"enabled"		"1"
-					"image"			"glyph_practice"
-					"scaleImage"	"1"
-			}
-		}
 	}
 }

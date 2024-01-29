@@ -91,7 +91,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoContinue"
-		"xpos"			"r190"
+		"xpos"			"c130"
 		"ypos"			"r40"
 		"zpos"			"6"
 		"wide"			"150"
@@ -114,7 +114,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoWatchIntro"
-		"xpos"			"c-50"
+		"xpos"			"c-70"
 		"ypos"			"r40"
 		"zpos"			"6"
 		"wide"			"150"
@@ -129,7 +129,7 @@
 		"brighttext"	"0"
 		"command"		"intro"
 		"default"		"1"
-		"font"			"MenuSmallFont"
+		"font"			"HudFontSmallBold"
 		"fgcolor"		"Black"
 	}
 	
@@ -137,7 +137,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoBack"
-		"xpos"			"40"
+		"xpos"			"c-280"
 		"ypos"			"r40"
 		"zpos"			"6"
 		"wide"			"150"
@@ -161,22 +161,38 @@
 		"wide"			"0"
 	}					
 
-	"ShadedBar"
+	"ShadedBarTop"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"ShadedBar"
+		"fieldName"		"ShadedBarTop"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"86"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"image"			"loadout_bottom_gradient"
+		"tileImage"		"1"
+		"PaintBackgroundType"	"0"
+	}
+	"ShadedBarBottom"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ShadedBarBottom"
 		"xpos"			"0"
 		"ypos"			"r50"
-		"zpos"			"5"
 		"wide"			"f0"
 		"tall"			"50"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"	
+		"tabPosition"	"0"
 		"image"			"loadout_bottom_gradient"
 		"tileImage"		"1"
 		"PaintBackgroundType"	"0"
-	}	
+	}
 }

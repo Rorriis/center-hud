@@ -592,13 +592,11 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"vo/null.mp3"
 			"actionsignallevel" "2"
 			"proportionaltoparent"	"1"
 
 			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			"sound_released"	"vo/null.mp3"
 			"paintbackground"	"0"
 			"paintborder"		"0"
 			"image_drawcolor"	"235 226 202 255"
@@ -623,6 +621,12 @@
 				"keyboardinputenabled" "0"
 			}
 		}
+	}
+	"QuestLogButton2"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"QuestLogButton2"
+		"wide"			"0"
 	}
 
 	"MOTD_ShowButtonPanel"
@@ -691,6 +695,12 @@
 				"scaleImage"	"1"
 			}
 		}
+	}
+	"MOTD_ShowButtonPanel2"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"MOTD_ShowButtonPanel2"
+		"wide"			"0"
 	}
 
 	"MOTD_Panel"
@@ -1555,10 +1565,11 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"textinsetx"	"100"
-			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"west"
+			"textinsety"	"-3"
+			"font"				"TFHudIcons"
+			"use_proportional_insets"	"1"
+			"textAlignment"		"center"
+			"centerwrap"	"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
@@ -1573,24 +1584,6 @@
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "235 226 202 255"
 			"depressedFgColor_override" "46 43 42 255"
-
-			"image_drawcolor"	"187 177 164 255"
-			
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"5"
-				"ypos"			"5"
-				"zpos"			"1"
-				"wide"			"16"
-				"tall"			"16"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"glyph_create"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-			}				
 		}
 	}
 
@@ -1623,10 +1616,11 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"textinsetx"	"100"
-			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"west"
+			"textinsety"	"-3"
+			"font"				"TFHudIcons"
+			"use_proportional_insets"	"1"
+			"textAlignment"		"center"
+			"centerwrap"	"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
@@ -1641,24 +1635,6 @@
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "235 226 202 255"
 			"depressedFgColor_override" "46 43 42 255"
-
-			"image_drawcolor"	"117 107 94 255"
-			
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"6"
-				"ypos"			"6"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"glyph_create"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-			}				
 		}
 	}
 	"MutePlayersButton"
@@ -1690,10 +1666,11 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"textinsetx"	"100"
-			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"west"
+			"textinsety"	"-3"
+			"font"				"TFHudIcons"
+			"use_proportional_insets"	"1"
+			"textAlignment"		"center"
+			"centerwrap"	"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
@@ -1708,24 +1685,6 @@
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "235 226 202 255"
 			"depressedFgColor_override" "46 43 42 255"
-
-			"image_drawcolor"	"117 107 94 255"
-			
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"6"
-				"ypos"			"6"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"glyph_create"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-			}				
 		}
 	}
 
@@ -1758,10 +1717,11 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"textinsetx"	"100"
-			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"west"
+			"textinsety"	"-3"
+			"font"				"TFHudIcons"
+			"use_proportional_insets"	"1"
+			"textAlignment"		"center"
+			"centerwrap"	"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
@@ -1776,24 +1736,6 @@
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "235 226 202 255"
 			"depressedFgColor_override" "46 43 42 255"
-
-			"image_drawcolor"	"117 107 94 255"
-			
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"6"
-				"ypos"			"6"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"glyph_create"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-			}				
 		}
 	}
 	"MenuContainerBG"
@@ -1844,7 +1786,7 @@
 		"armedFgColor_override" "235 226 202 255"
 		"depressedFgColor_override" "46 43 42 255"
 
-		"image_drawcolor"	"117 107 94 255"
+		"image_drawcolor"	"50 50 50 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -1899,7 +1841,7 @@
 		"armedFgColor_override" "235 226 202 255"
 		"depressedFgColor_override" "46 43 42 255"
 
-		"image_drawcolor"	"117 107 94 255"
+		"image_drawcolor"	"50 50 50 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -1960,7 +1902,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"image_drawcolor"	"117 107 94 255"
+		"image_drawcolor"	"50 50 50 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2013,7 +1955,7 @@
 		"armedFgColor_override" "235 226 202 255"
 		"depressedFgColor_override" "46 43 42 255"
 
-		"image_drawcolor"	"117 107 94 255"
+		"image_drawcolor"	"50 50 50 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2044,12 +1986,13 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"+"
-		"textAlignment"	"north-west"
-		"font"			"StorePromotionsTitle"
-		"textinsetx"	"16"
-		"textinsety"	"4"
-		"use_proportional_insets" "1"
+		"labelText"		"}"
+		"textinsetx"	"-2"
+		"textinsety"	"-3"
+		"font"				"TFHudIcons"
+		"use_proportional_insets"	"1"
+		"textAlignment"		"center"
+		"centerwrap"	"1"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
@@ -2064,23 +2007,6 @@
 		"defaultFgColor_override" "46 43 42 255"
 		"armedFgColor_override" "235 226 202 255"
 		"depressedFgColor_override" "46 43 42 255"
-
-		"image_drawcolor"	"117 107 94 255"
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"6"
-			"ypos"			"6"
-			"zpos"			"1"
-			"wide"			"14"
-			"tall"			"14"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
-			"image"			"glyph_options"
-			"scaleImage"	"1"
-		}				
 	}
 
 	"NewUserForumsButton"
@@ -2097,9 +2023,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		""
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
+		"labeltext"		"R"
+		"textinsety"	"-3"
+		"font"				"TFHudIcons"
+		"use_proportional_insets"	"1"
+		"textAlignment"		"center"
+		"centerwrap"	"1"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
@@ -2115,22 +2044,6 @@
 		"defaultFgColor_override" "46 43 42 255"
 		"armedFgColor_override" "235 226 202 255"
 		"depressedFgColor_override" "46 43 42 255"
-
-		"image_drawcolor"	"117 107 94 255"
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"6"
-			"ypos"			"6"
-			"zpos"			"1"
-			"wide"			"14"
-			"tall"			"14"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"glyph_tutorial"
-			"scaleImage"	"1"
-		}				
 	}		
 	
 	"AchievementsButton"
@@ -2147,9 +2060,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		""
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
+		"labeltext"		"V"
+		"textinsety"	"-3"
+		"font"				"TFHudIcons"
+		"use_proportional_insets"	"1"
+		"textAlignment"		"center"
+		"centerwrap"	"1"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
@@ -2169,22 +2085,6 @@
 		"defaultFgColor_override" "46 43 42 255"
 		"armedFgColor_override" "235 226 202 255"
 		"depressedFgColor_override" "46 43 42 255"
-
-		"image_drawcolor"	"117 107 94 255"
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"6"
-			"ypos"			"6"
-			"zpos"			"1"
-			"wide"			"14"
-			"tall"			"14"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"glyph_achievements"
-			"scaleImage"	"1"
-		}				
 	}		
 	
 	"CommentaryButton"
@@ -2201,9 +2101,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		""
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
+		"labeltext"		"_"
+		"textinsety"	"-3"
+		"font"				"TFHudIcons"
+		"use_proportional_insets"	"1"
+		"textAlignment"		"center"
+		"centerwrap"	"1"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
@@ -2223,22 +2126,6 @@
 		"defaultFgColor_override" "46 43 42 255"
 		"armedFgColor_override" "235 226 202 255"
 		"depressedFgColor_override" "46 43 42 255"
-
-		"image_drawcolor"	"117 107 94 255"
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"6"
-			"ypos"			"7"
-			"zpos"			"1"
-			"wide"			"14"
-			"tall"			"14"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"glyph_forums"
-			"scaleImage"	"1"
-		}
 	}
 
 	"CoachPlayersButton"
@@ -2255,9 +2142,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		""
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
+		"labeltext"		"l"
+		"textinsety"	"-3"
+		"font"				"TFHudIcons"
+		"use_proportional_insets"	"1"
+		"textAlignment"		"center"
+		"centerwrap"	"1"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
@@ -2277,22 +2167,6 @@
 		"defaultFgColor_override" "46 43 42 255"
 		"armedFgColor_override" "235 226 202 255"
 		"depressedFgColor_override" "46 43 42 255"
-
-		"image_drawcolor"	"117 107 94 255"
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"6"
-			"ypos"			"6"
-			"zpos"			"1"
-			"wide"			"14"
-			"tall"			"14"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"glyph_commentary"
-			"scaleImage"	"1"
-		}				
 	}		
 
 	"WorkshopButton"
@@ -2309,9 +2183,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		""
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
+		"labeltext"		"{"
+		"textinsety"	"-3"
+		"font"				"TFHudIcons"
+		"use_proportional_insets"	"1"
+		"textAlignment"		"center"
+		"centerwrap"	"1"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
@@ -2331,22 +2208,6 @@
 		"defaultFgColor_override" "46 43 42 255"
 		"armedFgColor_override" "235 226 202 255"
 		"depressedFgColor_override" "46 43 42 255"
-
-		"image_drawcolor"	"117 107 94 255"
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"6"
-			"ypos"			"6"
-			"zpos"			"1"
-			"wide"			"14"
-			"tall"			"14"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"glyph_steamworkshop"
-			"scaleImage"	"1"
-		}				
 	}	
 
 	"ReportBugButton"
@@ -2363,9 +2224,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		""
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
+		"labeltext"		"9"
+		"textinsety"	"-3"
+		"font"				"TFHudIcons"
+		"use_proportional_insets"	"1"
+		"textAlignment"		"center"
+		"centerwrap"	"1"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
@@ -2385,22 +2249,6 @@
 		"defaultFgColor_override" "46 43 42 255"
 		"armedFgColor_override" "235 226 202 255"
 		"depressedFgColor_override" "46 43 42 255"
-
-		"image_drawcolor"	"117 107 94 255"
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"6"
-			"ypos"			"6"
-			"zpos"			"1"
-			"wide"			"14"
-			"tall"			"14"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"glyph_bug"
-			"scaleImage"	"1"
-		}				
 	}			
 
 	"HudOptionPin"
@@ -2444,9 +2292,11 @@
 			"visible"			"1"
 			"enabled"			"1"
 			"tabPosition"		"0"
-			"labeltext"			""
+			"textinsety"	"-3"
+			"font"				"TFHudIcons"
 			"use_proportional_insets"	"1"
-			"textAlignment"		"west"
+			"textAlignment"		"center"
+			"centerwrap"	"1"
 			"dulltext"			"0"
 			"brighttext"		"0"
 			"default"			"1"
@@ -2461,25 +2311,8 @@
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "235 226 202 255"
 			"depressedFgColor_override" "46 43 42 255"
-
-			"image_drawcolor"	"117 107 94 255"
-			"SubImage"
-			{
-					"ControlName"	"ImagePanel"
-					"fieldName"		"SubImage"
-					"xpos"			"6"
-					"ypos"			"6"
-					"zpos"			"1"
-					"wide"			"14"
-					"tall"			"14"
-					"visible"		"1"
-					"enabled"		"1"
-					"image"			"glyph_practice"
-					"scaleImage"	"1"
-			}
 		}
 	}
-
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"

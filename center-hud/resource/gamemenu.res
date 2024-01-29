@@ -12,41 +12,50 @@
 	// and also are positioned by the .res file
 	"CallVoteButton"
 	{
-		"label"			""
+		"label"			"S"
 		"command"		"callvote"
 		"OnlyInGame"	"1"
-		"subimage" "icon_checkbox"
 		"tooltip" "#MMenu_CallVote"
 	}
 	"MutePlayersButton"
 	{
-		"label"			""
+		"label"			"`"
 		"command"		"OpenMutePlayerDialog"
 		"OnlyInGame"	"1"
-		"subimage" "glyph_muted"
 		"tooltip" "#MMenu_MutePlayers"
 	}
 	"RequestCoachButton"
 	{
-		"label"			""
+		"label"			"P"
 		"command"		"engine cl_coach_find_coach"
 		"OnlyInGame"	"1"
-		"subimage" "icon_whistle"
 		"tooltip" "#MMenu_RequestCoach"
 	}
 	"ReportPlayerButton"
 	{
-		"label"			""
+		"label"			"f"
 		"command"		"OpenReportPlayerDialog"
 		"OnlyInGame"	"1"
-		"subimage"		"glyph_alert"
 		"tooltip"		"#MMenu_ReportPlayer"
 	}
 	"ShowHUDOptionsButtonTooltip"
 	{
-		"label"			""
+		"label"			"z"
 		"command"		"engine toggle cl_mainmenu_safemode; mat_queue_mode 0"
-		"OnlyAtMenu"	"0"
-		"tooltip"		"HUD customization"
+		"tooltip"		"#TF_OptionCategory_HUD"
+	}
+	"QuestLogButton2"
+	{
+		"label"			"Z"
+		"command"		"questlog"
+		"OnlyInGame"	"0"
+		"tooltip"		"#TF_Contract_Progress"
+	}
+	"MOTD_ShowButtonPanel2"
+	{
+		"label"			"F"
+		"command"		"motd_show"
+		"OnlyInGame"	"0"
+		"tooltip"		"#MMenu_News"
 	}
 }

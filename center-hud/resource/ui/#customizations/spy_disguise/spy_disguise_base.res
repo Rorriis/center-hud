@@ -6,7 +6,7 @@
 		"fieldName"			"PlayerStatusSpyOutlineImage"
 		"xpos"				"c-260"
 		"xpos_minmode"		"0"
-		"ypos"				"r67"
+		"ypos"				"r69"
 		"ypos_minmode"		"r38"
 		"zpos"				"7"
 		"wide"				"55"

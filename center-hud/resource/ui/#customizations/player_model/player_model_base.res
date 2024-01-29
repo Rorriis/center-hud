@@ -42,7 +42,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusSpyImage"
 		"xpos"			"c-257"
-		"ypos"			"r67"
+		"ypos"			"r69"
 		"zpos"			"2"
 		"wide"			"55"
 		"wide_minmode"			"0"

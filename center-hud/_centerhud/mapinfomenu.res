@@ -20,10 +20,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapInfoTitle"
 		"xpos"			"c-184"
-		"xpos_lodef"			"c-174"	
-		"xpos_hidef"			"c-174"
 		"ypos"			"95"
-		"ypos_lodef"			"110"
 		"zpos"			"1"
 		"wide"			"225"
 		"tall"			"24"
@@ -42,10 +39,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapInfoType"
 		"xpos"			"c-184"
-		"xpos_lodef"			"c-174"
-		"xpos_hidef"			"c-174"
 		"ypos"			"125"
-		"ypos_lodef"			"140"
 		"zpos"			"1"
 		"wide"			"225"
 		"tall"			"24"
@@ -65,17 +59,10 @@
 		"fieldName"		"MapInfoText"
 		"font"			"ChalkboardText"
 		"xpos"			"c-184"
-		"xpos_lodef"			"c-174"
-		"xpos_hidef"			"c-174"
 		"ypos"			"160"
-		"ypos_hidef"			"155"
 		"zpos"			"3"
 		"wide"			"195"
-		"wide_lodef"			"195"
-		"wide_hidef"			"210"
 		"tall"			"200"
-		"tall_hidef"			"200"
-		"tall_lodef"	"200"
 		"autoResize"	"3"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -90,34 +77,22 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MapImage"
 		"xpos"			"c10"
-		"xpos_lodef"			"c35"
-		"xpos_hidef"			"c35"
 		"ypos"			"75"
-		"ypos_lodef"			"100"
-		"ypos_hidef"			"100"
 		"zpos"			"2"
 		"wide"			"275"
-		"wide_hidef"			"225"
-		"wide_lodef"	"225"
 		"tall"			"275"
-		"tall_hidef"			"225"
-		"tall_lodef"	"225"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			""
 		"scaleImage"	"1"		
 	}
 
-	"MapInfoContinue" [$WIN32]
+	"MapInfoContinue"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoContinue"
-		"xpos"			"r190"
-		"xpos_lodef"			"r222"
-		"xpos_hidef"			"r232"
+		"xpos"			"c130"
 		"ypos"			"r40"
-		"ypos_lodef"			"r64"
-		"ypos_hidef"			"r54"
 		"zpos"			"6"
 		"wide"			"150"
 		"tall"			"30"
@@ -131,18 +106,16 @@
 		"brighttext"	"0"
 		"command"		"continue"
 		"default"		"1"
-		"font"			"MenuSmallFont"
+		"font"			"HudFontSmallBold"
 		"fgcolor"		"Black"
 	}
-	
-	"MapInfoWatchIntro" [$WIN32]
+
+	"MapInfoWatchIntro"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoWatchIntro"
-		"xpos"			"c-50"
+		"xpos"			"c-70"
 		"ypos"			"r40"
-		"ypos_lodef"			"r64"
-		"ypos_hidef"			"r54"
 		"zpos"			"6"
 		"wide"			"150"
 		"tall"			"30"
@@ -156,19 +129,16 @@
 		"brighttext"	"0"
 		"command"		"intro"
 		"default"		"1"
-		"font"			"MenuSmallFont"
+		"font"			"HudFontSmallBold"
 		"fgcolor"		"Black"
 	}
-	
-	"MapInfoBack" [$WIN32]
+
+	"MapInfoBack"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoBack"
-		"xpos"			"40"
-		"xpos_hidef"			"50"
+		"xpos"			"c-280"
 		"ypos"			"r40"
-		"ypos_lodef"			"r64"
-		"ypos_hidef"			"r54"
 		"zpos"			"6"
 		"wide"			"150"
 		"tall"			"30"
@@ -182,7 +152,7 @@
 		"brighttext"	"0"
 		"command"		"back"
 		"default"		"1"
-		"font"			"MenuSmallFont"
+		"font"			"HudFontSmallBold"
 		"fgcolor"		"Black"
 	}
 	
@@ -222,13 +192,9 @@
 		"fieldName"		"ShadedBar"
 		"xpos"			"0"
 		"ypos"			"r50"
-		"ypos_lodef"			"r74"
-		"ypos_hidef"			"r65"
 		"zpos"			"5"
 		"wide"			"f0"
 		"tall"			"50"
-		"tall_lodef"			"74"
-		"tall_hidef"			"65"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -237,37 +203,5 @@
 		"image"			"loadout_bottom_gradient"
 		"tileImage"		"1"
 		"PaintBackgroundType"	"0"
-	}	
-
-	"Footer" [$X360]
-	{
-		"ControlName"		"CTFFooter"
-		"fieldName"			"Footer"
-		"zpos"				"6"
-		"tall"				"80"
-		"button_separator"	"10"
-		"button_separator_lodef"	"5"
-		"buttongap"			"50"
-		"textadjust"		"3"
-		"buttonoffsety"		"20"
-		"buttonoffsety_hidef"		"0"
-		"buttonoffsety_lodef"		"18"
-		"fonttext"			"MatchmakingDialogMenuLarge"
-		"fonttext_lodef"			"MatchmakingDialogMenuSmall"
-		"fgcolor"			"HudOffWhite" 	
-		
-		"button"
-		{
-			"name"		"intro"
-			"text"		"#TF_WatchIntro_360"
-			"icon"		"#GameUI_Icons_Y_BUTTON"	
-		}
-		
-		"button"
-		{
-			"name"		"continue"
-			"text"		"#TF_Continue_360"
-			"icon"		"#GameUI_Icons_A_BUTTON"	
-		}
 	}	
 }

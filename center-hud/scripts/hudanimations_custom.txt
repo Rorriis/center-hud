@@ -73,6 +73,20 @@ event HudSpyDisguiseHide
 
 //==================================================================================
 
+// Active Timer BG Pulse
+event ActiveTimerBGPulse
+{
+
+}
+
+event ActiveTimerHighlight
+{
+
+
+}
+
+//==================================================================================
+
 	//Fix chat pos
 event CompetitiveGame_LowerChatWindow
 {
@@ -86,6 +100,7 @@ event HudTournament_MoveChatWindow
 {
 
 }
+
 //==================================================================================
 
 event RDPositiveScorePulse { }
