@@ -2,9 +2,26 @@
 {		
 	HudSpellMenu
 	{
+		"fieldName" "HudSpellMenu"
+		"visible" "1"
+		"enabled" "1"
+		"wide"	 "640"
+		"tall"	 "480"
+		"zpos" 	"2"
+		"xpos"			"c-320"
+		"ypos"			"r56"
+		"xpos_minmode"			"c-320"
+		"ypos_minmode"			"r58"
+
+		"TextFont"				"Default"
+		"ItemFont"				"Default"
+		"ItemFontPulsing"		"Default"
+
 		"if_killstreak_visible"
 		{
 			"ypos"			"r92"
+			"xpos_minmode"	"c-312"
+			"ypos_minmode"	"r82"
 		}
 	}
 	"ItemEffectMeterBG"

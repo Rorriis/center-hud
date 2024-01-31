@@ -16,3 +16,17 @@ event HudSpyDisguiseHide
 
 	Animate PlayerStatusSpyOutlineImage		Alpha		"0"				Linear 0.2 0.1
 }
+
+	//Fix chat pos
+event CompetitiveGame_LowerChatWindow
+{
+
+}
+event CompetitiveGame_RestoreChatWindow
+{
+
+}
+event HudTournament_MoveChatWindow
+{
+
+}

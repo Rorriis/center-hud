@@ -1,1 +1,0 @@
-To install, place the contents of the addon you want to install to the main folder of center-hud, i.e take the resouce folder from AltMainMenu and place it into custom > center-hud, and if it asks to overwrite files, then do so

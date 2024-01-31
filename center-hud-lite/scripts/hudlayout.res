@@ -200,12 +200,10 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"c210"	[$WIN32]
-		"ypos"					"r151"	[$WIN32]
-		"ypos_minmode"			"r134"	[$WIN32]
-		"xpos_minmode"			"c220"	[$WIN32]
-		"xpos"					"r194"	[$X360]
-		"ypos"					"r174"	[$X360]
+		"xpos"					"c210"
+		"ypos"					"r151"
+		"ypos_minmode"			"r134"
+		"xpos_minmode"			"c210"
 		"zpos"					"1"			// draw in front of ammo
 		"wide"					"116"
 		"tall"  				"180"
@@ -733,6 +731,8 @@
 		"enabled" "1"
 		"xpos" "c-240"
 		"ypos" "r115"
+		"xpos_minmode" "c-250"
+		"ypos_minmode" "r95"
 		"wide" "32"
 		"tall" "32"
 	}
@@ -977,13 +977,13 @@
 		"fieldName" 		"HudChat"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"10"	[$WIN32]
-		"xpos"			"42"	[$X360]
+		"xpos"			"10"
 		"ypos"			"275"
 		"wide"	 		"320"
 		"tall"	 		"120"
 		"PaintBackgroundType"	"2"
 	}
+
 	"HudMenuEngyBuild"
 	{
 		"fieldName" 	"HudMenuEngyBuild"
@@ -1040,13 +1040,12 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c210"	[$WIN32]
-		"xpos_minmode"	"c210"	[$WIN32]
-		"ypos"			"r52"	[$WIN32]
-		"ypos_minmode"	"r30"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
+		"xpos"			"c210"
+		"xpos_minmode"	"c150"
+		"ypos"			"r54"
+		"ypos_minmode"	"r48"
 		"wide"			"100"
+		"wide_minmode"	"200"
 		"tall"			"50"
 	}
 

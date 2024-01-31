@@ -46,7 +46,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"IndividualChargesLabel"
 		"xpos"			"30"
-		"xpos_minmode"			"34"
+		"xpos_minmode"			"30"
 		"ypos"			"24"
 		"ypos_minmode"			"11"
 		"zpos"			"2"
