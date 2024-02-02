@@ -136,7 +136,7 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"		"CarriedImage"
 			"xpos"			"38"
-			"ypos"			"72"
+			"ypos"			"73"
 			"zpos"			"4"
 			"wide"			"16"
 			"tall"			"16"
