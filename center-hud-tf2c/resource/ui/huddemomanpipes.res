@@ -83,7 +83,7 @@
 			"fieldName"		"PipeIcon"
 			"xpos"			"26"
 			"ypos"			"16"
-			"ypos_minmode"	"12"
+			"ypos_minmode"	"14"
 			"wide"			"20"
 			"wide_minmode"	"14"
 			"tall"			"20"
@@ -116,8 +116,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"HudFontMedium"
-			"font_minmode"	"HudFontSmall"
-			"font_lodef"	"HudFontMediumBig"
+			"font_minmode"	"HudFontMediumSmall"
 		}
 
 		"NumPipesLabelDropshadow"
@@ -142,8 +141,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"HudFontMedium"
-			"font_minmode"	"HudFontSmall"
-			"font_lodef"	"HudFontMediumBig"
+			"font_minmode"	"HudFontMediumSmall"
 			"fgcolor"		"black"
 		}
 	}
@@ -165,7 +163,7 @@
 			"fieldName"		"PipeIcon"
 			"xpos"			"26"
 			"ypos"			"16"
-			"ypos_minmode"	"12"
+			"ypos_minmode"	"14"
 			"wide"			"20"
 			"wide_minmode"	"14"
 			"tall"			"20"
@@ -198,8 +196,7 @@
 			"dulltext"		"1"
 			"brighttext"	"0"
 			"font"			"HudFontMedium"
-			"font_minmode"	"HudFontSmall"
-			"font_lodef"	"HudFontMediumBig"
+			"font_minmode"	"HudFontMediumSmall"
 		}
 
 		"NumPipesLabelDropshadow"
@@ -224,8 +221,7 @@
 			"dulltext"		"1"
 			"brighttext"	"0"
 			"font"			"HudFontMedium"
-			"font_minmode"	"HudFontSmall"
-			"font_lodef"	"HudFontMediumBig"
+			"font_minmode"	"HudFontMediumSmall"
 			"fgcolor"		"black"
 		}
 	}
@@ -248,7 +244,7 @@
 			"fieldName"		"PipeIcon"
 			"xpos"			"26"
 			"ypos"			"16"
-			"ypos_minmode"	"12"
+			"ypos_minmode"	"14"
 			"wide"			"20"
 			"wide_minmode"	"14"
 			"tall"			"20"
@@ -281,8 +277,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"HudFontMedium"
-			"font_minmode"	"HudFontSmall"
-			"font_lodef"	"HudFontMediumBig"
+			"font_minmode"	"HudFontMediumSmall"
 		}
 
 		"NumPipesLabelDropshadow"
@@ -307,8 +302,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"HudFontMedium"
-			"font_minmode"	"HudFontSmall"
-			"font_lodef"	"HudFontMediumBig"
+			"font_minmode"	"HudFontMediumSmall"
 			"fgcolor"		"black"
 		}
 	}
@@ -330,7 +324,7 @@
 			"fieldName"		"PipeIcon"
 			"xpos"			"26"
 			"ypos"			"16"
-			"ypos_minmode"	"12"
+			"ypos_minmode"	"14"
 			"wide"			"20"
 			"wide_minmode"	"14"
 			"tall"			"20"
@@ -363,8 +357,7 @@
 			"dulltext"		"1"
 			"brighttext"	"0"
 			"font"			"HudFontMedium"
-			"font_minmode"	"HudFontSmall"
-			"font_lodef"	"HudFontMediumBig"
+			"font_minmode"	"HudFontMediumSmall"
 		}
 
 		"NumPipesLabelDropshadow"
@@ -389,8 +382,7 @@
 			"dulltext"		"1"
 			"brighttext"	"0"
 			"font"			"HudFontMedium"
-			"font_minmode"	"HudFontSmall"
-			"font_lodef"	"HudFontMediumBig"
+			"font_minmode"	"HudFontMediumSmall"
 			"fgcolor"		"black"
 		}
 	}

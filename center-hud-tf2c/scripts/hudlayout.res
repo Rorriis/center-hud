@@ -1041,8 +1041,7 @@
 		"ypos_hidef"	"c-42"
 		"ypos_lodef"	"c-42"
 		"wide"			"470"
-		"tall"			"200"	[$WIN32]
-		"tall"			"180"	[$X360]
+		"tall"			"200"
 		"PaintBackgroundType"	"0"
 	}		
 	
@@ -1051,12 +1050,10 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c210"	[$WIN32]
-		"xpos_minmode"	"c210"	[$WIN32]
-		"ypos"			"r52"	[$WIN32]
-		"ypos_minmode"	"r30"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
+		"xpos"			"c210"
+		"xpos_minmode"	"c210"
+		"ypos"			"r52"
+		"ypos_minmode"	"r32"
 		"wide"			"100"
 		"tall"			"50"
 	}	
