@@ -19,10 +19,10 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"CarryingWeapon"
-		"xpos"					"c-245"
-		"xpos_minmode"			"c-240"
-		"ypos"					"r24"
-		"ypos_minmode"			"r22"
+		"xpos"					"c-255"
+		"xpos_minmode"			"c-250"
+		"ypos"					"r26"
+		"ypos_minmode"			"r24"
 		"zpos"					"100"
 		"wide"					"500"
 		"wide_minmode"			"500"
@@ -418,6 +418,20 @@
 				"origin_y_minmode"	"-2"
 				"origin_z"			"-82"
 				"origin_z_minmode"	"-58"
+			}
+			"Civilian"
+			{
+				"fov"			"20"
+				"angles_x"		"-2"
+				"angles_x_minmode"	"0"
+				"angles_y"		"158"
+				"angles_z"		"0"
+				"origin_x"		"150"
+				"origin_x_minmode"	"160"
+				"origin_y"		"5"
+				"origin_y_minmode"	"5"
+				"origin_z"		"-78"
+				"origin_z_minmode"	"-52"
 			}
 		}
 	}
