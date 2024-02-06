@@ -91,18 +91,6 @@
 				"wide"			"16"
 				"tall"			"16"
 			}
-			 
-			"EscrowBlue"
-			{
-				"wide"			"35"
-			}
-			
-			"EscrowBlueShadow"
-			{
-				"wide"			"35"
-			}
-			 
-			 
 			"FlagImageRed"
 			{
 				"image"                                             "../hud/hud_invasion_bottle"
@@ -110,16 +98,6 @@
 				"ypos"			"7"
 				"wide"			"16"
 				"tall"			"16"
-			}
-			 
-			"EscrowRed"
-			{
-				"wide"			"32"
-			}
-			
-			"EscrowRedShadow"
-			{
-				"wide"			"32"
 			}
 		 }
 	}

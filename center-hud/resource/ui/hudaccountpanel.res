@@ -64,5 +64,6 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"HudFontMediumSmall"
+		"font_minmode"	"HudFontSmallishBold"
 	}
 }

@@ -240,7 +240,7 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"c-262"
+		"xpos"		"c-258"
 		"ypos"		"r70"
 		"zpos"		"2"
 		"wide"		"120"

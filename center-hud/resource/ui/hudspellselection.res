@@ -10,7 +10,7 @@
 		"zpos" 	"2"
 		"xpos"			"c-320"
 		"ypos"			"r56"
-		"xpos_minmode"			"c-320"
+		"xpos_minmode"			"c-310"
 		"ypos_minmode"			"r58"
 
 		"TextFont"				"Default"
