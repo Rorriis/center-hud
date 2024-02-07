@@ -13,4 +13,4 @@ A TF2 HUD focused on putting critical HUD info in the center, while improving ce
 - [Community HUD Fixes - It fix :) ](https://github.com/CriticalFlaw/TF2HUD.Fixes)
 - [GoopSwagger - Helped with the VTFs for the meters](https://gamebanana.com/members/1672887)
 - [ToonHUD - Sourcescheme generator](https://toonhud.com/search)
-- [Hypnotize - Menu Icons](https://github.com/Hypnootize/TF2-HUD-Icons)
+- [Hypnootize - Menu Icons](https://github.com/Hypnootize/TF2-HUD-Icons)
