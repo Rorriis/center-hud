@@ -1,4 +1,4 @@
-"GameMenu" [$WIN32]
+"GameMenu"
 {
 	"VRModeButton"
 	{
@@ -6,6 +6,20 @@
 		"command" "engine vr_toggle"
 		"subimage" "glyph_vr"
 		"OnlyWhenVREnabled" "1"
+	}
+	"QuestLogButton2"
+	{
+		"label"			"Z"
+		"command"		"questlog"
+		"OnlyInGame"	"0"
+		"tooltip"		"#TF_Contract_Progress"
+	}
+	"MOTD_ShowButtonPanel2"
+	{
+		"label"			"F"
+		"command"		"motd_show"
+		"OnlyInGame"	"0"
+		"tooltip"		"#MMenu_News"
 	}
 
 	// These buttons are only shown while in-game
@@ -37,19 +51,5 @@
 		"command"		"OpenReportPlayerDialog"
 		"OnlyInGame"	"1"
 		"tooltip"		"#MMenu_ReportPlayer"
-	}
-	"QuestLogButton2"
-	{
-		"label"			"Z"
-		"command"		"questlog"
-		"OnlyInGame"	"0"
-		"tooltip"		"#TF_Contract_Progress"
-	}
-	"MOTD_ShowButtonPanel2"
-	{
-		"label"			"F"
-		"command"		"motd_show"
-		"OnlyInGame"	"0"
-		"tooltip"		"#MMenu_News"
 	}
 }

@@ -45,23 +45,6 @@
 		"icon"			"ico_metal"
 		"iconColor"		"ProgressOffWhite"
 	}
-	"MetalIconShadow"
-	{
-		"ControlName"	"CIconPanel"
-		"fieldName"		"MetalIcon"
-		"xpos"			"25"
-		"ypos"			"121"
-		"zpos"			"1"
-		"wide"			"10"
-		"tall"			"10"
-		"visible"		"0"
-		"visible_minmode"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"icon"			"ico_metal"
-		"iconColor"		"black"
-	}
-	
 	"AccountValue"
 	{
 		"ControlName"	"CExLabel"
@@ -81,27 +64,6 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"HudFontMediumSmall"
-	}
-	"AccountValueShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"AccountValueShadow"
-		"xpos"			"25"
-		"ypos"			"113"
-		"zpos"			"2"
-		"wide"			"55"
-		"tall"			"26"
-		"autoResize"	"1"
-		"pinCorner"		"2"
-		"visible"		"0"
-		"visible_minmode"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"%metal%"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"font"			"HudFontMediumSmall"
-		"fgcolor"		"black"
+		"font_minmode"	"HudFontSmallishBold"
 	}
 }

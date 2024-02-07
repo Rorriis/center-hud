@@ -6,7 +6,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HudIcons"
+				"name"		"TF2 Icons"
 				"tall"		"16"
 				"weight"	"400"
 				"additive"	"0"
@@ -17,7 +17,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HudIconsExt"
+				"name"		"Hypnotize Icons Master"
 				"tall"		"16"
 				"weight"	"400"
 				"additive"	"0"
@@ -27,15 +27,15 @@ Scheme
 	}
 	CustomFontFiles
 	{
-		"HudIcons"
+		"8"
 		{
 		"font"	"resource/fonts/TF2Icons.ttf"
-		"name"	"HudIcons"
+		"name"	"TF2 Icons"
 		}
-		"HudIconsExt"
+		"9"
 		{
 		"font"	"resource/fonts/TF2IconsExt.ttf"
-		"name"	"HudIconsExt"
+		"name"	"Hypnotize Icons Master"
 		}
 	}
 }
