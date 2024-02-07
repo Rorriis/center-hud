@@ -1,4 +1,4 @@
-#base "meter/huditemeffectmeter_primary.res"
+#base "meter/huditemeffectmeter_secondary.res"
 
 "Resource/UI/HudItemEffectMeter_Pyro.res"
 {
