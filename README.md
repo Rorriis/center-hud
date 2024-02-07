@@ -11,3 +11,4 @@ A TF2 HUD focused on putting critical HUD info in the center, while improving ce
 ### Credits :
 - [TF2 HUD Resource - Where I learned most of this stuff](https://github.com/JarateKing/TF2-Hud-Reference)
 - [GoopSwagger - Helped with the VTFs for the meters](https://gamebanana.com/members/1672887)
+- [Hypnootize - Menu Icons](https://github.com/Hypnootize/TF2-HUD-Icons)
