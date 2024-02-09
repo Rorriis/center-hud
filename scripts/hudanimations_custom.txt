@@ -1,0 +1,93 @@
+event HudTournamentSetupPanelOpen
+{
+	Animate HudTournamentSetup	Position	"c-90 -70"	Linear 0.0 0.001
+	Animate HudTournamentSetup	Position	"c-90 90"	Spline 0.001 0.2
+}
+
+event HudTournamentSetupPanelClose
+{
+	Animate HudTournamentSetup	Position	"c-90 90"	Linear 0.0 0.001
+	Animate HudTournamentSetup	Position	"c-90 -70"	Spline 0.001 0.2
+}
+
+//==================================================================================
+
+event DamagedPlayer
+{
+	Animate CustomCrosshair		FgColor     "Hitmarker"		Linear 	0.0 	0.00001
+	Animate CustomCrosshair		FgColor     "Crosshair"		Linear 	0.10 	0.10001
+}
+
+//==================================================================================
+
+event HudSnapShotReminderIn
+{
+	Animate ScreenshotPanel		Position	"c-83 -50"	Linear 0.0 0.001
+	Animate ScreenshotPanel		Position	"c-83 25"	Spline 0.001 0.2
+}
+
+event HudReplayReminderIn	// Places the replay reminder in the same place as the snapshot reminder
+{
+	Animate ReplayReminder		Position	"c-83 -50"	Linear 0.0 0.001
+	Animate ReplayReminder		Position	"c-83 25"	Spline 0.001 0.2
+}
+
+event HudReplayReminderIn2	// Puts the panel below the snapshot panel
+{
+	Animate ReplayReminder		Position	"c-83 -50"	Linear 0.0 0.001
+	Animate ReplayReminder		Position	"c-83 65"	Spline 0.001 0.2
+}
+
+//==================================================================================
+
+event TeamStatus_PlayerDead
+{
+	SetVisible	respawntime	1	0
+}
+
+event TeamStatus_PlayerAlive
+{
+	SetVisible	respawntime	0	0.2
+}
+
+//==================================================================================
+
+	// Spy Disguise
+event HudSpyDisguiseChanged
+{
+	Animate PlayerStatusSpyOutlineImage		Alpha		"255"			Linear 0.0 0.2
+
+	Animate PlayerStatusSpyOutlineImage		Position	"c-200 c0"	Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage		Size		"200 200"		Linear 0.0 0.2
+
+	RunEvent HudSpyDisguiseHide	0.7
+}
+
+event HudSpyDisguiseHide
+{
+	Animate PlayerStatusSpyOutlineImage		Position	"c-257 413"			Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage		Size		"55 55"			Linear 0.0 0.2
+
+	Animate PlayerStatusSpyOutlineImage		Alpha		"0"				Linear 0.2 0.1
+}
+
+//==================================================================================
+
+	//Fix chat pos
+event CompetitiveGame_LowerChatWindow
+{
+
+}
+event CompetitiveGame_RestoreChatWindow
+{
+
+}
+event HudTournament_MoveChatWindow
+{
+
+}
+
+//==================================================================================
+
+event RDPositiveScorePulse { }
+event RDNegativeScorePulse { }
