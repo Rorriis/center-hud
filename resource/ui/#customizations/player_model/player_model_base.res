@@ -61,7 +61,7 @@
 		"xpos"				"c-257"
 		"xpos_minmode"		"c-255"
 		"ypos"				"r215"
-		"ypos_minmode"		"r98"
+		"ypos_minmode"		"r88"
 		"zpos"				"2"
 		"wide"				"100"
 		"wide_minmode"		"88"

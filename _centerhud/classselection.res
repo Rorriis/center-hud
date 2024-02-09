@@ -1484,7 +1484,7 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"TFPlayerModel"
 
-		"xpos"			"c-432"
+		"xpos"			"c-320"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"480"
@@ -1497,7 +1497,7 @@
 
 		"render_texture"	"0"
 		"fov"			"25"
-		"allow_rot"		"1"
+		"allow_rot"		"0"
 
 		"paintbackground" "1"
 		"paintbackgroundenabled" "1"
@@ -1527,7 +1527,7 @@
 			"angles_y" "180"
 			"angles_z" "0"
 			"origin_x" "320"
-			"origin_y" "10"
+			"origin_y" "25"
 			"origin_z" "-49"
 			"frame_origin_x"	"0"
 			"frame_origin_y"	"0"
