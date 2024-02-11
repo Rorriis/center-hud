@@ -1484,9 +1484,9 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"TFPlayerModel"
 
-		"xpos"			"c-320"
+		"xpos"			"cs-0.67"
 		"ypos"			"0"
-		"zpos"			"1"
+		"zpos"			"6"
 		"wide"			"480"
 		"tall"			"480"
 
@@ -1504,18 +1504,18 @@
 		"bgcolor_override" "255 255 255 0"
 
 		"lights"
-			{
+		{
 			"spotlight"
-				{
-				"name"                    "spot"
-				"color"                 "0.85 0.85 0.85"
-				"attenuation"            "0.9"
-				"origin"                "0 0 200"
-				"direction"                "320 10 0"
-				"inner_cone_angle"        "5"
-				"outer_cone_angle"        "200"
-				"maxDistance"            "0"
-				"exponent"                "5"
+			{
+				"name"					"spot"
+				"color" 				"0.85 0.85 0.85"
+				"attenuation"			"0.9"
+				"origin"				"0 0 200"
+				"direction"				"320 10 0"
+				"inner_cone_angle"		"5"
+				"outer_cone_angle"		"200"
+				"maxDistance"			"0"
+				"exponent"				"5"
 			}
 		}
 
@@ -1527,7 +1527,7 @@
 			"angles_y" "180"
 			"angles_z" "0"
 			"origin_x" "320"
-			"origin_y" "25"
+			"origin_y" "10"
 			"origin_z" "-49"
 			"frame_origin_x"	"0"
 			"frame_origin_y"	"0"
@@ -1536,6 +1536,48 @@
 
 			"modelname"		""
 			"vcd"		"class_select.vcd"
+
+			"animation"
+			{
+				"name"		"PRIMARY"
+				"activity"	"ACT_MP_STAND_PRIMARY"
+				"default"	"1"
+			}
+			"animation"
+			{
+				"name"		"SECONDARY"
+				"activity"	"ACT_MP_STAND_SECONDARY"
+			}
+			"animation"
+			{
+				"name"		"MELEE"
+				"activity"	"ACT_MP_STAND_MELEE"
+			}
+			"animation"
+			{
+				"name"		"BUILDING"
+				"activity"	"ACT_MP_STAND_BUILDING"
+			}
+			"animation"
+			{
+				"name"		"PDA"
+				"activity"	"ACT_MP_STAND_PDA"
+			}
+			"animation"
+			{
+				"name"		"ITEM1"
+				"activity"	"ACT_MP_STAND_ITEM1"
+			}
+			"animation"
+			{
+				"name"		"ITEM2"
+				"activity"	"ACT_MP_STAND_ITEM2"
+			}
+			"animation"
+			{
+				"name"		"MELEE_ALLCLASS"
+				"activity"	"ACT_MP_STAND_MELEE_ALLCLASS"
+			}
 		}
 	}
 	

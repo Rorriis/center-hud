@@ -1,4 +1,4 @@
-#base "meter/huditemeffectmeter_secondary.res"
+#base "meter/huditemeffectmeter_primary.res"
 
 "Resource/UI/HudItemEffectMeter_Pomson.res"
 {
