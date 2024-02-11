@@ -1,3 +1,4 @@
+![centerhudlogo](https://github.com/Eerorri/center-hud/assets/97610612/b9eaf773-6636-4794-a991-36dc49709dbe)
 A TF2 HUD focused on putting critical HUD info in the center, while improving certain aspects and keeping the artstyle of TF2.
 ### Links :
 [Images](https://imgur.com/a/0rIwB00)
@@ -8,4 +9,4 @@ A TF2 HUD focused on putting critical HUD info in the center, while improving ce
 ### Credits :
 - [GoopSwagger - Helped with the VTFs for the meters](https://gamebanana.com/members/1672887)
 - [ToonHUD - Sourcescheme generator](https://toonhud.com)
-- [Hypnootize - Menu Icons](https://github.com/Hypnootize/TF2-HUD-Icons)
+- [Hypnotize - Menu Icons](https://github.com/Hypnootize/TF2-HUD-Icons)
