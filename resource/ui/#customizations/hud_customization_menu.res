@@ -91,15 +91,15 @@
 				}
 			}
 		}
-		
+
 		"ApplyButton"
 		{
 			"ControlName"					"CExButton"
 			"fieldname"						"ApplyButton"
 			"xpos"							"7"
-			"ypos"							"rs1-4"
+			"ypos"							"rs2.5"
 			"zpos"							"20"
-			"wide"							"135"
+			"wide"							"245"
 			"tall"							"20"
 			"visible"						"1"
 			"enabled"						"1"
@@ -114,6 +114,66 @@
 			"defaultBgColor_override"		"CreditsGreen"
 			"armedBgColor_override"			"GreenSolid"
 			"depressedBgColor_override"		"GreenSolid"
+
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"			"White"
+			"depressedFgColor_override"		"White"
+		}
+
+		"MinmodeButton"
+		{
+			"ControlName"					"CExButton"
+			"fieldname"						"MinmodeButton"
+			"xpos"							"3"
+			"ypos"							"0"
+			"zpos"							"20"
+			"wide"							"245"
+			"tall"							"20"
+			"visible"						"1"
+			"enabled"						"1"
+			"proportionaltoparent"			"1"
+			"labelText"						"MinMode"
+			"font"							"HudFontSmallBold"
+			"textAlignment"					"center"
+			"Command"						"engine cl_mainmenu_safemode 0; mat_queue_mode -1; toggle cl_hud_minmode"
+			"actionsignallevel"				"2"
+			"sound_depressed"				"UI/buttonclick.wav"
+
+			"defaultBgColor_override"		"CreditsGreen"
+			"armedBgColor_override"			"GreenSolid"
+			"depressedBgColor_override"		"GreenSolid"
+
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"			"White"
+			"depressedFgColor_override"		"White"
+
+			"pin_to_sibling"				"ApplyButton"
+			"pin_corner_to_sibling"			"PIN_TOPLEFT"
+			"pin_to_sibling_corner"			"PIN_TOPRIGHT"
+		}
+		
+		"ReloadButton"
+		{
+			"ControlName"					"CExButton"
+			"fieldname"						"ReloadButton"
+			"xpos"							"7"
+			"ypos"							"rs1-4"
+			"zpos"							"20"
+			"wide"							"135"
+			"tall"							"20"
+			"visible"						"1"
+			"enabled"						"1"
+			"proportionaltoparent"			"1"
+			"labelText"						"Reload HUD"
+			"font"							"HudFontSmallBold"
+			"textAlignment"					"center"
+			"Command"						"hud_reloadscheme"
+			"actionsignallevel"				"2"
+			"sound_depressed"				"UI/buttonclick.wav"
+
+			"defaultBgColor_override"		"HudBlack"
+			"armedBgColor_override"			"TransparentBlack"
+			"depressedBgColor_override"		"TransparentBlack"
 
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"			"White"
@@ -147,7 +207,7 @@
 			"armedFgColor_override"			"White"
 			"depressedFgColor_override"		"White"
 
-			"pin_to_sibling"				"ApplyButton"
+			"pin_to_sibling"				"ReloadButton"
 			"pin_corner_to_sibling"			"PIN_TOPLEFT"
 			"pin_to_sibling_corner"			"PIN_TOPRIGHT"
 		}
