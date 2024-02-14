@@ -168,7 +168,7 @@
 	{
 		"ControlName"	"CheckButton"
 		"fieldName"		"SupportCommunityMapMakersCheckButton"
-		"xpos"			"c168"
+		"xpos"			"c170"
 		"ypos"			"437"
 		"zpos"			"5"
 		"wide"			"25"
@@ -182,14 +182,14 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"SupportCommunityMapMakersLabel"
-		"textAlignment"		"center"
-		"xpos"				"c104"
-		"ypos"				"420"
+		"textAlignment"		"north-west"
+		"xpos"				"c100"
+		"ypos"				"435"
 		"zpos"				"5"
 		"wide"				"70"
-		"tall"				"60"
+		"tall"				"100"
 		"font"				"HudFontSmallest"
-		"centerwrap"		"1"
+		"wrap"				"1"
 		"labelText"			"#Store_ConfirmStampDonationAddTitle"
 		"visible"			"0"
 	}

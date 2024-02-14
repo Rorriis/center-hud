@@ -503,7 +503,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"autoresize"	"3"
-		"linespacing"	"18"
+		"linespacing"	"17"
 		"linegap"		"5"
 		"fgcolor"		"blue"
 		//"show_columns"	"1"
@@ -527,7 +527,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"autoresize"	"3"
-		"linespacing"	"18"
+		"linespacing"	"17"
 		"linegap"		"5"
 		"fgcolor"		"red"
 		//"show_columns"	"1"
@@ -578,7 +578,7 @@
 		
 		if_mvm
 		{
-			"ypos"		"428"
+			"ypos"		"357"
 		}
 	}	
 	"SpectatorsInQueue"
@@ -719,7 +719,7 @@
 		"xpos"			"115"
 		"ypos"			"377"
 		"zpos"			"3"
-		"wide"			"300"
+		"wide"			"200"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -1616,6 +1616,156 @@
 			"enabled"		"1"
 		}
 	}
+
+	"ButtonLegendBG"		[$X360]
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ButtonLegendBG"
+		"xpos"			"10"
+		"ypos"			"373"
+		"zpos"			"0"
+		"wide"			"539"
+		"tall"			"38"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"	
+		"fillcolor"		"0 0 0 153"
+		"PaintBackgroundType"	"0"
+	}
+	
+	"ButtonLegend"		[$X360]
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ButtonLegend"
+		"xpos"			"10"
+		"ypos"			"373"
+		"zpos"			"1"
+		"wide"			"539"
+		"tall"			"150"
+		"visible"		"1"
+										
+		"SelectHintIcon"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"SelectHintIcon"
+			"font"			"GameUIButtons"
+			"xpos"			"10"
+			"ypos"			"0"
+			"zpos"			"1"
+			"wide"			"300"
+			"tall"			"38"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"C"
+			"textAlignment"	"Left"
+			"dulltext"		"0"
+			"brighttext"	"0"
+		}
+		
+		"SelectHintLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"SelectHintLabel"
+			"font"			"ScoreboardMedium"
+			"xpos"			"25"
+			"ypos"			"2"
+			"zpos"			"1"
+			"wide"			"300"
+			"tall"			"39"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"#GameUI_Select"
+			"textAlignment"	"Left"
+			"dulltext"		"0"
+			"brighttext"	"0"
+		}
+		
+		"GamerCardIcon"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"GamerCardIcon"
+			"font"			"GameUIButtons"
+			"xpos"			"150"
+			"ypos"			"0"
+			"zpos"			"1"
+			"wide"			"300"
+			"tall"			"38"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"A"
+			"textAlignment"	"Left"
+			"dulltext"		"0"
+			"brighttext"	"0"
+		}
+		
+		"GamerCardLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"GamerCardLabel"
+			"font"			"ScoreboardMedium"
+			"xpos"			"170"
+			"ypos"			"2"
+			"zpos"			"1"
+			"wide"			"300"
+			"tall"			"39"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"#TF_ViewGamercard"
+			"textAlignment"	"Left"
+			"dulltext"		"0"
+			"brighttext"	"0"
+		}
+		
+		"ReputationIcon"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"ReputationIcon"
+			"font"			"GameUIButtons"
+			"xpos"			"350"
+			"ypos"			"0"
+			"zpos"			"1"
+			"wide"			"300"
+			"tall"			"38"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"X"
+			"textAlignment"	"Left"
+			"dulltext"		"0"
+			"brighttext"	"0"
+		}
+		
+		"ReputationLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"ReputationLabel"
+			"font"			"ScoreboardMedium"
+			"xpos"			"403"
+			"ypos"			"2"
+			"zpos"			"1"
+			"wide"			"300"
+			"tall"			"39"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"#GameUI_PlayerReview"
+			"textAlignment"	"Left"
+			"dulltext"		"0"
+			"brighttext"	"0"
+		}
+	}				
 	
 	"MvMScoreboard"
 	{
