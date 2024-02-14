@@ -119,7 +119,7 @@
 			"armedFgColor_override"			"White"
 			"depressedFgColor_override"		"White"
 		}
-
+		
 		"MinmodeButton"
 		{
 			"ControlName"					"CExButton"
@@ -139,9 +139,9 @@
 			"actionsignallevel"				"2"
 			"sound_depressed"				"UI/buttonclick.wav"
 
-			"defaultBgColor_override"		"CreditsGreen"
-			"armedBgColor_override"			"GreenSolid"
-			"depressedBgColor_override"		"GreenSolid"
+			"defaultBgColor_override"		"Orange"
+			"armedBgColor_override"			"OrangeDim"
+			"depressedBgColor_override"		"OrangeDim"
 
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"			"White"
@@ -151,11 +151,11 @@
 			"pin_corner_to_sibling"			"PIN_TOPLEFT"
 			"pin_to_sibling_corner"			"PIN_TOPRIGHT"
 		}
-		
+
 		"ReloadButton"
 		{
 			"ControlName"					"CExButton"
-			"fieldname"						"ReloadButton"
+			"fieldName"						"ReloadButton"
 			"xpos"							"7"
 			"ypos"							"rs1-4"
 			"zpos"							"20"
@@ -167,7 +167,7 @@
 			"labelText"						"Reload HUD"
 			"font"							"HudFontSmallBold"
 			"textAlignment"					"center"
-			"Command"						"hud_reloadscheme"
+			"Command"						"engine cl_mainmenu_safemode 0; mat_queue_mode -1; record fix; snd_restart; hud_reloadscheme; stop"
 			"actionsignallevel"				"2"
 			"sound_depressed"				"UI/buttonclick.wav"
 
