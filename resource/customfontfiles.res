@@ -73,7 +73,7 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"9"
+				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -200,10 +200,343 @@ Scheme
 			}
 		}
 	}
+
 	CustomFontFiles
 	{
+		"1" "resource/tf.ttf"
+		"2" "resource/tfd.ttf"
+
+		"3"
+		{
+		"font" "resource/fonts/TF2.ttf"
+		"name" "TF2"
+			"russian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"ukrainian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"bulgarian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"czech"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"danish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"dutch"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"english"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"finnish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"french"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"german"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"hungarian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"italian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"norwegian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"polish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"portuguese"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"romanian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"spanish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"swedish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"turkish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+		}
+
+		"4"
+		{
+		"font" "resource/fonts/TF2Secondary.ttf"
+		"name" "TF2 Secondary"
+			"russian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"ukrainian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"bulgarian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"czech"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"danish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"dutch"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"english"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"finnish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"french"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"german"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"hungarian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"italian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"norwegian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"polish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"portuguese"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"romanian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"spanish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"swedish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"turkish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+		}
+
+		"5"
+		{
+		"font" "resource/fonts/TF2Professor.ttf"
+		"name" "TF2 Professor"
+			"russian"
+			{
+				"range" "0x0000 0x00FF"
+			}
+			"ukrainian"
+			{
+				"range" "0x0000 0x00FF"
+			}
+			"bulgarian"
+			{
+				"range" "0x0000 0x00FF"
+			}
+			"czech"
+			{
+				"range" "0x0000 0x00FF"
+			}
+			"danish"
+			{
+				"range" "0x0000 0x00FF"
+			}
+			"dutch"
+			{
+				"range" "0x0000 0x00FF"
+			}
+			"english"
+			{
+				"range" "0x0000 0x00FF"
+			}
+			"finnish"
+			{
+				"range" "0x0000 0x00FF"
+			}
+			"french"
+			{
+				"range" "0x0000 0x00FF"
+			}
+			"german"
+			{
+				"range" "0x0000 0x00FF"
+			}
+			"hungarian"
+			{
+				"range" "0x0000 0x00FF"
+			}
+			"italian"
+			{
+				"range" "0x0000 0x00FF"
+			}
+			"norwegian"
+			{
+				"range" "0x0000 0x00FF"
+			}
+			"polish"
+			{
+				"range" "0x0000 0x00FF"
+			}
+			"portuguese"
+			{
+				"range" "0x0000 0x00FF"
+			}
+			"romanian"
+			{
+				"range" "0x0000 0x00FF"
+			}
+			"spanish"
+			{
+				"range" "0x0000 0x00FF"
+			}
+			"swedish"
+			{
+				"range" "0x0000 0x00FF"
+			}
+			"turkish"
+			{
+				"range" "0x0000 0x00FF"
+			}
+		}
+
+		"6"
+		{
+		"font" "resource/fonts/TF2Build.ttf"
+		"name" "TF2 Build"
+			"russian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"ukrainian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"bulgarian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"czech"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"danish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"dutch"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"english"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"finnish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"french"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"german"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"hungarian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"italian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"norwegian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"polish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"portuguese"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"romanian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"spanish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"swedish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"turkish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+		}
+
 		"98"
 		{
+
 		"font"	"resource/fonts/TF2Icons.ttf"
 		"name"	"TF2 Icons"
 		}

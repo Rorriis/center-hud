@@ -1,2 +1,2 @@
-#base "../../_addons/_enabled/ultrawide/altmapintro.res"
+#base "../../_addons/_enabled/ultrawidefix/ultramapintro.res"
 #base "../../_centerhud/mapintro.res"

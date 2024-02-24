@@ -1,2 +1,2 @@
-#base "../../_addons/_enabled/ultrawide/altclassselection.res"
+#base "../../_addons/_enabled/ultrawidefix/ultraclassselection.res"
 #base "../../_centerhud/classselection.res"

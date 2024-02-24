@@ -7,7 +7,7 @@
 		"subimage" "glyph_vr"
 		"OnlyWhenVREnabled" "1"
 	}
-	"ShowHUDOptionsButtonTooltip"
+	"ShowHUDOptionsButton"
 	{
 		"label"			"z"
 		"command"		"engine toggle cl_mainmenu_safemode; mat_queue_mode 0"

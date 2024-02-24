@@ -242,6 +242,7 @@
 			"ControlName"	"CTFImagePanel"
 			"fieldName"		"TeamLeaderImage"
 			"xpos"			"29"
+			"xpos_minmode"	"9999"
 			"ypos"			"64"
 			"zpos"			"12"
 			"wide"			"15"
