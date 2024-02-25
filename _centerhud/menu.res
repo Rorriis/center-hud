@@ -2056,6 +2056,7 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
+			"textinsety"	"-2"
 			"font"				"TFHudIcons"
 			"textAlignment"		"center"
 			"centerwrap"	"1"
@@ -2096,6 +2097,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
+		"textinsety"	"-2"
 		"labelText"		"R"
 		"font"			"TFHudIcons"
 		"textAlignment"		"center"
@@ -2310,6 +2312,8 @@
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"textinsety"	"-2"
 		"labelText"		"9"
 		"font"			"TFHudIcons"
 		"textAlignment"		"center"
@@ -2348,7 +2352,8 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"labelText"		"|"
+		"textinsety"	"-2"
+		"labelText"		"}"
 		"font"				"TFHudIcons"
 		"textAlignment"		"center"
 		"centerwrap"	"1"
