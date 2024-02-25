@@ -133,30 +133,28 @@
 		}
 	}
 	
-	"ShadedBar"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ShadedBar"
-		"xpos"			"0"
-		"ypos"			"r50"
-		"zpos"			"5"
-		"wide"			"f0"
-		"tall"			"50"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"	
-		"image"			"loadout_bottom_gradient"
-		"tileImage"		"1"
-		"PaintBackgroundType"	"0"
-	}						
-	
 	"MessageTitle"
 	{
 		"ControlName"	"Label"
 		"fieldName"		"MessageTitle"
 		"visible"		"0"
 		"enabled"		"0"
-	}		
+	}
+	"ShadedBarBottom"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ShadedBarBottom"
+		"xpos"			"0"
+		"ypos"			"r50"
+		"wide"			"f0"
+		"tall"			"50"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"image"			"loadout_bottom_gradient"
+		"tileImage"		"1"
+		"PaintBackgroundType"	"0"
+	}
 }

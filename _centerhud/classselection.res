@@ -744,7 +744,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassMenuSelect"
-		"xpos"			"30"
+		"xpos"			"c-280"
 		"ypos"			"r40"
 		"zpos"			"5"
 		"wide"			"450"

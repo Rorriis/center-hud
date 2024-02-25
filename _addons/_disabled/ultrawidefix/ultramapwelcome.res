@@ -1,115 +1,42 @@
 "Resource/UI/TextWindow.res"
 {
-	"info"
+	"TFMessageTitle"
 	{
-		"ControlName"			"CTFTextWindow"
-		"fieldName"				"info"
+		"ypos"			"50"
+	}	
+
+	"TFTextMessage"
+	{
+		"fgcolor"		"White"
+	}
+
+	"HTMLMessage"
+	{
+		"ypos"			"122"
+		"tall"			"246"
+	}
+
+	"MenuBG"
+	{
+		"wide"			"0"
+	}
+
+	"BGDarken"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"BGDarken"
 		"xpos"					"0"
 		"ypos"					"0"
+		"zpos"					"-5"
 		"wide"					"f0"
 		"tall"					"480"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
-		"settitlebarvisible"	"0"
-	}
-	
-	"TFMessageTitle"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"TFMessageTitle"
-		"xpos"			"c-184"
-		"ypos"			"95"
-		"zpos"			"1"
-		"wide"			"420"
-		"tall"			"24"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#TF_WELCOME"
-		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"font"			"ChalkboardTitle"
-		"fgcolor"		"White"
-	}	
-
-	"TextMessage"
-	{
-		"ControlName"	"TextEntry"
-		"fieldName"		"TextMessage"
-		"visible"		"0"
-		"enabled"		"0"
+		"bgcolor_override"		"TransparentBlack"
 	}
 
-	"TFTextMessage"
-	{
-		"ControlName"	"CExRichText"
-		"fieldName"		"TFTextMessage"
-		"font"			"ChalkboardText"
-		"xpos"			"c-184"
-		"ypos"			"125"
-		"zpos"			"1"
-		"wide"			"415"
-		"tall"			"240"
-		"autoResize"	"3"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"paintborder"	"0"
-		"textAlignment"	"northwest"
-		"fgcolor"		"Gray"
-	}
-
-	"HTMLMessage"
-	{
-		"ControlName"		"HTML"
-		"fieldName"		"HTMLMessage"
-		"xpos"			"c-184"
-		"ypos"			"75"
-		"zpos"			"1"
-		"wide"			"415"
-		"tall"			"295"
-		"autoResize"	"1"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"		"0"
-		"paintborder"	"0"
-	}
-	
-	"ok"
-	{
-		"ControlName"		"CExButton"
-		"fieldName"		"ok"
-		"xpos"			"c130"
-		"ypos"			"r40"
-		"zpos"			"6"
-		"wide"			"150"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"		"0"
-		"labelText"		"#TF_Continue"
-		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"command"		"okay"
-		"default"		"1"
-		"font"			"HudFontSmallBold"
-	}
-	
-	"MenuBG"
-	{
-		"wide"			"0"
-	}
-	
 	"ShadedBarTop"
 	{
 		"ControlName"	"ImagePanel"
@@ -144,26 +71,58 @@
 		"tileImage"		"1"
 		"PaintBackgroundType"	"0"
 	}
-	"BGDarken"
+	"TopBG"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"BGDarken"
-		"xpos"					"0"
-		"ypos"					"0"
-		"zpos"					"-5"
-		"wide"					"f0"
-		"tall"					"480"
-		"autoResize"			"0"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"bgcolor_override"		"TransparentBlack"
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TopBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"f0"
+		"tall"			"88"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor" "TanDark"
 	}
-	"MessageTitle"
+	"BottomBG"
 	{
-		"ControlName"	"Label"
-		"fieldName"		"MessageTitle"
-		"visible"		"0"
-		"enabled"		"0"
-	}		
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BottomBG"
+		"xpos"			"0"
+		"ypos"			"r52"
+		"zpos"			"-1"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor" "TanDark"
+	}
+
+	"ChalkBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ChalkBG"
+		"xpos"			"c-186"
+		"ypos"			"120"
+		"zpos"			"1"
+		"wide"			"420"
+		"tall"			"250"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor" "TanDarker"
+	}
+
+	"ChalkBG2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ChalkBG2"
+		"xpos"			"c-189"
+		"ypos"			"117"
+		"zpos"			"0"
+		"wide"			"426"
+		"tall"			"256"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor" "TransparentBlack"
+	}
 }
