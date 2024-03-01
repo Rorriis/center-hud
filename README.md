@@ -1,4 +1,6 @@
 ![centerhudlogo](https://github.com/Eerorri/center-hud/assets/97610612/b9eaf773-6636-4794-a991-36dc49709dbe)
+NOTE: Lite version is no longer updated, only keeping this here for archival purposes
+
 A TF2 HUD focused on putting critical HUD info in the center, while improving certain aspects and keeping the artstyle of TF2.
 ### Links :
 [Images](https://imgur.com/a/0rIwB00)
