@@ -13,4 +13,4 @@ A TF2 HUD focused on putting critical HUD info in the center, while keeping the 
 - [TF2HudReference](https://github.com/JarateKing/TF2-Hud-Reference) - Helpful tutorial for starting HUD making
 
 ### Links :
-[Images](https://imgur.com/a/0rIwB00)  [Addons](https://imgur.com/a/mJHLmuy)  [Overview Trailer](https://youtu.be/x7PHVyhndsc)  [Infomercial Trailer](https://youtu.be/G39x7-gmCzU)  [ComfigHuds](https://comfig.app/huds/page/center-hud/)  [TF2Huds](https://tf2huds.dev/hud/Center-Hud)  [GameBanana](https://gamebanana.com/mods/485626)  [TF2C Version](https://gamebanana.com/mods/485290)
+[Images](https://imgur.com/a/0rIwB00)  [Overview Trailer](https://youtu.be/x7PHVyhndsc)  [Infomercial Trailer](https://youtu.be/G39x7-gmCzU)  [ComfigHuds](https://comfig.app/huds/page/center-hud/)  [TF2Huds](https://tf2huds.dev/hud/Center-Hud)  [GameBanana](https://gamebanana.com/mods/485626)  [TF2C Version](https://gamebanana.com/mods/485290)
