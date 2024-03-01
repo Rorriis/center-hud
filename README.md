@@ -2,3 +2,5 @@
 A TF2 HUD focused on putting critical HUD info in the center, while improving certain aspects and keeping the artstyle of TF2.
 ### Credits :
 - [GoopSwagger - Helped with the VTFs for the meters](https://gamebanana.com/members/1672887)
+### Links :
+- [GameBanana](https://gamebanana.com/mods/485290)
