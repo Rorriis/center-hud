@@ -5,7 +5,7 @@
 		"fieldName"				"partychat"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-310"
+		"xpos"					"c-315"
 		"ypos"					"10"
 		"zpos"					"1001"
 		"wide"					"175"
@@ -85,7 +85,7 @@
 	{
 		// "ControlName"	"TextEntry"
 		"fieldName"		"chatentry"
-		"xpos"			"c-309" //c-33
+		"xpos"			"c-314" //c-33
 		"ypos"			"205" //158
 		"zpos"			"1"
 		"wide"			"173"

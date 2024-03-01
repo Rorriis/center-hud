@@ -1615,7 +1615,7 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"textinsety"	"-2"
+			"textinsety"	"-2"	[$LINUX]
 			"textinsetx"	"4"
 			"font"				"TFHudIcons"
 			"textAlignment"		"center"
@@ -1668,7 +1668,7 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"textinsety"	"-2"
+			"textinsety"	"-2"	[$LINUX]
 			"textinsetx"	"1"
 			"font"				"TFHudIcons"
 			"textAlignment"		"center"
@@ -1723,7 +1723,8 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"textinsetx"	"1"
+			"textinsety"	"-2"	[$LINUX]
+			"textinsetx"	"1"		[$LINUX]
 			"font"				"TFHudIcons"
 			"textAlignment"		"center"
 			"centerwrap"	"1"
@@ -1777,7 +1778,8 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"textinsetx"	"1"
+			"textinsety"	"-2"	[$LINUX]
+			"textinsetx"	"1"		[$LINUX]
 			"font"				"TFHudIcons"
 			"textAlignment"		"center"
 			"centerwrap"	"1"
@@ -2056,15 +2058,15 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"textinsety"	"-2"
+			"textinsety"	"-2"	[$LINUX]
 			"font"				"TFHudIcons"
 			"textAlignment"		"center"
 			"centerwrap"	"1"
 			"dulltext"			"0"
 			"brighttext"		"0"
 
-			"border_default"    "MainMenuButtonDefault"
-			"border_armed"      "MainMenuButtonArmed"
+			"border_default"    "EconItemBorder"
+			"border_armed"      " "
 			"paintbackground"   "1"
 
 			"defaultFgColor_override" "232 222 182 255"
@@ -2097,7 +2099,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"textinsety"	"-2"
+		"textinsety"	"-2"	[$LINUX]
 		"labelText"		"R"
 		"font"			"TFHudIcons"
 		"textAlignment"		"center"
@@ -2141,6 +2143,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
+		"textinsety"	"-2"	[$LINUX]
 		"labelText"		"V"
 		"font"			"TFHudIcons"
 		"textAlignment"		"center"
@@ -2184,6 +2187,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
+		"textinsety"	"-2"	[$LINUX]
 		"labelText"		"ã"
 		"font"			"TFHudIcons"
 		"textAlignment"		"center"
@@ -2227,6 +2231,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
+		"textinsety"	"-2"	[$LINUX]
 		"labelText"		"l"
 		"font"			"TFHudIcons"
 		"textAlignment"		"center"
@@ -2270,6 +2275,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
+		"textinsety"	"-2"	[$LINUX]
 		"labelText"		"{"
 		"font"			"TFHudIcons"
 		"textAlignment"		"center"
@@ -2313,7 +2319,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"textinsety"	"-2"
+		"textinsety"	"-2"	[$LINUX]
 		"labelText"		"9"
 		"font"			"TFHudIcons"
 		"textAlignment"		"center"
@@ -2352,7 +2358,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"textinsety"	"-2"
+		"textinsety"	"-2"	[$LINUX]
 		"labelText"		"}"
 		"font"				"TFHudIcons"
 		"textAlignment"		"center"

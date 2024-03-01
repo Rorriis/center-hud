@@ -76,7 +76,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MapImage"
-		"xpos"			"c10"
+		"xpos"			"c25"
 		"ypos"			"75"
 		"zpos"			"2"
 		"wide"			"275"

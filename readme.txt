@@ -1,4 +1,6 @@
 
+If you see keyboard keys on the main menu, go into "tf/custom/center-hud/resource/fonts" and install the fonts there
+
 For the transparent viewmodels, if you're using mastercomfig get the addon from the website, but if not then put this in your autoexec file in "tf/cfg/autoexec.cfg" or create one if it doesn't exist
 
 ------------------------------------------------
@@ -13,8 +15,8 @@ mat_colcorrection_disableentities 1
 mat_colorcorrection 0
 
 ------------------------------------------------
-FOR ULTRAWIDE PLAYER:
-Please install the ultrawidefix addon! It fixes bugs with some menus that backgrounds get cutoff
+FOR ULTRAWIDE PLAYERS:
+Please apply the ultrawidefix addon! It fixes bugs with some menus that backgrounds get cutoff
 
 FOR LINUX USERS:
 If the HUD customization from ingame don't work, make symlinks from "tf/cfg" to "center-hud/cfg" for these files:

@@ -26,7 +26,7 @@
 		"fieldName"				"CarryingWeapon"
 		"xpos"					"c-255"
 		"xpos_minmode"			"c-250"
-		"ypos"					"r26"
+		"ypos"					"r28"
 		"ypos_minmode"			"r20"
 		"zpos"					"100"
 		"wide"					"500"

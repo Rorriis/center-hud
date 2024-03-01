@@ -561,10 +561,10 @@
 		"fieldName" "HudCloseCaption"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"c-180"
-		"ypos"		"306"
-		"wide"		"360"
-		"tall"		"80"
+		"xpos"		"c-250"
+		"ypos"		"246"
+		"wide"		"500"
+		"tall"		"136"
 
 		"BgAlpha"	"128"
 
