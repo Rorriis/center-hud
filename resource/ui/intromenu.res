@@ -76,24 +76,6 @@
 		"fgcolor"		"Black"
 	}
 
-	"ShadedBar"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ShadedBar"
-		"xpos"			"0"
-		"ypos"			"r50"
-		"wide"			"f0"
-		"tall"			"50"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"image"			"loadout_bottom_gradient"
-		"tileImage"		"1"
-		"PaintBackgroundType"	"0"
-	}
-
 	"VideoPanel"
 	{
 		"ControlName"	"CTFVideoPanel"
@@ -134,8 +116,6 @@
 			"angles_y" "180"
 			"angles_z" "0"
 			"origin_x" "290"
-			"origin_x_lodef" "320"
-			"origin_x_hidef" "310"
 			"origin_y" "0"
 			"origin_z" "-39"
 
@@ -159,26 +139,42 @@
 			}
 		}
 	}
-
 	"VideoCaption"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"VideoCaption"
-		"xpos"			"c-120"
-		"ypos"			"c40"
+		"xpos"			"c-140"
+		"ypos"			"c42"
 		"zpos"			"6"
-		"wide"			"295"
+		"wide"			"290"
 		"tall"			"70"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		" "
-		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"IntroMenuCaption"
 		"fgcolor"		"White"
-		"wrap"			"1"
+		"centerwrap"			"1"
+	}
+	"ShadedBarBottom"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ShadedBarBottom"
+		"xpos"			"0"
+		"ypos"			"r50"
+		"zpos"			"1"
+		"wide"			"f0"
+		"tall"			"50"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"image"			"loadout_bottom_gradient"
+		"tileImage"		"1"
+		"PaintBackgroundType"	"0"
 	}
 }

@@ -14,7 +14,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"MapInfoTitle"
 	{
 		"ControlName"	"CExLabel"
@@ -33,7 +33,7 @@
 		"font"			"ChalkboardTitle"
 		"fgcolor"		"White"
 	}
-	
+
 	"MapInfoType"
 	{
 		"ControlName"	"CExLabel"
@@ -51,8 +51,8 @@
 		"textAlignment"	"west"
 		"font"			"ChalkboardText"
 		"fgcolor"		"Gray"
-	}	
-	
+	}
+
 	"MapInfoText"
 	{
 		"ControlName"	"CExRichText"
@@ -71,12 +71,12 @@
 		"textAlignment"	"northwest"
 		"fgcolor"		"Gray"
 	}
-	
+
 	"MapImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MapImage"
-		"xpos"			"c10"
+		"xpos"			"c25"
 		"ypos"			"75"
 		"zpos"			"2"
 		"wide"			"275"
@@ -84,7 +84,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			""
-		"scaleImage"	"1"		
+		"scaleImage"	"1"
 	}
 
 	"MapInfoContinue"
@@ -155,14 +155,14 @@
 		"font"			"HudFontSmallBold"
 		"fgcolor"		"Black"
 	}
-	
+
 	"MenuBG"
 	{
 		"ControlName"	"CModelPanel"
 		"fieldName"		"MenuBG"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"0"		
+		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
 		"autoResize"	"0"
@@ -170,7 +170,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fov"			"20"
-		
+
 		"model"
 		{
 			"modelname"	"models/vgui/UI_welcome01_screen.mdl"
@@ -179,12 +179,10 @@
 			"angles_y" "180"
 			"angles_z" "0"
 			"origin_x" "290"
-			"origin_x_lodef" "320"
-			"origin_x_hidef" "310"
 			"origin_y" "0"
 			"origin_z" "-39"
 		}
-	}					
+	}
 
 	"ShadedBar"
 	{
@@ -199,9 +197,9 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"	
+		"tabPosition"	"0"
 		"image"			"loadout_bottom_gradient"
 		"tileImage"		"1"
 		"PaintBackgroundType"	"0"
-	}	
+	}
 }

@@ -18,13 +18,12 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c140"	[$WIN32]
-		"xpos_minmode"	"c115"	[$WIN32]
-		"ypos"	"r55"	[$WIN32]
-		"ypos_minmode"	"r36"	[$WIN32]
-		"xpos"	"r131"	[$X360]
-		"ypos"	"r77"	[$X360]
-		"wide"	"300"
+		"xpos"	"c140"
+		"xpos_minmode"	"c135"
+		"ypos"	"r55"
+		"ypos_minmode"	"r36"
+		"wide"	"94"
+		"wide_minmode"	"124"
 		"tall"	"45"
 	}
 	
@@ -255,13 +254,11 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"c-262"	[$WIN32]
-		"ypos"		"r70"	[$WIN32]
-		"xpos"		"50"	[$X360]
-		"ypos"		"330"	[$X360]
-		"wide"		"500"
+		"xpos"		"c-258"
+		"ypos"		"r70"
+		"zpos"		"2"
+		"wide"		"120"
 		"tall"		"200"
-		"TextFont"	"Default"	[$X360]
 	}
 
 	CMainTargetID
@@ -1050,9 +1047,9 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c210"
+		"xpos"			"c212"
 		"xpos_minmode"	"c210"
-		"ypos"			"r52"
+		"ypos"			"r54"
 		"ypos_minmode"	"r32"
 		"wide"			"100"
 		"tall"			"50"

@@ -990,15 +990,15 @@
 				
 		}	
 	}
-	"CancelButton" [$WIN32]
+	"CancelButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
 		"xpos"			"c-280"
-		"ypos"			"r38"
+		"ypos"			"r40"
 		"zpos"			"6"
-		"wide"			"100"
-		"tall"			"25"
+		"wide"			"150"
+		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -1011,15 +1011,15 @@
 		"fgcolor_override" "200 80 60 255"
 	}
 
-	"EditLoadoutButton" [$WIN32]
+	"EditLoadoutButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"EditLoadoutButton"
 		"xpos"			"c130"
-		"ypos"			"r38"
+		"ypos"			"r40"
 		"zpos"			"6"
 		"wide"			"150"
-		"tall"			"25"
+		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -1029,45 +1029,21 @@
 		"textAlignment"	"center"
 		"Command"		"openloadout"
 		"font"			"HudFontSmallBold"
+		"fgcolor_override" "200 80 60 255"
 	}
 
-	"ResetButton" [$WIN32]
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"ResetButton"
-		"xpos"			"r470"
-		"ypos"			"r38"
-		"zpos"			"6"
-		"wide"			"110"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"2"
-		"visible"		"0"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#TF_ClassMenu_Reset"
-		"textAlignment"	"center"
-		"Command"		"resetclass"
-		"font"			"HudFontSmallBold"
-	}
-
-	"ClassMenuSelect" [$WIN32]
+	"ClassMenuSelect"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassMenuSelect"
-		"xpos"			"30"
-		"xpos_lodef"			"62"
-		"xpos_hidef"			"72"
+		"xpos"			"c-280"
 		"ypos"			"r40"
-		"ypos_lodef"			"r60"
-		"ypos_hidef"			"r54"
 		"zpos"			"5"
 		"wide"			"450"
 		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"visible_lodef"	"0"
 		"enabled"		"1"
 		"labelText"		"#TF_SelectAClass"
 		"textAlignment"	"west"
@@ -1634,7 +1610,7 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"TFPlayerModel"
 		
-		"xpos"			"0"
+		"xpos"			"cs-0.67"
 		"ypos"			"0"
 		"zpos"			"6"		
 		"wide"			"480"
