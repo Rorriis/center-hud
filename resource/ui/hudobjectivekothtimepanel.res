@@ -51,20 +51,14 @@
 			"fieldName"		"TimePanelValue"
 			"font"			"HudFontMediumSmall"
 			"font_minmode"	"HudFontSmall"
-			"font_lodef"	"HudFontMedium"
 			"fgcolor"		"TanLight"
 			"xpos"			"23"
 			"xpos_minmode"	"39"
-			"xpos_hidef"	"114"
-			"xpos_lodef"	"114"
 			"ypos"			"11"
 			"ypos_minmode"	"6"
-			"ypos_hidef"	"15"
-			"ypos_lodef"	"18"
 			"zpos"			"3"
 			"wide"			"45"
 			"wide_minmode"	"30"
-			"wide_lodef"	"50"
 			"tall"			"31"
 			"visible"		"1"
 			"enabled"		"1"
@@ -84,8 +78,6 @@
 				"wide_minmode"	"35"
 				"font"			"HudFontSmall"
 				"font_minmode"	"HudFontSmall"
-				"font_lodef"	"HudFontSmall"
-			
 			}
 		}	
 	}
@@ -133,20 +125,14 @@
 			"fieldName"		"TimePanelValue"
 			"font"			"HudFontMediumSmall"
 			"font_minmode"	"HudFontSmall"
-			"font_lodef"	"HudFontMedium"
 			"fgcolor"		"TanLight"
 			"xpos"			"23"
 			"xpos_minmode"	"39"
-			"xpos_hidef"	"114"
-			"xpos_lodef"	"114"
 			"ypos"			"11"
 			"ypos_minmode"	"6"
-			"ypos_hidef"	"15"
-			"ypos_lodef"	"18"
 			"zpos"			"3"
 			"wide"			"45"
 			"wide_minmode"	"30"
-			"wide_lodef"	"50"
 			"tall"			"31"
 			"visible"		"1"
 			"enabled"		"1"
@@ -166,8 +152,6 @@
 				"tall"			"10"
 				"font"			"HudFontSmall"
 				"font_minmode"	"HudFontSmall"
-				"font_lodef"	"HudFontSmall"
-			
 			}
 		}	
 	}

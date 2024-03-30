@@ -7,8 +7,8 @@
 		"fieldName"		"HudPlayerHealth"
 		"xpos"			"c-274"
 		"xpos_minmode"	"c-260"
-		"ypos"			"r125"
-		"ypos_minmode"	"r92"
+		"ypos"			"r130"
+		"ypos_minmode"	"r98"
 		"zpos"			"2"
 		"wide"			"250"
 		"tall"			"120"
@@ -24,7 +24,7 @@
 		"fieldName"		"PlayerStatusHealthImage"
 		"xpos"			"75"
 		"xpos_minmode"	"60"
-		"ypos"			"40"
+		"ypos"			"45"
 		"zpos"			"4"
 		"wide"			"51"
 		"tall"			"51"
@@ -38,7 +38,7 @@
 		"fieldName"		"PlayerStatusHealthImageBG"
 		"xpos"			"73"
 		"xpos_minmode"	"58"
-		"ypos"			"38"
+		"ypos"			"43"
 		"zpos"			"3"
 		"wide"			"55"
 		"tall"			"55"
@@ -51,15 +51,19 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"73"
-		"xpos_minmode"	"65"
-		"ypos"			"38"
-		"ypos_minmode"	"45"
+		"xpos"			"73"	[$WIN32]
+		"xpos_minmode"	"65"	[$WIN32]
+		"xpos"			"83"	[$X360]
+		"ypos"			"43"	[$WIN32]
+		"ypos_minmode"	"50"	[$WIN32]
+		"ypos"			"43"	[$X360]
 		"zpos"			"2"
-		"wide"			"55"
-		"wide_minmode"	"40"
-		"tall"			"55"
-		"tall_minmode"	"40"
+		"wide"			"55"	[$WIN32]
+		"wide_minmode"	"40"	[$WIN32]
+		"wide"			"35"	[$X360]
+		"tall"			"55"	[$WIN32]
+		"tall_minmode"	"40"	[$WIN32]
+		"tall"			"35"	[$X360]
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
@@ -71,7 +75,8 @@
 		"fieldName"		"PlayerStatusHealthValue"
 		"xpos"			"76"
 		"xpos_minmode"	"61"
-		"ypos"			"57"
+		"ypos"			"62"	[$WIN32]
+		"ypos"			"55"	[$X360]
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"18"
@@ -88,7 +93,8 @@
 		"fieldName"		"PlayerStatusMaxHealthValue"
 		"xpos"			"76"
 		"xpos_minmode"	"61"
-		"ypos"			"25"
+		"ypos"			"30"	[$WIN32]
+		"ypos"			"55"	[$X360]
 		"zpos"			"6"
 		"wide"			"50"
 		"tall"			"18"

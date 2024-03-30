@@ -11,7 +11,7 @@
 				"xpos"								"357"
 				"ypos"								"5"
 				"zpos"								"0"
-				"wide"								"137"
+				"wide"								"142"
 				"tall"								"70"
 				"visible"							"1"
 				"enabled"							"1"
@@ -49,7 +49,7 @@
 				{
 					"ControlName"						"EditablePanel"
 					"fieldName"							"Spy_Disguise_ON"
-					"xpos"								"3"
+					"xpos"								"5"
 					"ypos"								"16"
 					"zpos"								"20"
 					"wide"								"65"

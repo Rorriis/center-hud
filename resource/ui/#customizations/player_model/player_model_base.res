@@ -6,7 +6,7 @@
 		"fieldName"		"PlayerStatusClassImage"
 		"xpos"			"c-245"
 		"xpos_minmode"	"c-245"
-		"ypos"			"r89"
+		"ypos"			"r90"
 		"ypos_minmode"	"r66"
 
 		"zpos"			"2"
@@ -42,7 +42,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusSpyImage"
 		"xpos"			"c-257"
-		"ypos"			"r69"
+		"ypos"			"r70"
 		"zpos"			"2"
 		"wide"			"55"
 		"wide_minmode"			"0"

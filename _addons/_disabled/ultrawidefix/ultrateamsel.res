@@ -159,8 +159,6 @@
 			"angles_y" "180"
 			"angles_z" "0"
 			"origin_x" "290"
-			"origin_x_lodef" "320"
-			"origin_x_hidef" "305"
 			"origin_y" "0"
 			"origin_z" "-37"
 			
@@ -232,8 +230,6 @@
 			"angles_y" "180"
 			"angles_z" "0"
 			"origin_x" "290"
-			"origin_x_lodef" "320"
-			"origin_x_hidef" "305"
 			"origin_y" "0"
 			"origin_z" "-37"
 			
@@ -305,8 +301,6 @@
 			"angles_y" "180"
 			"angles_z" "0"
 			"origin_x" "290"
-			"origin_x_lodef" "320"
-			"origin_x_hidef" "305"
 			"origin_y" "0"
 			"origin_z" "-37"
 			

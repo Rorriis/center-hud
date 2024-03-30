@@ -193,7 +193,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuSelect"
-		"xpos"			"30"
+		"xpos"			"c-280"
 		"ypos"			"r40"
 		"zpos"			"6"
 		"wide"			"450"
@@ -277,8 +277,6 @@
 			"angles_y" "180"
 			"angles_z" "0"
 			"origin_x" "290"
-			"origin_x_hidef" "305"
-			"origin_x_lodef" "320"
 			"origin_y" "0"
 			"origin_z" "-34"
 		}
@@ -368,8 +366,6 @@
 			"angles_y" "180"
 			"angles_z" "0"
 			"origin_x" "290"
-			"origin_x_lodef" "320"
-			"origin_x_hidef" "305"
 			"origin_y" "0"
 			"origin_z" "-34"
 			
@@ -441,8 +437,6 @@
 			"angles_y" "180"
 			"angles_z" "0"
 			"origin_x" "290"
-			"origin_x_lodef" "320"
-			"origin_x_hidef" "305"
 			"origin_y" "0"
 			"origin_z" "-34"
 			
@@ -514,8 +508,6 @@
 			"angles_y" "180"
 			"angles_z" "0"
 			"origin_x" "290"
-			"origin_x_lodef" "320"
-			"origin_x_hidef" "305"
 			"origin_y" "0"
 			"origin_z" "-34"
 			
@@ -563,8 +555,6 @@
 			"angles_y" "180"
 			"angles_z" "0"
 			"origin_x" "290"
-			"origin_x_lodef" "320"
-			"origin_x_hidef" "305"
 			"origin_y" "0"
 			"origin_z" "-34"
 			
@@ -692,4 +682,3 @@
 		"scaleImage"	"1"	
 	}
 }
-

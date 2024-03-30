@@ -24,7 +24,7 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"CarryingWeapon"
-		"xpos"					"c-255"
+		"xpos"					"c-252"
 		"xpos_minmode"			"c-250"
 		"ypos"					"r28"
 		"ypos_minmode"			"r20"
@@ -55,9 +55,7 @@
 			"scaleImage"			"1"
 			"teambg_1"				"../hud/color_panel_brown"
 			"teambg_2"				"../hud/color_panel_red"
-			"teambg_2_lodef"		"../hud/color_panel_red"
 			"teambg_3"				"../hud/color_panel_blu"
-			"teambg_3_lodef"		"../hud/color_panel_blu"
 			"proportionaltoparent"	"1"
 
 			"src_corner_height"		"23"				// pixels inside the image

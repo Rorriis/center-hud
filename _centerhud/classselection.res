@@ -763,8 +763,6 @@
 			"angles_y" "180"
 			"angles_z" "0"
 			"origin_x" "365"
-			"origin_x_lodef" "415"
-			"origin_x_hidef" "380"
 			"origin_y" "0"
 			"origin_z" "-40"
 		}

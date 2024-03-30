@@ -42,30 +42,88 @@ Scheme
 		"CrosshairVioletHover"		"190 150 210 205"
 		"CrosshairPinkHover"		"250 185 240 205"
 		"CrosshairMagentaHover"		"255 0 127 205"
+
+		"CenterMedicWhite"						"255 255 255 255"
+		"CenterMedicChargeBg"		"0 0 0 100"
+		"CenterMedicLightShadow"					"0 0 0 110"
+
+		"CenterMetalBg"				"50 50 50 120"
+		"CenterMetalValue"				"255 255 255 255"
+		"CenterMetalShadow"						"0 0 0 220"
 	}
 
-	Fonts
+	"Borders"
 	{
-		"TFHudIcons"
+		"G_TargetBorder"
 		{
-			"1"
+			"inset"		"0 0 0 0"
+			"Left"
 			{
-				"name"		"TF2 Icons"
-				"tall"		"15"	[$LINUX]
-				"tall"		"16"
-				"weight"	"0"
-				"antialias" "1"
+				"1"
+				{
+					"color"			"G_OuterBorder"
+					"offset"		"0 0"
+				}
+				"2"
+				{
+					"color"			"G_InnerBorder"
+					"offset"		"2 2"
+				}
+			}
+			"Right"
+			{
+				"1"
+				{
+					"color"			"G_OuterBorder"
+					"offset"		"0 0"
+				}
+				"2"
+				{
+					"color"			"G_InnerBorder"
+					"offset"		"1 1"
+				}
+			}
+			"Top"
+			{
+				"1"
+				{
+					"color"			"G_OuterBorder"
+					"offset"		"0 0"
+				}
+				"2"
+				{
+					"color"			"G_InnerBorder"
+					"offset"		"1 2"
+				}
+			}
+			"Bottom"
+			{
+				"1"
+				{
+					"color"			"G_OuterBorder"
+					"offset"		"0 0"
+				}
+				"2"
+				{
+					"color"			"G_InnerBorder"
+					"offset"		"1 2"
+				}
 			}
 		}
-		"TFHudIconsExt"
+	}
+
+	"Fonts"
+	{
+		"ToonIcons"
 		{
 			"1"
 			{
-				"name"		"Hypnotize Icons Master"
-				"tall"		"15"	[$LINUX]
-				"tall"		"16"
-				"weight"	"0"
-				"antialias" "1"
+				"name"			"ToonHUD Icons"
+				"tall"			"12"
+				"tall"			"18"
+				"weight"		"400"
+				"additive"		"0"
+				"antialias"		"1"
 			}
 		}
 		"KillNotif"
@@ -76,6 +134,28 @@ Scheme
 				"tall"		"9"	[$LINUX]
 				"tall"		"10"
 				"weight"	"400"
+				"antialias" "1"
+			}
+		}
+		"CenterEngieFont"
+		{
+			"1"
+			{
+				"name"			"TF2 Build"
+				"tall"			"12"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"EngieBuilding"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"7"
+				"weight"	"0"
+				"additive"	"0"
 				"antialias" "1"
 			}
 		}
@@ -617,5 +697,8 @@ Scheme
 			"font"	"resource/ui/#customizations/crosshair/crosshairs.ttf"
 			"name"	"TF2Crosshairs"
 		}
+		"11"
+			"font	"resource/fonts/toonicons.ttf"
+			"name"	"ToonHUD Icons"
 	}
 }

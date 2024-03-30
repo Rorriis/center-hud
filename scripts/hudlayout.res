@@ -1,3 +1,7 @@
+#base "../_addons/_enabled/centered_medic/altmedicchargepos.res"
+#base "../_addons/_enabled/centered_metal/altmetalpos.res"
+#base "../_centerhud/medicchargepos.res"
+#base "../_centerhud/metalpos.res"
 #base "../resource/ui/#customizations/transparent_viewmodels/transparent_viewmodels.res"
 #base "../resource/ui/#customizations/killfeed/killfeed.res"
 
@@ -69,20 +73,6 @@
 		"tall"			"50"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
-	}
-	
-	HudMedicCharge
-	{
-		"fieldName"		"HudMedicCharge"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"c140"
-		"xpos_minmode"	"c135"
-		"ypos"			"r69"
-		"ypos_minmode"	"r34"
-		"zpos"			"1"
-		"wide"			"200"
-		"tall"			"100"
 	}
 	
 	HudDemomanCharge
@@ -164,8 +154,6 @@
 		"ypos" 	"0"
 		"tall"	"480"
 		"RightMargin" "0"
-		"RightMargin_hidef" "32"
-		"RightMargin_lodef" "38"
 		"visible" "1"
 		"enabled" "1"
 		"SmallBoxWide" "72"
@@ -192,21 +180,6 @@
 		"SelectionNumberFg"	"200 187 161 255"
 		"NumberFont" "HudSelectionText"
 	}	
-	
-	CHudAccountPanel
-	{
-		"fieldName"				"CHudAccountPanel"
-		"xpos"					"c210"
-		"ypos"					"r151"
-		"ypos_minmode"			"r134"
-		"xpos_minmode"			"c210"
-		"zpos"					"1"			// draw in front of ammo
-		"wide"					"116"
-		"tall"  				"180"
-		"visible" 				"1"
-		"enabled" 				"1"
-		"PaintBackgroundType"	"2"
-	}
 	
 	CHealthAccountPanel
 	{
@@ -258,7 +231,6 @@
 		"tall"	 	"35"
 		"tall_minmode"	 	"28"
 		"priority"	"40"
-		"priority_lodef"	"5"
 
 		if_vr
 		{
@@ -278,7 +250,6 @@
 		"tall"	 	"35"
 		"tall_minmode"	 	"28"
 		"priority"	"40"
-		"priority_lodef" "35"
 		
 		"x_offset" "20"
 		"y_offset" "20"
@@ -323,11 +294,7 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"		"0"
-		"xpos_hidef"		"32"
-		"xpos_lodef"		"40"
 		"ypos"		"0"
-		"ypos_hidef"		"16"
-		"ypos_lodef"		"25"
 		"wide"		"640"
 		"tall"		"480"
 
@@ -692,6 +659,7 @@
 		"tall" "32"
 	}
 
+
 	HudVoiceStatus
 	{
 		"fieldName" "HudVoiceStatus"
@@ -702,29 +670,26 @@
 		"wide" "145"
 		"tall" "400"
 
-		"item_wide"	"120"
+		"item_wide"	"119"
 
 		"show_avatar"		"1"
-		"avatar_ypos"		"0"
 		"avatar_xpos"		"108"
-		"avatar_wide"		"17"
 		"avatar_tall"		"17"
 
 		"show_dead_icon"	"1"
-		"dead_xpos"			"118"
+		"dead_xpos"			"1"
 		"dead_ypos"			"0"
 		"dead_wide"			"16"
 		"dead_tall"			"16"
 
 		"show_voice_icon"	"1"
 		"icon_ypos"			"0"
-		"icon_xpos"			"3"
+		"icon_xpos"			"15"
 		"icon_tall"			"16"
 		"icon_wide"			"16"
 
-		"text_xpos"			"25"
+		"text_xpos"			"33"
 	}
-
 
 	HudHintDisplay
 	{
@@ -857,13 +822,9 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-133"
-		"xpos_lodef"			"c-190"
 		"ypos"				"270"
-		"ypos_lodef"			"250"
 		"wide"					"266"
-		"wide_lodef"			"400"
 		"tall"					"120"
-		"tall_lodef"			"190"
 	}
 	
 	FreezePanel
@@ -981,8 +942,6 @@
 		"enabled" 		"1"
 		"xpos"			"c-235"
 		"ypos"			"c-52"
-		"ypos_hidef"	"c-42"
-		"ypos_lodef"	"c-42"
 		"wide"			"470"
 		"tall"			"200"
 		"PaintBackgroundType"	"0"
@@ -1009,7 +968,6 @@
 		"enabled"				"1"
 		"xpos"					"c-160"
 		"ypos"					"65"
-		"ypos_lodef"			"75"
 		"wide"					"320"
 		"tall"					"100"
 	}
@@ -1022,7 +980,6 @@
 		"enabled"				"1"
 		"xpos"					"c-160"
 		"ypos"					"15"
-		"ypos_lodef"			"75"
 		"wide"					"320"
 		"tall"					"300"
 	}
@@ -1034,8 +991,6 @@
 		"enabled"				"1"
 		"xpos"					"c-160"
 		"ypos"					"75"
-		"ypos_hidef"				"90"
-		"ypos_lodef"			"90"
 		"wide"					"320"
 		"tall"					"100"
 	}
@@ -1047,8 +1002,6 @@
 		"enabled"				"1"
 		"xpos"					"c-160"
 		"ypos"					"75"
-		"ypos_hidef"				"90"
-		"ypos_lodef"				"90"
 		"wide"					"320"
 		"tall"					"150"
 	}
@@ -1072,7 +1025,6 @@
 		"enabled"				"1"
 		"xpos"					"c-160"
 		"ypos"					"65"
-		"ypos_lodef"				"75"
 		"wide"					"320"
 		"tall"					"100"
 	}
@@ -1083,7 +1035,6 @@
 		"enabled"				"1"
 		"xpos"					"c-125"
 		"ypos"					"5"
-		"ypos_lodef"				"75"
 		"zpos"					"2"
 		"wide"					"250"
 		"tall"					"80"
@@ -1096,7 +1047,6 @@
 		"enabled"				"1"
 		"xpos"					"c-90"
 		"ypos"					"-70"
-		"ypos_lodef"				"75"
 		"wide"					"180"
 		"tall"					"65"
 	}
@@ -1109,7 +1059,6 @@
 		"xpos"					"c-160"
 		"ypos"					"5"
 		"ypos_minmode"				"15"
-		"ypos_lodef"				"75"
 		"wide"					"125"
 		"tall"					"70"
 	}
@@ -1358,8 +1307,6 @@
 		"enabled" 		"1"
 		"xpos"			"c-235"
 		"ypos"			"c-52"
-		"ypos_hidef"	"c-42"
-		"ypos_lodef"	"c-42"
 		"wide"			"470"
 		"tall"			"200"
 		"PaintBackgroundType"	"0"

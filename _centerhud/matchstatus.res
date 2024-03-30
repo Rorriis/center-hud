@@ -392,7 +392,7 @@
 			"percentage_health_low"	"0.3"
 			"color_portrait_blend_dead_red"	"255 255 255 255"
 			"color_portrait_blend_dead_blue" "255 255 255 255"
-
+			
 			"playername"
 			{
 				"ControlName"	"CExLabel"
@@ -419,7 +419,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../hud/class_scoutred"
-				"scaleImage"	"1"
+				"scaleImage"	"1"	
 				"proportionaltoparent"	"1"
 			}
 			"classimagebg"
@@ -437,15 +437,15 @@
 				"proportionaltoparent"	"1"
 			}
 			"healthbar"
-			{
+			{	
 				"ControlName"			"ContinuousProgressBar"
 				"fieldName"				"healthbar"
-				"font"					"Default"
+				"font"					"Default"																		
 				"xpos"					"0"
 				"ypos"					"19"
 				"zpos"					"5"
 				"wide"					"f0"
-				"tall"					"2"
+				"tall"					"2"				
 				"autoResize"			"0"
 				"pinCorner"				"0"
 				"visible"				"1"
@@ -457,15 +457,15 @@
 				"proportionaltoparent"	"1"
 			}
 			"overhealbar"
-			{
+			{	
 				"ControlName"			"ContinuousProgressBar"
 				"fieldName"				"overhealbar"
-				"font"					"Default"
+				"font"					"Default"																		
 				"xpos"					"0"
 				"ypos"					"19"
 				"zpos"					"6"
 				"wide"					"f0"
-				"tall"					"2"
+				"tall"					"2"				
 				"autoResize"			"0"
 				"pinCorner"				"0"
 				"visible"				"1"
@@ -487,7 +487,7 @@
 				"wide"				"32"
 				"tall"				"32"
 				"visible"			"0"
-				"enabled"			"1"
+				"enabled"			"1"	
 				"HealthBonusPosAdj"	"10"
 				"HealthDeathWarning"		"0.49"
 				"TFFont"					"HudFontSmallest"
@@ -591,9 +591,9 @@
 				"tall"			"24"
 				"visible"		"0"
 				"enabled"		"1"
-				"image"			"../HUD/comp_player_status"
+				"image"			"../HUD/comp_player_status"	
 				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
+				"proportionaltoparent"	"1"	
 			}
 			"SkullPanel"
 			{
@@ -605,9 +605,9 @@
 				"tall"			"p0.15"
 				"visible"		"0"
 				"enabled"		"1"
-				"image"			"../HUD/comp_player_status_skull"
+				"image"			"../HUD/comp_player_status_skull"	
 				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
+				"proportionaltoparent"	"1"	
 			}
 		}
 	}
@@ -683,13 +683,13 @@
 			"fieldName"		"BlueLeaderAvatar"
 			"xpos"			"11"
 			"ypos"			"10"
-			"zpos"			"5"
+			"zpos"			"5"	
 			"wide"			"35"
 			"tall"			"35"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			""
-			"scaleImage"	"1"
+			"scaleImage"	"1"	
 			"color_outline"	"52 48 45 255"
 		}
 		"BlueLeaderAvatarBG"
@@ -710,22 +710,22 @@
 			"ControlName"	"SectionedListPanel"
 			"fieldName"		"BluePlayerList"
 			"xpos"			"6"
-			"ypos"			"38"
+			"ypos"			"40"
 			"zpos"			"1"
 			"wide"			"136"
-			"tall"			"205"
+			"tall"			"163"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"autoresize"	"3"
-			"linespacing"	"26"
+			"linespacing"	"21"
 			"linegap"		"4"
 			//"show_columns"	"1"
 
 			if_large
 			{
-				"tall"			"315"
+				"tall"			"312"
 			}
 		}
 		"BluePlayerListBG"
@@ -736,7 +736,7 @@
 			"ypos"			"30"
 			"zpos"			"0"
 			"wide"			"139"
-			"tall"			"215"
+			"tall"			"176"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -827,7 +827,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			""
-			"scaleImage"	"1"
+			"scaleImage"	"1"	
 			"color_outline"	"52 48 45 255"
 		}
 		"RedLeaderAvatarBG"
@@ -848,22 +848,22 @@
 			"ControlName"	"SectionedListPanel"
 			"fieldName"		"RedPlayerList"
 			"xpos"			"6"
-			"ypos"			"38"
+			"ypos"			"40"
 			"zpos"			"1"
 			"wide"			"136"
-			"tall"			"205"
+			"tall"			"163"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"autoresize"	"3"
-			"linespacing"	"26"
+			"linespacing"	"21"
 			"linegap"		"4"
 			//"show_columns"	"1"
 
 			if_large
 			{
-				"tall"			"315"
+				"tall"			"312"
 			}
 		}
 		"RedPlayerListBG"
@@ -874,7 +874,7 @@
 			"ypos"			"30"
 			"zpos"			"0"
 			"wide"			"139"
-			"tall"			"215"
+			"tall"			"176"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"

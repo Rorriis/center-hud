@@ -212,38 +212,6 @@
 			"pin_to_sibling_corner"			"PIN_TOPRIGHT"
 		}
 		
-		"ReloadGameButton"
-		{
-			"ControlName"					"CExButton"
-			"fieldName"						"ReloadGameButton"
-			"xpos"							"3"
-			"ypos"							"0"
-			"zpos"							"20"
-			"wide"							"135"
-			"tall"							"20"
-			"visible"						"1"
-			"enabled"						"1"
-			"proportionaltoparent"			"1"
-			"labelText"						"#Vote_RestartGame"
-			"font"							"HudFontSmallBold"
-			"textAlignment"					"center"
-			"Command"						"engine gamemenucommand RestartWithNewLanguage; mat_queue_mode -1"
-			"actionsignallevel"				"2"
-			"sound_depressed"				"UI/buttonclick.wav"
-
-			"defaultBgColor_override"		"190 60 60 255"
-			"armedBgColor_override"			"100 30 30 255"
-			"depressedBgColor_override"		"100 30 30 255"
-
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"			"White"
-			"depressedFgColor_override"		"White"
-
-			"pin_to_sibling"				"ResetAllButton"
-			"pin_corner_to_sibling"			"PIN_TOPLEFT"
-			"pin_to_sibling_corner"			"PIN_TOPRIGHT"
-		}
-		
 		"ConsoleButton"
 		{
 			"ControlName"					"CExButton"
@@ -263,9 +231,47 @@
 			"actionsignallevel"				"2"
 			"sound_depressed"				"UI/buttonclick.wav"
 
-			"pin_to_sibling"				"ReloadGameButton"
+			"pin_to_sibling"				"ResetAllButton"
 			"pin_corner_to_sibling"			"PIN_TOPLEFT"
 			"pin_to_sibling_corner"			"PIN_TOPRIGHT"
+		}
+
+		"RecomendContainer"
+		{
+			"ControlName"				"EditablePanel"
+			"fieldName"					"RecomendContainer"
+			"xpos"						"r142"
+			"ypos"						"r28"
+			"wide"						"140"
+			"tall"						"26"
+			"zpos"						"51"
+			"visible"					"1"
+			"enabled"					"1"
+			"proportionaltoparent"		"1"
+			"paintbackground"			"0"
+			"border"					"NoBorder"
+
+			"RecommendLabel"
+			{
+				"ControlName"					"CExLabel"
+				"fieldName"						"RecommendLabel"
+				"xpos"							"5"
+				"ypos"							"0"
+				"zpos"							"-1"
+				"wide"							"f2"
+				"tall"							"24"
+				"visible"						"1"
+				"enabled"						"1"
+				"proportionaltoparent"			"1"
+				"use_proportional_insets"		"1"
+				"labelText"						"It's recommended to restart the game after applying any changes"
+				"font"							"FontStoreOriginalPrice"
+				"wrap"							"1"
+				"textAlignment"					"center"
+				"textinsetx"					"0"
+				"fgcolor"						"TanLight"
+				"paintBackground"				"0"
+			}
 		}
 	}
 }

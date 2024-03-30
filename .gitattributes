@@ -1,7 +1,10 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-*.bat text eol=crlf
+*.res eol=crlf
 
 # proper language detection
 *.res linguist-language=vdf
 **/*.res linguist-detectable=true
+
+# Do not export these files on download
+{.gitattributes,.gitignore,.git} export-ignore

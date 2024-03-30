@@ -206,12 +206,12 @@
 	
 	"TipImage"
 	{
-		"ypos"			"412"
+		"ypos"			"398"
 	}
 	
 	"TipText"
 	{
-		"ypos"			"405"
+		"ypos"			"383"
 	}
 	
 	"CloseButton" [$WIN32]
