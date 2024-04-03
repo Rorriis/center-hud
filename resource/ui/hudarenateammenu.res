@@ -1,2 +1,7 @@
-#base "../../_addons/_enabled/ultrawidefix/ultraarenateamsel.res"
-#base "../../_centerhud/arenateamsel.res"
+// CUSTOMIZATIONS
+
+#base "../../cfg/centerhud/hud_arenamenu.txt"
+
+// BASE
+
+#base "#customizations/ultrawidefix/stock/hudarenateammenu.res"

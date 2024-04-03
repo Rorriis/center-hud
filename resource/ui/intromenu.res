@@ -1,2 +1,7 @@
-#base "../../_addons/_enabled/ultrawidefix/ultramapintro.res"
-#base "../../_centerhud/mapintro.res"
+// CUSTOMIZATIONS
+
+#base "../../cfg/centerhud/hud_intromenu.txt"
+
+// BASE
+
+#base "#customizations/ultrawidefix/stock/intromenu.res"

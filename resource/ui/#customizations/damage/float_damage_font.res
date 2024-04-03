@@ -1,1 +1,1 @@
-#base "../../../../cfg/hud_float_damage.txt"
+#base "../../../../cfg/centerhud/hud_float_damage.txt"

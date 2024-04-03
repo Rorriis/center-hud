@@ -14,6 +14,12 @@ event HudTournamentSetupPanelClose
 
 event DamagedPlayer
 {
+	StopEvent HitMarker			0.0
+	RunEvent HitMarker			0.00001
+}
+
+event HitMarker
+{
 	Animate CustomCrosshair		FgColor     "Hitmarker"		Linear 	0.0 	0.00001
 	Animate CustomCrosshair		FgColor     "Crosshair"		Linear 	0.10 	0.10001
 }
@@ -49,6 +55,11 @@ event TeamStatus_PlayerAlive
 {
 	SetVisible	respawntime	0	0.2
 }
+
+//==================================================================================
+
+event RDPositiveScorePulse { }
+event RDNegativeScorePulse { }
 
 //==================================================================================
 
@@ -88,6 +99,3 @@ event HudTournament_MoveChatWindow
 }
 
 //==================================================================================
-
-event RDPositiveScorePulse { }
-event RDNegativeScorePulse { }

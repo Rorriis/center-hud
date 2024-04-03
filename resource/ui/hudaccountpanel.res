@@ -1,2 +1,7 @@
-#base "../../_addons/_enabled/centered_metal/altmetal.res"
-#base "../../_centerhud/metal.res"
+// CUSTOMIZATIONS
+
+#base "../../cfg/centerhud/hud_metal.txt"
+
+// BASE
+
+#base "#customizations/metal/def_metal_base.res"

@@ -1,9 +1,24 @@
-#base "../_addons/_enabled/centered_medic/altmedicchargepos.res"
-#base "../_addons/_enabled/centered_metal/altmetalpos.res"
-#base "../_centerhud/medicchargepos.res"
-#base "../_centerhud/metalpos.res"
+
+// MEDIC CHARGE POS
+
+#base "../cfg/centerhud/hud_uber_pos.txt"
+
+// METAL POS
+
+#base "../cfg/centerhud/hud_metal_pos.txt"
+
+// TRANSPARENT VIEWMODELS
+
 #base "../resource/ui/#customizations/transparent_viewmodels/transparent_viewmodels.res"
+
+// KILLFEED
+
 #base "../resource/ui/#customizations/killfeed/killfeed.res"
+
+// BASE
+
+#base "../resource/ui/#customizations/metal/def_metal_pos.res"
+#base "../resource/ui/#customizations/uber/uber_pos.res"
 
 "Resource/HudLayout.res"
 {

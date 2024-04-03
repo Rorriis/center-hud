@@ -1,2 +1,7 @@
-#base "../../_addons/_enabled/ultrawidefix/ultraclassselection.res"
-#base "../../_centerhud/classselection.res"
+// CUSTOMIZATIONS
+
+#base "../../cfg/centerhud/hud_classsel.txt"
+
+// BASE
+
+#base "#customizations/ultrawidefix/stock/classselection.res"

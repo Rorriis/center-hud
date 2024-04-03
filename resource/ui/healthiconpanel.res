@@ -1,2 +1,8 @@
-#base "../../_addons/_enabled/health/althealthpanel.res"
-#base "../../_tf/healthpanel.res"
+// CUSTOMIZATIONS
+
+#base "../../cfg/centerhud/hud_healthiconpanel.txt"
+
+// BASE
+
+#base "#customizations/health/def/healthiconpanel.res"
+

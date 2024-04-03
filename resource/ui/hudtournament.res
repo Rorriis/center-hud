@@ -1,2 +1,8 @@
-#base "../../_addons/_enabled/ultrawidefix/ultrahudtournament.res"
-#base "../../_centerhud/hudtournament.res"
+// CUSTOMIZATIONS
+
+#base "../../cfg/centerhud/hud_tournament.txt"
+
+// BASE
+
+#base "#customizations/ultrawidefix/stock/hudtournament.res"
+

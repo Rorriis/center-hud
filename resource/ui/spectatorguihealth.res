@@ -1,2 +1,7 @@
-#base "../../_addons/_enabled/health/altspechealth.res"
-#base "../../_tf/spechealth.res"
+// CUSTOMIZATIONS
+
+#base "../../cfg/centerhud/hud_specguihealth.txt"
+
+// BASE
+
+#base "#customizations/health/def/spectatorguihealth.res"

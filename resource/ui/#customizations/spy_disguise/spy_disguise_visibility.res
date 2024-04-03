@@ -1,1 +1,1 @@
-#base "../../../../cfg/hud_spy_disguise.txt"
+#base "../../../../cfg/centerhud/hud_spy_disguise.txt"

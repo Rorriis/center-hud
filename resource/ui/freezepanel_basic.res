@@ -1,2 +1,7 @@
-#base "../../_addons/_enabled/health/altfreezecam.res"
-#base "../../_centerhud/freezecam.res"
+// CUSTOMIZATIONS
+
+#base "../../cfg/centerhud/hud_freezepanel.txt"
+
+// BASE
+
+#base "#customizations/health/def/freezepanel_basic.res"

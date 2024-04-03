@@ -15,22 +15,8 @@ mat_colorcorrection 0
 ------------------------------------------------
 
 FOR ULTRAWIDE PLAYERS:
-Please apply the ultrawidefix addon! It fixes bugs with some menus that backgrounds get cutoff
+Please apply the ultrawidefix customization! It fixes bugs with some menus that backgrounds get cutoff
+
 
 FOR LINUX USERS:
-
-Please install the fonts in resource/fonts to home/.local/fonts for them to work properly
-
-If the HUD customization from ingame don't work, make symlinks from "tf/cfg" to "center-hud/cfg" for these files:
-
-hud_crosshair_color.txt
-hud_crosshair_size.txt
-hud_crosshair_style.txt
-hud_crosshair_visibility.txt
-hud_float_damage.txt
-hud_killfeed.txt
-hud_last_damage.txt
-hud_player_model.txt
-hud_speedometer.txt
-hud_spy_disguise.txt
-hud_transparent_viewmodels.txt
+If the HUD customizations don't work, make a symlink of "tf/cfg/centerhud" to "custom/center-hud/cfg"

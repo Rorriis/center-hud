@@ -1,2 +1,7 @@
-#base "../../_addons/_enabled/health/altdisguise.res"
-#base "../../_centerhud/disguise.res"
+// CUSTOMIZATIONS
+
+#base "../../cfg/centerhud/hud_disguise.txt"
+
+// BASE
+
+#base "#customizations/health/def/disguisestatuspanel.res"

@@ -1,2 +1,7 @@
-#base "../../_addons/_enabled/health/alttargetid.res"
-#base "../../_tf/targetid.res"
+// CUSTOMIZATIONS
+
+#base "../../cfg/centerhud/hud_targetid.txt"
+
+// BASE
+
+#base "#customizations/health/def/targetid.res"

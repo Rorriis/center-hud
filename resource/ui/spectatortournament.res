@@ -1,2 +1,7 @@
-#base "../../_addons/_enabled/health/altspectour.res"
-#base "../../_centerhud/spectour.res"
+// CUSTOMIZATIONS
+
+#base "../../cfg/centerhud/hud_spectatortournament.txt"
+
+// BASE
+
+#base "#customizations/health/def/spectatortournament.res"

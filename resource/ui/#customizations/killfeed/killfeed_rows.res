@@ -1,1 +1,1 @@
-#base "../../../../cfg/hud_killfeed.txt"
+#base "../../../../cfg/centerhud/hud_killfeed.txt"

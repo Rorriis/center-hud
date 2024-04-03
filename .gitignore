@@ -1,13 +1,3 @@
 sound/sound.cache
 note.txt
-cfg/hud_crosshair_color.txt
-cfg/hud_crosshair_size.txt
-cfg/hud_crosshair_style.txt
-cfg/hud_crosshair_visibility.txt
-cfg/hud_float_damage.txt
-cfg/hud_killfeed.txt
-cfg/hud_last_damage.txt
-cfg/hud_player_model.txt
-cfg/hud_speedometer.txt
-cfg/hud_spy_disguise.txt
-cfg/hud_transparent_viewmodels.txt
+cfg/centerhud

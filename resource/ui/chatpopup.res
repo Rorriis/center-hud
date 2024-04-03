@@ -4,10 +4,12 @@
 	{
 		"fieldName"		"ChatPopup"
 		"zpos"			"1"
-		"wide"			"175"
+		"wide"			"174"
 		"tall"			"30"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
+		"pin_to_sibling"	"ChatPopupPin"
+		"pin_to_sibling_corner"	"3"
 
 		"paintbackground"	"0"
 		"bgcolor_override"	"255 0 0 250"
@@ -19,7 +21,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"175"
+		"wide"			"174"
 		"tall"			"30"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
