@@ -8,7 +8,7 @@
 			{
 				"ControlName"						"EditablePanel"
 				"fieldName"							"UltrawideFixes"
-				"xpos"								"432"
+				"xpos"								"362"
 				"ypos"								"318"
 				"zpos"								"0"
 				"wide"								"66"
