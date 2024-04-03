@@ -1,5 +1,5 @@
 #base "customfontfiles.res"
-#base "../../../cfg/hud_clientscheme.txt"
+#base "../cfg/centerhud/hud_clientscheme.txt"
 #base "../_scheme/clientscheme-baseset.res"
 #base "../_scheme/clientscheme-colors.res"
 #base "../_scheme/clientscheme-fonts.res"
