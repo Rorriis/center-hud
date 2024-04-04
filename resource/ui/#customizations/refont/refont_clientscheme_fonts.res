@@ -1559,7 +1559,7 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"9"
+				"tall"		"8"
 				"weight"	"0"
 				"additive"	"1"
 				"TextColor"	"ProgressOffWhite"
