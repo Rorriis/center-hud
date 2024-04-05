@@ -1,6 +1,6 @@
 ![centerhudlogo](https://github.com/Eerorri/center-hud/assets/97610612/6b637874-0b04-4d00-95e2-116845c3dc72)
 ### Description
-A TF2 HUD focused on putting critical HUD info in the center, while keeping the artstyle of TF2 and improving certain aspects.
+Linux version of CenterHUD. Please keep the folder name as "center-hud-linux" it might break somethings if changed.
 
 ### Credits
 - [GoopSwagger](https://gamebanana.com/members/1672887) - Helped with the VTFs for the meters
