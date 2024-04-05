@@ -1,6 +1,6 @@
 // CUSTOMIZATION
 
-#base "../../cfg/centerhud/hud_menu.txt"
+#base "../../../../cfg/centerhud/hud_menu.txt"
 
 // BASE
 

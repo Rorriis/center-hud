@@ -1,6 +1,6 @@
 // CUSTOMIZATIONS
 
-#base "../../cfg/centerhud/hud_uber.txt"
+#base "../../../../cfg/centerhud/hud_uber.txt"
 
 // BASE
 

@@ -1,6 +1,6 @@
 // CUSTOMIZATIONS
 
-#base "../../cfg/centerhud/hud_disguise.txt"
+#base "../../../../cfg/centerhud/hud_disguise.txt"
 
 // BASE
 

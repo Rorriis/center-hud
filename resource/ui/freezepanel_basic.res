@@ -1,6 +1,6 @@
 // CUSTOMIZATIONS
 
-#base "../../cfg/centerhud/hud_freezepanel.txt"
+#base "../../../../cfg/centerhud/hud_freezepanel.txt"
 
 // BASE
 

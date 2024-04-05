@@ -1,7 +1,23 @@
-#base "#customizations/crosshair/crosshair.res"
-#base "#customizations/speedometer/speedometer.res"
-#base "#customizations/spy_disguise/spy_disguise.res"
-#base "#customizations/player_model/player_model.res"
+
+// CROSSHAIRS
+
+#base "../../../../cfg/centerhud/hud_crosshair_visibility.txt"
+#base "../../../../cfg/centerhud/hud_crosshair_size.txt"
+#base "../../../../cfg/centerhud/hud_crosshair_color.txt"
+#base "../../../../cfg/centerhud/hud_crosshair_style.txt"
+#base "#customizations/crosshair/crosshair_base.res"
+
+// OTHER CUSTOMIZATIONS
+
+#base "../../../../cfg/centerhud/hud_speedometer.txt"
+#base "../../../../cfg/centerhud/hud_player_model.txt"
+#base "../../../../cfg/centerhud/hud_spy_disguise.txt"
+
+// BASE
+
+#base "#customizations/speedometer/speedometer_base.res"
+#base "#customizations/spy_disguise/spy_disguise_base.res"
+#base "#customizations/player_model/player_model_base.res"
 
 "Resource/UI/HudPlayerClass.res"
 {

@@ -1,7 +1,7 @@
 
 // CUSTOMIZATIONS
 
-#base "../../cfg/centerhud/hud_statsummary"
+#base "../../../../cfg/centerhud/hud_statsummary"
 
 // BASE
 
