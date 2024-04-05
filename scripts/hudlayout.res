@@ -9,16 +9,18 @@
 
 // TRANSPARENT VIEWMODELS
 
-#base "../resource/ui/#customizations/transparent_viewmodels/transparent_viewmodels.res"
+#base "../cfg/centerhud/hud_transparent_viewmodels.txt"
 
-// KILLFEED
+// KILLFEED ROWS
 
-#base "../resource/ui/#customizations/killfeed/killfeed.res"
+#base "../cfg/centerhud/hud_killfeed.txt"
 
 // BASE
 
-#base "../resource/ui/#customizations/metal/def_metal_pos.res"
 #base "../resource/ui/#customizations/uber/uber_pos.res"
+#base "../resource/ui/#customizations/metal/def_metal_pos.res"
+#base "../resource/ui/#customizations/killfeed/killfeed_base.res"
+#base "../resource/ui/#customizations/transparent_viewmodels/transparent_viewmodels_base.res"
 
 "Resource/HudLayout.res"
 {
