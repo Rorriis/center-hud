@@ -2,7 +2,6 @@
 {
 	"Speedometer"
 	{
-
 		"controlName"		"ImagePanel"
 		"fieldName"			"Speedometer"
 		"xpos"				"cs-0.5"
