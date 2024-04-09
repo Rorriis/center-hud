@@ -1,6 +1,10 @@
 ![centerhudlogo](https://github.com/Eerorri/center-hud/assets/97610612/6b637874-0b04-4d00-95e2-116845c3dc72)
 ### Description
-Linux version of CenterHUD. Please keep the folder name as "center-hud-linux" it might break somethings if changed.
+Linux version of CenterHUD. Please keep the folder name as "center-hud-linux" it will break somethings if changed.
+
+### Downloads
+- [Stable versions](https://github.com/Eerorri/center-hud/releases)
+- [Latest possible version](https://github.com/Eerorri/center-hud/archive/refs/heads/linux.zip)
 
 ### Credits
 - [GoopSwagger](https://gamebanana.com/members/1672887) - Helped with the VTFs for the meters
