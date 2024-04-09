@@ -70,7 +70,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
 		"xpos"			"76"
-		"xpos_minmode"	"61"
+		"xpos_minmode"	"62"
 		"ypos"			"61"
 		"zpos"			"5"
 		"wide"			"50"

@@ -744,7 +744,7 @@ Scheme
 			"1"
 			{
 				"name"		"TF2"
-				"tall"		"17"	[$LINUX]
+				"tall"		"17"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -2327,7 +2327,7 @@ Scheme
 			"1"
 			{
 				"name"		"TF2"
-				"tall"		"17"	[$LINUX]
+				"tall"		"17"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -2339,7 +2339,7 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"23"	[$LINUX]
+				"tall"		"23"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -2351,7 +2351,7 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"17"	[$LINUX]
+				"tall"		"17"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"

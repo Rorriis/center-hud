@@ -4,8 +4,8 @@
 {
 	HudItemEffectMeter
 	{
-		"xpos"			"170"	[$WIN32]
-		"ypos_minmode"	"r106"	[$WIN32]
+		"xpos"			"170"
+		"ypos_minmode"	"r106"
 	}
 	
 	"ItemEffectMeterLabel"
