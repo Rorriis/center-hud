@@ -2,6 +2,12 @@
 ### Description
 A TF2 HUD focused on putting critical HUD info in the center, while keeping the artstyle of TF2 and improving certain aspects.
 
+### Downloads
+- [Stable versions](https://github.com/Eerorri/center-hud/releases)
+- [Latest possible version](https://github.com/Eerorri/center-hud/archive/refs/heads/main.zip)
+- [Linux version](https://github.com/Eerorri/center-hud/archive/refs/heads/linux.zip)
+- [TF2C Version](https://gamebanana.com/mods/485290)
+
 ### Credits
 - [GoopSwagger](https://gamebanana.com/members/1672887) - Helped with the VTFs for the meters
 - [Community HUD Fixes](https://github.com/CriticalFlaw/TF2HUD.Fixes) - Fixes to the default HUD and the ingame customization menu
@@ -13,4 +19,4 @@ A TF2 HUD focused on putting critical HUD info in the center, while keeping the 
 - [TF2HudReference](https://github.com/JarateKing/TF2-Hud-Reference) - Helpful tutorial for starting HUD making
 
 ### Links :
-[Images](https://imgur.com/a/0rIwB00)  [Overview Trailer](https://youtu.be/x7PHVyhndsc)  [Infomercial Trailer](https://youtu.be/G39x7-gmCzU)  [ComfigHuds](https://comfig.app/huds/page/center-hud/)  [TF2Huds](https://tf2huds.dev/hud/Center-Hud)  [GameBanana](https://gamebanana.com/mods/485626)  [TF2C Version](https://gamebanana.com/mods/485290)
+[Images](https://imgur.com/a/0rIwB00)  [Overview Trailer](https://youtu.be/x7PHVyhndsc)  [Infomercial Trailer](https://youtu.be/G39x7-gmCzU)  [ComfigHuds](https://comfig.app/huds/page/center-hud/)  [TF2Huds](https://tf2huds.dev/hud/Center-Hud)  [GameBanana](https://gamebanana.com/mods/485626)
