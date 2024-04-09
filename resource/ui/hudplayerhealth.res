@@ -71,7 +71,7 @@
 		"fieldName"		"PlayerStatusHealthValue"
 		"xpos"			"76"
 		"xpos_minmode"	"61"
-		"ypos"			"61"
+		"ypos"			"62"
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"18"
