@@ -32,4 +32,52 @@
 		"TextColor"		"HudOffWhite"
 		"autoResize"	"1"
 	}	
+	"PlayerStatusHealthImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusHealthImage"
+		"xpos"			"9999"
+		"wide"			"0"
+		"tall"			"0"
+	}
+	"PlayerStatusHealthImageBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusHealthImageBG"
+		"xpos"			"9999"
+		"wide"			"0"
+		"tall"			"0"
+	}
+	"BuildingStatusHealthImageBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BuildingStatusHealthImageBG"
+		"xpos"			"9999"
+		"wide"			"0"
+		"tall"			"0"
+	}
+	"PlayerStatusHealthBonusImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusHealthBonusImage"
+		"xpos"			"9999"
+		"wide"			"0"
+		"tall"			"0"
+	}
+	"PlayerStatusHealthValue"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValue"
+		"xpos"			"9999"
+		"wide"			"0"
+		"tall"			"0"
+	}
+	"PlayerStatusPlayerLevel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusPlayerLevel"
+		"xpos"			"9999"
+		"wide"			"0"
+		"tall"			"0"
+	}
 }

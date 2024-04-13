@@ -228,7 +228,7 @@
 			"labelText"						"Reset Options"
 			"font"							"HudFontSmallBold"
 			"textAlignment"					"center"
-			"Command"						"engine customization_reset; hudcrosshair_reset"
+			"Command"						"engine customization_reset; hud_crosshair_reset"
 			"actionsignallevel"				"2"
 			"sound_depressed"				"UI/buttonclick.wav"
 

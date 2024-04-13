@@ -59,7 +59,7 @@
 		"fieldName"				"ItemEffectMeterCount"
 		"xpos"					"32"
 		"xpos_minmode"			"32"
-		"ypos"					"15"
+		"ypos"					"16"
 		"ypos_minmode"			"16"
 		"zpos"					"2"
 		"wide"					"40"

@@ -1,1 +1,1 @@
-#base "SpectatorTournamentGUIHealth.res"
+#base "alt_spectatortournamentguihealth.res"

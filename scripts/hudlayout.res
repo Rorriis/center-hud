@@ -127,7 +127,7 @@
 		"MeterBG"		"Gray"
 	}
 
-	CHudSpellMenu
+	HudSpellMenu
 	{
 
 	}
