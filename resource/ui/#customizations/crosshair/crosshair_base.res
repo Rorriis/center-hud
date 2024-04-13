@@ -14,6 +14,6 @@
 		"font"				"Size-18"
 		"labelText"			"<"
 		"textAlignment"		"center"
-		"fgcolor"			"CrosshairWhite"
+		"fgcolor"			"Crosshair"
 	}
 }

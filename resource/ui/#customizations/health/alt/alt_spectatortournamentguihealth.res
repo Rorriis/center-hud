@@ -76,4 +76,12 @@
 		"fgcolor"		"Black"
 		"pin_to_sibling"	"PlayerHealthValue"
 	}
+	"PlayerStatusHealthValue"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValue"
+		"xpos"			"9999"
+		"wide"			"0"
+		"tall"			"0"
+	}
 }

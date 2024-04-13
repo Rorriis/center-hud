@@ -44,6 +44,14 @@
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValue"
+		"xpos"			"9999"
+		"wide"			"0"
+		"tall"			"0"
+	}
+	"PlayerHealthValue"
+	{
+		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerHealthValue"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -58,7 +66,7 @@
 		"font"			"HudFontMediumSmallBold"
 		"fgcolor"		"TanLight"
 	}
-	"PlayerStatusHealthValueShadow"
+	"PlayerHealthValueShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerHealthValueShadow"
