@@ -35,8 +35,8 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"CenterEngieFont"
-		"fgcolor"		"CenterMedicWhite"
+		"font"			"CenterFont"
+		"fgcolor"		"CenterWhite"
 	}
 
 	"IndividualChargesLabel"
@@ -59,9 +59,9 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"CenterEngieFont"
+		"font"			"CenterFont"
 		"textinsety"	"1"
-		"fgcolor"		"CenterMedicWhite"
+		"fgcolor"		"CenterWhite"
 	}
 	
 	"UberchargeBg"
@@ -76,7 +76,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"paintbackground"	"1"
-		"bgcolor_override"	"CenterMetalBg"
+		"bgcolor_override"	"CenterBG"
 		"PaintBackgroundType"	"2"
 	}
 	
@@ -93,8 +93,8 @@
 		"enable"		"0"
 		"Alpha"				"0"
 		"textAlignment"		"center"
-		"fgcolor_override"	"CenterMedicWhite"
-		"font"				"ToonIcons"
+		"fgcolor_override"	"CenterWhite"
+		"font"				"ToonIco"
 		"paintbackground"	"1"
 		"bgcolor_override"	"0 200 0 0"
 	}
@@ -118,7 +118,7 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"bgcolor_override"		"CenterMedicLightShadow"
+		"bgcolor_override"		"CenterLightShadow"
 	}
 
 	"ChargeMeter1"
@@ -140,9 +140,9 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"FgColor_override"		"CenteredMedicWhite"
+		"FgColor_override"		"CenteredWhite"
 		"paintbackground"		"1"
-		"bgcolor_override"		"CenterMedicLightShadow"
+		"bgcolor_override"		"CenterLightShadow"
 	}
 
 	"ChargeMeter2"
@@ -164,9 +164,9 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"FgColor_override"		"CenterMedicWhite"
+		"FgColor_override"		"CenterWhite"
 		"paintbackground"		"1"
-		"bgcolor_override"		"CenterMedicLightShadow"
+		"bgcolor_override"		"CenterLightShadow"
 	}
 
 	"ChargeMeter3"
@@ -188,9 +188,9 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"FgColor_override"		"CenterMedicWhite"
+		"FgColor_override"		"CenterWhite"
 		"paintbackground"		"1"
-		"bgcolor_override"		"CenterMedicLightShadow"
+		"bgcolor_override"		"CenterLightShadow"
 	}
 
 	"ChargeMeter4"
@@ -212,9 +212,9 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"FgColor_override"		"CenterMedicWhite"
+		"FgColor_override"		"CenterWhite"
 		"paintbackground"		"1"
-		"bgcolor_override"		"CenterMedicLightShadow"
+		"bgcolor_override"		"CenterLightShadow"
 	}
 	
 	"HealthClusterIcon"

@@ -2,14 +2,10 @@ Scheme
 {
 	"Colors"
 	{
-
-		"CenterMedicWhite"						"255 255 255 255"
-		"CenterMedicChargeBg"		"0 0 0 100"
-		"CenterMedicLightShadow"					"0 0 0 110"
-
-		"CenterMetalBg"				"50 50 50 120"
-		"CenterMetalValue"				"255 255 255 255"
-		"CenterMetalShadow"						"0 0 0 220"
+		"CenterBG"				"50 50 50 120"
+		"CenterWhite"				"255 255 255 255"
+		"CenterShadow"						"0 0 0 220"
+		"CenterLightShadow"					"0 0 0 110"
 	}
 
 	"Borders"
@@ -74,7 +70,7 @@ Scheme
 
 	"Fonts"
 	{
-		"ToonIcons"
+		"ToonIco"
 		{
 			"1"
 			{
@@ -91,13 +87,12 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"9"	[$LINUX]
 				"tall"		"10"
 				"weight"	"400"
 				"antialias" "1"
 			}
 		}
-		"CenterEngieFont"
+		"CenterFont"
 		{
 			"1"
 			{
