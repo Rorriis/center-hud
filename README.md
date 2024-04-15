@@ -4,9 +4,9 @@ A TF2 HUD focused on putting critical HUD info in the center, while keeping the 
 
 ### Downloads
 - [Stable versions](https://github.com/Eerorri/center-hud/releases)
-- [Latest possible version](https://github.com/Eerorri/center-hud/archive/refs/heads/main.zip)
-- [Linux version](https://github.com/Eerorri/center-hud/archive/refs/heads/linux.zip)
-- [TF2C Version](https://gamebanana.com/mods/485290)
+- [TF2C Version](https://github.com/Eerorri/center-hud/tree/tf2c)
+- [Bleeding Edge (Windows)](https://github.com/Eerorri/center-hud/archive/refs/heads/main.zip)
+- [Bleeding Edge (Linux)](https://github.com/Eerorri/center-hud/archive/refs/heads/linux.zip)
 
 ### Credits
 - [GoopSwagger](https://gamebanana.com/members/1672887) - Helped with the VTFs for the meters
