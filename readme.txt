@@ -15,3 +15,9 @@ mat_colcorrection_disableentities 1
 mat_colorcorrection 0
 
 ------------------------------------------------
+
+
+LINUX USERS:
+
+If you're reading this, you should be using the Linux version of this HUD available here: https://github.com/Eerorri/center-hud/tree/linux
+Addons need tweaks to work on Linux and it has some fixes for weird number things on the HUD
