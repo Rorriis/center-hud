@@ -3,12 +3,12 @@
 	"CHudAccountPanel"
 	{
 		"delta_item_x"			"42"
-		"delta_item_start_y"	"0"
-		"delta_item_end_y"		"0"
+		"delta_item_start_y"	"2"
+		"delta_item_end_y"		"2"
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"0.8"
-		"delta_item_font"		"CenterMetalValue"
+		"delta_item_font"		"CenterFont"
 		"textAlignment"			"center"
 		"zpos"					"0"
 	}
@@ -24,7 +24,7 @@
 		"tall"					"15"
 		"visible"				"1"
 		"enabled"				"1"
-		"bgcolor_override"		"CenterMetalBg"
+		"bgcolor_override"		"CenterBG"
 		"paintbackgroundtype"	"2"
 	}
 	
@@ -47,8 +47,8 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"CenterEngieFont"
-		"fgcolor"		"CenterMetalValue"
+		"font"			"CenterFont"
+		"fgcolor"		"CenterWhite"
 	}
 	
 	"AccountValueShadow"
@@ -70,8 +70,8 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"CenterEngieFont"
-		"fgcolor"		"CenterMetalShadow"
+		"font"			"CenterFont"
+		"fgcolor"		"CenterShadow"
 	}
 	"AccountBG"
 	{

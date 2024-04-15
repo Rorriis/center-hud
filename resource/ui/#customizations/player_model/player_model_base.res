@@ -6,9 +6,8 @@
 		"fieldName"		"PlayerStatusClassImage"
 		"xpos"			"c-245"
 		"xpos_minmode"	"c-245"
-		"ypos"			"r90"
+		"ypos"			"r89"
 		"ypos_minmode"	"r66"
-
 		"zpos"			"2"
 		"wide"			"75"
 		"wide_minmode"	"68"

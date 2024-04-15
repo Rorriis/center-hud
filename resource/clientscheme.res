@@ -1,7 +1,7 @@
 
 // CUSTOM THINGS
 
-#base "customfontfiles.res"
+#base "../_scheme/centerhudscheme.res"
 
 // CROSSHAIR CUSTOMIZATIONS
 
