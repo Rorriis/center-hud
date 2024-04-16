@@ -221,18 +221,18 @@
 		"fgcolor"		"255 255 255 255"
 	}
 	
-	"CancelButton" [$WIN32] 
+	"CancelButton" [$WIN32]
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
-		"xpos"			"r190"
+		"xpos"			"c110"
 		"xpos_hidef"			"r200"
-		"ypos"			"r40"
+		"ypos"			"r38"
 		"ypos_lodef"			"r64"
 		"ypos_hidef"			"r54"
 		"zpos"			"6"
-		"wide"			"150"
-		"tall"			"30"
+		"wide"			"130"
+		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"0"
@@ -243,7 +243,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"cancelmenu"
-		"font"			"MenuSmallFont"
+		"font"			"HudFontSmallBold"
 	}
 	
 	"TeamMenuSelect"

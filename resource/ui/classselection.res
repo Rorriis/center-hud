@@ -913,7 +913,7 @@
 		"xpos"				"c187"
 		"ypos"				"-5"
 		"ypos_lodef"				"9"
-		"ypos_hidef"				"0"	
+		"ypos_hidef"				"0"
 		"zpos"				"6"
 		"wide"				"50"
 		"tall"				"100"
@@ -994,11 +994,11 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
-		"xpos"			"c-280"
-		"ypos"			"r40"
+		"xpos"			"c-240"
+		"ypos"			"r38"
 		"zpos"			"6"
-		"wide"			"150"
-		"tall"			"30"
+		"wide"			"130"
+		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -1015,11 +1015,11 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"EditLoadoutButton"
-		"xpos"			"c130"
-		"ypos"			"r40"
+		"xpos"			"c110"
+		"ypos"			"r38"
 		"zpos"			"6"
-		"wide"			"150"
-		"tall"			"30"
+		"wide"			"130"
+		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -1126,7 +1126,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"	
+		"tabPosition"	"0"
 		"image"			"loadout_bottom_gradient"
 		"tileImage"		"1"
 		"PaintBackgroundType"	"0"
@@ -1187,8 +1187,8 @@
 		"tall"			"90"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""	
-		"scaleImage"	"1"	
+		"image"			""
+		"scaleImage"	"1"
 	}
 	
 	"localPlayerBG"
@@ -1205,7 +1205,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_clear"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"teambg_2"		"../hud/color_panel_clear"
 		"teambg_3"		"../hud/color_panel_clear"
 			
@@ -1213,7 +1213,7 @@
 		"src_corner_width"		"23"
 				
 		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_height" 	"5"
 	}
 	
 	"countImage0" [$WIN32]
@@ -1227,8 +1227,8 @@
 		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""	
-		"scaleImage"	"1"	
+		"image"			""
+		"scaleImage"	"1"
 	}							
 	
 	"countImage1" [$WIN32]
@@ -1242,8 +1242,8 @@
 		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""	
-		"scaleImage"	"1"	
+		"image"			""
+		"scaleImage"	"1"
 	}
 	
 	"countImage2" [$WIN32]
@@ -1257,8 +1257,8 @@
 		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""	
-		"scaleImage"	"1"	
+		"image"			""
+		"scaleImage"	"1"
 	}
 	
 	"countImage3" [$WIN32]
@@ -1272,8 +1272,8 @@
 		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""	
-		"scaleImage"	"1"	
+		"image"			""
+		"scaleImage"	"1"
 	}
 	
 	"countImage4" [$WIN32]
@@ -1287,8 +1287,8 @@
 		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""	
-		"scaleImage"	"1"	
+		"image"			""
+		"scaleImage"	"1"
 	}
 	
 	"countImage5" [$WIN32]
@@ -1302,8 +1302,8 @@
 		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""	
-		"scaleImage"	"1"	
+		"image"			""
+		"scaleImage"	"1"
 	}
 	
 	"countImage6" [$WIN32]
@@ -1317,8 +1317,8 @@
 		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""	
-		"scaleImage"	"1"	
+		"image"			""
+		"scaleImage"	"1"
 	}
 	
 	"countImage7" [$WIN32]
@@ -1332,8 +1332,8 @@
 		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""	
-		"scaleImage"	"1"	
+		"image"			""
+		"scaleImage"	"1"
 	}
 	
 	"countImage8" [$WIN32]
@@ -1347,8 +1347,8 @@
 		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""	
-		"scaleImage"	"1"	
+		"image"			""
+		"scaleImage"	"1"
 	}
 	
 	"countImage9" [$WIN32]
@@ -1362,8 +1362,8 @@
 		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""	
-		"scaleImage"	"1"	
+		"image"			""
+		"scaleImage"	"1"
 	}
 	
 	"countImage10" [$WIN32]
@@ -1377,8 +1377,8 @@
 		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""	
-		"scaleImage"	"1"	
+		"image"			""
+		"scaleImage"	"1"
 	}
 	
 	"CountLabel" [$WIN32]
