@@ -1,7 +1,6 @@
-
 // CUSTOMIZATIONS
 
-#base "../../../../cfg/centerhud/hud_statsummary"
+#base "../../../../cfg/centerhud/hud_statsummary.txt"
 
 // BASE
 
