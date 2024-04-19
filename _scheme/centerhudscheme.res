@@ -114,6 +114,38 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"HudMenuNumberFont"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"15"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"ScoreboardMediumSmallBold"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"14"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		"G_DefaultSmall"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"14"
+				"weight"	"500"
+			}
+		}
 	}
 
 	//////////////////////// CUSTOM FONT FILES /////////////////////////////
@@ -538,7 +570,7 @@ Scheme
 				"range" "0x0020 0x2116"
 			}
 		}
-		"8"
+		"20"
 		{
 			"font	"resource/fonts/toonicons.ttf"
 			"name"	"ToonHUD Icons"

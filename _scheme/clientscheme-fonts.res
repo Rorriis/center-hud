@@ -16,6 +16,8 @@ Scheme
 		"Buttons"		"materials/vgui/fonts/buttons_32.vbf"
 		"ButtonsSC"		"materials/vgui/fonts/buttons_sc.vbf"
 	}
+
+
 	//
 	//////////////////////// FONTS /////////////////////////////
 	//
@@ -303,7 +305,7 @@ Scheme
 			"2"
 			{
 				"name"		"Verdana"
-				"tall"		"13"	[$WIN32]
+				"tall"		"13"
 				"weight"	"700"
 				"yres"	"600 767"
 			}
@@ -527,7 +529,7 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"12"
+				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -574,17 +576,6 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"11"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"HudMenuNumberFont"
-		{
-			"1"
-			{
-				"name"		"TF2 Secondary"
-				"tall"		"15"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -754,7 +745,6 @@ Scheme
 			"1"
 			{
 				"name"		"TF2"
-				"tall"		"17"	[$LINUX]
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -1123,18 +1113,6 @@ Scheme
 			"1"
 			{
 				"name"		"TF2"
-				"tall"		"14"
-				"weight"	"500"
-				"range"		"0x0000 0x007F"	//	Basic Latin
-				"antialias" "1"
-				"additive"	"0"
-			}
-		}
-		"ScoreboardMediumSmallBold"
-		{
-			"1"
-			{
-				"name"		"TF2 Build"
 				"tall"		"14"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1892,8 +1870,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"7"
+				"name"		"Verdana"
+				"tall"		"7" [!$POSIX]
+				"tall"		"8" [$POSIX]
 				"weight"	"0"
 				"additive"	"1"
 				"antialias" 	"1"
@@ -1903,8 +1882,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"7"
+				"name"		"Verdana"
+				"tall"		"7" [!$POSIX]
+				"tall"		"8" [$POSIX]
 				"weight"	"0"
 				"antialias" 	"1"
 			}
@@ -1913,8 +1893,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"7"
+				"name"		"Verdana"
+				"tall"		"7" [!$POSIX]
+				"tall"		"8" [$POSIX]
 				"weight"	"0"
 				"blur"		"3"
 				"additive"	"1"
@@ -1925,7 +1906,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Verdana"
 				"tall"		"7"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -1936,7 +1917,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"OCR A Extended" [$WINDOWS]
+				"name"		"ocra"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -1945,7 +1927,8 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Tahoma"
+				"name"		"OCR A Extended" [$WINDOWS]
+				"name"		"ocra"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -1954,7 +1937,8 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Tahoma"
+				"name"		"OCR A Extended" [$WINDOWS]
+				"name"		"ocra"
 				"tall"		"18"
 				"weight"	"400"
 				"additive"	"0"
@@ -1967,7 +1951,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"OCR A Extended" [$WINDOWS]
+				"name"		"ocra"
 				"tall"		"10"
 				"weight"	"800"
 				"yres"		"480 599"
@@ -1976,7 +1961,8 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Tahoma"
+				"name"		"OCR A Extended" [$WINDOWS]
+				"name"		"ocra"
 				"tall"		"14"
 				"weight"	"800"
 				"additive"	"0"
@@ -1985,7 +1971,8 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Tahoma"
+				"name"		"OCR A Extended" [$WINDOWS]
+				"name"		"ocra"
 				"tall"		"18"
 				"weight"	"800"
 				"additive"	"0"
@@ -1998,7 +1985,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"OCR A Extended" [$WINDOWS]
+				"name"		"ocra"
 				"tall"		"16"
 				"weight"	"400"
 				"additive"	"0"
@@ -2337,7 +2325,6 @@ Scheme
 			"1"
 			{
 				"name"		"TF2"
-				"tall"		"17"	[$LINUX]
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -2349,7 +2336,6 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"23"	[$LINUX]
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -2361,7 +2347,6 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"17"	[$LINUX]
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -2461,7 +2446,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"OCR A Extended" [$WINDOWS]
+				"name"		"ocra"
 				"tall"		"7"
 				"weight"	"0"
 				"blur"		"3"
@@ -2474,7 +2460,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"OCR A Extended" [$WINDOWS]
+				"name"		"ocra"
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -2486,7 +2473,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"OCR A Extended" [$WINDOWS]
+				"name"		"ocra"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -2498,7 +2486,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"OCR A Extended" [$WINDOWS]
+				"name"		"ocra"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2510,7 +2499,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"OCR A Extended" [$WINDOWS]
+				"name"		"ocra"
 				"tall"		"30"
 				"weight"	"400"
 				"additive"	"0"
@@ -2646,5 +2636,13 @@ Scheme
 				"range" "0x0000 0x007E"
 			}
 		}
+		"10"		"resource/linux_fonts/DejaVuSans.ttf"
+		"11"		"resource/linux_fonts/DejaVuSans-Bold.ttf"
+		"12"		"resource/linux_fonts/DejaVuSans-BoldOblique.ttf"
+		"13"		"resource/linux_fonts/DejaVuSans-Oblique.ttf"
+		"14"		"resource/linux_fonts/LiberationSans-Regular.ttf"
+		"15"		"resource/linux_fonts/LiberationSans-Bold.ttf"
+		"16"		"resource/linux_fonts/LiberationMono-Regular.ttf"
+		"17"		"resource/linux_fonts/FiraSans-Regular.ttf"
 	}
 }
