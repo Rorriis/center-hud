@@ -1,6 +1,5 @@
 ![centerhudlogo](https://github.com/Eerorri/center-hud/assets/97610612/6b637874-0b04-4d00-95e2-116845c3dc72)
-### IMPORTANT
-As of writing this (4/19/2024) the Linux version of this HUD doesn't work correctly because of the 64bit update. I would try fixing it, but the Linux build has a bug that causes the game to crash when reloading the HUD, so it is extremely painful to update. I'll update this when said bug is fixed. 
+
 ### Description
 Linux version of CenterHUD. Please keep the folder name as "center-hud-linux" it breaks the addons if changed.
 
