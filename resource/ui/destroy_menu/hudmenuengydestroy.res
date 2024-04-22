@@ -43,28 +43,7 @@
 		"icon"			"ico_demolish"
 		"iconColor"		"255 255 255 255"
 	}
-	
-	"TitleLabelDropshadow"
-	{	
-		"ControlName"	"CExLabel"
-		"fieldName"		"TitleLabelDropshadow"
-		"font"			"HudFontGiantBold"
-		"fgcolor"		"Black"
-		"xpos"			"32"			// align me to the left edge of the first selection
-		"ypos"			"7"
-		"zpos"			"2"
-		"wide"			"300"
-		"tall"			"35"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#Hud_menu_demolish_title"
-		"textAlignment"	"Left"
-		"dulltext"		"1"
-		"brighttext"	"0"
-	}
-	
+
 	"TitleLabel"
 	{	
 		"ControlName"	"CExLabel"
@@ -85,6 +64,27 @@
 		"brighttext"	"0"
 	}
 	
+	"TitleLabelDropshadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"TitleLabelDropshadow"
+		"font"			"HudFontGiantBold"
+		"fgcolor"		"Black"
+		"xpos"			"32"			// align me to the left edge of the first selection
+		"ypos"			"7"
+		"zpos"			"2"
+		"wide"			"300"
+		"tall"			"35"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#Hud_menu_demolish_title"
+		"textAlignment"	"Left"
+		"dulltext"		"1"
+		"brighttext"	"0"
+	}
+
 	"CancelLabel"
 	{	
 		"ControlName"	"CExLabel"

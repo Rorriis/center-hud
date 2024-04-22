@@ -1,4 +1,3 @@
-
 // CUSTOM THINGS
 
 #base "../_scheme/centerhudscheme.res"
@@ -14,7 +13,8 @@
 
 // BASE
 
+#base "../_scheme/customfontfiles.res"
 #base "../_scheme/clientscheme-baseset.res"
 #base "../_scheme/clientscheme-colors.res"
-#base "../_scheme/clientscheme-fonts.res"
 #base "../_scheme/clientscheme-borders.res"
+#base "../_scheme/clientscheme-fonts.res"

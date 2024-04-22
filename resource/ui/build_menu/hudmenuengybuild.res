@@ -87,7 +87,7 @@
 		"font"			"HudFontGiantBold"
 		"fgcolor"		"Black"
 		"xpos"			"69"			// align me to the left edge of the first selection
-		"ypos"			"1"
+		"ypos"			"2"
 		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"38"

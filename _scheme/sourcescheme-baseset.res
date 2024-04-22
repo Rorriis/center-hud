@@ -42,7 +42,7 @@ Scheme
 		FrameGrip.Color1				"TFTanMedium"
 		FrameGrip.Color2				"TFDarkBrown"
 		FrameTitleButton.FgColor		"TFTanBright"
-		FrameTitleBar.Font			"DefaultLarge"		[$WIN32]
+		FrameTitleBar.Font				"DefaultLarge"			[!$OSX]
 		FrameTitleBar.TextColor			"TFTanBright"
 		FrameTitleBar.DisabledTextColor	"TFTanLight"
 
@@ -59,8 +59,8 @@ Scheme
 		ListPanel.SelectedBgColor			"SelectionBG"
 		ListPanel.SelectedOutOfFocusBgColor	"SelectionBG2"
 
-		MainMenu.TextColor			"TFTanLightDark"			[$WIN32]
-		MainMenu.ArmedTextColor		"TFTanLight"	[$WIN32] // 117 107 94 255
+		MainMenu.TextColor			"TFTanLightDark"			[!$OSX]
+		MainMenu.ArmedTextColor		"TFTanLight"			[!$OSX] // 117 107 94 255
 		MainMenu.Inset				"32"
 
 		Menu.TextInset					"6"

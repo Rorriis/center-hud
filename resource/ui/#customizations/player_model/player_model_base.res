@@ -59,7 +59,7 @@
 		"fieldName"			"classmodelpanel"
 		"xpos"				"c-257"
 		"xpos_minmode"		"c-255"
-		"ypos"				"r215"
+		"ypos"				"r214"
 		"ypos_minmode"		"r88"
 		"zpos"				"2"
 		"wide"				"100"
