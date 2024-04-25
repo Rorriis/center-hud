@@ -1,15 +1,15 @@
-"resource/ui/#customizations/hud_customization_transparent_viewmodels.res"
+"resource/ui/#customizations/hud_customization_targetid.res"
 {
 	"SafeMode"
 	{
 		"Customizations_Scroller"
 		{
-			"Health"
+			"TargetID"
 			{
 				"ControlName"						"EditablePanel"
-				"fieldName"							"Health"
-				"xpos"								"282"
-				"ypos"								"242"
+				"fieldName"							"TargetID"
+				"xpos"								"325"
+				"ypos"								"318"
 				"zpos"								"0"
 				"wide"								"137"
 				"tall"								"70"
@@ -34,7 +34,7 @@
 					"enabled"							"1"
 					"proportionaltoparent"				"1"
 					"use_proportional_insets"			"1"
-					"labelText"							"Health Cross"
+					"labelText"							"Target ID Style"
 					"font"								"ItemFontNameSmallest"
 					"textAlignment"						"center"
 					"textinsetx"						"5"
@@ -45,10 +45,10 @@
 					"bgcolor_override"					"StoreGreen"
 				}
 				
-				"Health_DEF"
+				"TargetID_DEFAULT"
 				{
 					"ControlName"						"EditablePanel"
-					"fieldName"							"Health_ON"
+					"fieldName"							"TargetID_DEFAULT"
 					"xpos"								"3"
 					"ypos"								"16"
 					"zpos"								"20"
@@ -61,10 +61,10 @@
 					"paintBackgroundType"				"0"
 					"bgcolor_override"					"FooterBGBlack"
 
-					"Health_Title"
+					"TargetID_Title"
 					{
 						"ControlName"						"CExLabel"
-						"fieldName"							"Health_Title"
+						"fieldName"							"TargetID_Title"
 						"xpos"								"cs-0.5"
 						"ypos"								"0"
 						"zpos"								"1"
@@ -75,16 +75,16 @@
 						"mouseinputenabled"					"0"
 						"proportionaltoparent"				"1"
 						"font"								"ItemFontNameSmallest"
-						"labeltext"							"ON"
+						"labeltext"							"Cross"
 						"textAlignment"						"center"
 						"fgcolor"							"TanLight"
 						"paintbackground"					"0"
 						"paintbackgroundtype"				"0"
 					}
-					"Health_Image"
+					"TargetID_Image"
 					{
 						"ControlName"						"ImagePanel"
-						"fieldName"							"Health_Image"
+						"fieldName"							"TargetID_Image"
 						"xpos"								"cs-0.5"
 						"ypos"								"cs-0.5+6"
 						"zpos"								"6"
@@ -97,10 +97,10 @@
 						"proportionaltoparent"				"1"
 						"image"								"replay/thumbnails/customizations/health_cross"
 					}
-					"Health_Button"
+					"TargetID_Button"
 					{
 						"ControlName"						"CExButton"
-						"fieldName"							"Health_Button"
+						"fieldName"							"TargetID_Button"
 						"xpos"								"cs-0.5"
 						"ypos"								"rs1"
 						"zpos"								"5"
@@ -111,16 +111,16 @@
 						"proportionaltoparent"				"1"
 						"labelText"							""
 						"font"								""
-						"command"							"engine hud_alt_disguise_off; hud_alt_freezepanel_off; hud_alt_freezepanelhealth_off; hud_alt_healthiconpanel_off; hud_alt_spectatorhealth_off; hud_alt_spectatortournament_off; hud_alt_spectourguihealth_off; hud_alt_targetid_off"
+						"command"							"engine hud_alt_disguise_off; hud_alt_freezepanel_off; hud_alt_freezehealth_off; hud_alt_healthiconpanel_off; hud_alt_spectatorhealth_off; hud_alt_spectatortournament_off; hud_alt_spectourguihealth_off; hud_alt_targetid_off"
 						"actionsignallevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
 					}
 				}
 				
-				"Health_ALT"
+				"TargetID_ALTERNATE"
 				{
 					"ControlName"						"EditablePanel"
-					"fieldName"							"Health_OFF"
+					"fieldName"							"TargetID_ALTERNATE"
 					"xpos"								"2"
 					"ypos"								"0"
 					"zpos"								"20"
@@ -133,14 +133,14 @@
 					"paintBackgroundType"				"0"
 					"bgcolor_override"					"FooterBGBlack"
 
-					"pin_to_sibling"					"Health_ON"
+					"pin_to_sibling"					"TargetID_DEFAULT"
 					"pin_corner_to_sibling"				"PIN_BOTTOMLEFT"
 					"pin_to_sibling_corner"				"PIN_BOTTOMRIGHT"
 
-					"Health_Title"
+					"TargetID_Title"
 					{
 						"ControlName"						"CExLabel"
-						"fieldName"							"Health_Title"
+						"fieldName"							"TargetID_Title"
 						"xpos"								"cs-0.5"
 						"ypos"								"0"
 						"zpos"								"1"
@@ -151,16 +151,16 @@
 						"mouseinputenabled"					"0"
 						"proportionaltoparent"				"1"
 						"font"								"ItemFontNameSmallest"
-						"labeltext"							"OFF"
+						"labeltext"							"Big Numbers"
 						"textAlignment"						"center"
 						"fgcolor"							"TanLight"
 						"paintbackground"					"0"
 						"paintbackgroundtype"				"0"
 					}
-					"Health_Image"
+					"TargetID_Image"
 					{
 						"ControlName"						"ImagePanel"
-						"fieldName"							"Health_Image"
+						"fieldName"							"TargetID_Image"
 						"xpos"								"cs-0.5"
 						"ypos"								"cs-0.5+7"
 						"zpos"								"6"
@@ -173,10 +173,10 @@
 						"proportionaltoparent"				"1"
 						"image"								"replay/thumbnails/customizations/health_nocross"
 					}
-					"Health_Button"
+					"TargetID_Button"
 					{
 						"ControlName"						"CExButton"
-						"fieldName"							"Health_Button"
+						"fieldName"							"TargetID_Button"
 						"xpos"								"cs-0.5"
 						"ypos"								"rs1"
 						"zpos"								"5"
@@ -187,7 +187,7 @@
 						"proportionaltoparent"				"1"
 						"labelText"							""
 						"font"								""
-						"command"							"engine hud_alt_disguise_on; hud_alt_freezepanel_on; hud_alt_freezepanelhealth_on; hud_alt_healthiconpanel_on; hud_alt_spectatorhealth_on; hud_alt_spectatortournament_on; hud_alt_spectourguihealth_on; hud_alt_targetid_on"
+						"command"							"engine hud_alt_disguise_on; hud_alt_freezepanel_on; hud_alt_freezehealth_on; hud_alt_healthiconpanel_on; hud_alt_spectatorhealth_on; hud_alt_spectatortournament_on; hud_alt_spectourguihealth_on; hud_alt_targetid_on"
 						"actionsignallevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
 					}

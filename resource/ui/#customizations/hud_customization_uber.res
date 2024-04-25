@@ -1,4 +1,4 @@
-"resource/ui/#customizations/hud_customization_transparent_viewmodels.res"
+"resource/ui/#customizations/hud_customization_uber.res"
 {
 	"SafeMode"
 	{
@@ -8,7 +8,7 @@
 			{
 				"ControlName"						"EditablePanel"
 				"fieldName"							"CenteredUber"
-				"xpos"								"220"
+				"xpos"								"185"
 				"ypos"								"318"
 				"zpos"								"0"
 				"wide"								"137"
@@ -45,10 +45,10 @@
 					"bgcolor_override"					"StoreGreen"
 				}
 				
-				"Uber_ON"
+				"Uber_MINI"
 				{
 					"ControlName"						"EditablePanel"
-					"fieldName"							"Uber_ON"
+					"fieldName"							"Uber_MINI"
 					"xpos"								"3"
 					"ypos"								"16"
 					"zpos"								"20"
@@ -88,8 +88,8 @@
 						"xpos"								"cs-0.5"
 						"ypos"								"cs-0.5+6"
 						"zpos"								"6"
-						"wide"								"55"
-						"tall"								"55"
+						"wide"								"45"
+						"tall"								"45"
 						"visible"							"1"
 						"enabled"							"1"
 						"mouseinputenabled"					"0"
@@ -117,7 +117,7 @@
 					}
 				}
 				
-				"Uber_OFF"
+				"Uber_DEFAULT"
 				{
 					"ControlName"						"EditablePanel"
 					"fieldName"							"Uber_OFF"
@@ -133,7 +133,7 @@
 					"paintBackgroundType"				"0"
 					"bgcolor_override"					"FooterBGBlack"
 
-					"pin_to_sibling"					"Uber_ON"
+					"pin_to_sibling"					"Uber_MINI"
 					"pin_corner_to_sibling"				"PIN_BOTTOMLEFT"
 					"pin_to_sibling_corner"				"PIN_BOTTOMRIGHT"
 

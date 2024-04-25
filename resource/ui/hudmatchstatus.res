@@ -1,7 +1,7 @@
 // CUSTOMIZATIONS
 
-#base "../../cfg/centerhud/hud_matchstatus.txt"
+#base "../../../../cfg/centerhud/hud_matchstatus.txt"
 
 // BASE
 
-#base "#customizations/ultrawidefix/stock/hudmatchstatus.res"
+#base "#customizations/ultrawidefix/hudmatchstatus.res"

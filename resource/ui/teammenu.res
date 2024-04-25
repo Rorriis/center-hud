@@ -4,4 +4,4 @@
 
 // BASE
 
-#base "#customizations/ultrawidefix/stock/teammenu.res"
+#base "#customizations/ultrawidefix/teammenu.res"
