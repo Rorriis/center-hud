@@ -4,4 +4,4 @@
 
 // BASE
 
-#base "#customizations/health/def/spectatortournament.res"
+#base "#customizations/health/spectatortournament.res"

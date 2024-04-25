@@ -4,4 +4,4 @@
 
 // BASE
 
-#base "#customizations/health/def/freezepanel_basic.res"
+#base "#customizations/health/freezepanel_basic.res"

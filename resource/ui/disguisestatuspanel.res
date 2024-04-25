@@ -4,4 +4,4 @@
 
 // BASE
 
-#base "#customizations/health/def/disguisestatuspanel.res"
+#base "#customizations/health/disguisestatuspanel.res"

@@ -4,4 +4,4 @@
 
 // BASE
 
-#base "#customizations/ultrawidefix/stock/hudarenateammenu.res"
+#base "#customizations/ultrawidefix/hudarenateammenu.res"

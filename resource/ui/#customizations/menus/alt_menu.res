@@ -266,6 +266,8 @@
 		"border_armed"      "MainMenuButtonArmed"
 		"paintbackground"   "0"
 
+		"defaultFgColor_override" "46 43 42 255"
+
 		"image_drawcolor"	"20 20 20 255"
 		"SubImage"
 		{

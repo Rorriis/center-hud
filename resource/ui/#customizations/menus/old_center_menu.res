@@ -657,7 +657,7 @@
 	// command comes from GameMenu.res
 	"ReportPlayerButton"
 	{
-		"xpos"			"c-148"
+		"xpos"			"c-149"
 		"ypos"			"438"
 		"zpos"			"0"
 		"wide"			"25"
@@ -673,7 +673,7 @@
 
 	"CallVoteButton"
 	{
-		"xpos"			"c-125"
+		"xpos"			"c-126"
 		"ypos"			"438"
 		"zpos"			"3"
 		"wide"			"24"
@@ -688,7 +688,7 @@
 
 	"MutePlayersButton"
 	{
-		"xpos"			"c102"
+		"xpos"			"c103"
 		"ypos"			"438"
 		"zpos"			"9"
 		"wide"			"24"
@@ -703,7 +703,7 @@
 
 	"RequestCoachButton"
 	{
-		"xpos"			"c125"
+		"xpos"			"c126"
 		"ypos"			"438"
 		"zpos"			"7"
 		"wide"			"25"

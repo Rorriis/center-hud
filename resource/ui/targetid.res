@@ -4,4 +4,4 @@
 
 // BASE
 
-#base "#customizations/health/def/targetid.res"
+#base "#customizations/health/targetid.res"

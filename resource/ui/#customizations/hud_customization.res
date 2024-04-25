@@ -34,14 +34,14 @@
 #base "hud_customization_transparent_viewmodels.res"
 
 //==============================================================
-// MENU STYLE
+// MENU
 //==============================================================
-#base "hud_customization_menu_style.res"
+#base "hud_customization_menu.res"
 
 //==============================================================
-// ULTRAWIDE FIXES
+// ULTRAWIDE
 //==============================================================
-#base "hud_customization_ultrawidefixes.res"
+#base "hud_customization_ultrawide.res"
 
 //==============================================================
 // METAL
@@ -54,9 +54,9 @@
 #base "hud_customization_uber.res"
 
 //==============================================================
-// HEALTH
+// TARGET ID
 //==============================================================
-#base "hud_customization_health.res"
+#base "hud_customization_targetid.res"
 
 //==============================================================
 // REFONT
@@ -66,4 +66,4 @@
 //==============================================================
 // FRAME
 //==============================================================
-#base "hud_customization_menu.res"
+#base "hud_customization_frame.res"

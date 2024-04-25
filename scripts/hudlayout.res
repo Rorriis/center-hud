@@ -18,7 +18,7 @@
 // BASE
 
 #base "../resource/ui/#customizations/uber/uber_pos.res"
-#base "../resource/ui/#customizations/metal/def_metal_pos.res"
+#base "../resource/ui/#customizations/metal/default_metal_pos.res"
 #base "../resource/ui/#customizations/killfeed/killfeed_base.res"
 #base "../resource/ui/#customizations/transparent_viewmodels/transparent_viewmodels_base.res"
 

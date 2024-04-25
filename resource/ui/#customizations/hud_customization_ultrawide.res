@@ -1,17 +1,17 @@
-"resource/ui/#customizations/hud_customization_killfeed.res"
+"resource/ui/#customizations/hud_customization_ultrawide.res"
 {
 	"SafeMode"
 	{
 		"Customizations_Scroller"
 		{
-			"UltrawideFixes"
+			"Ultrawide"
 			{
 				"ControlName"						"EditablePanel"
-				"fieldName"							"UltrawideFixes"
-				"xpos"								"362"
-				"ypos"								"318"
+				"fieldName"							"Ultrawide"
+				"xpos"								"356"
+				"ypos"								"242"
 				"zpos"								"0"
-				"wide"								"66"
+				"wide"								"65"
 				"tall"								"70"
 				"visible"							"1"
 				"enabled"							"1"
@@ -75,7 +75,6 @@
 						"labelText"							"Enable"
 						"font"								"ItemFontNameSmall"
 						"textAlignment"						"center"
-						"font"								""
 						"command"							"engine hud_textfix_on; hud_teamfix_on; hud_statfix_on; hud_mapfix_on; hud_introfix_on; hud_tourfix_on; hud_statusfix_on; hud_arenafix_on; hud_classfix_on"
 						"actionsignallevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"

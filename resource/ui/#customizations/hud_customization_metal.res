@@ -1,4 +1,4 @@
-"resource/ui/#customizations/hud_customization_transparent_viewmodels.res"
+"resource/ui/#customizations/hud_customization_metal.res"
 {
 	"SafeMode"
 	{
@@ -8,7 +8,7 @@
 			{
 				"ControlName"						"EditablePanel"
 				"fieldName"							"CenteredMetal"
-				"xpos"								"78"
+				"xpos"								"45"
 				"ypos"								"318"
 				"zpos"								"0"
 				"wide"								"137"
@@ -45,10 +45,10 @@
 					"bgcolor_override"					"StoreGreen"
 				}
 				
-				"Metal_ON"
+				"Metal_MINI"
 				{
 					"ControlName"						"EditablePanel"
-					"fieldName"							"Metal_ON"
+					"fieldName"							"Metal_MINI"
 					"xpos"								"3"
 					"ypos"								"16"
 					"zpos"								"20"
@@ -88,8 +88,8 @@
 						"xpos"								"cs-0.5"
 						"ypos"								"cs-0.5+6"
 						"zpos"								"6"
-						"wide"								"60"
-						"tall"								"60"
+						"wide"								"45"
+						"tall"								"45"
 						"visible"							"1"
 						"enabled"							"1"
 						"mouseinputenabled"					"0"
@@ -117,7 +117,7 @@
 					}
 				}
 				
-				"Metal_OFF"
+				"Metal_DEFAULT"
 				{
 					"ControlName"						"EditablePanel"
 					"fieldName"							"Metal_OFF"
@@ -133,7 +133,7 @@
 					"paintBackgroundType"				"0"
 					"bgcolor_override"					"FooterBGBlack"
 
-					"pin_to_sibling"					"Metal_ON"
+					"pin_to_sibling"					"Metal_MINI"
 					"pin_corner_to_sibling"				"PIN_BOTTOMLEFT"
 					"pin_to_sibling_corner"				"PIN_BOTTOMRIGHT"
 

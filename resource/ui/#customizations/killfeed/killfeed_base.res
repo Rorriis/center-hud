@@ -17,7 +17,7 @@
 		"CornerRadius"			"3"
 		"RightJustify"			"1"	// If 1, draw notices from the right
 
-		"TextFont"				"KillNotif"
+		"TextFont"				"Default"
 		
 		"TeamBlue"				"HUDBlueTeamSolid"
 		"TeamRed"				"HUDRedTeamSolid"
