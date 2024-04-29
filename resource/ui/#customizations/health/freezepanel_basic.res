@@ -64,7 +64,7 @@
 		}
 	}		
 	
-	"FreezePanelBase"	[$WIN32]
+	"FreezePanelBase"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"FreezePanelBase"
@@ -115,7 +115,7 @@
 			"brighttext"		"0"
 		}
 		
-		"FreezePanelHealth"		[$WIN32]
+		"FreezePanelHealth"
 		{
 			"ControlName"	"CTFFreezePanelHealth"
 			"fieldName"		"FreezePanelHealth"

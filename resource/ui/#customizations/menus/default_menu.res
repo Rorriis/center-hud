@@ -2642,7 +2642,7 @@
 		"fieldName"		"FooterLine"
 		"xpos"			"0"
 		"ypos"			"420"
-		"zpos"			"-5-"
+		"zpos"			"-5"
 		"wide"			"f0"
 		"tall"			"8"
 		"visible"		"1"

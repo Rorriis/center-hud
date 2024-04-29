@@ -2,52 +2,28 @@
 {
 	"PlayerStatusHealthImage"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"6"
-		"xpos_minmode"	"7"
-		"ypos"			"6"
-		"ypos_minmode"	"7"
-		"zpos"			"4"
-		"wide"			"20"
-		"wide_minmode"	"14"
-		"tall"			"20"
-		"tall_minmode"	"14"
-		"visible"		"0"
-		"enabled"		"0"
-		"scaleImage"	"1"
+		"xpos"			"9999"
+		"xpos_minmode"	"9999"
 	}
 	"PlayerStatusHealthImageBG"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthImageBG"
 		"xpos"			"9999"
-		"wide"			"0"
-		"tall"			"0"
+		"xpos_minmode"	"9999"
 	}
 	"BuildingStatusHealthImageBG"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BuildingStatusHealthImageBG"
 		"xpos"			"9999"
-		"wide"			"0"
-		"tall"			"0"
+		"xpos_minmode"	"9999"
 	}
 	"PlayerStatusHealthBonusImage"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthBonusImage"
 		"xpos"			"9999"
-		"wide"			"0"
-		"tall"			"0"
+		"xpos_minmode"	"9999"
 	}
 	"PlayerStatusHealthValue"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValue"
 		"xpos"			"9999"
-		"wide"			"0"
-		"tall"			"0"
+		"xpos_minmode"	"9999"
 	}
 	"PlayerHealthValue"
 	{
@@ -83,21 +59,5 @@
 		"font"			"HudFontMediumSmallBold"
 		"fgcolor"		"Black"
 		"pin_to_sibling"	"PlayerHealthValue"
-	}
-	"PlayerStatusPlayerLevel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusPlayerLevel"
-		"xpos"			"8"
-		"xpos_minmode"	"0"
-		"ypos"			"9"
-		"zpos"			"5"
-		"wide"			"16"
-		"tall"			"12"
-		"visible"		"0"
-		"enabled"		"1"
-		"textAlignment"	"center"
-		"font"			"ScoreboardVerySmall"
-		"fgcolor"		"TFOrange"
 	}
 }
