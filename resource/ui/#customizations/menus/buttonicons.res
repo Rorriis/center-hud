@@ -53,7 +53,7 @@
 	{
         "labelText"		"+"
 		"textAlignment"	"north-west"
-		"textinsetx"	"17"
+		"textinsetx"	"19"
 		"font"			"HudFontSmallestBold"
 		"SubImage"
 		{

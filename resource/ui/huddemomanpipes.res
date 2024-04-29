@@ -76,7 +76,7 @@
 		"xpos"			"0"
 		"xpos_minmode"	"66"
 		"ypos"			"0"
-		"ypos_minmode"	"18"
+		"ypos_minmode"	"16"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"50"
@@ -107,7 +107,7 @@
 			"fieldName"		"NumPipesLabel"
 			"xpos"			"50"
 			"xpos_minmode"	"42"
-			"ypos"			"16"
+			"ypos"			"18"
 			"ypos_minmode"	"12"
 			"zpos"			"2"
 			"wide"			"35"
@@ -122,7 +122,6 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"HudFontMedium"
-			"font_minmode"	"HudFontMediumSmall"
 		}
 		"NumPipesLabelDropshadow"
 		{
@@ -130,7 +129,7 @@
 			"fieldName"		"NumPipesLabelDropshadow"
 			"xpos"			"51"
 			"xpos_minmode"	"43"
-			"ypos"			"17"
+			"ypos"			"19"
 			"ypos_minmode"	"13"
 			"zpos"			"2"
 			"wide"			"35"
@@ -145,7 +144,6 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"HudFontMedium"
-			"font_minmode"	"HudFontMediumSmall"
 			"fgcolor"		"black"
 		}		
 	}
@@ -157,7 +155,7 @@
 		"xpos"			"0"
 		"xpos_minmode"	"66"
 		"ypos"			"0"
-		"ypos_minmode"	"18"
+		"ypos_minmode"	"16"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"50"
@@ -188,7 +186,7 @@
 			"fieldName"		"NumPipesLabel"
 			"xpos"			"50"
 			"xpos_minmode"	"42"
-			"ypos"			"16"
+			"ypos"			"18"
 			"ypos_minmode"	"12"
 			"zpos"			"2"
 			"wide"			"35"
@@ -203,7 +201,6 @@
 			"dulltext"		"1"
 			"brighttext"	"0"
 			"font"			"HudFontMedium"
-			"font_minmode"	"HudFontMediumSmall"
 		}
 		"NumPipesLabelDropshadow"
 		{
@@ -211,7 +208,7 @@
 			"fieldName"		"NumPipesLabelDropshadow"
 			"xpos"			"51"
 			"xpos_minmode"	"43"
-			"ypos"			"17"
+			"ypos"			"19"
 			"ypos_minmode"	"13"
 			"zpos"			"2"
 			"wide"			"35"
@@ -226,7 +223,6 @@
 			"dulltext"		"1"
 			"brighttext"	"0"
 			"font"			"HudFontMedium"
-			"font_minmode"	"HudFontMediumSmall"
 			"fgcolor"		"black"
 		}			
 	}				

@@ -4,10 +4,10 @@
 	{
 		"ControlName"		"CEmbeddedItemModelPanel"
 		"fieldName"		"itemmodelpanel"
-	
+
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"1"		
+		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"100"
 		"autoResize"		"0"
@@ -49,12 +49,12 @@
 		"teambg_1"		"../hud/color_panel_brown"
 		"teambg_2"		"../hud/color_panel_red"
 		"teambg_3"		"../hud/color_panel_blu"
-		
+
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
-			
+
 		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_height" 	"5"
 	}
 
 	"DisguiseNameLabel"

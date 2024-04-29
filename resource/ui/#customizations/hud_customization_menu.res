@@ -593,7 +593,7 @@
 						"proportionaltoparent"				"1"
 						"labelText"							""
 						"font"								""
-						"command"							"engine hud_menuico_center"
+						"command"							"engine hud_menuico_clear"
 						"actionsignallevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
 					}

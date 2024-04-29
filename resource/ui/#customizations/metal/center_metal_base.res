@@ -75,14 +75,10 @@
 	}
 	"AccountBG"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"AccountBG"
 		"visible"		"0"
 	}
 	"MetalIcon"
 	{
-		"ControlName"	"CIconPanel"
-		"fieldName"		"MetalIcon"
 		"visible"		"0"
 	}
 }
