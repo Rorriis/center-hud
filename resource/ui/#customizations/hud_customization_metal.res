@@ -162,7 +162,7 @@
 						"ControlName"						"ImagePanel"
 						"fieldName"							"Metal_Image"
 						"xpos"								"cs-0.5"
-						"ypos"								"cs-0.5+6"
+						"ypos"								"cs-0.5+7"
 						"zpos"								"6"
 						"wide"								"45"
 						"tall"								"45"

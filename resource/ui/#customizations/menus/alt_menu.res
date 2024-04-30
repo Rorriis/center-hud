@@ -148,8 +148,8 @@
 	
 	"AchievementsButton"
 	{
-		"xpos"			"c-266"
-		"ypos"			"435"
+		"xpos"			"-1"
+		"ypos"			"0"
 		"wide"			"26"
 		"tall"			"26"
 
@@ -171,8 +171,8 @@
 	
 	"CommentaryButton"
 	{
-		"xpos"			"c-242"
-		"ypos"			"435"
+		"xpos"			"-1"
+		"ypos"			"0"
 		"wide"			"26"
 		"tall"			"26"
 
@@ -192,8 +192,8 @@
 
 	"CoachPlayersButton"
 	{
-		"xpos"			"c-218"
-		"ypos"			"435"
+		"xpos"			"-1"
+		"ypos"			"0"
 		"wide"			"26"
 		"tall"			"26"
 
@@ -215,8 +215,8 @@
 
 	"WorkshopButton"
 	{
-		"xpos"			"c-194"
-		"ypos"			"435"
+		"xpos"			"-1"
+		"ypos"			"0"
 		"wide"			"26"
 		"tall"			"26"
 
@@ -236,8 +236,8 @@
 
 	"ReportBugButton"
 	{
-		"xpos"			"c-170"
-		"ypos"			"435"
+		"xpos"			"-1"
+		"ypos"			"0"
 		"wide"			"26"
 		"tall"			"26"
 
@@ -257,8 +257,8 @@
 
 	"TF2SettingsButton"
 	{
-		"xpos"			"c-146"
-		"ypos"			"435"
+		"xpos"			"-1"
+		"ypos"			"0"
 		"wide"			"26"
 		"tall"			"26"
 

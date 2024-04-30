@@ -1,12 +1,13 @@
 ![centerhudlogo](https://github.com/Eerorri/center-hud/assets/97610612/6b637874-0b04-4d00-95e2-116845c3dc72)
+
 ### Description
 A TF2 HUD focused on putting critical HUD info in the center, while keeping the artstyle of TF2 and improving certain aspects.
 
 ### Downloads
 - [Stable versions](https://github.com/Eerorri/center-hud/releases)
 - [TF2C Version](https://github.com/Eerorri/center-hud/tree/tf2c)
-- [Bleeding Edge (Windows)](https://github.com/Eerorri/center-hud/archive/refs/heads/main.zip)
-- [Bleeding Edge (Linux)](https://github.com/Eerorri/center-hud/archive/refs/heads/linux.zip)
+- [Experimental (Windows)](https://github.com/Eerorri/center-hud/archive/refs/heads/main.zip)
+- [Experimental (Linux)](https://github.com/Eerorri/center-hud/archive/refs/heads/linux.zip)
 
 ### Credits
 - [GoopSwagger](https://gamebanana.com/members/1672887) - Helped with the VTFs for the meters

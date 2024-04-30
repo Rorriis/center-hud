@@ -2131,7 +2131,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"NewUserForumsButton"
-		"xpos"			"c-282"
+		"xpos"			"c-288"
 		"ypos"			"437"
 		"zpos"			"2"
 		"wide"			"26"
@@ -2182,8 +2182,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"AchievementsButton"
-		"xpos"			"c-258"
-		"ypos"			"437"
+		"xpos"			"-2"
+		"ypos"			"0"
 		"zpos"			"3"
 		"wide"			"27"
 		"tall"			"25"
@@ -2194,6 +2194,9 @@
 		"tabPosition"	"0"
 		"default"		"1"
 		"Command"		"OpenAchievementsDialog"
+
+		"pin_to_sibling"	"NewUserForumsButton"
+		"pin_to_sibling_corner"	"1"
 
 		"navUp"			"VRModeButton"
 		"navLeft"		"NewUserForumsButton"
@@ -2237,8 +2240,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CommentaryButton"
-		"xpos"			"c-232"
-		"ypos"			"437"
+		"xpos"			"-1"
+		"ypos"			"0"
 		"zpos"			"4"
 		"wide"			"26"
 		"tall"			"25"
@@ -2249,6 +2252,9 @@
 		"tabPosition"	"0"
 		"default"		"1"
 		"Command"		"OpenLoadSingleplayerCommentaryDialog"
+
+		"pin_to_sibling"	"AchievementsButton"
+		"pin_to_sibling_corner"	"1"
 
 		"navUp"			"VRModeButton"
 		"navLeft"		"AchievementsButton"
@@ -2292,8 +2298,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CoachPlayersButton"
-		"xpos"			"c-207"
-		"ypos"			"437"
+		"xpos"			"-1"
+		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"26"
 		"tall"			"25"
@@ -2304,6 +2310,9 @@
 		"tabPosition"	"0"
 		"default"		"1"
 		"Command"		"engine cl_coach_toggle"
+
+		"pin_to_sibling"	"CommentaryButton"
+		"pin_to_sibling_corner"	"1"
 
 		"navUp"			"VRModeButton"
 		"navLeft"		"CommentaryButton"
@@ -2347,8 +2356,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"WorkshopButton"
-		"xpos"			"c-182"
-		"ypos"			"437"
+		"xpos"			"-1"
+		"ypos"			"0"
 		"zpos"			"6"
 		"wide"			"26"
 		"tall"			"25"
@@ -2359,6 +2368,9 @@
 		"tabPosition"	"0"
 		"default"		"1"
 		"Command"		"engine OpenSteamWorkshopDialog"
+
+		"pin_to_sibling"	"CoachPlayersButton"
+		"pin_to_sibling_corner"	"1"
 
 		"navUp"			"VRModeButton"
 		"navLeft"		"CoachPlayersButton"
@@ -2402,8 +2414,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ReportBugButton"
-		"xpos"			"c-157"
-		"ypos"			"437"
+		"xpos"			"-1"
+		"ypos"			"0"
 		"zpos"			"6"
 		"wide"			"26"
 		"tall"			"25"
@@ -2414,6 +2426,9 @@
 		"tabPosition"	"0"
 		"default"		"1"
 		"Command"		"engine bug"
+
+		"pin_to_sibling"	"WorkshopButton"
+		"pin_to_sibling_corner"	"1"
 
 		"navUp"			"VRModeButton"
 		"navLeft"		"CoachPlayersButton"
@@ -2457,8 +2472,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"TF2SettingsButton"
-		"xpos"			"c-133"
-		"ypos"			"437"
+		"xpos"			"-2"
+		"ypos"			"0"
 		"zpos"			"3"
 		"wide"			"26"
 		"tall"			"25"
@@ -2469,6 +2484,9 @@
 		"tabPosition"	"0"
 		"default"		"1"
 		"Command"		"opentf2options"
+
+		"pin_to_sibling"	"ReportBugButton"
+		"pin_to_sibling_corner"	"1"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
