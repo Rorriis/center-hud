@@ -1,12 +1,12 @@
 ![centerhudlogo](https://github.com/Eerorri/center-hud/assets/97610612/6b637874-0b04-4d00-95e2-116845c3dc72)
 
 ### Description
-Linux version of CenterHUD. Please keep the folder name as "center-hud-linux" it breaks the addons if changed.
+Linux version of Center HUD. Please keep the folder name as "center-hud-linux" it breaks the addons if changed.
 
 ### Downloads
 - [Stable version](https://github.com/Eerorri/center-hud/releases)
 - [TF2C Version](https://github.com/Eerorri/center-hud/tree/tf2c)
-- [Bleeding Edge](https://github.com/Eerorri/center-hud/archive/refs/heads/linux.zip)
+- [Experimental](https://github.com/Eerorri/center-hud/archive/refs/heads/linux.zip)
 
 ### Credits
 - [GoopSwagger](https://gamebanana.com/members/1672887) - Helped with the VTFs for the meters
@@ -20,4 +20,4 @@ Linux version of CenterHUD. Please keep the folder name as "center-hud-linux" it
 - [TF2HudReference](https://github.com/JarateKing/TF2-Hud-Reference) - Helpful tutorial for starting HUD making
 
 ### Links :
-[Images](https://imgur.com/a/0rIwB00)  [Overview Trailer](https://youtu.be/x7PHVyhndsc)  [Infomercial Trailer](https://youtu.be/G39x7-gmCzU)  [ComfigHuds](https://comfig.app/huds/page/center-hud/)  [TF2Huds](https://tf2huds.dev/hud/Center-Hud)  [GameBanana](https://gamebanana.com/mods/485626)  [TF2C Version](https://gamebanana.com/mods/485290)
+[Images](https://imgur.com/a/0rIwB00)  [Overview Trailer](https://youtu.be/x7PHVyhndsc)  [Infomercial Trailer](https://youtu.be/G39x7-gmCzU)  [ComfigHuds](https://comfig.app/huds/page/center-hud/)  [TF2Huds](https://tf2huds.dev/hud/Center-Hud)  [GameBanana](https://gamebanana.com/mods/485626)

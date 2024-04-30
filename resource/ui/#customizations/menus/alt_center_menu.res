@@ -833,8 +833,8 @@
 	}
 	"AchievementsButton"
 	{
-		"xpos"			"c-60"
-		"ypos"			"438"
+		"xpos"			"-2"
+		"ypos"			"0"
 		"wide"			"26"
 		"tall"			"26"
 
@@ -853,8 +853,8 @@
 	}
 	"CommentaryButton"
 	{
-		"xpos"			"c-36"
-		"ypos"			"438"
+		"xpos"			"-2"
+		"ypos"			"0"
 		"wide"			"26"
 		"tall"			"26"
 
@@ -873,8 +873,8 @@
 	}
 	"CoachPlayersButton"
 	{
-		"xpos"			"c-12"
-		"ypos"			"438"
+		"xpos"			"-2"
+		"ypos"			"0"
 		"wide"			"26"
 		"tall"			"26"
 
@@ -893,8 +893,8 @@
 	}
 	"WorkshopButton"
 	{
-		"xpos"			"c12"
-		"ypos"			"438"
+		"xpos"			"-2"
+		"ypos"			"0"
 		"wide"			"26"
 		"tall"			"26"
 
@@ -913,8 +913,8 @@
 	}
 	"ReportBugButton"
 	{
-		"xpos"			"c36"
-		"ypos"			"438"
+		"xpos"			"-2"
+		"ypos"			"0"
 		"wide"			"26"
 		"tall"			"26"
 
@@ -933,14 +933,16 @@
 	}
 	"TF2SettingsButton"
 	{
-		"xpos"			"c60"
-		"ypos"			"438"
+		"xpos"			"-2"
+		"ypos"			"0"
 		"wide"			"26"
 		"tall"			"26"
 
 		"border_default"    "MainMenuButtonDefault"
 		"border_armed"      "MainMenuButtonArmed"
 		"paintbackground"   "0"
+
+		"defaultFgColor_override" "46 43 42 255"
 
 		"image_drawcolor"	"20 20 20 255"
 		"SubImage"
