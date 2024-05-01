@@ -11,7 +11,7 @@
 		
 		"FreezePanelHealth"
 		{
-			"wide"			"55"
+			"wide"			"65"
 		}	
 
 		"FreezeLabelKiller"
