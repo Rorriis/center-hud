@@ -8,10 +8,10 @@
 			{
 				"ControlName"						"EditablePanel"
 				"fieldName"							"Refont"
-				"xpos"								"424"
+				"xpos"								"356"
 				"ypos"								"242"
 				"zpos"								"0"
-				"wide"								"73"
+				"wide"								"75"
 				"tall"								"70"
 				"visible"							"1"
 				"enabled"							"1"
