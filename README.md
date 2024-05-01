@@ -1,7 +1,7 @@
 ![centerhudlogo](https://github.com/Eerorri/center-hud/assets/97610612/6b637874-0b04-4d00-95e2-116845c3dc72)
 
 ### Description
-A TF2 HUD focused on putting critical HUD info in the center, while keeping the artstyle of TF2 and improving certain aspects.
+A TF2 HUD focused on putting critical HUD info in the center, while keeping the artstyle of TF2, adding customization and fixing things.
 
 ### Downloads
 - [Stable versions](https://github.com/Eerorri/center-hud/releases)
@@ -21,4 +21,4 @@ A TF2 HUD focused on putting critical HUD info in the center, while keeping the 
 - [TF2HudReference](https://github.com/JarateKing/TF2-Hud-Reference) - Helpful tutorial for starting HUD making
 
 ### Links :
-[Images](https://imgur.com/a/0rIwB00)  [Overview Trailer](https://youtu.be/x7PHVyhndsc)  [Infomercial Trailer](https://youtu.be/G39x7-gmCzU)  [ComfigHuds](https://comfig.app/huds/page/center-hud/)  [TF2Huds](https://tf2huds.dev/hud/Center-Hud)  [GameBanana](https://gamebanana.com/mods/485626)
+  [Images](https://imgur.com/a/0rIwB00)  [Overview Trailer](https://youtu.be/x7PHVyhndsc)  [Infomercial Trailer](https://youtu.be/G39x7-gmCzU)  [ComfigHuds](https://comfig.app/huds/page/center-hud/)  [TF2Huds](https://tf2huds.dev/hud/Center-Hud)  [GameBanana](https://gamebanana.com/mods/485626)
