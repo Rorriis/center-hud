@@ -3,6 +3,7 @@
 
 #base "../../../../cfg/centerhud/hud_last_damage.txt"
 #base "../../../../cfg/centerhud/hud_float_damage.txt"
+#base "../../../../cfg/centerhud/hud_float_damage_big.txt"
 
 // BASE
 
