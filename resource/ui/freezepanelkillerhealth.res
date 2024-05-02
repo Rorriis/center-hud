@@ -4,4 +4,4 @@
 
 // BASE
 
-#base "#customizations/health/freezepanelkillerhealth.res"
+#base "#customizations/targetid/freezepanelkillerhealth.res"

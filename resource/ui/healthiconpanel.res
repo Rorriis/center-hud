@@ -4,5 +4,5 @@
 
 // BASE
 
-#base "#customizations/health/healthiconpanel.res"
+#base "#customizations/targetid/healthiconpanel.res"
 

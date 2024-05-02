@@ -521,7 +521,7 @@
 						"mouseinputenabled"					"0"
 						"scaleImage"						"1"
 						"proportionaltoparent"				"1"
-						"image"								"replay/thumbnails/customizations/menu_ico_center"
+						"image"								"replay/thumbnails/customizations/menu_ico_tf"
 					}
 					"ButtonIconsStyleTF_Button"
 					{
@@ -537,7 +537,7 @@
 						"proportionaltoparent"				"1"
 						"labelText"							""
 						"font"								""
-						"command"							"engine hud_menuico_clear"
+						"command"							"engine hud_menuico_tf"
 						"actionsignallevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
 					}
@@ -577,7 +577,7 @@
 						"mouseinputenabled"					"0"
 						"scaleImage"						"1"
 						"proportionaltoparent"				"1"
-						"image"								"replay/thumbnails/customizations/menu_ico_tf"
+						"image"								"replay/thumbnails/customizations/menu_ico_center"
 					}
 					"ButtonIconsStyleCenter_Button"
 					{
@@ -593,7 +593,7 @@
 						"proportionaltoparent"				"1"
 						"labelText"							""
 						"font"								""
-						"command"							"engine hud_menuico_tf"
+						"command"							"engine hud_menuico_clear"
 						"actionsignallevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
 					}
