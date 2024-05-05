@@ -79,7 +79,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MannUpQueueButton"
-		"xpos"			"106"
+		"xpos"			"100"
 		"ypos"			"rs1-8"
 		"zpos"			"100"
 		"wide"			"170"
@@ -111,7 +111,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BootCampToolTipButtonHack"
-		"xpos"			"5"
+		"xpos"			"6"
 		"ypos"			"rs1-8"
 		"zpos"			"101"
 		"wide"			"270"
@@ -128,10 +128,10 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"BootCampQueueButton"
-		"xpos"			"5"
+		"xpos"			"6"
 		"ypos"			"rs1-8"
 		"zpos"			"100"
-		"wide"			"270"
+		"wide"			"260"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -160,7 +160,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"NextButton"
-		"xpos"			"cs-0.5"
+		"xpos"			"6"
 		"ypos"			"rs1-8"
 		"zpos"			"100"
 		"wide"			"f18"
@@ -189,7 +189,7 @@
 	{
 		"ControlName"		"CheckButton"
 		"fieldName"		"JoinLateCheckButton"
-		"xpos"		"rs1"
+		"xpos"		"rs1-10"
 		"ypos"		"rs1-9"
 		"zpos"		"50"
 		"wide"		"140"
@@ -203,7 +203,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"JoinLateLabel"
-		"xpos"		"rs1"
+		"xpos"		"rs1-10"
 		"ypos"		"rs1-9"
 		"zpos"		"50"
 		"wide"		"115"

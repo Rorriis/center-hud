@@ -111,7 +111,7 @@
 						"proportionaltoparent"				"1"
 						"labelText"							""
 						"font"								""
-						"command"							"engine hud_alt_disguise_off; hud_alt_freezepanel_off; hud_alt_freezehealth_off; hud_alt_healthiconpanel_off; hud_alt_spectatorhealth_off; hud_alt_spectatortournament_off; hud_alt_spectourguihealth_off; hud_alt_targetid_off"
+						"command"							"engine hud_targetid_off"
 						"actionsignallevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
 					}
@@ -187,7 +187,7 @@
 						"proportionaltoparent"				"1"
 						"labelText"							""
 						"font"								""
-						"command"							"engine hud_alt_disguise_on; hud_alt_freezepanel_on; hud_alt_freezehealth_on; hud_alt_healthiconpanel_on; hud_alt_spectatorhealth_on; hud_alt_spectatortournament_on; hud_alt_spectourguihealth_on; hud_alt_targetid_on"
+						"command"							"engine hud_targetid_on"
 						"actionsignallevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
 					}
