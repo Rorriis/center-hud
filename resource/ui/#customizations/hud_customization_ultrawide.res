@@ -75,7 +75,7 @@
 						"labelText"							"Enable"
 						"font"								"ItemFontNameSmall"
 						"textAlignment"						"center"
-						"command"							"engine hud_textfix_on; hud_teamfix_on; hud_statfix_on; hud_mapfix_on; hud_introfix_on; hud_tourfix_on; hud_statusfix_on; hud_arenafix_on; hud_classfix_on"
+						"command"							"engine hud_ultrawide_on"
 						"actionsignallevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
 
@@ -103,7 +103,7 @@
 						"font"								"ItemFontNameSmall"
 						"textAlignment"						"center"
 						"font"								""
-						"command"							"engine hud_textfix_off; hud_teamfix_off; hud_statfix_off; hud_mapfix_off; hud_introfix_off; hud_tourfix_off; hud_statusfix_off; hud_arenafix_off; hud_classfix_off"
+						"command"							"engine hud_ultrawide_off"
 						"actionsignallevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
 
