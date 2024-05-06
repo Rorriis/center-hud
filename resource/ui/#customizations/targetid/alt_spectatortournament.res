@@ -45,14 +45,14 @@
 			
 			"HealthIcon"
 			{
-				"xpos"				"13"
-				"wide"				"55"
+				"xpos"				"8"
+				"wide"				"42"
 			}
 			
 			"chargeamount"
 			{
-				"xpos"			"25"
-				"ypos"			"17"
+				"xpos"			"22"
+				"ypos"			"20"
 				"textAlignment"	"north"
 			}
 		}
