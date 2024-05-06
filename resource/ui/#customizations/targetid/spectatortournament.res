@@ -203,7 +203,7 @@
 				"visible"		"1"
 				"labelText"		"%chargeamount%"
 				"textAlignment"	"south"
-				"fgcolor"		"0 255 0 255"
+				"fgcolor"		"255 255 0 255"
 			}
 			
 			"specindex"
