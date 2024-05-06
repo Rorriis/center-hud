@@ -45,7 +45,7 @@
 					"bgcolor_override"					"StoreGreen"
 				}
 				
-				"TargetID_DEFAULT"
+				"TargetID_CROSS"
 				{
 					"ControlName"						"EditablePanel"
 					"fieldName"							"TargetID_DEFAULT"
@@ -117,7 +117,7 @@
 					}
 				}
 				
-				"TargetID_ALTERNATE"
+				"TargetID_NUMBERS"
 				{
 					"ControlName"						"EditablePanel"
 					"fieldName"							"TargetID_ALTERNATE"

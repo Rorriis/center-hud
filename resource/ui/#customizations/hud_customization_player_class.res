@@ -1,13 +1,13 @@
-"resource/ui/#customizations/hud_customization_player_model.res"
+"resource/ui/#customizations/hud_customization_player_class.res"
 {
 	"SafeMode"
 	{
 		"Customizations_Scroller"
 		{
-			"Player_Model"
+			"Player_Class"
 			{
 				"ControlName"						"EditablePanel"
-				"fieldName"							"Player_Model"
+				"fieldName"							"Player_class"
 				"xpos"								"289"
 				"ypos"								"80"
 				"zpos"								"0"
@@ -45,10 +45,10 @@
 					"bgcolor_override"					"StoreGreen"
 				}
 				
-				"Player_Model_ON"
+				"Player_Class_ON"
 				{
 					"ControlName"						"EditablePanel"
-					"fieldName"							"Player_Model_ON"
+					"fieldName"							"Player_Class_ON"
 					"xpos"								"3"
 					"ypos"								"16"
 					"zpos"								"20"
@@ -61,10 +61,10 @@
 					"paintBackgroundType"				"0"
 					"bgcolor_override"					"FooterBGBlack"
 
-					"Player_Model_Title"
+					"Player_Class_Title"
 					{
 						"ControlName"						"CExLabel"
-						"fieldName"							"Player_Model_Title"
+						"fieldName"							"Player_Class_Title"
 						"xpos"								"cs-0.5"
 						"ypos"								"0"
 						"zpos"								"1"
@@ -81,10 +81,10 @@
 						"paintbackground"					"0"
 						"paintbackgroundtype"				"0"
 					}
-					"Player_Model_Image"
+					"Player_Class_Image"
 					{
 						"ControlName"						"ImagePanel"
-						"fieldName"							"Player_Model_Image"
+						"fieldName"							"Player_Class_Image"
 						"xpos"								"cs-0.5+2"
 						"ypos"								"cs-0.5+7"
 						"zpos"								"6"
@@ -95,12 +95,12 @@
 						"mouseinputenabled"					"0"
 						"scaleImage"						"1"
 						"proportionaltoparent"				"1"
-						"image"								"replay/thumbnails/customizations/player_model_on"
+						"image"								"replay/thumbnails/customizations/player_class_on"
 					}
-					"Player_Model_Button"
+					"Player_Class_Button"
 					{
 						"ControlName"						"CExButton"
-						"fieldName"							"Player_Model_Button"
+						"fieldName"							"Player_Class_Button"
 						"xpos"								"cs-0.5"
 						"ypos"								"rs1"
 						"zpos"								"5"
@@ -111,16 +111,16 @@
 						"proportionaltoparent"				"1"
 						"labelText"							""
 						"font"								""
-						"command"							"engine hud_player_model_on"
+						"command"							"engine hud_player_class_on"
 						"actionsignallevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
 					}
 				}
 				
-				"Player_Model_OFF"
+				"Player_Class_OFF"
 				{
 					"ControlName"						"EditablePanel"
-					"fieldName"							"Player_Model_OFF"
+					"fieldName"							"Player_Class_OFF"
 					"xpos"								"2"
 					"ypos"								"0"
 					"zpos"								"20"
@@ -133,14 +133,14 @@
 					"paintBackgroundType"				"0"
 					"bgcolor_override"					"FooterBGBlack"
 
-					"pin_to_sibling"					"Player_Model_ON"
+					"pin_to_sibling"					"Player_Class_ON"
 					"pin_corner_to_sibling"				"PIN_BOTTOMLEFT"
 					"pin_to_sibling_corner"				"PIN_BOTTOMRIGHT"
 
-					"Player_Model_Title"
+					"Player_Class_Title"
 					{
 						"ControlName"						"CExLabel"
-						"fieldName"							"Player_Model_Title"
+						"fieldName"							"Player_Class_Title"
 						"xpos"								"cs-0.5"
 						"ypos"								"0"
 						"zpos"								"1"
@@ -157,10 +157,10 @@
 						"paintbackground"					"0"
 						"paintbackgroundtype"				"0"
 					}
-					"Player_Model_Image"
+					"Player_Class_Image"
 					{
 						"ControlName"						"ImagePanel"
-						"fieldName"							"Player_Model_Image"
+						"fieldName"							"Player_Class_Image"
 						"xpos"								"cs-0.5+2"
 						"ypos"								"cs-0.5+7"
 						"zpos"								"6"
@@ -171,12 +171,12 @@
 						"mouseinputenabled"					"0"
 						"scaleImage"						"1"
 						"proportionaltoparent"				"1"
-						"image"								"replay/thumbnails/customizations/player_model_off"
+						"image"								"replay/thumbnails/customizations/player_class_off"
 					}
-					"Player_Model_Button"
+					"Player_Class_Button"
 					{
 						"ControlName"						"CExButton"
-						"fieldName"							"Player_Model_Button"
+						"fieldName"							"Player_Class_Button"
 						"xpos"								"cs-0.5"
 						"ypos"								"rs1"
 						"zpos"								"5"
@@ -187,7 +187,7 @@
 						"proportionaltoparent"				"1"
 						"labelText"							""
 						"font"								""
-						"command"							"engine hud_player_model_off"
+						"command"							"engine hud_player_class_off"
 						"actionsignallevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
 					}
