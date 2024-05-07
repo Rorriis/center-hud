@@ -1,6 +1,8 @@
 
 Please keep the HUDs folder name as "center-hud-linux", changing it will break addons
 
+Some customizations, like the menu things, crosshair color and generic font need a game restart to apply
+
 Aspect ratios that are lower than 4:3, like 5:4 or 1:1 are not supported
 
 For the transparent viewmodels; if you're using mastercomfig, get the addon from the website, but if not then put this in your autoexec file in "tf/cfg/autoexec.cfg" or create one if it doesn't exist
