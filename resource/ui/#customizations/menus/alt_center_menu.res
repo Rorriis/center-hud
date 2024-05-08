@@ -30,7 +30,7 @@
 
 	"CycleRankTypeButton"
 	{
-		"xpos"			"c104"
+		"xpos"			"c110"
 	}
 
 	"RankTooltipPanel"
