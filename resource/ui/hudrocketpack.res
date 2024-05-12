@@ -25,6 +25,7 @@
 		"wide"			"90"
 		"tall"			"45"
 		"visible"		"1"
+		"visible_minmode"	"0"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/meter/hud_main_meter"
 		"scaleImage"	"1"
