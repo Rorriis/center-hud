@@ -2,6 +2,7 @@
 {
 	"PlayerStatusSpyOutlineImage"
 	{
+		"visible"			"1"
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"PlayerStatusSpyOutlineImage"
 		"xpos"				"c-260"
@@ -13,7 +14,6 @@
 		"wide_minmode"		"27"
 		"tall"				"55"
 		"tall_minmode"		"27"
-		"visible"			"1"
 		"enabled"			"1"
 		"image"				"../hud/class_spy_outline"
 		"scaleImage"		"1"	
