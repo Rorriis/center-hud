@@ -2767,14 +2767,14 @@
 	}
 	"ChatPopupPin"
 	{
-		"xpos"			"c-336"
-		"ypos"			"-8"
+		"xpos"			"c-344"
+		"ypos"			"-10"
 		"ControlName"    "Panel"
 	}
 	"InviteNotifPin"
 	{
-		"xpos"			"c-339"
-		"ypos"			"-8"
+		"xpos"			"c-347"
+		"ypos"			"-10"
 		"ControlName"    "Panel"
 	}
 }
