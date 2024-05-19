@@ -2765,16 +2765,4 @@
 		"fieldName"		"StoreHasNewItemsImage"
 		"wide"			"0"
 	}
-	"ChatPopupPin"
-	{
-		"xpos"			"c-344"
-		"ypos"			"-10"
-		"ControlName"    "Panel"
-	}
-	"InviteNotifPin"
-	{
-		"xpos"			"c-347"
-		"ypos"			"-10"
-		"ControlName"    "Panel"
-	}
 }

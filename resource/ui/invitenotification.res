@@ -13,7 +13,7 @@
 		"bgcolor_override"	"255 0 0 250"
 
 		"pin_to_sibling"	"InviteNotifPin"
-		"pin_to_sibling_corner"	"3"
+		"pin_to_sibling_corner" "7"
 	}
 
 	"avatar"
@@ -111,7 +111,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"AcceptButton"
-		"xpos"			"rs1-70"
+		"xpos"			"rs1-68"
 		"ypos"			"rs1-5"
 		"wide"			"80"
 		"zpos"			"100"
