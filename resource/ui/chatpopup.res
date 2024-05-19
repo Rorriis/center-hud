@@ -8,11 +8,11 @@
 		"tall"			"30"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
-		"pin_to_sibling"	"ChatPopupPin"
-		"pin_to_sibling_corner"	"3"
-
 		"paintbackground"	"0"
 		"bgcolor_override"	"255 0 0 250"
+
+		"pin_to_sibling"	"ChatPopupPin"
+		"pin_to_sibling_corner" "7"
 	}
 
 	"text"

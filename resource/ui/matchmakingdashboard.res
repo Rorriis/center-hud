@@ -526,7 +526,7 @@
 			{
 				"ControlName"	"Label"
 				"fieldName"		"PromptText"
-				"xpos"			"cs-0.5"
+				"xpos"			"8"
 				"ypos"			"1"
 				"wide"			"f35"
 				"zpos"			"100"
@@ -545,9 +545,9 @@
 			{
 				"ControlName"	"CExButton"
 				"fieldName"		"JoinNowButton"
-				"xpos"			"rs1-10"
+				"xpos"			"rs1-6"
 				"ypos"			"rs1-9"
-				"wide"			"40"
+				"wide"			"35"
 				"zpos"			"100"
 				"tall"			"15"
 
