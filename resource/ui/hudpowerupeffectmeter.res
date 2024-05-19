@@ -1,15 +1,12 @@
-#base "huditemeffectmeter_cleaver.res"
+#base "meter/huditemeffectmeter_secondary.res"
 
-"Resource/UI/HudItemEffectMeter.res"
+"Resource/UI/HudPowerUpEffectMeter.res"
 {
 	HudItemEffectMeter
 	{
-		"xpos"			"170"	[$WIN32]
-		"ypos_minmode"	"r106"	[$WIN32]
+		"xpos"			"c-322"
+		"ypos"			"r92"
+		"xpos_minmode"	"c-312"
+		"ypos_minmode"	"r58"
 	}
-	
-	"ItemEffectMeterLabel"
-	{
-		"allcaps"		"1"
-	}				
 }
