@@ -722,7 +722,7 @@
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"roundedcorners"	"1"
-			"textinsety"	"5"
+			"textinsety"	"8"
 			"textinsetx"	"22"
 			"use_proportional_insets"	"1"
 
@@ -780,8 +780,8 @@
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"roundedcorners"	"1"
-			"textinsety"	"5"
-			"textinsetx"	"25"
+			"textinsety"	"8"
+			"textinsetx"	"24"
 			"use_proportional_insets"	"1"
 
 			"sound_depressed"	"UI/buttonclick.wav"
