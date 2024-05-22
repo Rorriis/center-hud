@@ -226,10 +226,10 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"c-170"
-		"xpos_minmode"			"c-160"
-		"ypos"					"r152"
-		"ypos_minmode"			"r134"
+		"xpos"					"c-196"
+		"xpos_minmode"			"c-196"
+		"ypos"					"r158"
+		"ypos_minmode"			"r124"
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
