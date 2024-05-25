@@ -7,9 +7,7 @@ exec joystick.cfg
 
 // run a user script file if present
 exec autoexec.cfg
-exec hud_firstrun.cfg
-exec hud_customizations.cfg
-exec hud_crosshair.cfg
+exec center_hud_init.cfg
 
 //
 // stuff command line statements

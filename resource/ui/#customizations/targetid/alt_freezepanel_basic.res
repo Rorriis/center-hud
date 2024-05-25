@@ -3,27 +3,27 @@
 	"FreezePanelBase"
 	{
 		"FreezeLabel"
-		{	
-			"xpos"			"60"
+		{
+			"xpos"			"48"
 			"ypos"			"165"
 			"wide"			"230"
 		}
-		
+
 		"FreezePanelHealth"
 		{
-			"xpos"			"4"
-			"wide"			"55"
-		}	
+			"xpos"			"12"
+			"wide"			"30"
+		}
 
 		"FreezeLabelKiller"
-		{	
-			"xpos"			"71"
+		{
+			"xpos"			"60"
 			"wide"			"242"
 		}
 
 		"AvatarImage"
 		{
-			"xpos"			"60"
-		}	
+			"xpos"			"50"
+		}
 	}
 }

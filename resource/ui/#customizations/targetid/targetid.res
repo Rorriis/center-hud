@@ -18,12 +18,12 @@
 		"teambg_1"		"../hud/color_panel_brown"
 		"teambg_2"		"../hud/color_panel_red"
 		"teambg_3"		"../hud/color_panel_blu"
-		
+
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
-			
+
 		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_height" 	"5"
 	}
 	"TargetIDBG_Spec_Blue"
 	{
@@ -39,10 +39,10 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_blu"
-		
+
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
-			
+
 		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"5"
 	}
@@ -60,22 +60,22 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_red"
-		
+
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
-			
+
 		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"5"
 	}
-	
+
 	"TargetNameLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabel"
 		"font"			"HudFontSmall"
 		"font_minmode"	"HudFontSmallest"
 		"xpos"			"8"
-		"xpos_minmode"	"30"
+		"xpos_minmode"	"32"
 		"ypos"			"5"
 		"ypos_minmode"	"5"
 		"zpos"			"1"
@@ -91,15 +91,15 @@
 		"brighttext"		"0"
 	}
 	"TargetDataLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"TargetDataLabel"
 		"font"			"FontStoreOriginalPrice"
-		"font_minmode"	"DefaultVerySmall"
+		"font_minmode"	"DefaultSmall"
 		"xpos"			"8"
 		"xpos_minmode"	"30"
 		"ypos"			"17"
-		"ypos_minmode"	"12"
+		"ypos_minmode"	"13"
 		"zpos"			"1"
 		"wide"			"280"
 		"tall"			"15"
@@ -121,22 +121,23 @@
 		"ypos"			"2"
 		"ypos_minmode"	"0"
 		"wide"			"32"
+		"wide_minmode"	"24"
 		"tall"			"32"
 		"visible"		"0"
-		"enabled"		"0"	
+		"enabled"		"0"
 		"HealthBonusPosAdj"	"10"
 		"HealthDeathWarning"	"0.49"
 		"TFFont"		"HudFontSmall"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"		"HudOffWhite"
-	}	
-	
+	}
+
 	"AmmoIcon"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
-		"xpos"			"40"
-		"xpos_minmode"	"38"
+		"xpos"			"42"
+		"xpos_minmode"	"32"
 		"ypos"			"20"
 		"ypos_minmode"	"16"
 		"zpos"			"12"
@@ -147,7 +148,7 @@
 		"image"			"../hud/hud_obj_status_ammo_64"
 		"scaleImage"	"1"
 	}
-	
+
 	"KillStreakIcon"
 	{
 		"ControlName"	"ImagePanel"
@@ -164,7 +165,7 @@
 		"image"			"../hud/leaderboard_streak"
 		"scaleImage"	"1"
 	}
-	
+
 	"MoveableSubPanel"
 	{
 		"ControlName"		"EditablePanel"
@@ -175,8 +176,8 @@
 		"wide"			"32"
 		"tall"			"36"
 		"visible"		"1"
-		"enabled"		"1"	
-		
+		"enabled"		"1"
+
 		"MoveableIconBG"
 		{
 			"ControlName"	"CIconPanel"
@@ -192,7 +193,7 @@
 			"iconColor"		"HudBlack"
 			"scaleImage"	"1"
 		}
-		
+
 		"MoveableIcon"
 		{
 			"ControlName"	"CIconPanel"
@@ -225,7 +226,7 @@
 		}
 
 		"MoveableKeyLabel"
-		{	
+		{
 			"ControlName"		"Label"
 			"fieldName"		"MoveableKeyLabel"
 			"font"			"TFFontMedium"
@@ -243,7 +244,7 @@
 			"textAlignment"		"North"
 			"dulltext"		"0"
 			"brighttext"		"0"
-		}	
+		}
 	}
 	"AvatarImage"
 	{
@@ -258,7 +259,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			""
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"color_outline"	"52 48 45 255"
-	}	
+	}
 }

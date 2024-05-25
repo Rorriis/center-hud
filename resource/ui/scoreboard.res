@@ -647,8 +647,8 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
 		
-		"xpos"			"-10"
-		"ypos"			"183"
+		"xpos"			"-8"
+		"ypos"			"185"
 		"zpos"			"10"		
 		"wide"			"130"
 		"tall"			"260"
@@ -658,33 +658,31 @@
 		"enabled"		"1"
 		
 		"render_texture"	"0"
-		"fov"			"18"
+		"fov"			"20"
 		"allow_rot"		"1"
 
 		"disable_speak_event"	"1"
 
 		if_mvm
 		{
-		    "ypos"			"rs1.140"
+		    "ypos"			"rs1.138"
 			"visible"		"0"
 		}
 				
 		"model"
 		{
-			"force_pos"	"1"
-
-			"angles_x" "0"
-			"angles_y" "172"
-			"angles_z" "0"
-			"origin_x" "200"
-			"origin_y" "0"
-			"origin_z" "-100"
+			"force_pos"			"1"
+			"angles_x"			"-10"
+			"angles_y"			"202"
+			"angles_z"			"0"
+			"origin_x"			"200"
+			"origin_y"			"0"
+			"origin_z"			"-105"
 			"frame_origin_x"	"0"
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
-			"spotlight" "1"
-		
-			"modelname"		""
+			"spotlight"			"1"
+			"modelname"			""
 		}
 	}
 	"PlayerNameBG"
