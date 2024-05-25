@@ -1,5 +1,11 @@
 "Resource/UI/SpectatorGUIHealth.res"
 {
+	"PlayerStatusHealthValue"
+	{
+		"xpos"			"9999"
+		"xpos_minmode"	"9999"
+	}
+
 	"PlayerStatusHealthImage"
 	{
 		"xpos"			"9999"
@@ -10,54 +16,29 @@
 		"xpos"			"9999"
 		"xpos_minmode"	"9999"
 	}
-	"BuildingStatusHealthImageBG"
-	{
-		"xpos"			"9999"
-		"xpos_minmode"	"9999"
-	}
+
 	"PlayerStatusHealthBonusImage"
 	{
-		"xpos"			"9999"
-		"xpos_minmode"	"9999"
+		"xpos_minmode"	"10"
 	}
-	"PlayerStatusHealthValue"
-	{
-		"xpos"			"9999"
-		"xpos_minmode"	"9999"
-	}
-	"PlayerHealthValue"
+
+	"PlayerStatusHealthValueTargetID"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerHealthValue"
-		"xpos"			"0"
-		"ypos"			"0"
+		"fieldName"		"PlayerStatusHealthValueTargetID"
+		"xpos"			"2"
+		"xpos_minmode"	"1"		//"7"
+		"ypos"			"11"
+		"ypos_minmode"	"9"		//"7"
 		"zpos"			"6"
-		"wide"			"55"
-		"tall"			"32"
-		"tall_minmode"	"27"
+		"wide"			"30"
+		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"HudFontMediumSmallBold"
-		"fgcolor"		"TanLight"
-	}
-	"PlayerHealthValueShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerHealthValueShadow"
-		"xpos"			"-2"
-		"ypos"			"-2"
-		"zpos"			"5"
-		"wide"			"55"
-		"tall"			"32"
-		"tall_minmode"	"27"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%Health%"
-		"textAlignment"	"center"
-		"font"			"HudFontMediumSmallBold"
-		"fgcolor"		"Black"
-		"pin_to_sibling"	"PlayerHealthValue"
+		"labeltext"			"%Health%"
+		"font"				"HudFontSmallBold"
+		"fgcolor"  "TanLight"
 	}
 }
