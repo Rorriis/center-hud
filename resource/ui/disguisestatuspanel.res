@@ -37,7 +37,7 @@
 		"ypos"			"30"
 		"ypos_minmode"			"48"
 		"zpos"			"-1"
-		"wide"			"92"
+		"wide"			"94"
 		"tall"	 		"32"
 		"tall_minmode"	 		"22"
 		"autoResize"		"0"
@@ -70,7 +70,7 @@
 		"ypos"			"34"
 		"ypos_minmode"	"51"
 		"zpos"			"1"
-		"wide"			"54"
+		"wide"			"58"
 		"tall"			"14"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -93,7 +93,7 @@
 		"ypos"			"47"
 		"ypos_minmode"	"58"
 		"zpos"			"1"
-		"wide"			"54"
+		"wide"			"58"
 		"tall"			"14"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -123,6 +123,7 @@
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"		"HudOffWhite"
 	}
+
 	"SpywalkBG"
 	{
 		"ControlName"	"CTFImagePanel"
