@@ -336,11 +336,11 @@
 	{
 		"ControlName"		"CCurrencyStatusPanel"
 		"fieldName"			"CurrencyStatusPanel"
-		"xpos"				"c-260"
+		"xpos"				"c-262"
 		"ypos"				"r100"
 		"wide"				"100"
 		"tall"				"100"
-		"xpos_minmode"		"c-270"
+		"xpos_minmode"		"c-272"
 		"ypos_minmode"		"r88"
 		"visible" 			"0"
 		"enabled" 			"1"
