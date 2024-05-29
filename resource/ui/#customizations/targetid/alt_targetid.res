@@ -2,10 +2,10 @@
 {
 	"SpectatorGUIHealth"
 	{
-		"wide_minmode"	"26"
+		"wide_minmode"	"28"
 	}
 	"AmmoIcon"
 	{
-		"xpos_minmode"	"34"
+		"xpos_minmode"	"38"
 	}
 }
