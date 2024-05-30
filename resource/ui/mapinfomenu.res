@@ -4,5 +4,5 @@
 
 // BASE
 
-#base "#customizations/ultrawidefix/mapinfomenu.res"
+#base "#base/mapinfomenu.res"
 

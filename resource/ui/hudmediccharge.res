@@ -4,4 +4,4 @@
 
 // BASE
 
-#base "#customizations/uber/uber_base.res"
+#base "#base/default_uber_base.res"

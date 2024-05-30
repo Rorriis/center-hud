@@ -4,5 +4,5 @@
 
 // BASE
 
-#base "#customizations/ultrawidefix/hudtournament.res"
+#base "#base/hudtournament.res"
 

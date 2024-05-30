@@ -4,5 +4,5 @@
 
 // BASE
 
-#base "#customizations/ultrawidefix/statsummary.res"
+#base "#base/statsummary.res"
 #base "statsummary_embedded.res"

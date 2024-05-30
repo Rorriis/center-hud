@@ -4,4 +4,4 @@
 
 // BASE
 
-#base "#customizations/targetid/spectatorguihealth.res"
+#base "#base/spectatorguihealth.res"

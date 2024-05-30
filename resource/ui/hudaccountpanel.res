@@ -4,4 +4,4 @@
 
 // BASE
 
-#base "#customizations/metal/default_metal_base.res"
+#base "#base/default_metal_base.res"

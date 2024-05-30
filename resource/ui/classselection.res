@@ -4,4 +4,4 @@
 
 // BASE
 
-#base "#customizations/ultrawidefix/classselection.res"
+#base "#base/classselection.res"
