@@ -4,4 +4,4 @@
 
 // BASE
 
-#base "#customizations/targetid/targetid.res"
+#base "#base/targetid.res"

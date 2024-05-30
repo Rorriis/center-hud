@@ -4,4 +4,4 @@
 
 // BASE
 
-#base "#customizations/targetid/freezepanel_basic.res"
+#base "#base/freezepanel_basic.res"

@@ -4,4 +4,4 @@
 
 // BASE
 
-#base "#customizations/ultrawidefix/textwindow.res"
+#base "#base/textwindow.res"

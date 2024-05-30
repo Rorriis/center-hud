@@ -4,4 +4,4 @@
 
 // BASE
 
-#base "#customizations/ultrawidefix/roundinfo.res"
+#base "#base/roundinfo.res"

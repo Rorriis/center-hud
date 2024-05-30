@@ -4,4 +4,4 @@
 
 // BASE
 
-#base "#customizations/ultrawidefix/hudmatchstatus.res"
+#base "#base/hudmatchstatus.res"

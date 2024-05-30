@@ -5,7 +5,7 @@
 
 // BASE
 
-#base "#customizations/menus/default_menu.res"
+#base "#base/default_menu.res"
 #base "../../resource/preload.res"
 #base "#customizations/hud_customization.res"
 
