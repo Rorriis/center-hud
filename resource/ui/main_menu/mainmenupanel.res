@@ -1083,7 +1083,7 @@
 	{
 		"ControlName"			"CTFButton"
 		"fieldName"				"NotificationButton"
-		"xpos"					"258"
+		"xpos"					"c-45"
 		"ypos"					"238"
 		"zpos"					"11"
 		"wide"					"24"
