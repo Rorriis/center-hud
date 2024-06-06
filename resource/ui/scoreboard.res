@@ -365,7 +365,9 @@
 		"labelText"		"%server%"
 		"textAlignment"		"west"
 		"xpos"			"11"
+		"xpos_hidef"	"31"
 		"ypos"			"60"
+		"ypos_lodef"	"62"
 		"wide"			"300"
 		"tall"			"20"
 		"autoResize"	"0"
@@ -628,7 +630,8 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"ClassImage"
 		"xpos"			"22"
-		"ypos"			"352"
+		"xpos_lodef"	"12"
+		"ypos"			"rs1.392"
 		"zpos"			"3"
 		"wide"			"92"
 		"tall"			"92"
@@ -639,6 +642,7 @@
 		
 		if_mvm
 		{
+		    "ypos"			"rs1.390"
 			"visible"		"1"
 		}
 	}
@@ -647,8 +651,8 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
 		
-		"xpos"			"-8"
-		"ypos"			"185"
+		"xpos"			"-10"
+		"ypos"			"rs1.140"
 		"zpos"			"10"		
 		"wide"			"130"
 		"tall"			"260"
@@ -658,20 +662,21 @@
 		"enabled"		"1"
 		
 		"render_texture"	"0"
-		"fov"			"20"
+		"fov"			"18"
 		"allow_rot"		"1"
 
 		"disable_speak_event"	"1"
 
 		if_mvm
 		{
-		    "ypos"			"rs1.138"
+		    "ypos"			"rs1.140"
 			"visible"		"0"
 		}
 				
 		"model"
 		{
 			"force_pos"			"1"
+
 			"angles_x"			"-10"
 			"angles_y"			"202"
 			"angles_z"			"0"
@@ -681,8 +686,9 @@
 			"frame_origin_x"	"0"
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
-			"spotlight"			"1"
-			"modelname"			""
+			"spotlight" "1"
+
+			"modelname"		""
 		}
 	}
 	"PlayerNameBG"
@@ -1048,7 +1054,7 @@
 			"visible"		"1"
 		}
 
-		"KDColon"	//colon KD divider
+		"KDColon"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"KDcolon"
@@ -1065,7 +1071,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}
-		"KDColonShadow"	//colon KD divider
+		"KDColonShadow"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"KDcolonShadow"
@@ -1685,7 +1691,6 @@
 			"enabled"		"1"
 		}
 	}
-	
 	"MvMScoreboard"
 	{
 		"ControlName"		"CTFHudMannVsMachineScoreboard"

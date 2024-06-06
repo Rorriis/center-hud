@@ -5,7 +5,7 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-324"
+		"xpos"			"c-326"
 		"ypos"			"r56"
 		"xpos_minmode"	"c-314"
 		"ypos_minmode"	"r40"
@@ -14,6 +14,7 @@
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
+
 	"ItemEffectMeterBG"
 	{
 		"ControlName"	"CTFImagePanel"
