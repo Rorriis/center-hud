@@ -38,7 +38,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
 		"labeltext"			"%Health%"
-		"font"				"HudFontSmallBold"
+		"font"				"HudFontSmallBoldShadow"
 		"fgcolor"  "TanLight"
 	}
 }
