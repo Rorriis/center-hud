@@ -16,7 +16,7 @@ Linux version of Center HUD. Please keep the folder name as "center-hud-linux" i
 ## Credits
 - [Community HUD Fixes](https://github.com/CriticalFlaw/TF2HUD.Fixes) - Fixes to the default HUD and the ingame customization menu
 - [GoopSwagger](https://gamebanana.com/members/1672887) - Helped with the VTFs for the meters
-- [Enhanced Default Hud](https://gamebanana.com/mods/385807) - Certain things have been taken from this HUD
+- [Enhanced Default HUD](https://gamebanana.com/mods/385807) - Certain things have been taken from this HUD
 - [Source Text Refont](https://gamebanana.com/mods/314848) - Replacing the generic fonts with the TF2 fonts
 - [Hypnotize](https://github.com/Hypnootize) - Menu Icons extracted from his [icon font](https://github.com/Hypnootize/TF2-HUD-Icons)
 - [Firebert_](https://gamebanana.com/mods/316578) - Maker of the original [Centered Vanilla HUD](https://gamebanana.com/mods/316578), and where I got the idea from
