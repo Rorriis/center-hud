@@ -21,7 +21,11 @@
 	{
 		"xpos_minmode"	"10"
 	}
-
+	"BuildingStatusHealthImageBG"
+	{
+		"xpos"			"1"
+		"xpos_minmode"	"4"
+	}
 	"PlayerStatusHealthValueTargetID"
 	{
 		"ControlName"	"CExLabel"
@@ -38,7 +42,26 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
 		"labeltext"			"%Health%"
-		"font"				"HudFontSmallBoldShadow"
+		"font"				"HudFontSmallBold"
 		"fgcolor"  "TanLight"
+	}
+	"PlayerStatusHealthValueTargetIDBlur"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueTargetIDBlur"
+		"xpos"			"1"
+		"xpos_minmode"	"0"
+		"ypos"			"10"
+		"ypos_minmode"	"7"
+		"zpos"			"5"
+		"wide"			"32"
+		"tall"			"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"
+		"labeltext"			"%Health%"
+		"font"				"HudFontSmallBoldBlur"
+		"fgcolor"  "TrueBlack"
 	}
 }

@@ -12,4 +12,9 @@
 		"xpos_minmode"	"2"
 		"ypos_minmode"	"11"
 	}
+	"PlayerStatusHealthValueTargetIDBlur"
+	{
+		"xpos_minmode"	"2"
+		"ypos_minmode"	"11"
+	}
 }

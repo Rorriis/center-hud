@@ -6,6 +6,7 @@ Scheme
 		"CenterWhite"				"255 255 255 255"
 		"CenterShadow"						"0 0 0 220"
 		"CenterLightShadow"					"0 0 0 110"
+		"TrueBlack"			"0 0 0 255"
 	}
 
 	"Fonts"
@@ -97,6 +98,18 @@ Scheme
 				"additive"	"0"
 				"antialias" "1"
 				"outline"	"1"
+			}
+		}
+		"HudFontSmallBoldBlur"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"14"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"3"
 			}
 		}
 		"ScoreboardMediumSmallBold"
