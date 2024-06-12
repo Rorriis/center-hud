@@ -114,7 +114,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoWatchIntro"
-		"xpos"			"c-65"
+		"xpos"			"cs-0.5"
 		"ypos"			"r38"
 		"zpos"			"6"
 		"wide"			"130"

@@ -73,14 +73,13 @@
 		"brighttext"	"0"
 		"command"		"back"
 		"font"			"HudFontSmallBold"
-		"fgcolor"		"Black"
 	}
 
 	"VideoPanel"
 	{
 		"ControlName"	"CTFVideoPanel"
 		"fieldName"		"VideoPanel"
-		"xpos"			"c-145"
+		"xpos"			"cs-0.5"
 		"ypos"			"c-183"
 		"zpos"			"3"
 		"wide"			"300"
@@ -143,7 +142,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"VideoCaption"
-		"xpos"			"c-140"
+		"xpos"			"cs-0.5"
 		"ypos"			"c42"
 		"zpos"			"6"
 		"wide"			"290"

@@ -18,7 +18,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#TF_Random"
+		"labelText"		"#TF_Arena_Menu_Fight"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"

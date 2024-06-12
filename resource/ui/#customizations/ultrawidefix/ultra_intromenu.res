@@ -30,7 +30,6 @@
 
 	"VideoCaption"
 	{
-		"xpos"			"c-140"
 		"ypos"			"c76"
 		"zpos"			"6"
 		"wide"			"290"
@@ -105,11 +104,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ChalkBG"
-		"xpos"			"c-142"
-		"ypos"			"c70"
+		"xpos"			"cs-0.5"
+		"ypos"			"0"
 		"zpos"			"-2"
 		"wide"			"294"
-		"tall"			"125"
+		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor" "TanDarker"
@@ -119,11 +118,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ChalkBG2"
-		"xpos"			"c-145"
-		"ypos"			"c70"
+		"xpos"			"cs-0.5"
+		"ypos"			"0"
 		"zpos"			"-3"
 		"wide"			"300"
-		"tall"			"125"
+		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor" "TransparentBlack"
