@@ -1,28 +1,22 @@
-![centerhudlogo](https://github.com/Eerorri/center-hud/assets/97610612/6b637874-0b04-4d00-95e2-116845c3dc72)
+![centerhud3long](https://github.com/Eerorri/center-hud/assets/97610612/fe6e4ca8-e06e-4940-9ef7-aa191a214106)
 
-## Description
-A TF2 HUD focused on putting critical HUD info in the center, while keeping the artstyle of TF2, adding customization and fixing things.
+# Center HUD
+A TF2 HUD focused on putting critical HUD info in the center, while trying to stick to the style of the default HUD, adding customization and fixing things.
 
-## Downloads
-- [Stable versions](https://github.com/Eerorri/center-hud/releases)
-- [TF2C Version](https://github.com/Eerorri/center-hud/tree/tf2c)
-- [Experimental (Windows)](https://github.com/Eerorri/center-hud/archive/refs/heads/main.zip)
-- [Experimental (Linux)](https://github.com/Eerorri/center-hud/archive/refs/heads/linux.zip)
-
-## Wiki
+# Wiki
 - [Home](https://github.com/Eerorri/center-hud/wiki)
 - [Installing the HUD](https://github.com/Eerorri/center-hud/wiki/Installing-the-HUD)
 
-## Credits
-- [Community HUD Fixes](https://github.com/CriticalFlaw/TF2HUD.Fixes) - Fixes to the default HUD and the ingame customization menu
-- [GoopSwagger](https://gamebanana.com/members/1672887) - Helped with the VTFs for the meters
-- [Enhanced Default HUD](https://gamebanana.com/mods/385807) - Certain things have been taken from this HUD
-- [Source Text Refont](https://gamebanana.com/mods/314848) - Replacing the generic fonts with the TF2 fonts
+# Credits
+- [Community HUD Fixes](https://github.com/CriticalFlaw/TF2HUD.Fixes) - Fixes to the default HUD and the base of the ingame customization menu
+- [GoopSwagger](https://gamebanana.com/members/1672887) - Helped with the item meter backgrounds
+- [Enhanced Default HUD](https://gamebanana.com/mods/385807) - Certain things have been taken from this HUD as customizations
+- [Source Text Refont](https://gamebanana.com/mods/314848) - Replacing the generic fonts with the TF2 fonts (customization)
 - [Hypnotize](https://github.com/Hypnootize) - Menu Icons extracted from his [icon font](https://github.com/Hypnootize/TF2-HUD-Icons)
-- [Firebert_](https://gamebanana.com/mods/316578) - Maker of the original [Centered Vanilla HUD](https://gamebanana.com/mods/316578), and where I got the idea from
-
-## Special Thanks
-- [TF2HudReference](https://github.com/JarateKing/TF2-Hud-Reference) - Helpful tutorial for starting HUD making
-
-## Links
-  [Images](https://imgur.com/a/0rIwB00)  [Overview Trailer](https://youtu.be/x7PHVyhndsc)  [Infomercial Trailer](https://youtu.be/G39x7-gmCzU)  [ComfigHuds](https://comfig.app/huds/page/center-hud/)  [TF2Huds](https://tf2huds.dev/hud/Center-Hud)  [GameBanana](https://gamebanana.com/mods/485626)
+- [Firebert_](https://gamebanana.com/members/1767717) - Maker of the original [Centered Vanilla HUD](https://gamebanana.com/mods/316578), and where I got the idea from
+  
+# Other Links
+- [Showcase](https://youtu.be/a_38tTV4Xhc)
+- [Infomercial](https://youtu.be/G39x7-gmCzU)
+- [Linux Version](https://github.com/Eerorri/center-hud/tree/linux)
+- [ComfigHuds](https://comfig.app/huds/page/center-hud/)
