@@ -14,5 +14,4 @@ A TF2 HUD focused on putting critical HUD info in the center, while trying to st
 # Other Links
 - [Showcase (Normal Version)](https://youtu.be/a_38tTV4Xhc)
 - [Infomercial (Normal Version)](https://youtu.be/G39x7-gmCzU)
-- [Linux Version](https://github.com/Eerorri/center-hud/tree/linux)
 - [ComfigHuds](https://comfig.app/huds/page/center-hud/)
