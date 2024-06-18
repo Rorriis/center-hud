@@ -8,9 +8,9 @@
 		"wide"	 "640"
 		"tall"	 "480"
 		"zpos" 	"2"
-		"xpos"			"c-320"
+		"xpos"			"c-322"
 		"ypos"			"r56"
-		"xpos_minmode"			"c-320"
+		"xpos_minmode"			"c-310"
 		"ypos_minmode"			"r58"
 
 		"TextFont"				"Default"

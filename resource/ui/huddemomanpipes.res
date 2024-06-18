@@ -43,6 +43,8 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"TFFontSmall"
+		"allcaps"				"1"
+		"fgcolor_override"		"255 255 255 255"
 	}
 
 	"ChargeMeter"
@@ -74,7 +76,7 @@
 		"xpos"			"0"
 		"xpos_minmode"	"66"
 		"ypos"			"0"
-		"ypos_minmode"	"18"
+		"ypos_minmode"	"16"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"50"
@@ -110,7 +112,6 @@
 			"zpos"			"2"
 			"wide"			"35"
 			"tall"			"20"
-			"tall_lodef"	"28"
 			"autoResize"	"1"
 			"pinCorner"		"2"
 			"visible"		"1"
@@ -121,8 +122,6 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"HudFontMedium"
-			"font_minmode"	"HudFontMediumSmall"
-			"font_lodef"	"HudFontMediumBig"
 		}
 		"NumPipesLabelDropshadow"
 		{
@@ -135,7 +134,6 @@
 			"zpos"			"2"
 			"wide"			"35"
 			"tall"			"20"
-			"tall_lodef"	"28"
 			"autoResize"	"1"
 			"pinCorner"		"2"
 			"visible"		"1"
@@ -146,8 +144,6 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"HudFontMedium"
-			"font_minmode"	"HudFontMediumSmall"
-			"font_lodef"	"HudFontMediumBig"
 			"fgcolor"		"black"
 		}		
 	}
@@ -159,7 +155,7 @@
 		"xpos"			"0"
 		"xpos_minmode"	"66"
 		"ypos"			"0"
-		"ypos_minmode"	"18"
+		"ypos_minmode"	"16"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"50"
@@ -195,7 +191,6 @@
 			"zpos"			"2"
 			"wide"			"35"
 			"tall"			"20"
-			"tall_lodef"	"28"
 			"autoResize"	"1"
 			"pinCorner"		"2"
 			"visible"		"1"
@@ -206,8 +201,6 @@
 			"dulltext"		"1"
 			"brighttext"	"0"
 			"font"			"HudFontMedium"
-			"font_minmode"	"HudFontMediumSmall"
-			"font_lodef"	"HudFontMediumBig"
 		}
 		"NumPipesLabelDropshadow"
 		{
@@ -220,7 +213,6 @@
 			"zpos"			"2"
 			"wide"			"35"
 			"tall"			"20"
-			"tall_lodef"	"28"
 			"autoResize"	"1"
 			"pinCorner"		"2"
 			"visible"		"1"
@@ -231,8 +223,6 @@
 			"dulltext"		"1"
 			"brighttext"	"0"
 			"font"			"HudFontMedium"
-			"font_minmode"	"HudFontMediumSmall"
-			"font_lodef"	"HudFontMediumBig"
 			"fgcolor"		"black"
 		}			
 	}				

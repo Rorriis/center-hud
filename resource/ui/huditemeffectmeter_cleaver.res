@@ -1,14 +1,14 @@
-"Resource/UI/HudItemEffectMeter_Cleaver.res"
+"Resource/UI/Meter/HudItemEffectMeter_Cleaver.res"
 {
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c212"	[$WIN32]
-		"ypos"			"r87"	[$WIN32]
-		"xpos_minmode"	"c150"	[$WIN32]
-		"ypos_minmode"	"r62"	[$WIN32]
+		"xpos"			"c213"
+		"ypos"			"r89"
+		"xpos_minmode"	"c150"
+		"ypos_minmode"	"r62"
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -32,6 +32,7 @@
 		"teambg_2"		"replay/thumbnails/meter/hud_secondary_meter_red"
 		"teambg_3"		"replay/thumbnails/meter/hud_secondary_meter_blue"
 	}
+
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -55,13 +56,15 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"TFFontSmall"
+		"allcaps"				"1"
 	}
+
 	"ItemEffectMeter"
 	{
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"xpos"					"30"
+		"xpos"					"31"
 		"ypos"					"24"
 		"ypos_minmode"			"0"
 		"xpos_minmode"			"0"

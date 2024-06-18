@@ -1,14 +1,18 @@
-![centerhudlogo](https://github.com/Eerorri/center-hud/assets/97610612/b9eaf773-6636-4794-a991-36dc49709dbe)
-NOTE: Lite version is no longer updated, only keeping this here for archival purposes
+![centerhud3long](https://github.com/Eerorri/center-hud/assets/97610612/fe6e4ca8-e06e-4940-9ef7-aa191a214106)
 
-A TF2 HUD focused on putting critical HUD info in the center, while improving certain aspects and keeping the artstyle of TF2.
-### Links :
-[Images](https://imgur.com/a/0rIwB00)
+# Center HUD
+A TF2 HUD focused on putting critical HUD info in the center, while trying to stick to the style of the default HUD.
 
-[Addons](https://imgur.com/a/mJHLmuy)
+# Wiki
+- [Home](https://github.com/Eerorri/center-hud/wiki)
+- [Installing the HUD](https://github.com/Eerorri/center-hud/wiki/Installing-the-HUD)
 
-[Overview Trailer](https://youtu.be/x7PHVyhndsc)
-### Credits :
-- [GoopSwagger - Helped with the VTFs for the meters](https://gamebanana.com/members/1672887)
-- [ToonHUD - Sourcescheme generator](https://toonhud.com)
-- [Hypnotize - Menu Icons](https://github.com/Hypnootize/TF2-HUD-Icons)
+# Credits
+- [GoopSwagger](https://gamebanana.com/members/1672887) - Helped with the item meter backgrounds
+- [Firebert_](https://gamebanana.com/members/1767717) - Maker of the original [Centered Vanilla HUD](https://gamebanana.com/mods/316578), and where I got the idea from
+  
+# Other Links
+- [Showcase (Normal Version)](https://youtu.be/a_38tTV4Xhc)
+- [Infomercial (Normal Version)](https://youtu.be/G39x7-gmCzU)
+- [Linux Version](https://github.com/Eerorri/center-hud/tree/linux)
+- [ComfigHuds](https://comfig.app/huds/page/center-hud/)

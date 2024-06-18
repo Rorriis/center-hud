@@ -10,7 +10,7 @@
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"HudFontMedium"
 	}
-	
+
 	"AccountBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -22,18 +22,19 @@
 		"wide"			"90"
 		"tall"			"45"
 		"visible"		"1"
+		"visible_minmode"	"0"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/meter/hud_main_meter"
 		"scaleImage"	"1"
 		"teambg_2"		"replay/thumbnails/meter/hud_main_meter_red"
 		"teambg_3"		"replay/thumbnails/meter/hud_main_meter_blue"
 	}
-	
+
 	"MetalIcon"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"MetalIcon"
-		"xpos"			"24"
+		"xpos"			"22"
 		"ypos"			"118"
 		"ypos_minmode"	"120"
 		"zpos"			"1"
@@ -41,7 +42,7 @@
 		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"ico_metal"
 		"iconColor"		"ProgressOffWhite"
 	}
@@ -64,6 +65,5 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"HudFontMediumSmall"
-		"font_minmode"	"HudFontSmallishBold"
 	}
 }

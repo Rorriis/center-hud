@@ -5,17 +5,16 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-320"	[$WIN32]
-		"ypos"			"r56"	[$WIN32]
-		"xpos_minmode"	"c-320"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
+		"xpos"			"c-326"
+		"ypos"			"r56"
+		"xpos_minmode"	"c-314"
+		"ypos_minmode"	"r40"
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
+
 	"ItemEffectMeterBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -62,10 +61,10 @@
 		"xpos"					"32"
 		"xpos_minmode"			"32"
 		"ypos"					"16"
-		"ypos_minmode"			"18"
+		"ypos_minmode"			"16"
 		"zpos"					"2"
 		"wide"					"40"
-		"tall"					"20"
+		"tall"					"22"
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
@@ -76,24 +75,6 @@
 		"brighttext"			"0"
 		"font"					"HudFontMedium"
 		"font_minmode"			"HudFontMediumSmall"
-	}
-	"ItemEffectMeterCountShadow"
-	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterCountShadow"
-		"xpos_minmode"			"33"
-		"ypos_minmode"			"19"
-		"zpos"					"2"
-		"wide"					"40"
-		"tall"					"20"
-		"pinCorner"				"2"
-		"visible"				"0"
-		"visible_minmode"				"1"
-		"enabled"				"1"
-		"labelText"				"%progresscount%"
-		"textAlignment"			"north"
-		"font_minmode"			"HudFontMediumSmall"
-		"fgcolor"				"black"
 	}
 	"Icon"
 	{

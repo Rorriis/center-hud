@@ -19,7 +19,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"HudPasstimeBallStatus"
 		"xpos"				"0"
-		"ypos"				"0"
+		"ypos"				"-5"
 		"zpos"				"100"
 		"wide"				"f0"
 		"tall"				"f0"
@@ -92,8 +92,11 @@
 		"fieldName"		"ProgressLevelBar"
 		"xpos"			"c-150"
 		"ypos"			"r88"
+		"xpos_minmode"	"c-124"
+		"ypos_minmode"	"r80"
 		"zpos"			"0"
 		"wide"			"300"
+		"wide_minmode"	"250"
 		"tall"			"48"
 		"visible"		"1"
 		"enabled"		"1"
@@ -109,6 +112,8 @@
 		"fieldName"		"BlueProgressEnd"
 		"xpos"			"c-123"
 		"ypos"			"r64"
+		"xpos_minmode"	"c-100"
+		"ypos_minmode"	"r56"
 		"visible"		"0"
 	}
 
@@ -120,6 +125,8 @@
 		"fieldName"		"RedProgressEnd"
 		"xpos"			"c123"
 		"ypos"			"r64"
+		"xpos_minmode"	"c102"
+		"ypos_minmode"	"r56"
 		"visible"		"0"
 	}
 
@@ -285,7 +292,8 @@
 		"enabled"				"1"
 		"zpos"					"-400"
 		"xpos"					"0"
-		"ypos"					"-15"
+		"ypos"					"-10"
+		"ypos_minmode"			"-18"
 		"wide"					"150"
 		"tall"					"16"
 		"textAlignment"			"center"

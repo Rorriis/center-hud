@@ -4,7 +4,7 @@
 {
 	HudItemEffectMeter
 	{
-		"xpos"			"c242"	[$WIN32]
-		"ypos"			"r54"	[$WIN32]
+		"xpos"			"c242"
+		"ypos"			"r54"
 	}
 }

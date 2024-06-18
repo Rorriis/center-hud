@@ -260,9 +260,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "Lucida Console" [$WINDOWS]
+				"name"		 "Lucida Console" [!$OSX]
 				"name"		 "Lucida Console" [$X360]
-				"name"		 "Verdana" [$POSIX]
+				"name"		 "Verdana" [$OSX]
 				"tall"		"14" [$LINUX]
 				"tall"		"11" [$OSX]
 				"tall"		 "10"
@@ -276,9 +276,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$POSIX]
-				"name"		"Verdana" [$POSIX]
-				"tall"		"16"
+				"name"		"Tahoma" [!$OSX]
+				"name"		"Verdana" [$OSX]
+				"tall"		"16" [!$LINUX]
+				"tall"		"18" [$LINUX]
 				"weight"	"500"
 			}
 		}
@@ -286,9 +287,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$POSIX]
+				"name"		"Tahoma" [!$OSX]
 				"name"		"Verdana Bold" [$POSIX]
-				"tall"		"16"
+				"tall"		"16" [!$LINUX]
+				"tall"		"18" [$LINUX]
 				"weight"	"1000"
 			}
 		}
@@ -296,9 +298,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$POSIX]
-				"name"		"Verdana" [$POSIX]
-				"tall"		"16"
+				"name"		"Tahoma" [!$OSX]
+				"name"		"Verdana" [$OSX]
+				"tall"		"16" [!$LINUX]
+				"tall"		"18" [$LINUX]
 				"weight"	"500"
 				"underline" "1"
 			}
@@ -307,10 +310,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$POSIX]
-				"name"		"Verdana" [$POSIX]
+				"name"		"Tahoma" [!$OSX]
+				"name"		"Verdana" [$OSX]
 				"tall"		"12" [!$POSIX]
-				"tall"		"13" [$POSIX]
+				"tall"		"15" [$POSIX]
 				"weight"	"0"
 			}
 		}
@@ -318,8 +321,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$POSIX]
-				"name"		"Verdana" [$POSIX]
+				"name"		"Tahoma" [!$OSX]
+				"name"		"Verdana" [$OSX]
 				"tall"		"13"
 				"weight"	"0"
 				"dropshadow" "1"
@@ -329,8 +332,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$POSIX]
-				"name"		"Verdana" [$POSIX]
+				"name"		"Tahoma" [!$OSX]
+				"name"		"Verdana" [$OSX]
 				"tall"		"12"
 				"weight"	"0"
 			}
@@ -340,8 +343,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$POSIX]
-				"name"		"Verdana" [$POSIX]
+				"name"		"Tahoma" [!$OSX]
+				"name"		"Verdana" [$OSX]
 				"tall"		"18"
 				"weight"	"0"
 			}
@@ -350,9 +353,10 @@ Scheme
 		{
 			"1"	[$WIN32]
 			{
-				"name"		"Tahoma" [!$POSIX]
-				"name"		"Verdana" [$POSIX]
-				"tall"		"12"
+				"name"		"Tahoma" [!$OSX]
+				"name"		"Verdana" [$OSX]
+				"tall"		"12" [!$LINUX]
+				"tall"		"15" [$LINUX]
 				"weight"	"1000"
 			}
 			"1"	[$X360]
@@ -388,16 +392,23 @@ Scheme
 		}
 		"MenuLarge"
 		{
-			"1"	[$POSIX]
+			"1"	[$OSX]
 			{
 				"name"		"Helvetica Bold"
 				"tall"		"20"
 				"antialias" "1"
 			}
-			"1"	[$WIN32]
+			"1"	[$LINUX]
+			{
+				"name"		"Verdana"
+				"tall"		"24"
+				"weight"	"600"
+				"antialias" "1"
+			}
+			"1"	[$WINDOWS]
 			{
 				"name"		"Verdana" 
-				"tall"		"16" 
+				"tall"		"16"
 				"weight"	"600"
 				"antialias" "1"
 			}
@@ -476,10 +487,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "Lucida Console" [$WINDOWS]
+				"name"		 "Lucida Console" [!$OSX]
 				"name"		 "Lucida Console" [$X360]
-				"name"		 "Lucida Console" [$LINUX]
-				"name"		 "Verdana" [$POSIX]
+				"name"		 "Verdana" [$OSX]
 				"tall"		"11" [$OSX]
 				"tall"		"14" [$LINUX]
 				"tall"		"10"
@@ -596,11 +606,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "Lucida Console" [$WINDOWS]
-				"name"		 "Lucida Console" [$X360]
-				"name"		 "Verdana" [$POSIX]
+				"name"		 "Lucida Console" [!$OSX]
+				"name"		 "Verdana" [$OSX]
 				"tall"		"11" [$POSIX]
-				"tall"		"10"
+				"tall"		"10" [!$POSIX]
 				"weight"	"0"
 			}
 //			"1"
@@ -615,10 +624,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "Lucida Console" [$WINDOWS]
-				"name"		 "Lucida Console" [$X360]
+				"name"		 "Lucida Console" [!$OSX]
 				"name"		 "Verdana" [$OSX]
-				"name"		 "Courier" [$LINUX]
 				"tall"		"14" [$LINUX]
 				"tall"		"11" [$POSIX]
 				"tall"		"10"
@@ -637,8 +644,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$POSIX]
-				"name"		"Verdana" [$POSIX]
+				"name"		"Tahoma" [!$OSX]
+				"name"		"Verdana" [$OSX]
 				"tall"		"16"
 				"weight"	"500"
 			}
@@ -658,8 +665,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$POSIX]
-				"name"		"Verdana Bold" [$POSIX]
+				"name"		"Tahoma" [!$OSX]
+				"name"		"Verdana Bold" [$OSX]
 				"tall"		"16"
 				"weight"	"900"
 			}
@@ -668,8 +675,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$POSIX]
-				"name"		"Verdana Bold Italic" [$POSIX]
+				"name"		"Tahoma" [!$OSX]
+				"name"		"Verdana Bold Italic" [$OSX]
 				"tall"		"16"
 				"weight"	"900"
 				"italic"	"1"
@@ -807,7 +814,7 @@ Scheme
 			"1"
 			{
 				"name"		"Arial" [!$POSIX]
-				"name"		"Verdana" [$POSIX]
+				"name"		"Verdana" [$OSX]
 				"weight"		"1000"
 				"tall"			"14" [!$POSIX]
 				"tall"			"15" [$POSIX]
@@ -820,8 +827,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$POSIX]
-				"name"		"Verdana" [$POSIX]
+				"name"		"Tahoma" [!$OSX]
+				"name"		"Verdana" [$OSX]
 				"tall"		"35"
 				"tall_lodef"	"40"
 				"weight"	"500"
@@ -1275,77 +1282,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-		}
-	}
-
-	//////////////////////// CUSTOM FONT FILES /////////////////////////////
-	//
-	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
-	CustomFontFiles
-	{
-		"1"		"resource/HALFLIFE2.ttf"
-		"2"		"resource/HL2EP2.ttf"	
-		"3"		"resource/marlett.ttf"
-		"4" 
-		{
-			"font" "resource/TF2Secondary.ttf"
-			"name" "TF2 Secondary"
-			"turkish"
-			{
-				"range" "0x0000 0x015F"
-			}
-			"swedish"
-			{
-				"range" "0x0000 0x00F6"
-			}
-			"spanish"
-			{
-				"range" "0x0000 0x00FC"
-			}
-			"romanian"
-			{
-				"range" "0x0000 0x021B"
-			}
-			"polish"
-			{
-				"range" "0x0000 0x017C"
-			}
-			"norwegian"
-			{
-				"range" "0x0000 0x00F8"
-			}
-			"danish"
-			{
-				"range" "0x0000 0x00F8"
-			}
-			"hungarian"
-			{
-				"range" "0x0000 0x0171"
-			}
-			"german"
-			{
-				"range" "0x0000 0x00FC"
-			}
-			"french"
-			{
-				"range" "0x0000 0x0178"
-			}
-			"finnish"
-			{
-				"range" "0x0000 0x017E"
-			}
-			"czech"
-			{
-				"range" "0x0000 0x017E"
-			}
-			"bulgarian"
-			{
-				"range" "0x0000 0x0451"
-			}
-			"russian"
-			{
-				"range" "0x0000 0x0451"
-			}	
 		}
 	}
 }

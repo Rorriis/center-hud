@@ -20,10 +20,9 @@
 		"ControlName"	"CTFClassImage"
 		"fieldName"		"PlayerStatusClassImage"
 		"xpos"			"c-246"
-		"xpos_minmode"	"c-245"
+		"xpos_minmode"	"c-246"
 		"ypos"			"r89"
 		"ypos_minmode"	"r66"
-
 		"zpos"			"2"
 		"wide"			"75"
 		"wide_minmode"	"68"
@@ -38,12 +37,12 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusClassImageBG"
-		"xpos"			"c-251"
+		"xpos"			"c-256"
 		"xpos_minmode"	"c-251"
 		"ypos"			"r60"
 		"ypos_minmode"		"r30"
 		"zpos"			"1"
-		"wide"			"100"
+		"wide"			"105"
 		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
@@ -57,7 +56,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusSpyImage"
 		"xpos"			"c-257"
-		"ypos"			"r69"
+		"ypos"			"r70"
 		"zpos"			"2"
 		"wide"			"55"
 		"wide_minmode"			"0"
@@ -71,6 +70,7 @@
 	}
 	"PlayerStatusSpyOutlineImage"
 	{
+		"visible"			"1"
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"PlayerStatusSpyOutlineImage"
 		"xpos"				"c-260"
@@ -82,7 +82,6 @@
 		"wide_minmode"		"27"
 		"tall"				"55"
 		"tall_minmode"		"27"
-		"visible"			"0"
 		"enabled"			"1"
 		"image"				"../hud/class_spy_outline"
 		"scaleImage"		"1"
@@ -93,7 +92,7 @@
 		"fieldName"			"classmodelpanel"
 		"xpos"				"c-257"
 		"xpos_minmode"		"c-255"
-		"ypos"				"r215"
+		"ypos"				"rs1.075"
 		"ypos_minmode"		"r88"
 		"zpos"				"2"
 		"wide"				"100"
@@ -150,11 +149,10 @@
 				"angles_x"			"-10"
 				"angles_x_minmode"	"0"
 				"angles_y"			"172"
-				"angles_y_minmode"	"210"
 				"angles_z"			"0"
 				"origin_x"			"130"
 				"origin_y"			"0"
-				"origin_y_minmode"	"5"
+				"origin_y_minmode"	"-4"
 				"origin_z"			"-97"
 				"origin_z_minmode"	"-64"
 			}
@@ -256,12 +254,12 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"classmodelpanelBG"
-		"xpos"			"c-251"
+		"xpos"			"c-256"
 		"xpos_minmode"	"c-251"
 		"ypos"			"r60"
-		"ypos_minmode"	"r30"
+		"ypos_minmode"		"r30"
 		"zpos"			"1"
-		"wide"			"100"
+		"wide"			"105"
 		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
@@ -275,10 +273,10 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"CarryingWeapon"
-		"xpos"					"c-245"
-		"xpos_minmode"			"c-240"
-		"ypos"					"r24"
-		"ypos_minmode"			"r22"
+		"xpos"					"c-252"
+		"xpos_minmode"			"c-250"
+		"ypos"					"r28"
+		"ypos_minmode"			"r20"
 		"zpos"					"100"
 		"wide"					"500"
 		"wide_minmode"			"500"
@@ -306,9 +304,7 @@
 			"scaleImage"			"1"
 			"teambg_1"				"../hud/color_panel_brown"
 			"teambg_2"				"../hud/color_panel_red"
-			"teambg_2_lodef"		"../hud/color_panel_red"
 			"teambg_3"				"../hud/color_panel_blu"
-			"teambg_3_lodef"		"../hud/color_panel_blu"
 			"proportionaltoparent"	"1"
 
 			"src_corner_height"		"23"				// pixels inside the image
@@ -400,4 +396,3 @@
 		}
 	}
 }
-
