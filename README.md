@@ -20,7 +20,6 @@
   <p align="center">
   Special Thanks
   </h1>
-  <br />
   <p align="center">
   <a href="https://gamebanana.com/members/1672887">GoopSwagger (Helpped with the meter BGs)</a>
   ·
