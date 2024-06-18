@@ -32,9 +32,9 @@
       <h1>
       Other Links
       </h1>
-      <a href="https://youtu.be/a_38tTV4Xhc">Showcase Video (Normal Version)</a>
+      <a href="https://youtu.be/a_38tTV4Xhc">Showcase Video (for Normal Version)</a>
       ·
-      <a href="https://youtu.be/G39x7-gmCzU">Infomercial Video (Normal Version)</a>
+      <a href="https://youtu.be/G39x7-gmCzU">Infomercial Video (for Normal Version)</a>
       <br />
       <a href="https://comfig.app/huds/page/center-hud/">comfig huds</a>
       ·
