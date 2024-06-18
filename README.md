@@ -22,7 +22,7 @@
   <a href="https://gamebanana.com/members/1767717">Firebert_ (Made the original Centered Vanilla HUD)</a>
 </div>
 
-<div id="other" align="center"
+<div id="other" align="center">
   <h1>
   Other Links
   </h1>
