@@ -38,7 +38,7 @@
       <br />
       <a href="https://comfig.app/huds/page/center-hud/">comfig huds</a>
       ·
-      <a href="https://gamebanana.com/mods/485290">GameBanana</a>
+      <a href="https://gamebanana.com/mods/485626">GameBanana</a>
       ·
       <a href="https://tf2huds.dev/hud/Center-Hud">TF2 HUDs</a>
   </p>
