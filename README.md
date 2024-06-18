@@ -1,5 +1,5 @@
 ![centerhud3long](https://github.com/Eerorri/center-hud/assets/97610612/fe6e4ca8-e06e-4940-9ef7-aa191a214106)
-<div id="main">
+<div id="main"
   <p align="center">  
       A TF2 HUD focused on putting critical HUD info in the center, while trying to stick to the style of the default HUD, this time 1.5 MiB smaller.
       <br />
@@ -15,7 +15,7 @@
   </p>
 </div>
 
-<div id="credits">
+<div id="credits"
   <p align="center">
       <h1>
       Special Thanks
@@ -27,7 +27,7 @@
   </p>
 </div>
 
-<div id="other">
+<div id="other"
   <p align="center">
       <h1>
       Other Links
