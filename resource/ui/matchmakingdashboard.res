@@ -68,7 +68,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"TopBar"
-		"xpos"			"c-320"
+		"xpos"			"cs-0.5"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"640"
