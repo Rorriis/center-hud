@@ -1,9 +1,7 @@
 ![centerhud3long](https://github.com/Eerorri/center-hud/assets/97610612/fe6e4ca8-e06e-4940-9ef7-aa191a214106)
-<div id="main">
-  <p align="center">
+<div id="main" align="center">
   Lite version of Center HUD. No menus, no customizations. Just the ingame HUD.
   <br />
-  <p align="center">
   <a href="https://github.com/Eerorri/center-hud/releases">Downloads</a> 
   ·
   <a href="https://github.com/Eerorri/center-hud/wiki">Wiki</a>
@@ -15,23 +13,19 @@
   <a href="https://github.com/Eerorri/center-hud/tree/tf2c">TF2C Version</a>
 </div>
 
-<div id="credits">
+<div id="credits" align="center">
   <h1>
-  <p align="center">
   Special Thanks
   </h1>
-  <p align="center">
   <a href="https://gamebanana.com/members/1672887">GoopSwagger (Helpped with the meter BGs)</a>
   ·
   <a href="https://gamebanana.com/members/1767717">Firebert_ (Made the original Centered Vanilla HUD)</a>
 </div>
 
-<div id="other">
+<div id="other" align="center">
   <h1>
-  <p align="center">
   Other Links
   </h1>
-  <p align="center">
   <a href="https://youtu.be/a_38tTV4Xhc">Showcase Video (for Normal Version)</a>
   ·
   <a href="https://youtu.be/G39x7-gmCzU">Infomercial Video (for Normal Version)</a>
