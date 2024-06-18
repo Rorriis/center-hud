@@ -1,7 +1,7 @@
 ![centerhud3long](https://github.com/Eerorri/center-hud/assets/97610612/fe6e4ca8-e06e-4940-9ef7-aa191a214106)
 <div id="main">
   <p align="center">  
-  A TF2 HUD focused on putting critical HUD info in the center, while trying to stick to the style of the default HUD, this time more classical.
+  TF2C version of Center HUD. This time it's more classical.
   <br />
   <a href="https://github.com/Eerorri/center-hud/releases">Downloads</a> 
   ·
