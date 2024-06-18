@@ -4,6 +4,6 @@
 
 // BASE
 
-#base "../_scheme/customfontfiles.res"
-#base "../_scheme/sourcescheme.res"
+#base "_scheme/customfontfiles.res"
+#base "_scheme/sourcescheme.res"
 #base "SourceSchemeBase.res"
