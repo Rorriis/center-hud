@@ -1,6 +1,6 @@
 ![centerhud3long](https://github.com/Eerorri/center-hud/assets/97610612/fe6e4ca8-e06e-4940-9ef7-aa191a214106)
 <div id="main" align="center">
-  Lite version of Center HUD. No menus, no customizations. Just the ingame HUD.
+  Lite version of Center HUD. No menus, no customizations. Just the ingame HUD. Mostly for better compability with other HUD mods, like menu mods. 
   <br />
   <a href="https://github.com/Eerorri/center-hud/releases">Downloads</a> 
   ·
