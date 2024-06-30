@@ -22,7 +22,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusClassImageBG"
-		"xpos"			"c-256"
+		"xpos"			"c-255"
 		"xpos_minmode"	"c-251"
 		"ypos"			"r60"
 		"ypos_minmode"		"r30"
@@ -221,7 +221,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"classmodelpanelBG"
-		"xpos"			"c-256"
+		"xpos"			"c-255"
 		"xpos_minmode"	"c-251"
 		"ypos"			"r60"
 		"ypos_minmode"		"r30"
