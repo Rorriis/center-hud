@@ -107,7 +107,7 @@
 
 		"ypos"			"0"
 		"zpos"			"10000"
-		"wide"			"15"
+		"wide"			"13"
 		"tall"			"f0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
@@ -161,7 +161,7 @@
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"f0"
-		"tall"			"f0"
+		"tall"			"f-20"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 

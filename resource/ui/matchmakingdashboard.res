@@ -663,7 +663,7 @@
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"RoundedCorners"	"0"
-			"textinsety"	"5"
+			"textinsety"	"6"
 			"textinsetx"	"22"
 			"use_proportional_insets"	"1"
 
@@ -722,7 +722,7 @@
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"roundedcorners"	"1"
-			"textinsety"	"8"
+			"textinsety"	"6"
 			"textinsetx"	"22"
 			"use_proportional_insets"	"1"
 
@@ -780,7 +780,7 @@
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"roundedcorners"	"1"
-			"textinsety"	"8"
+			"textinsety"	"6"
 			"textinsetx"	"24"
 			"use_proportional_insets"	"1"
 

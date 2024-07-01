@@ -2633,27 +2633,6 @@
 		"tileImage"		"1"
 	}
 
-	"Gradient"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"Gradient"
-		"xpos"		"0"
-		"ypos"		"420"
-		"zpos"		"-50"
-		"wide"		"f0"
-		"tall"			"60"
-		"zpos"	"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"rotation"		"2"
-		"proportionaltoparent"	"1"
-		"scaleimage"	"1"
-		"mouseinputenabled"	"0"
-		"alpha"		"100"
-
-		"image"		"gradient_pure_black"
-	}
-
 	"FooterLine"
 	{
 		"ControlName"	"ImagePanel"
@@ -2667,21 +2646,6 @@
 		"enabled"		"1"
 		"image"			"loadout_solid_line"
 		"scaleImage"	"1"
-	}
-
-	"OuterShadow"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"OuterShadow"
-		"xpos"			"cs-0.5"
-		"ypos"			"416"
-		"zpos"			"-2"
-		"wide"			"p1.1"
-		"tall"			"p1"
-		"visible"		"1"
-		"PaintBackgroundType"	"2"
-		"border"		"OuterShadowBorder"
-		"proportionaltoparent"	"1"
 	}
 
 	"BackToReplaysButton"

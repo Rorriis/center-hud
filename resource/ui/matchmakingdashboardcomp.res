@@ -6,10 +6,10 @@
 	{
 		"fieldName"		"CompStats"
 		"xpos"			"r0"
-		"ypos"			"40"
+		"ypos"			"10"
 		"zpos"			"1002"
 		"wide"			"270"
-		"tall"			"350"
+		"tall"			"f70"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
@@ -19,7 +19,7 @@
 		"ControlName"		"Label"
 		"fieldName"		"Title"
 		"xpos"		"8"
-		"ypos"		"10"
+		"ypos"		"22"
 		"zpos"		"99"
 		"wide"		"f0"
 		"tall"		"25"
@@ -37,9 +37,9 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"ShowExplanationsButton"
 		"xpos"			"rs1-21"
-		"ypos"			"20"
+		"ypos"			"24"
 		"zpos"			"100"
-		"wide"			"15"
+		"wide"			"16"
 		"tall"			"o1"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -64,7 +64,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RankTooltipPanel"
 		"xpos"			"5"
-		"ypos"			"40"
+		"ypos"			"45"
 		"zpos"			"1000"
 		"wide"			"8"
 		"tall"			"8"
@@ -76,15 +76,14 @@
 		"alpha"			"75"
 	}
 
-
 	"stats"
 	{
 		"fieldName"		"stats"
 		"xpos"			"-1"
-		"ypos"			"40"
+		"ypos"			"50"
 		"zpos"			"100"
 		"wide"			"305"
-		"tall"			"f80"
+		"tall"			"f84"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
@@ -101,7 +100,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"mouseinputenabled"	"1"
-		"eatmouseinput"	"0"	
+		"eatmouseinput"	"0"
 		"showtooltipswhenmousedisabled"	"1"
 		"proportionaltoparent" "1"
 	}
