@@ -35,20 +35,20 @@
 		}
 	}
 
-	"ServerBrowserEntry"
+	"QuickplayEntry"
 	{
 		"ControlName"	"CPlayListEntry"
-		"fieldName"		"ServerBrowserEntry"
+		"fieldName"		"QuickplayEntry"
 		"xpos"			"0"
 		"ypos"			"53"
 		"tall"			"45"
 		"wide"			"255"
 		"proportionaltoparent"	"1"
 
-		"image_name"		"main_menu/main_menu_button_community_server"
-		"button_token"		"#MMenu_PlayList_ServerBrowser_Button"
-		"button_command"	"play_community"
-		"desc_token"		"#MMenu_PlayList_ServerBrowser_Desc"
+		"image_name"		"replay\thumbnails\menu\main_menu_button_quickplay"
+		"button_token"		"#TF_Matchmaking_HeaderQuickplay"
+		"button_command"	" "
+		"desc_token"		"#TF_GameModeDesc_Quickplay"
 
 		if_event
 		{
@@ -58,162 +58,21 @@
 
 	"QuickplayButton"
 	{
-		"ControlName"			"EditablePanel"
-		"fieldName"				"QuickplayButton"
-		"xpos"					"-110"
-		"ypos"					"-8"
-		"zpos"					"1"
-		"wide"					"15"
-		"tall"					"15"
-		"visible"				"1"
-		"enabled"				"1"
-
-		"pin_to_sibling"		"ServerBrowserEntry"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"f0"
-			"tall"			"f0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		" "
-			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"vo/null.mp3"
-			"proportionaltoparent"	"1"
-
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"paintbackground"	"1"
-			"paintbackgroundtype"	"2"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"cs-0.5"
-				"ypos"			"cs-0.5"
-				"zpos"			"1"
-				"wide"			"f2"
-				"tall"			"f2"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-				"image"			"replay/thumbnails/menu/glyph_comfig"
-
-				"proportionaltoparent"	"1"
-				"mouseinputenabled"	"0"
-				"keyboardinputenabled" "0"
-			}
-		}
-
-		"QuickplayLink"
-		{
-			"ControlName"			"URLLabel"
-			"fieldname"				"QuickplayLink"
-			"xpos"					"0"
-			"ypos"					"0"
-			"wide"					"f0"
-			"tall"					"f0"
-			"zpos"					"2"
-			"visible"				"1"
-			"enabled"				"1"
-			"labelText"				" "
-			"textAlignment"			"center"
-			"urlText"				"https://comfig.app/quickplay/"
-			"paintbackground"		"0"
-		}
-	}
-
-	"PotatoMVMButton"
-	{
-		"ControlName"			"EditablePanel"
-		"fieldName"				"PotatoMVMButton"
-		"xpos"					"-110"
-		"ypos"					"-24"
-		"zpos"					"1"
-		"wide"					"15"
-		"tall"					"15"
-		"visible"				"1"
-		"enabled"				"1"
-
-		"pin_to_sibling"		"ServerBrowserEntry"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"f0"
-			"tall"			"f0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		" "
-			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"vo/null.mp3"
-			"proportionaltoparent"	"1"
-
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"paintbackground"	"1"
-			"paintbackgroundtype"	"2"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"cs-0.5"
-				"ypos"			"cs-0.5"
-				"zpos"			"1"
-				"wide"			"f2"
-				"tall"			"f2"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-				"image"			"replay/thumbnails/menu/glyph_potatomvm"
-
-				"proportionaltoparent"	"1"
-				"mouseinputenabled"	"0"
-				"keyboardinputenabled" "0"
-			}
-		}
-
-		"PotatoMVMLink"
-		{
-			"ControlName"			"URLLabel"
-			"fieldname"				"PotatoMVMLink"
-			"xpos"					"0"
-			"ypos"					"0"
-			"wide"					"f0"
-			"tall"					"f0"
-			"zpos"					"2"
-			"visible"				"1"
-			"enabled"				"1"
-			"labelText"				" "
-			"textAlignment"			"center"
-			"urlText"				"https://potato.tf/"
-			"paintbackground"		"0"
-
-			"pin_to_sibling"		"PotatoMVMButton"
-			"pin_corner_to_sibling" "PIN_TOPLEFT"
-			"pin_to_sibling_corner" "PIN_TOPLEFT"
-		}
+		"ControlName"				"URLLabel"
+		"fieldname"					"QuickplayButton"
+		"xpos"						"127"
+		"ypos"						"54"
+		"zpos"						"21"
+		"wide"						"123"
+		"tall"						"16"
+		"visible"					"1"
+		"enabled"					"1"
+		"proportionaltoparent"		"1"
+		"labelText"					""
+		"urlText"					"https://comfig.app/quickplay/"
+		"paintbackground"			"1"
+		"paintbackgroundtype"		"2"
+		"bgcolor_override"			"0 0 0 0"
 	}
 
 	"MvMEntry"
@@ -260,20 +119,20 @@
 		}
 	}
 
-	"TrainingEntry"
+	"ServerBrowserEntry"
 	{
 		"ControlName"	"CPlayListEntry"
-		"fieldName"		"TrainingEntry"
+		"fieldName"		"ServerBrowserEntry"
 		"xpos"			"0"
 		"ypos"			"203"
 		"tall"			"45"
 		"wide"			"255"
 		"proportionaltoparent"	"1"
 
-		"image_name"		"main_menu/main_menu_button_training"
-		"button_token"		"#MMenu_PlayList_Training_Button"
-		"button_command"	"play_training"
-		"desc_token"		"#MMenu_PlayList_Training_Desc"
+		"image_name"		"main_menu/main_menu_button_community_server"
+		"button_token"		"#MMenu_PlayList_ServerBrowser_Button"
+		"button_command"	"play_community"
+		"desc_token"		"#MMenu_PlayList_ServerBrowser_Desc"
 
 		if_event
 		{
