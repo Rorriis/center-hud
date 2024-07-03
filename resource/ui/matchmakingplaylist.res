@@ -71,6 +71,11 @@
 		"labelText"					""
 		"urlText"					"https://comfig.app/quickplay/"
 		"paintbackground"			"0"
+
+		if_event
+		{
+			"ypos"			"104"
+		}
 	}
 
 	"MvMEntry"
