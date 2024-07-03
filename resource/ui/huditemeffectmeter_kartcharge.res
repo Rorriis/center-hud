@@ -33,6 +33,29 @@
 		"teambg_3"		"../hud/misc_ammo_area_horiz2_blue"
 	}
 	
+	"MinmodeMeterBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"MinmodeMeterBG"
+		"xpos"			"20"
+		"ypos"			"32"
+		"wide"			"46"
+		"tall"			"26"
+		"visible"		"0"
+		"visible_minmode"	"1"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
+
+		"src_corner_height"	"60"
+		"src_corner_width"	"60"
+		"draw_corner_width"	"6"
+		"draw_corner_height" 	"6"
+	}
+
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
