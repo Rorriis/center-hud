@@ -17,7 +17,6 @@
 		"fieldName"		"AccountBG"
 		"xpos"			"0"
 		"ypos"			"98"
-		"ypos_minmode"	"102"
 		"zpos"			"0"
 		"wide"			"90"
 		"tall"			"45"
@@ -28,6 +27,30 @@
 		"scaleImage"	"1"
 		"teambg_2"		"replay/thumbnails/meter/hud_main_meter_red"
 		"teambg_3"		"replay/thumbnails/meter/hud_main_meter_blue"
+	}
+
+	"MinmodeBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"MinmodeBG"
+		"xpos"			"16"
+		"ypos"			"114"
+		"zpos"			"0"
+		"wide"			"55"
+		"tall"			"24"
+		"visible"		"0"
+		"visible_minmode"	"1"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
+
+		"src_corner_height"	"60"
+		"src_corner_width"	"60"
+		"draw_corner_width"	"6"
+		"draw_corner_height" 	"6"
 	}
 
 	"MetalIcon"

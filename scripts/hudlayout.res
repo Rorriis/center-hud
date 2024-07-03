@@ -29,7 +29,7 @@
 		"fieldName"				"CHudAccountPanel"
 		"xpos"					"c212"
 		"ypos"					"r152"
-		"xpos_minmode"			"c210"
+		"xpos_minmode"			"c216"
 		"ypos_minmode"			"r134"
 		"zpos"					"1"			// draw in front of ammo
 		"wide"					"116"
@@ -121,16 +121,16 @@
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
-	
+
 	HudDemomanCharge
 	{
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c163"
-		"xpos_minmode"	"c150"
+		"xpos_minmode"	"c-20"
 		"ypos"			"r21"
-		"ypos_minmode"	"r58"
+		"ypos_minmode"	"c30"
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"60"
 		"wide_minmode"	"50"
@@ -1001,9 +1001,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c212"
-		"xpos_minmode"	"c150"
 		"ypos"			"r54"
-		"ypos_minmode"	"r48"
+		"xpos_minmode"	"c148"
+		"ypos_minmode"	"r52"
 		"wide"			"100"
 		"wide_minmode"	"200"
 		"tall"			"50"

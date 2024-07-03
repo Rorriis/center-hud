@@ -2,5 +2,9 @@
 
 "Resource/UI/HudItemEffectMeter_Pomson.res"
 {
-
+	HudItemEffectMeter
+	{
+		"xpos_minmode"	"c148"
+		"ypos_minmode"	"r52"
+	}
 }
