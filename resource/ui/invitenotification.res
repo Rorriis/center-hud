@@ -38,7 +38,7 @@
 
 		if_incoming
 		{
-			"xpos"			"rs1-5"
+			"xpos"			"rs1-3"
 			"wide"			"f35"
 		}
 
@@ -152,7 +152,7 @@
 		"xpos"			"rs1-30"
 
 		"ypos"			"rs1-5"
-		"wide"			"60"
+		"wide"			"62"
 		"zpos"			"100"
 		"tall"			"15"
 				
