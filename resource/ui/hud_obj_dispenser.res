@@ -211,7 +211,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
-				"font"			"DefaultSmall"
+				"font"			"EngieBuilding"
 				"xpos"			"0"
 				"ypos"			"5"
 				"wide"			"200"

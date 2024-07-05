@@ -16,13 +16,13 @@
 		"fieldName"		"ChatPopupPin"
 		"ControlName"	"Panel"
 		"xpos"			"c-314"
-		"ypos"			"c-246"
+		"ypos"			"c-244"
 	}
 	"InviteNotifPin"
 	{
 		"fieldName"		"InviteNotifPin"
 		"ControlName"	"Panel"
 		"xpos"			"c-318"
-		"ypos"			"c-246"
+		"ypos"			"c-244"
 	}
 }

@@ -232,7 +232,7 @@
 			"font"			"TFFontMedium"
 			"font_minmode"	"DefaultVerySmall"
 			"xpos"			"0"
-			"ypos"			"24"
+			"ypos"			"22"
 			"zpos"			"1"
 			"wide"			"640"
 			"tall"			"24"
