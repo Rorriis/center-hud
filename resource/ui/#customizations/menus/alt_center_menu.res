@@ -52,7 +52,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton2"
-		"xpos"			"c-108"
+		"xpos"			"c-121"
 		"ypos"			"438"
 		"zpos"			"10"
 		"wide"			"26"
@@ -117,8 +117,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel2"
-		"xpos"			"c84"
-		"ypos"			"438"
+		"xpos"			"-2"
+		"ypos"			"0"
 		"zpos"			"10"
 		"wide"			"26"
 		"tall"			"26"
@@ -126,6 +126,9 @@
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
+
+		"pin_to_sibling"	"ShowHUDOptionsButton"
+		"pin_to_sibling_corner"	"1"
 
 		"SubButton"
 		{
@@ -652,7 +655,7 @@
 	// command comes from GameMenu.res
 	"ReportPlayerButton"
 	{
-		"xpos"			"c-156"
+		"xpos"			"c-169"
 		"ypos"			"438"
 		"wide"			"26"
 		"tall"			"26"
@@ -680,7 +683,7 @@
 	}
 	"CallVoteButton"
 	{
-		"xpos"			"c-132"
+		"xpos"			"c-145"
 		"ypos"			"438"
 		"wide"			"26"
 		"tall"			"26"
@@ -707,7 +710,7 @@
 	}
 	"MutePlayersButton"
 	{
-		"xpos"			"c108"
+		"xpos"			"c119"
 		"ypos"			"438"
 		"wide"			"26"
 		"tall"			"26"
@@ -734,7 +737,7 @@
 	}
 	"RequestCoachButton"
 	{
-		"xpos"			"c132"
+		"xpos"			"c143"
 		"ypos"			"438"
 		"wide"			"26"
 		"tall"			"26"
@@ -804,16 +807,10 @@
 
 		}
 	}
-	"ShowHUDOptionsButton"
-	{
-		"xpos"			"c98"
-		"ypos"			"196"
-	}
-
 
 	"NewUserForumsButton"
 	{
-		"xpos"			"c-84"
+		"xpos"			"c-97"
 		"ypos"			"438"
 		"wide"			"26"
 		"tall"			"26"
@@ -834,7 +831,6 @@
 	"AchievementsButton"
 	{
 		"xpos"			"-2"
-		"ypos"			"0"
 		"wide"			"26"
 		"tall"			"26"
 
@@ -854,7 +850,6 @@
 	"CommentaryButton"
 	{
 		"xpos"			"-2"
-		"ypos"			"0"
 		"wide"			"26"
 		"tall"			"26"
 
@@ -874,7 +869,6 @@
 	"CoachPlayersButton"
 	{
 		"xpos"			"-2"
-		"ypos"			"0"
 		"wide"			"26"
 		"tall"			"26"
 
@@ -894,7 +888,6 @@
 	"WorkshopButton"
 	{
 		"xpos"			"-2"
-		"ypos"			"0"
 		"wide"			"26"
 		"tall"			"26"
 
@@ -914,7 +907,6 @@
 	"ReportBugButton"
 	{
 		"xpos"			"-2"
-		"ypos"			"0"
 		"wide"			"26"
 		"tall"			"26"
 
@@ -934,7 +926,6 @@
 	"TF2SettingsButton"
 	{
 		"xpos"			"-2"
-		"ypos"			"0"
 		"wide"			"26"
 		"tall"			"26"
 
@@ -951,6 +942,30 @@
 			"ypos"			"cs-0.5"
 			"wide"			"14"
 			"tall"			"14"
+		}
+	}
+	"ShowHUDOptionsButton"
+	{
+		"xpos"			"-2"
+		"wide"			"26"
+		"tall"			"26"
+
+		"SubButton"
+		{
+		"border_default"    "MainMenuButtonDefault"
+		"border_armed"      "MainMenuButtonArmed"
+		"paintbackground"   "0"
+
+		"defaultFgColor_override" "46 43 42 255"
+
+		"image_drawcolor"	"20 20 20 255"
+		"SubImage"
+			{
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"wide"			"14"
+				"tall"			"14"
+			}
 		}
 	}
 }

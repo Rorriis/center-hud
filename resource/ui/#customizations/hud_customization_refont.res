@@ -34,7 +34,7 @@
 					"enabled"							"1"
 					"proportionaltoparent"				"1"
 					"use_proportional_insets"			"1"
-					"labelText"							"Generic Font"
+					"labelText"							"#CHud_Customizations_GenericFont"
 					"font"								"ItemFontNameSmallest"
 					"textAlignment"						"center"
 					"textinsetx"						"5"
