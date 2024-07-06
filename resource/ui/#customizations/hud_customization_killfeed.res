@@ -34,7 +34,7 @@
 					"enabled"							"1"
 					"proportionaltoparent"				"1"
 					"use_proportional_insets"			"1"
-					"labelText"							"Killfeed Rows"
+					"labelText"							"#CHud_Customizations_KillfeedRows"
 					"font"								"ItemFontNameSmallest"
 					"textAlignment"						"center"
 					"textinsetx"						"5"

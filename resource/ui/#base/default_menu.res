@@ -2068,72 +2068,13 @@
 		}
 	}
 
-	"ShowHUDOptionsButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"ShowHUDOptionsButton"
-		"xpos"			"c-62"
-		"ypos"			"196"
-		"zpos"			"3"
-		"wide"			"22"
-		"tall"			"22"
-		"visible"		"1"
-		"enabled"		"1"
-
-		"SubButton"
-		{
-			"ControlName"		"CExImageButton"
-			"fieldName"			"SubButton"
-			"xpos"				"0"
-			"ypos"				"0"
-			"wide"				"22"
-			"tall"				"22"
-			"autoResize"		"0"
-			"pinCorner"			"3"
-			"visible"			"1"
-			"enabled"			"1"
-			"tabPosition"		"0"
-			"default"			"1"
-
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"border_default"    "EconItemBorder"
-			"border_armed"      " "
-
-			"paintbackground"   "1"
-
-			"defaultBgColor_override"	"TanDark"
-
-			"use_proportional_insets" "1"
-			"proportionaltoparent"	"1"
-
-			"image_drawcolor"	"235 226 202 255"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"cs-0.5"
-				"ypos"			"cs-0.5"
-				"zpos"			"1"
-				"wide"			"15"
-				"tall"			"15"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"replay/thumbnails/menu/glyph_hudoptions"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-			}
-		}
-	}
-
 	"NewUserForumsButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"NewUserForumsButton"
 		"xpos"			"c-288"
 		"ypos"			"437"
-		"zpos"			"2"
+		"zpos"			"1"
 		"wide"			"26"
 		"tall"			"25"
 		"autoResize"	"0"
@@ -2182,9 +2123,9 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"AchievementsButton"
-		"xpos"			"-2"
+		"xpos"			"-1"
 		"ypos"			"0"
-		"zpos"			"3"
+		"zpos"			"2"
 		"wide"			"27"
 		"tall"			"25"
 		"autoResize"	"0"
@@ -2242,7 +2183,7 @@
 		"fieldName"		"CommentaryButton"
 		"xpos"			"-1"
 		"ypos"			"0"
-		"zpos"			"4"
+		"zpos"			"3"
 		"wide"			"26"
 		"tall"			"25"
 		"autoResize"	"0"
@@ -2300,7 +2241,7 @@
 		"fieldName"		"CoachPlayersButton"
 		"xpos"			"-1"
 		"ypos"			"0"
-		"zpos"			"5"
+		"zpos"			"4"
 		"wide"			"26"
 		"tall"			"25"
 		"autoResize"	"0"
@@ -2358,7 +2299,7 @@
 		"fieldName"		"WorkshopButton"
 		"xpos"			"-1"
 		"ypos"			"0"
-		"zpos"			"6"
+		"zpos"			"5"
 		"wide"			"26"
 		"tall"			"25"
 		"autoResize"	"0"
@@ -2397,7 +2338,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"cs-0.56"
+			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.5"
 			"zpos"			"1"
 			"wide"			"15"
@@ -2472,9 +2413,9 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"TF2SettingsButton"
-		"xpos"			"-2"
+		"xpos"			"-1"
 		"ypos"			"0"
-		"zpos"			"3"
+		"zpos"			"7"
 		"wide"			"26"
 		"tall"			"25"
 		"autoResize"	"0"
@@ -2493,7 +2434,8 @@
 
 		"labelText"		""
 
-        "PaintBackgroundType"   "1"
+		"border_default"	"MainMenuSubButtonBorder"
+		"border_armed"      ""
 		"paintbackground"   "1"
 
 		"defaultFgColor_override" "232 222 182 255"
@@ -2518,6 +2460,68 @@
 			"image"			"replay/thumbnails/menu/glyph_advanced"
 			"scaleImage"	"1"
 			"proportionaltoparent"	"1"
+		}
+	}
+
+	"ShowHUDOptionsButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"ShowHUDOptionsButton"
+		"xpos"			"-1"
+		"ypos"			"0"
+		"zpos"			"6"
+		"wide"			"26"
+		"tall"			"25"
+		"visible"		"1"
+		"enabled"		"1"
+
+		"pin_to_sibling"	"TF2SettingsButton"
+		"pin_to_sibling_corner"	"1"
+
+		"SubButton"
+		{
+			"ControlName"		"CExImageButton"
+			"fieldName"			"SubButton"
+			"xpos"				"0"
+			"ypos"				"0"
+			"wide"				"f0"
+			"tall"				"f0"
+			"autoResize"		"0"
+			"pinCorner"			"3"
+			"visible"			"1"
+			"enabled"			"1"
+			"tabPosition"		"0"
+			"default"			"1"
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
+			"border_default"    "EconItemBorder"
+			"border_armed"      " "
+
+			"paintbackground"   "1"
+
+			"defaultBgColor_override"	"TanDark"
+
+			"use_proportional_insets" "1"
+			"proportionaltoparent"	"1"
+
+			"image_drawcolor"	"235 226 202 255"
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"zpos"			"1"
+				"wide"			"16"
+				"tall"			"16"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"replay/thumbnails/menu/glyph_hudoptions"
+				"scaleImage"	"1"
+				"proportionaltoparent"	"1"
+			}
 		}
 	}
 

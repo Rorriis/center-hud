@@ -305,7 +305,7 @@
 			"labelText"		"#TF_MvM_BraggingRightsExplaination"
 			"textAlignment"	"north-west"
 			"xpos"			"cs-0.5"
-			"ypos"			"rs1"
+			"ypos"			"rs1-14"
 			"zpos"			"2"
 			"wide"			"f20"
 			"tall"			"60"

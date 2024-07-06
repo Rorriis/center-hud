@@ -52,7 +52,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton2"
-		"xpos"			"c-103"
+		"xpos"			"c-115"
 		"ypos"			"438"
 		"zpos"			"1"
 		"wide"			"25"
@@ -114,15 +114,18 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel2"
-		"xpos"			"c79"
-		"ypos"			"438"
-		"zpos"			"7"
+		"xpos"			"-2"
+		"ypos"			"0"
+		"zpos"			"5"
 		"wide"			"25"
 		"tall"			"24"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
+
+		"pin_to_sibling"	"ShowHUDOptionsButton"
+		"pin_to_sibling_corner"	"1"
 
 		"SubButton"
 		{
@@ -650,9 +653,9 @@
 	// command comes from GameMenu.res
 	"ReportPlayerButton"
 	{
-		"xpos"			"c-149"
+		"xpos"			"c-161"
 		"ypos"			"438"
-		"zpos"			"0"
+		"zpos"			"-1"
 		"wide"			"25"
 		"tall"			"24"
 
@@ -666,9 +669,8 @@
 
 	"CallVoteButton"
 	{
-		"xpos"			"c-126"
+		"xpos"			"c-138"
 		"ypos"			"438"
-		"zpos"			"3"
 		"wide"			"24"
 		"tall"			"24"
 
@@ -681,9 +683,9 @@
 
 	"MutePlayersButton"
 	{
-		"xpos"			"c103"
+		"xpos"			"c114"
 		"ypos"			"438"
-		"zpos"			"9"
+		"zpos"			"7"
 		"wide"			"24"
 		"tall"			"24"
 
@@ -696,9 +698,9 @@
 
 	"RequestCoachButton"
 	{
-		"xpos"			"c126"
+		"xpos"			"c137"
 		"ypos"			"438"
-		"zpos"			"7"
+		"zpos"			"6"
 		"wide"			"25"
 		"tall"			"24"
 
@@ -735,16 +737,10 @@
 		"xpos"			"c0"
 	}
 
-	"ShowHUDOptionsButton"
-	{
-		"xpos"			"c98"
-	}
-
 	"NewUserForumsButton"
 	{
-		"xpos"			"c-81"
+		"xpos"			"c-93"
 		"ypos"			"438"
-		"zpos"			"2"
 		"wide"			"24"
 		"tall"			"24"
 
@@ -753,57 +749,48 @@
 
 	"AchievementsButton"
 	{
-		"xpos"			"-1"
-		"ypos"			"0"
-		"zpos"			"3"
 		"wide"			"24"
 		"tall"			"24"
 	}
 
 	"CommentaryButton"
 	{
-		"xpos"			"-1"
-		"ypos"			"0"
-		"zpos"			"4"
 		"wide"			"24"
 		"tall"			"24"
 	}
 
 	"CoachPlayersButton"
 	{
-		"xpos"			"-1"
-		"ypos"			"0"
-		"zpos"			"5"
 		"wide"			"24"
 		"tall"			"24"
 	}
 
 	"WorkshopButton"
 	{
-		"xpos"			"-1"
-		"ypos"			"0"
-		"zpos"			"6"
 		"wide"			"24"
 		"tall"			"24"
 	}
 
 	"ReportBugButton"
 	{
-		"xpos"			"-1"
-		"ypos"			"0"
-		"zpos"			"7"
 		"wide"			"24"
 		"tall"			"24"
 	}
 
 	"TF2SettingsButton"
 	{
-		"xpos"			"-1"
-		"ypos"			"0"
-		"zpos"			"8"
+		"wide"			"24"
+		"tall"			"24"
+	}
+
+	"ShowHUDOptionsButton"
+	{
 		"wide"			"24"
 		"tall"			"24"
 
-		"border_default"	"MainMenuSubButtonBorder"
+		"SubButton"
+		{
+			"border_default"	"MainMenuSubButtonBorder"
+		}
 	}
 }

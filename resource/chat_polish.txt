@@ -1,0 +1,65 @@
+﻿"lang"
+{
+	"Language" "polish"
+	"Tokens"
+	{
+		// TF2 stuff
+		"chat_filterbutton"		"Filtry"
+		"filter_joinleave"		"Dołączenia/rozłączenia"
+		"filter_namechange"		"Zmiany nazwy"
+		"filter_publicchat"		"Czat publiczny"
+		"filter_servermsg"		"Komunikaty serwera"
+		"filter_teamchange"		"Zmiany drużyny"
+		"filter_achievement"	"Powiadomienia o osiągnięciach"
+		"chat_say"				"Mów:"
+		"chat_say_team"			"Mów (DRUŻYNA):"
+		"chat_say_party"		"Say (PARTY) :"
+
+		// Quickplay Stuff
+		"TF_Matchmaking_HeaderQuickplay"	"Quickplay"
+        "TF_GameModeDesc_Quickplay"			"Queue into a community server hosted by players like you.    (comfig quickplay)"
+
+		// Customization Menu Stuff
+
+		"CHud_Menu_MinToggle"		"Toggle Minmode"
+		"CHud_Menu_MatchHudToggle"	"Toggle Match HUD"
+		"CHud_Menu_ResetOptions"	"Reset Options"
+
+		"CHud_Font_TF2Build"		"TF2 Build"			// This shouldn't be translated
+		"CHud_Font_TF2Secondary"	"TF2 Secondary"		// This shouldn't be translated
+
+		// Customizations
+
+		"CHud_Customizations_FloatDamageFont"	"Floating Damage Font"
+		"CHud_Customizations_LastDamageFont"	"Last Damage Done Font"
+		"CHud_Customizations_HealthGainFont"	"Health Gain Font"
+
+		"CHud_Customizations_Speedometer"		"Speedometer"
+		"CHud_Customizations_TransparentView"	"Transparent Viewmodels"
+		"CHud_Customizations_PlayerClass"		"Player Class"
+		"CHud_Customizations_KillfeedRows"		"Killfeed Rows"
+
+		"CHud_Customizations_Crosshair"			"Crosshair"
+		"CHud_Customizations_CrosshairVis"		"Visibility"
+		"CHud_Customizations_CrosshairSize"		"Size"
+		"CHud_Customizations_CrosshairColor"	"Color"
+
+		"CHud_Customizations_MenuStyle"			"Menu Style"
+		"CHud_Customizations_MenuStyleOld"		"Old"
+		"CHud_Customizations_MenuStyleAlt"		"Alternate"
+		"CHud_Customizations_MenuStyleCenter"	"Centered"
+		"CHud_Customizations_MenuStyleButton"	"Button Icons"
+
+		"CHud_Customizations_GenericFont"		"Generic Font"
+		"CHud_Customizations_UltrawideFixes"	"UW Fixes"		// Ultrawide Fixes, doesnt fit into the menu so its UW Fixes
+
+		"CHud_Customizations_MinimalMetal"		"Minimal Metal"
+		"CHud_Customizations_MinimalUber"		"Minimal Uber"
+
+		"CHud_Customizations_TargetIDStyle"		"TargetID Style"
+		"CHud_Customizations_TargetIDNumbers"	"Numbers"
+		"CHud_Customizations_TargetIDCross"		"Cross"
+
+		"CHud_Customizations_DiguiseImage"		"Diguise Image"
+	}
+}
