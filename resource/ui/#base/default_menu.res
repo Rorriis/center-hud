@@ -1585,7 +1585,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReportPlayerButton"
-		"xpos"			"c-95"
+		"xpos"			"c-75"
 		"ypos"			"437"
 		"zpos"			"11"
 		"wide"			"26"
@@ -1647,7 +1647,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
-		"xpos"			"c-71"
+		"xpos"			"c-51"
 		"ypos"			"437"
 		"zpos"			"12"
 		"wide"			"25"
@@ -1711,7 +1711,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MutePlayersButton"
-		"xpos"			"c-47"
+		"xpos"			"c-27"
 		"ypos"			"437"
 		"zpos"			"12"
 		"wide"			"25"
@@ -1775,7 +1775,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"RequestCoachButton"
-		"xpos"			"c-24"
+		"xpos"			"c-4"
 		"ypos"			"437"
 		"zpos"			"12"
 		"wide"			"26"
@@ -2072,7 +2072,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"NewUserForumsButton"
-		"xpos"			"c-288"
+		"xpos"			"c-295"
 		"ypos"			"437"
 		"zpos"			"1"
 		"wide"			"26"

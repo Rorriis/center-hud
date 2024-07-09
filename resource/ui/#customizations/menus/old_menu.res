@@ -92,15 +92,4 @@
 			"ypos"			"6"
 		}
 	}
-
-	"ShowHUDOptionsButton"
-	{
-		"SubButton"
-		{
-			"defaultFgColor_override" "232 222 182 255"
-			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "46 43 42 255"
-			"defaultBgColor_override"	"TanDarker"
-		}
-	}
 }

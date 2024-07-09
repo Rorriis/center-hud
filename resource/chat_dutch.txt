@@ -17,7 +17,7 @@
 
 		// Quickplay Stuff
 		"TF_Matchmaking_HeaderQuickplay"	"Quickplay"
-        "TF_GameModeDesc_Quickplay"			"Queue into a community server hosted by players like you.    (comfig quickplay)"
+        "TF_GameModeDesc_Quickplay"			"Queue into a community server hosted by players like you. (comfig quickplay)"
 
 		// Customization Menu Stuff
 
