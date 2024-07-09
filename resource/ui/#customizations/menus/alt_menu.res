@@ -9,7 +9,7 @@
 
 	"ReportPlayerButton"
 	{
-		"xpos"			"c-102"
+		"xpos"			"c-72"
 		"ypos"			"435"
 		"wide"			"26"
 		"tall"			"26"
@@ -36,7 +36,7 @@
 
 	"CallVoteButton"
 	{
-		"xpos"			"c-78"
+		"xpos"			"c-48"
 		"ypos"			"435"
 		"wide"			"26"
 		"tall"			"26"
@@ -63,7 +63,7 @@
 	}
 	"MutePlayersButton"
 	{
-		"xpos"			"c-54"
+		"xpos"			"c-24"
 		"ypos"			"435"
 		"wide"			"26"
 		"tall"			"26"
@@ -94,7 +94,7 @@
 
 	"RequestCoachButton"
 	{
-		"xpos"			"c-30"
+		"xpos"			"c0"
 		"ypos"			"435"
 		"wide"			"26"
 		"tall"			"26"
