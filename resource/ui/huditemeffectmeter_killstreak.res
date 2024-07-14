@@ -5,7 +5,7 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-312"
+		"xpos"			"c-314"
 		"ypos"			"r48"
 		"xpos_minmode"	"c-314"
 		"ypos_minmode"	"r36"
