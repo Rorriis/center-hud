@@ -19,3 +19,5 @@ mat_colcorrection_disableentities 1
 mat_colorcorrection 0
 
 ------------------------------------------------
+
+If you would like to help translate the HUD to other languages, message me on Discord (eerorri), or go to this issue on GitHub: https://github.com/Eerorri/center-hud/issues/3

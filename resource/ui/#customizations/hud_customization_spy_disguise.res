@@ -34,7 +34,7 @@
 					"enabled"							"1"
 					"proportionaltoparent"				"1"
 					"use_proportional_insets"			"1"
-					"labelText"							"#CHud_Customizations_DiguiseImage"
+					"labelText"							"#CHud_Customizations_DisguiseImage"
 					"font"								"ItemFontNameSmallest"
 					"textAlignment"						"center"
 					"textinsetx"						"5"

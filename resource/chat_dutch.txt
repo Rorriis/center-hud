@@ -17,11 +17,11 @@
 
 		// Quickplay Stuff
 		"TF_Matchmaking_HeaderQuickplay"	"Quickplay"
-        "TF_GameModeDesc_Quickplay"			"Queue into a community server hosted by players like you. (comfig quickplay)"
+        "TF_GameModeDesc_Quickplay"			"Queue into a community server hosted by players like you.    (comfig quickplay)"
 
 		// Customization Menu Stuff
 
-		"CHud_Menu_MinToggle"		"Toggle Minmode"
+		"CHud_Menu_MinToggle"		"Toggle MinMode"
 		"CHud_Menu_MatchHudToggle"	"Toggle Match HUD"
 		"CHud_Menu_ResetOptions"	"Reset Options"
 
@@ -54,12 +54,12 @@
 		"CHud_Customizations_UltrawideFixes"	"UW Fixes"		// Ultrawide Fixes, doesnt fit into the menu so its UW Fixes
 
 		"CHud_Customizations_MinimalMetal"		"Minimal Metal"
-		"CHud_Customizations_MinimalUber"		"Minimal Uber"
+		"CHud_Customizations_MinimalUber"		"Minimal Über"
 
 		"CHud_Customizations_TargetIDStyle"		"TargetID Style"
 		"CHud_Customizations_TargetIDNumbers"	"Numbers"
 		"CHud_Customizations_TargetIDCross"		"Cross"
 
-		"CHud_Customizations_DiguiseImage"		"Diguise Image"
-	}
+		"CHud_Customizations_DisguiseImage"		"Disguise Image"
+    }
 }
