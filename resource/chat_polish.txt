@@ -13,11 +13,11 @@
 		"filter_achievement"	"Powiadomienia o osiągnięciach"
 		"chat_say"				"Mów:"
 		"chat_say_team"			"Mów (DRUŻYNA):"
-		"chat_say_party"		"Say (PARTY) :"
+		"chat_say_party"		"Say (PARTY):"
 
 		// Quickplay Stuff
 		"TF_Matchmaking_HeaderQuickplay"	"Quickplay"
-        "TF_GameModeDesc_Quickplay"			"Queue into a community server hosted by players like you.    (comfig quickplay)"
+        "TF_GameModeDesc_Quickplay"			"Queue into a community server hosted by players like you. (comfig quickplay)"
 
 		// Customization Menu Stuff
 
