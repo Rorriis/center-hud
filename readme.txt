@@ -1,7 +1,9 @@
 
-Certain HUD features, like transparent viewmodels may not work on DX levels <90 and aspect ratios that are lower than 4:3, like 5:4 or 1:1 are not supported
+Certain HUD features, like transparent viewmodels may not work on DX levels <90
 
 Some customizations, like the menu things, crosshair color and generic font need a game restart to apply.
+
+Aspect ratios that are lower than 4:3, like 5:4 or 1:1 are not supported
 
 For the transparent viewmodels; if you're using mastercomfig, get the addon from the website, but if not then put this in your autoexec file in "tf/cfg/autoexec.cfg" or create one if it doesn't exist
 
@@ -18,6 +20,7 @@ mat_colorcorrection 0
 
 ------------------------------------------------
 
+If you would like to help translate the HUD to other languages, message me on Discord (eerorri), or go to this issue on GitHub: https://github.com/Eerorri/center-hud/issues/3
 
 LINUX USERS:
 
