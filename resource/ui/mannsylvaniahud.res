@@ -21,13 +21,6 @@
             "teambg_2"        "../hud/mannsylvaniabg"
             "teambg_3"        "../hud/mannsylvaniabg"
         }
-		"CountdownImage"
-		{
-			"xpos"			"120"
-			"ypos"			"17"
-			"wide"			"32"
-			"tall"			"32"
-		}
     }
     "ScoreContainer"
     {
