@@ -1061,8 +1061,8 @@
 		{
 			"ControlName"		"ImagePanel"
 			"fieldName"		"CountdownImage"
-			"xpos"			"115"
-			"ypos"			"15"
+			"xpos"			"118"
+			"ypos"			"16"
 			"zpos"			"2"
 			"wide"			"35"
 			"tall"			"35"
