@@ -9,15 +9,13 @@
 
 	"ReportPlayerButton"
 	{
-		"xpos"			"c-72"
+		"xpos"			"c-78"
 		"ypos"			"435"
 		"wide"			"26"
 		"tall"			"26"
 
 		"SubButton"
 		{
-			"wide"			"26"
-			"tall"			"26"
 
 			"border_default"    "MainMenuButtonDefault"
 			"border_armed"      "MainMenuButtonArmed"
@@ -36,15 +34,13 @@
 
 	"CallVoteButton"
 	{
-		"xpos"			"c-48"
-		"ypos"			"435"
+		"xpos"			"-1"
+		"ypos"			"0"
 		"wide"			"26"
 		"tall"			"26"
 
 		"SubButton"
 		{
-			"wide"			"26"
-			"tall"			"26"
 
 			"border_default"    "MainMenuButtonDefault"
 			"border_armed"      "MainMenuButtonArmed"
@@ -63,48 +59,13 @@
 	}
 	"MutePlayersButton"
 	{
-		"xpos"			"c-24"
-		"ypos"			"435"
+		"xpos"			"-1"
+		"ypos"			"0"
 		"wide"			"26"
 		"tall"			"26"
 
 		"SubButton"
 		{
-			"wide"			"26"
-			"tall"			"26"
-
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"border_default"    "MainMenuButtonDefault"
-			"border_armed"      "MainMenuButtonArmed"
-
-			"paintbackground"   "0"
-
-			"image_drawcolor"	"20 20 20 255"
-			"SubImage"
-			{
-				"xpos"			"cs-0.5"
-				"ypos"			"cs-0.5"
-				"wide"			"14"
-				"tall"			"14"
-			}
-		}
-	}
-
-	"RequestCoachButton"
-	{
-		"xpos"			"c0"
-		"ypos"			"435"
-		"wide"			"26"
-		"tall"			"26"
-
-		"SubButton"
-		{
-			"wide"			"26"
-			"tall"			"26"
-
-			"textinsety"	"-2"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -189,30 +150,7 @@
 			"tall"			"14"
 		}
 	}
-
-	"CoachPlayersButton"
-	{
-		"xpos"			"-1"
-		"ypos"			"0"
-		"wide"			"26"
-		"tall"			"26"
-
-		"textinsety"	"-2"
-
-		"border_default"    "MainMenuButtonDefault"
-		"border_armed"      "MainMenuButtonArmed"
-		"paintbackground"   "0"
-
-		"image_drawcolor"	"20 20 20 255"
-		"SubImage"
-		{
-			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.5"
-			"wide"			"14"
-			"tall"			"14"
-		}
-	}		
-
+	
 	"WorkshopButton"
 	{
 		"xpos"			"-1"
@@ -277,6 +215,35 @@
 			"tall"			"14"
 		}
 	}
+
+	"ReloadHUDButton"
+	{
+		"xpos"			"-1"
+		"ypos"			"0"
+		"wide"			"26"
+		"tall"			"26"
+
+
+		"SubButton"
+		{
+
+			"border_default"    "MainMenuButtonDefault"
+			"border_armed"      "MainMenuButtonArmed"
+			"paintbackground"   "0"
+
+			"defaultFgColor_override" "46 43 42 255"
+
+			"image_drawcolor"	"20 20 20 255"
+			"SubImage"
+			{
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"wide"			"14"
+				"tall"			"14"
+			}
+		}
+	}
+
 	"ShowHUDOptionsButton"
 	{
 		"xpos"			"-1"

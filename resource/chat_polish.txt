@@ -19,17 +19,18 @@
 		"TF_Matchmaking_HeaderQuickplay"	"Quickplay"
         "TF_GameModeDesc_Quickplay"			"Queue into a community server hosted by players like you. (comfig quickplay)"
 
-		// Customization Menu Stuff
+		// Main Menu Stuff
+		"CHud_Menu_ReloadHUD"		"Reload HUD"
 
-		"CHud_Menu_MinToggle"		"Toggle MinMode"
-		"CHud_Menu_MatchHudToggle"	"Toggle Match HUD"
+		// Customization Menu Stuff
+		"CHud_Menu_MinToggle"		"Minimal HUD Mode"
+		"CHud_Menu_MatchHudToggle"	"Team Status In HUD"
 		"CHud_Menu_ResetOptions"	"Reset Options"
 
 		"CHud_Font_TF2Build"		"TF2 Build"			// This shouldn't be translated
 		"CHud_Font_TF2Secondary"	"TF2 Secondary"		// This shouldn't be translated
 
 		// Customizations
-
 		"CHud_Customizations_FloatDamageFont"	"Floating Damage Font"
 		"CHud_Customizations_LastDamageFont"	"Last Damage Done Font"
 		"CHud_Customizations_HealthGainFont"	"Health Gain Font"

@@ -1587,15 +1587,10 @@
 		"fieldname"		"ReportPlayerButton"
 		"xpos"			"c-75"
 		"ypos"			"437"
-		"zpos"			"11"
+		"zpos"			"1"
 		"wide"			"26"
 		"tall"			"25"
 		"visible"		"1"
-
-		"navLeft"		"ResumeGameButton"
-		"navRight"		"CallVoteButton"
-		"navDown"		"QuickplayChangeButton"
-		"navToRelay"	"SubButton"
 
 		"SubButton"
 		{
@@ -1603,8 +1598,8 @@
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"26"
-			"tall"			"25"
+			"wide"			"f0"
+			"tall"			"f0"
 			"visible"		"1"
 			"enabled"		"1"
 			"autoResize"	"0"
@@ -1647,17 +1642,15 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
-		"xpos"			"c-51"
-		"ypos"			"437"
-		"zpos"			"12"
-		"wide"			"25"
+		"xpos"			"-1"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"26"
 		"tall"			"25"
 		"visible"		"1"
 
-		"navLeft"		"ReportPlayerButton"
-		"navDown"		"QuickplayChangeButton"
-		"navRight"		"MutePlayersButton"
-		"navToRelay"	"SubButton"
+		"pin_to_sibling"	"ReportPlayerButton"
+		"pin_to_sibling_corner"	"1"
 
 		"SubButton"
 		{
@@ -1665,8 +1658,8 @@
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"25"
-			"tall"			"25"
+			"wide"			"f0"
+			"tall"			"f0"
 			"visible"		"1"
 			"enabled"		"1"
 			"autoResize"	"0"
@@ -1711,17 +1704,15 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MutePlayersButton"
-		"xpos"			"c-27"
-		"ypos"			"437"
-		"zpos"			"12"
-		"wide"			"25"
+		"xpos"			"-1"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"26"
 		"tall"			"25"
 		"visible"		"1"
 
-		"navLeft"		"CallVoteButton"
-		"navDown"		"QuickplayChangeButton"
-		"navRight"		"RequestCoachButton"
-		"navToRelay"	"SubButton"
+		"pin_to_sibling"	"CallVoteButton"
+		"pin_to_sibling_corner"	"1"
 
 		"SubButton"
 		{
@@ -1729,8 +1720,8 @@
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"25"
-			"tall"			"25"
+			"wide"			"f0"
+			"tall"			"f0"
 			"visible"		"1"
 			"enabled"		"1"
 			"autoResize"	"0"
@@ -1740,10 +1731,6 @@
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"border_default"	"MainMenuSubButtonBorder"
-			"border_armed"      ""
-			"paintbackground"	"1"
 
 			"defaultFgColor_override" "232 222 182 255"
 			"armedFgColor_override" "232 222 182 255"
@@ -1765,68 +1752,6 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"replay/thumbnails/menu/glyph_mute"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-			}
-		}
-	}
-
-	"RequestCoachButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"RequestCoachButton"
-		"xpos"			"c-4"
-		"ypos"			"437"
-		"zpos"			"12"
-		"wide"			"26"
-		"tall"			"25"
-		"visible"		"1"
-
-		"navLeft"		"MutePlayersButton"
-		"navRight"		"Notifications_ShowButtonPanel"
-		"navDown"		"QuickplayChangeButton"
-		"navToRelay"	"SubButton"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"26"
-			"tall"			"25"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"default"		"1"
-
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"paintbackground"	"1"
-
-			"defaultFgColor_override" "232 222 182 255"
-			"armedFgColor_override" "232 222 182 255"
-			"depressedFgColor_override" "46 43 42 255"
-
-			"use_proportional_insets"	"1"
-			"proportionaltoparent"	"1"
-
-			"image_drawcolor"	"235 226 202 255"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"cs-0.5"
-				"ypos"			"cs-0.5"
-				"zpos"			"1"
-				"wide"			"15"
-				"tall"			"15"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"replay/thumbnails/menu/glyph_coach"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
 			}
@@ -2139,10 +2064,6 @@
 		"pin_to_sibling"	"NewUserForumsButton"
 		"pin_to_sibling_corner"	"1"
 
-		"navUp"			"VRModeButton"
-		"navLeft"		"NewUserForumsButton"
-		"navRight"		"CommentaryButton"
-
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
@@ -2197,10 +2118,6 @@
 		"pin_to_sibling"	"AchievementsButton"
 		"pin_to_sibling_corner"	"1"
 
-		"navUp"			"VRModeButton"
-		"navLeft"		"AchievementsButton"
-		"navRight"		"CoachPlayersButton"
-
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
@@ -2235,10 +2152,10 @@
 		}
 	}
 
-	"CoachPlayersButton"
+	"WorkshopButton"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"CoachPlayersButton"
+		"fieldName"		"WorkshopButton"
 		"xpos"			"-1"
 		"ypos"			"0"
 		"zpos"			"4"
@@ -2250,72 +2167,10 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"default"		"1"
-		"Command"		"engine cl_coach_toggle"
+		"Command"		"engine OpenSteamWorkshopDialog"
 
 		"pin_to_sibling"	"CommentaryButton"
 		"pin_to_sibling_corner"	"1"
-
-		"navUp"			"VRModeButton"
-		"navLeft"		"CommentaryButton"
-		"navRight"		"WorkshopButton"
-
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-
-		"labelText"		""
-
-		"border_default"	"MainMenuSubButtonBorder"
-		"border_armed"      ""
-		"paintbackground"   "1"
-
-		"defaultFgColor_override" "232 222 182 255"
-		"armedFgColor_override" "232 222 182 255"
-		"depressedFgColor_override" "46 43 42 255"
-
-		"use_proportional_insets" "1"
-		"proportionaltoparent"	"1"
-
-		"image_drawcolor"	"235 226 202 255"
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"cs-0.56"
-			"ypos"			"cs-0.5"
-			"zpos"			"1"
-			"wide"			"15"
-			"tall"			"15"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"replay/thumbnails/menu/glyph_becoach"
-			"scaleImage"	"1"
-			"proportionaltoparent"	"1"
-		}
-	}
-
-	"WorkshopButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"WorkshopButton"
-		"xpos"			"-1"
-		"ypos"			"0"
-		"zpos"			"5"
-		"wide"			"26"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"default"		"1"
-		"Command"		"engine OpenSteamWorkshopDialog"
-
-		"pin_to_sibling"	"CoachPlayersButton"
-		"pin_to_sibling_corner"	"1"
-
-		"navUp"			"VRModeButton"
-		"navLeft"		"CoachPlayersButton"
-		"navRight"		"ReportBugButton"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -2357,7 +2212,7 @@
 		"fieldName"		"ReportBugButton"
 		"xpos"			"-1"
 		"ypos"			"0"
-		"zpos"			"6"
+		"zpos"			"5"
 		"wide"			"26"
 		"tall"			"25"
 		"autoResize"	"0"
@@ -2370,10 +2225,6 @@
 
 		"pin_to_sibling"	"WorkshopButton"
 		"pin_to_sibling_corner"	"1"
-
-		"navUp"			"VRModeButton"
-		"navLeft"		"CoachPlayersButton"
-		"navRight"		"SettingsButton"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -2415,7 +2266,7 @@
 		"fieldName"		"TF2SettingsButton"
 		"xpos"			"-1"
 		"ypos"			"0"
-		"zpos"			"7"
+		"zpos"			"6"
 		"wide"			"26"
 		"tall"			"25"
 		"autoResize"	"0"
@@ -2463,6 +2314,73 @@
 		}
 	}
 
+
+	"ReloadHUDButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"ReloadHUDButton"
+		"xpos"			"-1"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"26"
+		"tall"			"25"
+		"visible"		"1"
+		"enabled"		"1"
+
+		"pin_to_sibling"	"TF2SettingsButton"
+		"pin_to_sibling_corner"	"1"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"f0"
+			"tall"			"f0"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"default"		"1"
+
+			"pin_to_sibling"	"TF2SettingsButton"
+			"pin_to_sibling_corner"	"1"
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
+			"border_default"	"MainMenuSubButtonBorder"
+			"border_armed"      ""
+			"paintbackground"   "1"
+
+			"defaultFgColor_override" "232 222 182 255"
+			"armedFgColor_override" "232 222 182 255"
+			"depressedFgColor_override" "46 43 42 255"
+
+			"use_proportional_insets" "1"
+			"proportionaltoparent"	"1"
+
+			"image_drawcolor"	"235 226 202 255"
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"cs-0.56"
+				"ypos"			"cs-0.5"
+				"zpos"			"1"
+				"wide"			"15"
+				"tall"			"15"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"replay/thumbnails/menu/glyph_reloadhud"
+				"scaleImage"	"1"
+				"proportionaltoparent"	"1"
+			}
+		}
+	}
+
 	"ShowHUDOptionsButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -2475,7 +2393,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 
-		"pin_to_sibling"	"TF2SettingsButton"
+		"pin_to_sibling"	"ReloadHUDButton"
 		"pin_to_sibling_corner"	"1"
 
 		"SubButton"
@@ -2549,10 +2467,6 @@
 		"default"		"1"
 		"Command"		"OpenOptionsDialog"
 
-		"navUp"			"TF2SettingsButtonSDK"
-		"navLeft"		"TF2SettingsButtonSDK"
-		"navRight"		"TF2SettingsButtonSDK"
-
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
@@ -2561,8 +2475,8 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"6"
-			"ypos"			"6"
+			"xpos"			"5"
+			"ypos"			"5"
 			"zpos"			"1"
 			"wide"			"14"
 			"tall"			"14"
@@ -2597,10 +2511,6 @@
 		"use_proportional_insets"	"1"
 		"textinsetx"	"25"
 
-		"navUp"			"SettingsButtonSDK"
-		"navLeft"		"SettingsButtonSDK"
-		"navRight"		"SettingsButtonSDK"
-
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
@@ -2609,8 +2519,8 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"6"
-			"ypos"			"6"
+			"xpos"			"5"
+			"ypos"			"5"
 			"zpos"			"1"
 			"wide"			"14"
 			"tall"			"14"

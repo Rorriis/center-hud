@@ -45,14 +45,14 @@
 
 	"RankBorder"
 	{
-		"xpos"			"c-130"
+		"xpos"			"cs-0.5"
 	}
 
 	"QuestLogButton2"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton2"
-		"xpos"			"c-121"
+		"xpos"			"c-133"
 		"ypos"			"438"
 		"zpos"			"10"
 		"wide"			"26"
@@ -649,13 +649,38 @@
 	}
 	"FriendsContainer"
 	{
-		"xpos"			"c-130"
+		"xpos"			"cs-0.5"
+	}
+
+	"MenuContainerBG"
+	{
+		"xpos"			"cs-0.5"
+	}
+	"CharacterSetupButton"
+	{
+		"xpos"			"c-124"
+		"ypos"			"162"
+	}
+	"GeneralStoreButton"
+	{
+		"xpos"			"c0"
+		"ypos"			"162"
+	}
+	"AReplayButton"
+	{
+		"xpos"			"c-124"
+		"ypos"			"192"
+	}
+	"ASettingsButton"
+	{
+		"xpos"			"c0"
+		"ypos"			"192"
 	}
 
 	// command comes from GameMenu.res
 	"ReportPlayerButton"
 	{
-		"xpos"			"c-169"
+		"xpos"			"c-157"
 		"ypos"			"438"
 		"wide"			"26"
 		"tall"			"26"
@@ -683,10 +708,12 @@
 	}
 	"CallVoteButton"
 	{
-		"xpos"			"c-145"
-		"ypos"			"438"
+		"xpos"			"-2"
+		"ypos"			"0"
 		"wide"			"26"
 		"tall"			"26"
+
+		"pin_to_sibling"	"WorkshopButton"
 
 		"SubButton"
 		{
@@ -710,10 +737,12 @@
 	}
 	"MutePlayersButton"
 	{
-		"xpos"			"c119"
-		"ypos"			"438"
+		"xpos"			"-2"
+		"ypos"			"0"
 		"wide"			"26"
 		"tall"			"26"
+
+		"pin_to_sibling"	"MOTD_ShowButtonPanel2"
 
 		"SubButton"
 		{
@@ -733,84 +762,12 @@
 				"wide"			"14"
 				"tall"			"14"
 			}
-		}
-	}
-	"RequestCoachButton"
-	{
-		"xpos"			"c143"
-		"ypos"			"438"
-		"wide"			"26"
-		"tall"			"26"
-
-		"SubButton"
-		{
-			"wide"			"26"
-			"tall"			"26"
-
-			"textinsety"	"-2"
-
-			"border_default"    "MainMenuButtonDefault"
-			"border_armed"      "MainMenuButtonArmed"
-			"paintbackground"   "0"
-
-			"image_drawcolor"	"20 20 20 255"
-			"SubImage"
-			{
-				"xpos"			"cs-0.5"
-				"ypos"			"cs-0.5"
-				"wide"			"14"
-				"tall"			"14"
-			}
-		}
-	}
-	"MenuContainerBG"
-	{
-		"xpos"			"c-130"
-	}
-	"CharacterSetupButton"
-	{
-		"xpos"			"c-124"
-		"ypos"			"162"
-
-		"SubImage"
-		{
-
-		}
-	}
-	"GeneralStoreButton"
-	{
-		"xpos"			"c0"
-		"ypos"			"162"
-
-		"SubImage"
-		{
-
-		}
-	}
-	"AReplayButton"
-	{
-		"xpos"			"c-124"
-		"ypos"			"192"
-
-		"SubImage"
-		{
-
-		}
-	}
-	"ASettingsButton"
-	{
-		"xpos"			"c0"
-		"ypos"			"192"
-
-		"SubImage"
-		{
-
 		}
 	}
 
 	"NewUserForumsButton"
 	{
-		"xpos"			"c-97"
+		"xpos"			"c-109"
 		"ypos"			"438"
 		"wide"			"26"
 		"tall"			"26"
@@ -866,25 +823,7 @@
 			"tall"			"14"
 		}
 	}
-	"CoachPlayersButton"
-	{
-		"xpos"			"-2"
-		"wide"			"26"
-		"tall"			"26"
 
-		"border_default"    "MainMenuButtonDefault"
-		"border_armed"      "MainMenuButtonArmed"
-		"paintbackground"   "0"
-
-		"image_drawcolor"	"20 20 20 255"
-		"SubImage"
-		{
-			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.5"
-			"wide"			"14"
-			"tall"			"14"
-		}
-	}
 	"WorkshopButton"
 	{
 		"xpos"			"-2"
@@ -906,7 +845,7 @@
 	}
 	"ReportBugButton"
 	{
-		"xpos"			"-2"
+		"xpos"			"22"
 		"wide"			"26"
 		"tall"			"26"
 
@@ -944,6 +883,32 @@
 			"tall"			"14"
 		}
 	}
+
+	"ReloadHUDButton"
+	{
+		"xpos"			"-2"
+		"wide"			"26"
+		"tall"			"26"
+
+		"SubButton"
+		{
+		"border_default"    "MainMenuButtonDefault"
+		"border_armed"      "MainMenuButtonArmed"
+		"paintbackground"   "0"
+
+		"defaultFgColor_override" "46 43 42 255"
+
+		"image_drawcolor"	"20 20 20 255"
+		"SubImage"
+			{
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"wide"			"14"
+				"tall"			"14"
+			}
+		}
+	}
+
 	"ShowHUDOptionsButton"
 	{
 		"xpos"			"-2"

@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture" "vgui\replay\thumbnails\menu\glyph_becoach"
+	"$basetexture" "vgui\replay\thumbnails\menu\glyph_reloadhud"
 	"$translucent" 1
 	"$ignorez" 1
 	"$vertexcolor" 1

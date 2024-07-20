@@ -7,6 +7,12 @@
 		"subimage"			"glyph_vr"
 		"OnlyWhenVREnabled" "1"
 	}
+	"ReloadHUDButton"
+	{
+		"label"			""
+		"command"		"engine fix_all"
+		"tooltip"		"#CHud_Menu_ReloadHUD"
+	}
 	"ShowHUDOptionsButton"
 	{
 		"label"			""
@@ -17,14 +23,12 @@
 	{
 		"label"			""
 		"command"		"questlog"
-		"OnlyInGame"	"0"
 		"tooltip"		"#TF_Contract_Progress"
 	}
 	"MOTD_ShowButtonPanel2"
 	{
 		"label"			""
 		"command"		"motd_show"
-		"OnlyInGame"	"0"
 		"tooltip"		"#MMenu_News"
 	}
 
@@ -36,21 +40,14 @@
 		"label"			""
 		"command"		"callvote"
 		"OnlyInGame"	"1"
-		"tooltip" "#MMenu_CallVote"
+		"tooltip" 		"#MMenu_CallVote"
 	}
 	"MutePlayersButton"
 	{
 		"label"			""
 		"command"		"OpenMutePlayerDialog"
 		"OnlyInGame"	"1"
-		"tooltip" "#MMenu_MutePlayers"
-	}
-	"RequestCoachButton"
-	{
-		"label"			""
-		"command"		"engine cl_coach_find_coach"
-		"OnlyInGame"	"1"
-		"tooltip" "#MMenu_RequestCoach"
+		"tooltip" 		"#MMenu_MutePlayers"
 	}
 	"ReportPlayerButton"
 	{

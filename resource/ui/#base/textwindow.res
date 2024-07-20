@@ -60,7 +60,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"paintborder"	"0"
-		"textAlignment"	"northwest"
+		"textAlignment"	"north-west"
 		"fgcolor"		"Gray"
 	}
 
@@ -85,11 +85,11 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"		"ok"
-		"xpos"			"c110"
-		"ypos"			"r38"
+		"xpos"			"cs0.6"
+		"ypos"			"r40"
 		"zpos"			"6"
-		"wide"			"130"
-		"tall"			"25"
+		"wide"			"150"
+		"tall"			"28"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
