@@ -16,7 +16,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"TF2 Secondary"
 				"tall"		"12"
 				"antialias" "1"
 			}

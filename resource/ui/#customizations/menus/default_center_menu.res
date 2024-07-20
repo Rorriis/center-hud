@@ -45,16 +45,16 @@
 
 	"RankBorder"
 	{
-		"xpos"			"c-130"
+		"xpos"			"cs-0.5"
 	}
 
 	"QuestLogButton2"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton2"
-		"xpos"			"c-115"
+		"xpos"			"c-130"
 		"ypos"			"438"
-		"zpos"			"1"
+		"zpos"			"-1"
 		"wide"			"25"
 		"tall"			"24"
 		"autoResize"	"0"
@@ -96,7 +96,7 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"cs-0.56"
+				"xpos"			"cs-0.5"
 				"ypos"			"cs-0.5"
 				"zpos"			"1"
 				"wide"			"15"
@@ -114,7 +114,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel2"
-		"xpos"			"-2"
+		"xpos"			"-1"
 		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"25"
@@ -163,7 +163,7 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"cs-0.46"
+				"xpos"			"cs-0.5"
 				"ypos"			"cs-0.5"
 				"zpos"			"1"
 				"wide"			"15"
@@ -647,74 +647,59 @@
 
 	"FriendsContainer"
 	{
-		"xpos"			"c-130"
+		"xpos"			"cs-0.5"
 	}
 
 	// command comes from GameMenu.res
 	"ReportPlayerButton"
 	{
-		"xpos"			"c-161"
+		"xpos"			"c-156"
 		"ypos"			"438"
 		"zpos"			"-1"
-		"wide"			"25"
+		"wide"			"24"
 		"tall"			"24"
 
 		"SubButton"
 		{
-			"wide"			"25"
-			"tall"			"24"
 			"border_default"	"EconItemBorder"
 		}
 	}
 
 	"CallVoteButton"
 	{
-		"xpos"			"c-138"
-		"ypos"			"438"
+		"xpos"			"2"
+		"ypos"			"0"
+		"zpos"			"6"
 		"wide"			"24"
 		"tall"			"24"
 
+		"pin_to_sibling"	"WorkshopButton"
+
 		"SubButton"
 		{
-			"wide"			"24"
-			"tall"			"24"
+			"border_default"	"EconItemBorder"
 		}
 	}
 
 	"MutePlayersButton"
 	{
-		"xpos"			"c114"
-		"ypos"			"438"
+		"xpos"			"2"
+		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"24"
 		"tall"			"24"
 
-		"SubButton"
-		{
-			"wide"			"24"
-			"tall"			"24"
-		}
-	}
-
-	"RequestCoachButton"
-	{
-		"xpos"			"c137"
-		"ypos"			"438"
-		"zpos"			"6"
-		"wide"			"25"
-		"tall"			"24"
+		"pin_to_sibling"	"MOTD_ShowButtonPanel2"
 
 		"SubButton"
 		{
-			"wide"			"25"
-			"tall"			"24"
 			"border_default"	"EconItemBorder"
 		}
 	}
 
 	"MenuContainerBG"
 	{
-		"xpos"			"c-130"
+		"xpos"			"cs-0.5"
 	}
 
 	"CharacterSetupButton"
@@ -739,7 +724,7 @@
 
 	"NewUserForumsButton"
 	{
-		"xpos"			"c-93"
+		"xpos"			"c-106"
 		"ypos"			"438"
 		"wide"			"24"
 		"tall"			"24"
@@ -759,28 +744,40 @@
 		"tall"			"24"
 	}
 
-	"CoachPlayersButton"
-	{
-		"wide"			"24"
-		"tall"			"24"
-	}
-
 	"WorkshopButton"
 	{
+		"zpos"			"3"
 		"wide"			"24"
 		"tall"			"24"
+
+		"border_default"	"EconItemBorder"
 	}
 
 	"ReportBugButton"
 	{
+		"xpos"			"28"
+		"zpos"			"5"
 		"wide"			"24"
 		"tall"			"24"
+
+		"border_default"	"EconItemBorder"
 	}
 
 	"TF2SettingsButton"
 	{
 		"wide"			"24"
 		"tall"			"24"
+	}
+
+	"ReloadHUDButton"
+	{
+		"wide"			"24"
+		"tall"			"24"
+
+		"SubButton"
+		{
+			"border_default"	"MainMenuSubButtonBorder"
+		}
 	}
 
 	"ShowHUDOptionsButton"

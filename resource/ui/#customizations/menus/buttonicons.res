@@ -38,17 +38,6 @@
 		}
 	}
 
-	"RequestCoachButton"
-	{
-		"SubButton"
-		{
-			"SubImage"
-			{
-				"image"			"icon_whistle"
-			}
-		}
-	}
-
 	"TF2SettingsButton"
 	{
         "labelText"		"+"
@@ -82,14 +71,6 @@
 		"SubImage"
 		{
 			"image"			"glyph_forums"
-		}
-	}
-
-	"CoachPlayersButton"
-	{
-		"SubImage"
-		{
-			"image"			"glyph_commentary"
 		}
 	}
 
