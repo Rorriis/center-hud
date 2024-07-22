@@ -15,7 +15,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_Object_Sentry"
-		"textAlignment"	"Left"
+		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
@@ -84,7 +84,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%metal%"
-		"textAlignment"	"Left"	
+		"textAlignment"	"west"	
 	}
 	
 	"ModeLabel"
@@ -128,10 +128,10 @@
 		"fieldName"		"NumberLabel"
 		"font"			"HudMenuNumberFont"
 		"fgcolor"		"Black"
-		"xpos"			"0"
-		"ypos"			"98"
+		"xpos"			"41"
+		"ypos"			"99"
 		"zpos"			"1"
-		"wide"			"100"
+		"wide"			"18"
 		"tall"			"18"
 		"autoResize"	"0"
 		"pinCorner"		"0"

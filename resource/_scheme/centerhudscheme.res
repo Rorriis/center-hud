@@ -109,7 +109,7 @@ Scheme
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
-				"blur"		"3"
+				"blur"		"2"
 			}
 		}
 		"ScoreboardMediumSmallBold"

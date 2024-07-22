@@ -5,4 +5,4 @@
 
 // BASE
 
-#base "#customizations/health/health_gain.res"
+#base "#base/hudhealthaccount.res"

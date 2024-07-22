@@ -15,9 +15,9 @@
 
 // BASE
 
-#base "#customizations/speedometer/speedometer_base.res"
-#base "#customizations/spy_disguise/spy_disguise_base.res"
-#base "#customizations/player_model/player_model_base.res"
+#base "#base/speedometer_base.res"
+#base "#base/spy_disguise_base.res"
+#base "#base/player_model_base.res"
 
 "Resource/UI/HudPlayerClass.res"
 {
