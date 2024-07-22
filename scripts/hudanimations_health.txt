@@ -4,7 +4,6 @@ event HudHealthBonusPulse
 	Animate		PlayerStatusHealthBonusImage 			Alpha		"100"				Linear 0.0 0.2
 	Animate		PlayerStatusHealthBonusImage 			Alpha		"0"					Linear 0.2 0.4
 	Animate		PlayerStatusHealthValueTargetID 		FgColor		"80 255 80 255"		Linear 0.0 0.0
-	Animate		PlayerStatusHealthValueTargetIDBlur		FgColor		"TanDark"			Linear 0.0 0.0
 	Animate		PlayerStatusKillerHealthValue 			FgColor		"80 255 80 255"		Linear 0.0 0.0
 	RunEvent 	HudHealthBonusPulseLoop					0.4
 }
@@ -19,7 +18,6 @@ event HudHealthBonusPulseStop
 	StopEvent 	HudHealthBonusPulse 					0.0
 	StopEvent 	HudHealthBonusPulseLoop 				0.0
 	Animate		PlayerStatusHealthValueTargetID 		FgColor		"TanLight"			Linear 0.0 0.0
-	Animate		PlayerStatusHealthValueTargetIDBlur		FgColor		"TrueBlack"			Linear 0.0 0.0
 	Animate		PlayerStatusKillerHealthValue 			FgColor		"TanLight"			Linear 0.0 0.0
 }
 
@@ -28,7 +26,6 @@ event HudHealthDyingPulse
 	Animate		PlayerStatusHealthBonusImage 			Alpha		"255"				Linear 0.0 0.075
 	Animate		PlayerStatusHealthBonusImage 			Alpha		"0"					Linear 0.125 0.075
 	Animate		PlayerStatusHealthValueTargetID 		FgColor		"255 255 80 255"	Linear 0.0 0.0
-	Animate		PlayerStatusHealthValueTargetIDBlur 	FgColor		"TanDark"			Linear 0.0 0.0
 	Animate		PlayerStatusKillerHealthValue 			FgColor		"255 255 80 255"	Linear 0.0 0.0
 	RunEvent 	HudHealthDyingPulseLoop					0.25
 }

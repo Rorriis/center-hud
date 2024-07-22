@@ -2193,7 +2193,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"cs-0.5"
+			"xpos"			"cs-0.56"
 			"ypos"			"cs-0.5"
 			"zpos"			"1"
 			"wide"			"15"
@@ -2247,7 +2247,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"cs-0.5"
+			"xpos"			"cs-0.56"
 			"ypos"			"cs-0.5"
 			"zpos"			"1"
 			"wide"			"15"
@@ -2301,7 +2301,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"cs-0.5"
+			"xpos"			"cs-0.56"
 			"ypos"			"cs-0.5"
 			"zpos"			"1"
 			"wide"			"15"

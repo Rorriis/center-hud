@@ -19,8 +19,8 @@
 
 #base "../resource/ui/#base/default_uber_pos.res"
 #base "../resource/ui/#base/default_metal_pos.res"
-#base "../resource/ui/#customizations/killfeed/killfeed_base.res"
-#base "../resource/ui/#customizations/transparent_viewmodels/transparent_viewmodels_base.res"
+#base "../resource/ui/#base/killfeed_base.res"
+#base "../resource/ui/#base/transparent_viewmodels_base.res"
 
 "Resource/HudLayout.res"
 {

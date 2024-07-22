@@ -546,24 +546,6 @@
 				"textAlignment"	"center"
 				"proportionaltoparent"	"1"
 			}
-			"respawntimeshadow"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"respawntimeshadow"
-				"font"			"HudFontSmallest"
-				"xpos"			"cs-0.5+1"
-				"ypos"			"0"
-				"zpos"			"5"
-				"wide"			"f0"
-				"tall"			"19"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"labelText"		"%respawntime%"
-				"textAlignment"	"center"
-				"proportionaltoparent"	"1"
-				"fgcolor"		"black"
-			}
 			"chargeamount"
 			{
 				"ControlName"	"CExLabel"
