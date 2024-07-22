@@ -63,6 +63,29 @@ event RDNegativeScorePulse { }
 
 //==================================================================================
 
+event HudReadyPulse
+{
+	Animate	TournamentInstructionsLabel 	FgColor		"TanLight"		Spline 0.0 0.8
+	Animate	TournamentInstructionsLabel 	FgColor		"RedSolid"		Spline 0.8 1.8
+
+	RunEvent HudReadyPulseLoop	1.8
+}
+
+event HudReadyPulseLoop
+{
+	RunEvent HudReadyPulse			0.0
+}
+
+event HudReadyPulseEnd
+{
+	Animate	TournamentInstructionsLabel 	FgColor		"TanLight"		Linear 0.0 0.1
+
+	StopEvent HudReadyPulse			0.0
+	StopEvent HudReadyPulseLoop		0.0
+}
+
+//==================================================================================
+
 	// Spy Disguise
 event HudSpyDisguiseChanged
 {
