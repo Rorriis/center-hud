@@ -104,18 +104,13 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c158"
-		"xpos_minmode"	"c150"
-		"ypos"			"r20"
-		"ypos_minmode"	"r62"
 		"zpos"			"1"			// draw in front of ammo
-		"wide"			"60"
-		"wide_minmode"	"50"
-		"tall"			"8"
-		"tall_minmode"	"18"
+		"wide"			"f0"
+		"tall"			"f0"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
+
 
 	HudBowCharge
 	{
@@ -1048,12 +1043,13 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c212"
-		"xpos_minmode"	"c210"
 		"ypos"			"r54"
-		"ypos_minmode"	"r32"
+		"xpos_minmode"	"c148"
+		"ypos_minmode"	"r52"
 		"wide"			"100"
+		"wide_minmode"	"200"
 		"tall"			"50"
-	}	
+	}
 
 	HudTeamGoal
 	{

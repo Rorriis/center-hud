@@ -1,20 +1,22 @@
-"Resource/UI/HudItemEffectMeter.res"
+"Resource/UI/Meter/HudItemEffectMeter_Main.res"
 {
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c211"
+		"xpos"			"c212"
 		"ypos"			"r54"
-		"xpos_minmode"	"c150"
-		"ypos_minmode"	"r48"
+		"xpos_minmode"	"c148"
+		"ypos_minmode"	"r52"
 		"wide"			"100"
 		"tall"			"50"
+		"wide_minmode"	"50"
+		"tall_minmode"	"18"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
-
+	
 	"ItemEffectMeterBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -32,25 +34,49 @@
 		"teambg_2"		"replay/thumbnails/meter/hud_main_meter_red"
 		"teambg_3"		"replay/thumbnails/meter/hud_main_meter_blue"
 		"teambg_4"		"replay/thumbnails/meter/hud_main_meter_green"
-		"teambg_5"		"replay/thumbnails/meter/hud_main_meter_ylw"
+		"teambg_5"		"replay/thumbnails/meter/hud_main_meter_yellow"
 	}
 
+	"MinmodeMeterBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"MinmodeMeterBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"50"
+		"tall"			"18"
+		"visible"		"0"
+		"visible_minmode"	"1"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
+		"teambg_4"		"../hud/color_panel_grn"
+		"teambg_5"		"../hud/color_panel_ylw"
+
+		"src_corner_height"	"60"
+		"src_corner_width"	"60"
+		"draw_corner_width"	"6"
+		"draw_corner_height" 	"6"
+	}
+	
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
 		"xpos"					"24"
 		"ypos"					"16"
+		"ypos_minmode"			"5"
+		"xpos_minmode"			"0"
 		"zpos"					"2"
 		"wide"					"41"
 		"tall"					"15"
+		"wide_minmode"			"50"
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
-		"visible_minmode"		"1"
-		"ypos_minmode"			"1"
-		"xpos_minmode"			"0"
-		"textAlignment_minmode"			"west"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#TF_Ball"
@@ -58,20 +84,21 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"TFFontSmall"
+		"allcaps"				"1"
 	}
 	"ItemEffectMeter"
-	{
+	{	
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
 		"xpos"					"24"
 		"ypos"					"28"
-		"ypos_minmode"			"0"
-		"xpos_minmode"			"0"
+		"xpos_minmode"			"3"
+		"ypos_minmode"			"3"
 		"zpos"					"2"
 		"wide"					"40"
-		"wide_minmode"			"50"
-		"tall"					"5"
+		"wide_minmode"			"44"
+		"tall"					"5"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -79,5 +106,5 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-	}
+	}					
 }
