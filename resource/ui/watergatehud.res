@@ -17,11 +17,6 @@
 			"teambg_2"		"../hud/hud_invasion_greenbg"
 			"teambg_3"		"../hud/hud_invasion_greenbg"
 		}
-
-		"CountdownImage"
-		{
-			"xpos"			"117"
-		}
 	}
 	"ScoreContainer"
 	{

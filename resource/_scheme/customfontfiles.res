@@ -141,10 +141,5 @@ Scheme
 				"range" "0x0000 0x007E"
 			}
 		}
-		"19"
-		{
-			"font	"resource/fonts/toonicons.ttf"
-			"name"	"ToonHUD Icons"
-		}
 	}
 }

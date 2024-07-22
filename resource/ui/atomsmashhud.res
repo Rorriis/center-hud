@@ -6,7 +6,7 @@
 	{
 		 "CarriedImage"
 		 {
-			 "image"                                             "../hud/gib_icon"
+			 "image"                                             "../hud/atom_pickup"
 		 }                   
 		 "TeamLeaderImage"
 		 {
@@ -19,12 +19,12 @@
 		 {
 			 "FlagImageBlue"
 			 {
-					 "image"                                             "../hud/gib_icon"
+					 "image"                                             "../hud/atom_pickup"
 					 "zpos"			"100"
 			 }
 			 "FlagImageRed"
 			 {
-					 "image"                                             "../hud/gib_icon"
+					 "image"                                             "../hud/atom_pickup"
 					 "zpos"			"100"
 			 }
 		 }

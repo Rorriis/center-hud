@@ -16,7 +16,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"TF2 Secondary"
 				"tall"		"12"
 				"antialias" "1"
 			}
@@ -109,7 +109,7 @@ Scheme
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
-				"blur"		"3"
+				"blur"		"2"
 			}
 		}
 		"ScoreboardMediumSmallBold"
