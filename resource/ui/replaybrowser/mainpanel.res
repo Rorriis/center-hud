@@ -137,4 +137,15 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}	
+	"BackButtonShortcut"
+	{
+		"ControlName"		"CExButton"
+		"fieldName"			"BackButtonShortcut"
+		"wide"				"0"
+		"visible"			"1"
+		"labelText"			"&Q"
+		"Command"			"back"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}	
 }
