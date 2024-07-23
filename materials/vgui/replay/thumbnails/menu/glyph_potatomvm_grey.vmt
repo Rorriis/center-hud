@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture" "vgui\replay\thumbnails\menu\glyph_moonlight"
+	"$basetexture" "vgui\replay\thumbnails\menu\glyph_potatomvm_grey"
 	"$translucent" 1
 	"$ignorez" 1
 	"$vertexcolor" 1

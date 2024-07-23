@@ -7,6 +7,8 @@ exec joystick.cfg
 
 // run a user script file if present
 exec autoexec.cfg
+
+// run center_hud_init
 exec center_hud_init.cfg
 
 //

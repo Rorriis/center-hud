@@ -18,7 +18,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMLogoImage"
-		"xpos"			"5"
+		"xpos"			"30"
 		"ypos"			"-5"
 		"zpos"			"2"
 		"wide"			"o2"
@@ -30,22 +30,17 @@
 		"scaleImage"	"1"
 	}
 
-
 	"PotatoMVMButton"
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"PotatoMVMButton"
-		"xpos"					"210"
-		"ypos"					"24"
-		"zpos"					"1"
-		"wide"					"22"
-		"tall"					"22"
+		"xpos"					"42"
+		"ypos"					"375"
+		"zpos"					"102"
+		"wide"					"25"
+		"tall"					"25"
 		"visible"				"1"
 		"enabled"				"1"
-
-		"pin_to_sibling"		"ServerBrowserEntry"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
 
 		"SubButton"
 		{
@@ -60,16 +55,15 @@
 			"enabled"		"1"
 			"labelText"		" "
 			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"vo/null.mp3"
+			"command"		"url https://potato.tf/"
 			"proportionaltoparent"	"1"
-
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground"	"1"
 			"paintbackgroundtype"	"2"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
+
+			"image_default"			"replay/thumbnails/menu/glyph_potatomvm_grey"
+			"image_armed"			"replay/thumbnails/menu/glyph_potatomvm"
 
 			"SubImage"
 			{
@@ -78,38 +72,13 @@
 				"xpos"			"cs-0.5"
 				"ypos"			"cs-0.5"
 				"zpos"			"1"
-				"wide"			"f2"
-				"tall"			"f2"
+				"wide"			"f0"
+				"tall"			"f0"
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
-				"image"			"replay/thumbnails/menu/glyph_potatomvm"
-
 				"proportionaltoparent"	"1"
-				"mouseinputenabled"	"0"
-				"keyboardinputenabled" "0"
 			}
-		}
-
-		"PotatoMVMLink"
-		{
-			"ControlName"			"URLLabel"
-			"fieldname"				"PotatoMVMLink"
-			"xpos"					"0"
-			"ypos"					"0"
-			"wide"					"f0"
-			"tall"					"f0"
-			"zpos"					"2"
-			"visible"				"1"
-			"enabled"				"1"
-			"labelText"				" "
-			"textAlignment"			"center"
-			"urlText"				"https://potato.tf/"
-			"paintbackground"		"0"
-
-			"pin_to_sibling"		"PotatoMVMButton"
-			"pin_corner_to_sibling" "PIN_TOPLEFT"
-			"pin_to_sibling_corner" "PIN_TOPLEFT"
 		}
 	}
 
@@ -117,17 +86,13 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"MoonlightMVMButton"
-		"xpos"					"235"
-		"ypos"					"24"
-		"zpos"					"1"
-		"wide"					"22"
-		"tall"					"22"
+		"xpos"					"195"
+		"ypos"					"375"
+		"zpos"					"102"
+		"wide"					"25"
+		"tall"					"25"
 		"visible"				"1"
 		"enabled"				"1"
-
-		"pin_to_sibling"		"ServerBrowserEntry"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
 
 		"SubButton"
 		{
@@ -142,15 +107,13 @@
 			"enabled"		"1"
 			"labelText"		" "
 			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"vo/null.mp3"
+			"command"		"url https://moonlight.tf/"
 			"proportionaltoparent"	"1"
-
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground"	"1"
 			"paintbackgroundtype"	"2"
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"225 216 192 255"
 			"image_armedcolor"	"255 255 255 255"
 
 			"SubImage"
@@ -160,38 +123,14 @@
 				"xpos"			"cs-0.5"
 				"ypos"			"cs-0.5"
 				"zpos"			"1"
-				"wide"			"f2"
-				"tall"			"f2"
+				"wide"			"f5"
+				"tall"			"f5"
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
-				"image"			"replay/thumbnails/menu/glyph_moonlight"
-
+				"image"			"replay/thumbnails/menu/glyph_moonlightmvm"
 				"proportionaltoparent"	"1"
-				"mouseinputenabled"	"0"
-				"keyboardinputenabled" "0"
 			}
-		}
-
-		"MoonlightMVMLink"
-		{
-			"ControlName"			"URLLabel"
-			"fieldname"				"MoonlightMVMLink"
-			"xpos"					"0"
-			"ypos"					"0"
-			"wide"					"f0"
-			"tall"					"f0"
-			"zpos"					"2"
-			"visible"				"1"
-			"enabled"				"1"
-			"labelText"				" "
-			"textAlignment"			"center"
-			"urlText"				"https://moonlight.tf/"
-			"paintbackground"		"0"
-
-			"pin_to_sibling"		"MoonlightMVMButton"
-			"pin_corner_to_sibling" "PIN_TOPLEFT"
-			"pin_to_sibling_corner" "PIN_TOPLEFT"
 		}
 	}
 
@@ -282,11 +221,6 @@
 			"Command"		"mannup"
 			"actionsignallevel"	"2"
 			"proportionaltoparent"	"1"
-
-			"NavUp"			"Sheet"
-			"NavDown"		"BackButton"
-			"NavLeft"		"Sheet"
-			"NavRight"		"PracticeButton"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -403,11 +337,6 @@
 			"Command"		"bootcamp"
 			"actionsignallevel"	"2"
 			"proportionaltoparent"	"1"
-
-			"NavUp"			"Sheet"
-			"NavDown"		"LearnMoreButton"
-			"NavLeft"		"PlayNowButton"
-			"NavRight"		"StartPartyButton"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"

@@ -482,12 +482,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 
-		"navUp"			"MOTD_ShowButtonPanel"
-		"navDown"		"SettingsButton"
-		"navLeft"		"QuickplayButton"
-		"navRight"		"Notifications_Panel"
-		"navToRelay"	"Notifications_ShowButtonPanel_SB"
-
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -598,9 +592,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-
-		"navUp"			"Notifications_Panel"
-		"navLeft"		"SettingsButton"
 
 		"SubButton"
 		{
@@ -755,10 +746,6 @@
 		"PaintBackgroundType"	"2"
 		"paintbackground"	"0"
 		"border"		"MainMenuHighlightBorder"
-
-		"navDown"		"SettingsButton"		// when a sub element can't nav down it will pass through this
-		"navLeft"		"MOTD_ShowButtonPanel"	// when a sub element can't nav left it will pass through this
-		"navToRelay"	"MOTD_URLButton"		// when naving to this it auto navs to this child instead
 
 		"MOTD_HeaderContainer"
 		{
@@ -1138,12 +1125,6 @@
 		"paintbackground"	"0"
 		"border"		"MainMenuHighlightBorder"
 
-		"navUp"			"MOTD_ShowButtonPanel"
-		"navDown"		"SettingsButton"
-		"navLeft"		"Notifications_ShowButtonPanel"
-		"navRight"		"MOTD_ShowButtonPanel"
-		"navToRelay"	"Notifications_CloseButton"
-
 		"Notifications_CloseButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1265,10 +1246,6 @@
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 
-		"navUp"			"ReplayBrowserButton"
-		"navDown"		"QuitButton"
-		"navRight"		"Notifications_ShowButtonPanel"
-		"navToRelay"	"SubButton"
 
 		"SubButton"
 		{
@@ -1345,11 +1322,6 @@
 		"tall"			"36"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
-
-		"navUp"			"ReplayBrowserButton"
-		"navDown"		"QuitButton"
-		"navRight"		"Notifications_ShowButtonPanel"
-		"navToRelay"	"SubButton"
 
 		"SubButton"
 		{
@@ -2561,7 +2533,171 @@
 		"image"			"loadout_solid_line"
 		"scaleImage"	"1"
 	}
-
+	"StripeNon1"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"StripeNon1"
+		"ypos"			"426"
+		"zpos"			"-55"
+		"wide"			"f0"
+		"tall"			"13"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"255 245 55 255"
+	}
+	"StripeNon2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"StripeNon2"
+		"ypos"			"439"
+		"zpos"			"-55"
+		"wide"			"f0"
+		"tall"			"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"255 255 255 255"
+	}
+	"StripeNon3"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"StripeNon3"
+		"ypos"			"453"
+		"zpos"			"-55"
+		"wide"			"f0"
+		"tall"			"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"155 95 210 255"
+	}
+	"StripeNon4"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"StripeNon4"
+		"ypos"			"467"
+		"zpos"			"-55"
+		"wide"			"f0"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"20 20 20 255"
+	}
+	"StripePan1"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"StripePan1"
+		"xpos"			"c180"
+		"ypos"			"426"
+		"zpos"			"-53"
+		"wide"			"f0"
+		"tall"			"18"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"255 30 140 255"
+	}
+	"StripePan2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"StripePan2"
+		"xpos"			"c180"
+		"ypos"			"444"
+		"zpos"			"-53"
+		"wide"			"f0"
+		"tall"			"18"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"255 210 0 255"
+	}
+	"StripePan3"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"StripePan3"
+		"xpos"			"c180"
+		"ypos"			"462"
+		"zpos"			"-53"
+		"wide"			"f0"
+		"tall"			"18"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"35 175 255 255"
+	}
+	"StripePride1"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"StripePride1"
+		"xpos"			"c-180"
+		"ypos"			"426"
+		"zpos"			"-54"
+		"wide"			"f0"
+		"tall"			"9"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"230 0 0 255"
+	}
+	"StripePride2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"StripePride2"
+		"xpos"			"c-180"
+		"ypos"			"435"
+		"zpos"			"-54"
+		"wide"			"f0"
+		"tall"			"9"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"255 140 0 255"
+	}
+	"StripePride3"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"StripePride3"
+		"xpos"			"c-180"
+		"ypos"			"444"
+		"zpos"			"-54"
+		"wide"			"f0"
+		"tall"			"9"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"255 240 0 255"
+	}
+	"StripePride4"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"StripePride4"
+		"xpos"			"c-180"
+		"ypos"			"453"
+		"zpos"			"-54"
+		"wide"			"f0"
+		"tall"			"9"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 130 35 255"
+	}
+	"StripePride5"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"StripePride5"
+		"xpos"			"c-180"
+		"ypos"			"462"
+		"zpos"			"-54"
+		"wide"			"f0"
+		"tall"			"9"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 80 255 255"
+	}
+	"StripePride6"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"StripePride6"
+		"xpos"			"c-180"
+		"ypos"			"471"
+		"zpos"			"-54"
+		"wide"			"f0"
+		"tall"			"9"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"120 0 135 255"
+	}
 	"BackToReplaysButton"
 	{
 		"ControlName"	"CExImageButton"
