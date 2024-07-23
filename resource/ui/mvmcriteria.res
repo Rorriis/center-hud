@@ -10,11 +10,6 @@
 		"wide"		"400"
 		"tall"		"225"
 
-		"NavToRelay"	"TourlistGroupBox"
-		"NavUp"			"MvMSelectChallengeGroupBox"
-		"NavLeft"		"MvMSelectChallengeGroupBox"
-		"NavRight"		"PartyActiveGroupBox"
-
 		"ChallengeLabel"
 		{
 			"ControlName"	"Label"
@@ -209,11 +204,6 @@
 		"bgcolor_override"	"0 0 0 200"
 		"border"		"QuickplayBorder"
 
-		"NavToRelay"	"OpenHelpButton"
-		"NavUp"			"MvMTourOfDutyGroupBox"
-		"NavDown"		"MvMPracticeGroupBox"
-		"NavRight"		"PartyActiveGroupBox"
-
 		"InventoryTitleLabel"
 		{
 			"ControlName"	"Label"
@@ -331,7 +321,7 @@
 		"ActivateSquadSurplusLabel"
 		{
 			"ControlName"	"Label"
-			"fieldName"		"SquadSurplusCheckLabel"
+			"fieldName"		"ActivateSquadSurplusLabel"
 			"font"			"HudFontSmallestBold"
 			"labelText"		"#TF_MvM_ActivateSquadSurplus"
 			"textAlignment"	"north-west"
@@ -470,11 +460,6 @@
 		"paintbackground"		"1"
 		"bgcolor_override"	"0 0 0 200"
 		"border"		"QuickplayBorder"
-
-		"NavToRelay"	"MannUpNowButton"
-		"NavUp"			"MvMEconItemsGroupBox"
-		"NavDown"		"<<BackButton"
-		"NavRight"		"PartyActiveGroupBox"
 
 		"NoMannUpImage"
 		{

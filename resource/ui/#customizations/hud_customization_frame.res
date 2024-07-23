@@ -54,7 +54,7 @@
 			"labelText"						"X"
 			"font"							"HudFontMediumSmallBold"
 			"textAlignment"					"center"
-			"Command"						"engine cl_mainmenu_safemode 0; mat_queue_mode 2"
+			"Command"						"engine cl_mainmenu_safemode 0; mat_queue_mode -1; gameui_allowescape"
 			"actionsignallevel"				"2"
 			"sound_depressed"				"UI/buttonclick.wav"
 		}
@@ -108,7 +108,7 @@
 			"labelText"						"#IT_Apply"
 			"font"							"HudFontSmallestBold"
 			"textAlignment"					"center"
-			"Command"						"engine cl_mainmenu_safemode 0; mat_queue_mode -1; hud_reloadscheme"
+			"Command"						"engine cl_mainmenu_safemode 0; gameui_allowescape; mat_queue_mode -1; hud_reloadscheme"
 			"actionsignallevel"				"2"
 			"sound_depressed"				"UI/buttonclick.wav"
 
@@ -136,7 +136,7 @@
 			"labelText"						"#Vote_RestartGame"
 			"font"							"HudFontSmallestBold"
 			"textAlignment"					"center"
-			"Command"						"engine _restart; mat_queue_mode -1"
+			"Command"						"engine gameui_allowescape; mat_queue_mode -1; gamemenucommand RestartWithNewLanguage"
 			"actionsignallevel"				"2"
 			"sound_depressed"				"UI/buttonclick.wav"
 

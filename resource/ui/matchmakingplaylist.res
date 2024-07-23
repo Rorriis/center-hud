@@ -47,34 +47,12 @@
 
 		"image_name"		"replay\thumbnails\menu\main_menu_button_quickplay"
 		"button_token"		"#TF_Matchmaking_HeaderQuickplay"
-		"button_command"	" "
+		"button_command"	"url https://comfig.app/quickplay/"
 		"desc_token"		"#TF_GameModeDesc_Quickplay"
 
 		if_event
 		{
 			"ypos"			"103"
-		}
-	}
-
-	"QuickplayButton"
-	{
-		"ControlName"				"URLLabel"
-		"fieldname"					"QuickplayButton"
-		"xpos"						"127"
-		"ypos"						"54"
-		"zpos"						"1"
-		"wide"						"124"
-		"tall"						"16"
-		"visible"					"1"
-		"enabled"					"1"
-		"proportionaltoparent"		"1"
-		"labelText"					""
-		"urlText"					"https://comfig.app/quickplay/"
-		"paintbackground"			"0"
-
-		if_event
-		{
-			"ypos"			"104"
 		}
 	}
 

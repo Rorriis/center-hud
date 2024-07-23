@@ -16,7 +16,7 @@
 	"ShowHUDOptionsButton"
 	{
 		"label"			""
-		"command"		"engine toggle cl_mainmenu_safemode; mat_queue_mode 0"
+		"command"		"engine toggle cl_mainmenu_safemode; mat_queue_mode 0; gameui_preventescape:"
 		"tooltip"		"#TF_OptionCategory_HUD"
 	}
 	"QuestLogButton2"
