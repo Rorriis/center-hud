@@ -58,6 +58,26 @@
 			"actionsignallevel"				"2"
 			"sound_depressed"				"UI/buttonclick.wav"
 		}
+
+		"WikiButton"
+		{
+			"ControlName"					"CExButton"
+			"fieldName"						"WikiButton"
+			"xpos"							"rs1-26"
+			"ypos"							"3"
+			"zpos"							"20"
+			"wide"							"60"
+			"tall"							"20"
+			"visible"						"1"
+			"enabled"						"1"
+			"proportionaltoparent"			"1"
+			"labelText"						"HUD Wiki"
+			"font"							"HudFontSmallestBold"
+			"textAlignment"					"center"
+			"Command"						"url https://github.com/Eerorri/center-hud/wiki"
+			"actionsignallevel"				"2"
+			"sound_depressed"				"UI/buttonclick.wav"
+		}
 		
 		"Customizations_Scroller"
 		{

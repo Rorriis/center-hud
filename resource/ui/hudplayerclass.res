@@ -10,7 +10,7 @@
 // OTHER CUSTOMIZATIONS
 
 #base "../../../../cfg/centerhud/hud_speedometer.txt"
-#base "../../../../cfg/centerhud/hud_player_model.txt"
+#base "../../../../cfg/centerhud/hud_player_class.txt"
 #base "../../../../cfg/centerhud/hud_spy_disguise.txt"
 
 // BASE
