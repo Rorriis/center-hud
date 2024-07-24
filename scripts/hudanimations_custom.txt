@@ -1,4 +1,6 @@
-// Spy Disguise
+//==================================================================================
+
+	// Spy Disguise
 event HudSpyDisguiseChanged
 {
 	Animate PlayerStatusSpyOutlineImage		Alpha		"255"			Linear 0.0 0.2
@@ -19,18 +21,8 @@ event HudSpyDisguiseHide
 
 //==================================================================================
 
-//Fix chat pos
-event CompetitiveGame_LowerChatWindow
-{
-
-}
-event CompetitiveGame_RestoreChatWindow
-{
-
-}
-event HudTournament_MoveChatWindow
-{
-
-}
+	// Prevent score moving in PD and RD
+event RDPositiveScorePulse { }
+event RDNegativeScorePulse { }
 
 //==================================================================================
