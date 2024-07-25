@@ -57,6 +57,7 @@
 			"Command"						"engine cl_mainmenu_safemode 0; mat_queue_mode -1; gameui_allowescape"
 			"actionsignallevel"				"2"
 			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
 		}
 
 		"WikiButton"
@@ -75,8 +76,8 @@
 			"font"							"HudFontSmallestBold"
 			"textAlignment"					"center"
 			"Command"						"url https://github.com/Eerorri/center-hud/wiki"
-			"actionsignallevel"				"2"
 			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
 		}
 		
 		"Customizations_Scroller"
@@ -131,6 +132,7 @@
 			"Command"						"engine cl_mainmenu_safemode 0; gameui_allowescape; mat_queue_mode -1; hud_reloadscheme"
 			"actionsignallevel"				"2"
 			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
 
 			"defaultBgColor_override"		"CreditsGreen"
 			"armedBgColor_override"			"GreenSolid"
@@ -159,6 +161,7 @@
 			"Command"						"engine gameui_allowescape; mat_queue_mode -1; gamemenucommand RestartWithNewLanguage"
 			"actionsignallevel"				"2"
 			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
 
 			"defaultBgColor_override"		"CreditsGreen"
 			"armedBgColor_override"			"GreenSolid"
@@ -270,6 +273,7 @@
 			"Command"						"engine toggleconsole"
 			"actionsignallevel"				"2"
 			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
 
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"			"White"
@@ -294,6 +298,7 @@
 			"Command"						"engine customization_reset; hud_crosshair_reset"
 			"actionsignallevel"				"2"
 			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
 
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"			"White"
