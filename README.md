@@ -26,7 +26,7 @@
   <h1>
   Other Links
   </h1>
-  <a href="https://youtu.be/qxrXAGBPros">Infomercial Video</a>
+  <a href="https://youtu.be/_RjJj9XU_iI">Infomercial Video</a>
   ·
   <a href="https://imgur.com/a/NLdQS6O">Images</a>
   <br />
