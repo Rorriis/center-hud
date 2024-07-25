@@ -25,7 +25,7 @@
   ·
   <a href="https://github.com/Hypnootize/TF2-HUD-Icons">Hypnotize's icon font</a>
   <br />
-  <a href="https://gamebanana.com/members/1672887">GoopSwagger (Helpped with the meter BGs)</a>
+  <a href="https://gamebanana.com/members/1672887">GoopSwagger (Helped with the meter BGs)</a>
   ·
   <a href="https://gamebanana.com/members/1767717">Firebert_ (Made the original Centered Vanilla HUD)</a>
 </div>
