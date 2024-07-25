@@ -34,9 +34,9 @@
   <h1>
   Other Links
   </h1>
-  <a href="https://youtu.be/a_38tTV4Xhc">Showcase Video</a>
+  <a href="https://youtu.be/qxrXAGBPros">Infomercial Video</a>
   ·
-  <a href="https://youtu.be/G39x7-gmCzU">Infomercial Video</a>
+  <a href="https://imgur.com/a/NLdQS6O">Images</a>
   <br />
   <a href="https://comfig.app/huds/page/center-hud/">comfig huds</a>
   ·
