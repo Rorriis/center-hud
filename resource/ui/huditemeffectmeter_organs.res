@@ -1,10 +1,11 @@
-#base "meter/huditemeffectmeter_secondarykill.res"
+#base "meter/huditemeffectmeter_primarykill.res"
 
 "Resource/UI/HudItemEffectMeter_Scout.res"
 {
 	HudItemEffectMeter
 	{
-		"xpos"			"c242"
-		"ypos"			"r54"
+		"xpos"			"c208"
+		"xpos_minmode"	"c208"
+		"ypos"			"r92"
 	}
 }
