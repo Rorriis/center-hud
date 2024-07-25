@@ -21,8 +21,16 @@ event HudSpyDisguiseHide
 
 //==================================================================================
 
-	// Prevent score moving in PD and RD
-event RDPositiveScorePulse { }
-event RDNegativeScorePulse { }
+event RDPositiveScorePulse
+{
+	Animate Score FgColor	"25 255 25 255"		Linear 0.0 0.0
+	Animate Score FgColor	"TanLight"			Linear 0.1 0.2
+}
+
+event RDNegativeScorePulse
+{
+	Animate Score FgColor	"255 75 75 255"		Linear 0.0 0.0
+	Animate Score FgColor	"TanLight"			Linear 0.1 0.2
+}
 
 //==================================================================================
