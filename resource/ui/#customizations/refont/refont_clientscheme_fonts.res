@@ -1,30 +1,7 @@
-//
-// TRACKER SCHEME RESOURCE FILE
-//
-// sections:
-//		fonts			- list of all the fonts used by app
-//
 Scheme
 {
-
-	//////////////////////// BITMAP FONT FILES /////////////////////////////
-	//
-	// Bitmap Fonts are ****VERY*** expensive static memory resources so they are purposely sparse
-	BitmapFontFiles
-	{
-		// UI buttons, custom font, (256x64)
-		"Buttons"		"materials/vgui/fonts/buttons_32.vbf"
-		"ButtonsSC"		"materials/vgui/fonts/buttons_sc.vbf"
-	}
-	//
-	//////////////////////// FONTS /////////////////////////////
-	//
-	// describes all the fonts
 	Fonts
 	{
-		// fonts are used in order that they are listed
-		// fonts listed later in the order will only be used if they fulfill a range not already filled
-		// if a font fails to load then the subsequent fonts will replace
 		"Default"
 		{
 			"1"
@@ -38,14 +15,17 @@ Scheme
 			"3"
 			{
 				"name"		"TF2 Secondary"
+				"antialias"	"1"
 			}
 			"4"
 			{
 				"name"		"TF2 Secondary"
+				"antialias"	"1"
 			}
 			"5"
 			{
 				"name"		"TF2 Secondary"
+				"antialias"	"1"
 			}
 			"6"
 			{
@@ -56,13 +36,14 @@ Scheme
 				"name"		"TF2 Secondary"
 			}
 
-
+			
 		}
 		"DefaultUnderline"
 		{
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"underline" "1"
 			}
 			"2"
 			{
@@ -82,14 +63,17 @@ Scheme
 			"3"
 			{
 				"name"		"TF2 Build"
+				"antialias"	"1"
 			}
 			"4"
 			{
 				"name"		"TF2 Build"
+				"antialias"	"1"
 			}
 			"5"
 			{
 				"name"		"TF2 Build"
+				"antialias"	"1"
 			}
 			"6"
 			{
@@ -111,14 +95,17 @@ Scheme
 			"3"
 			{
 				"name"		"TF2 Secondary"
+				"antialias"	"1"
 			}
 			"4"
 			{
 				"name"		"TF2 Secondary"
+				"antialias"	"1"
 			}
 			"5"
 			{
 				"name"		"TF2 Secondary"
+				"antialias"	"1"
 			}
 		}
 		DefaultLarge
@@ -134,14 +121,17 @@ Scheme
 			"3"
 			{
 				"name"		"TF2 Secondary"
+				"antialias"	"1"
 			}
 			"4"
 			{
 				"name"		"TF2 Secondary"
+				"antialias"	"1"
 			}
 			"5"
 			{
 				"name"		"TF2 Secondary"
+				"antialias"	"1"
 			}
 			"6"
 			{
@@ -159,6 +149,8 @@ Scheme
 			{
 				"name"		"TF2 Secondary" [!$OSX]
 				"name"		"TF2 Secondary" [$OSX]
+				"antialias" "1"
+				"additive"	"1"
 			}
 		}
 
@@ -167,6 +159,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		HudHintText
@@ -197,22 +191,32 @@ Scheme
 			"1"
 			{
 				"name"		"TF2"
+				"additive"	"0"
+				"antialias" "1"
 			}
 			"2"
 			{
 				"name"		"TF2"
+				"additive"	"0"
+				"antialias" "1"
 			}
 			"3"
 			{
 				"name"		"TF2"
+				"additive"	"0"
+				"antialias" "1"
 			}
 			"4"
 			{
 				"name"		"TF2"
+				"additive"	"0"
+				"antialias" "1"
 			}
 			"5"
 			{
 				"name"		"TF2"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"HudFontGiantBold"
@@ -220,6 +224,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 
@@ -228,6 +234,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 
@@ -236,6 +244,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"HudFontMediumBig"
@@ -243,20 +253,26 @@ Scheme
 			"1"
 			{
 				"name"		"TF2"
+				"additive"	"0"
+				"antialias" "1"
 			}
-		}
+		}	
 		"HudFontMediumBigBold"
 		{
 			"1"
 			{
 				"name"		"TF2 Build"
+				"additive"	"0"
+				"antialias" "1"
 			}
-		}
+		}		
 		"HudFontMedium"
 		{
 			"1"
 			{
 				"name"		"TF2"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"HudFontMediumSecondary"
@@ -264,6 +280,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"HudFontMediumBold"
@@ -271,6 +289,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"HudFontMediumSmallBold"
@@ -278,6 +298,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"HudFontMediumSmall"
@@ -285,6 +307,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"HudFontMediumSmallSecondary"
@@ -292,6 +316,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"HudFontSmall"
@@ -299,13 +325,17 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"additive"	"0"
+				"antialias" 	"1"
 			}
-		}
+		}	
 		"HudFontSmallishBold"
 		{
 			"1"
 			{
 				"name"		"TF2 Build"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"HudFontSmallBold"
@@ -313,6 +343,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"HudFontSmallBoldShadow"
@@ -320,6 +352,9 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
+				"additive"	"0"
+				"antialias" "1"
+				"dropshadow"	"1"
 			}
 		}
 		"HudFontSmallest"
@@ -327,6 +362,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"additive"	"0"
+				"antialias" 	"1"
 			}
 		}
 		"HudFontSmallestShadow"
@@ -334,6 +371,9 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"additive"	"0"
+				"antialias" 	"1"
+				"dropshadow"	"1"
 			}
 		}
 		"HudFontSmallestBold"
@@ -341,13 +381,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-			}
-		}
-		"HudMenuNumberFont"
-		{
-			"1"
-			{
-				"name"		"TF2 Secondary"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"PerformanceModeSmall"
@@ -355,6 +390,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"StorePromotionsTitle"
@@ -362,6 +399,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"FontCartPrice"
@@ -369,6 +408,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"FontStorePrice"
@@ -376,6 +417,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"FontStoreOriginalPrice"
@@ -383,6 +426,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"FontStorePriceSmall"
@@ -390,6 +435,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"FontStorePromotion"
@@ -397,6 +444,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"TextTooltipFont"
@@ -404,6 +453,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		GameUIButtons
@@ -413,7 +464,9 @@ Scheme
 				"bitmap"	"1"
 				"name"		"Buttons"
 				"scalex"	"0.5"
+				"scalex_lodef"		"0.75"
 				"scaley"	"0.5"
+				"scaley_lodef"		"0.75"
 			}
 		}
 		GameUIButtonsSmall
@@ -443,7 +496,9 @@ Scheme
 				"bitmap"	"1"
 				"name"		"ButtonsSC"
 				"scalex"	"0.5"
+				"scalex_lodef"		"0.75"
 				"scaley"	"0.5"
+				"scaley_lodef"		"0.75"
 			}
 		}
 		GameUIButtonsSteamControllerSmall
@@ -471,6 +526,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"HudClassHealth"
@@ -478,6 +535,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"SpectatorKeyHints"
@@ -485,6 +544,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"ClockSubText"
@@ -492,6 +553,8 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"ClockSubTextSuddenDeath"
@@ -499,6 +562,8 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"ClockSubTextTiny"
@@ -506,6 +571,8 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"HudSelectionText"
@@ -513,22 +580,29 @@ Scheme
 			"1"
 			{
 				"name"		"TF2"
+				"antialias" 	"1"
+				"additive"	"1"
 			}
 			"2"
 			{
 				"name"		"TF2"
+				"antialias" 	"1"
+				"additive"	"1"
 			}
 			"3"
 			{
 				"name"		"TF2"
+				"antialias" 	"1"
 			}
 			"4"
 			{
 				"name"		"TF2"
+				"antialias" 	"1"
 			}
 			"5"
 			{
 				"name"		"TF2"
+				"antialias" 	"1"
 			}
 		}
 		DebugOverlay
@@ -536,25 +610,31 @@ Scheme
 			"1"	[$WIN32]
 			{
 				"name"		"Courier New"
-				"tall"		"14"
-				"weight"	"400"
 				"outline"	"1"
-				"range"		"0x0000 0x017F" // Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
-		}
+			"1"	[$X360]
+			{
+				"name"		"Tahoma"
+				"outline"	"1"
+			}
+		}		
 		TFTypeDeath
 		{
 			"1"
 			{
 				"name"  	"tfd" // tfd.ttf
+				"additive" 	"0"
+				"antialias" 	"1"
 			}
 		}
-
+		
 		Icons
 		{
 			"1"
 			 {
 				"name"  	"Team Fortress" // tf.ttf
+				"additive" 	"1"
+				"antialias" 	"1"
 			}
 		}
 		"BetaFont"
@@ -562,6 +642,8 @@ Scheme
 			"1"
 			{
 				"name"		"Courier New"
+				"antialias" "1"
+				"additive"	"0"
 			}
 		}
 
@@ -570,10 +652,14 @@ Scheme
 			"1"
 			{
 				"name"  "Team Fortress" // tf.ttf
+				"additive" "1"
+				"antialias" "1"
 			}
 			"2"
 			{
 				"name"  "Verdana"
+				"additive" "1"
+				"antialias" "1"
 			}
 		}
 		"CloseCaption_Normal"
@@ -588,6 +674,7 @@ Scheme
 			"1"
 			{
 				"name"		"Tahoma"
+				"italic"	"1"
 			}
 		}
 		"CloseCaption_Bold"
@@ -602,6 +689,7 @@ Scheme
 			"1"
 			{
 				"name"		"Tahoma"
+				"italic"	"1"
 			}
 		}
 		"CloseCaption_Small"
@@ -618,6 +706,7 @@ Scheme
 			"1"
 			{
 				"name"		"Marlett"
+				"symbol"	"1"
 			}
 		}
 		"MarlettSmall"
@@ -625,6 +714,7 @@ Scheme
 			"1"
 			{
 				"name"		"Marlett"
+				"symbol"	"1"
 			}
 		}
 		"MenuMainTitle"
@@ -632,6 +722,7 @@ Scheme
 			"1"
 			{
 				"name"		"TF2"
+				"antialias" "1"
 			}
 		}
 		"MenuClassBuckets"
@@ -639,6 +730,7 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"antialias" "1"
 			}
 		}
 		"MenuKeys"
@@ -646,22 +738,27 @@ Scheme
 			"1"
 			{
 				"name"		"TF2"
+				"antialias" "1"
 			}
 		}
-
+		
 		"GoalText"
 		{
 			"1"
 			{
 				"name"		"Verdana"
+				"additive"	"0"
+				"antialias" 	"1"
 			}
-		}
-
+		}		
+		
 		"ChalkboardTitle"
 		{
 			"1"
 			{
 				"name"			"TF2 Professor"
+				"antialias"		"1" 
+				"custom"		"1" [$OSX]
 			}
 		}
 		"ChalkboardTitleBig"
@@ -669,6 +766,8 @@ Scheme
 			"1"
 			{
 				"name"			"TF2 Professor"
+				"antialias"		"1"
+				"custom"		"1" [$OSX]
 			}
 		}
 		"ChalkboardTitleMedium"
@@ -676,6 +775,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Professor"
+				"antialias" "1"
+				"custom"		"1" [$OSX]
 			}
 		}
 		"ChalkboardText"
@@ -683,6 +784,8 @@ Scheme
 			"1"
 			{
 				"name"			"TF2 Professor"
+				"antialias"		"1"
+				"custom"		"1" [$OSX]
 			}
 		}
 		"ScoreboardSmallest"
@@ -690,6 +793,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"ScoreboardVerySmall"
@@ -697,6 +802,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"ScoreboardSmall"
@@ -704,6 +811,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"ScoreboardMediumSmall"
@@ -711,6 +820,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2"
+				"antialias" "1"
+				"additive"	"0"
 			}
 		}
 		"ScoreboardMediumSmallBold"
@@ -725,6 +836,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"antialias" "1"
+				"additive"	"0"
 			}
 		}
 		"ScoreboardTeamName"
@@ -732,6 +845,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"antialias" "1"
+				"additive"	"0"
 			}
 		}
 		"ScoreboardTeamCountNew"
@@ -739,6 +854,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"antialias" "1"
+				"additive"	"0"
 			}
 		}
 		"ScoreboardTeamNameNew"
@@ -746,6 +863,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"antialias" "1"
+				"additive"	"0"
 			}
 		}
 		"ScoreboardTeamNameLarge"
@@ -753,6 +872,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"antialias" "1"
+				"additive"	"0"
 			}
 		}
 
@@ -761,6 +882,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"ScoreboardTeamScore"
@@ -768,22 +891,27 @@ Scheme
 			"1"
 			{
 				"name"		"TF2"
+				"antialias" "1"
 			}
 			"2"
 			{
 				"name"		"TF2"
+				"antialias" "1"
 			}
 			"3"
 			{
 				"name"		"TF2"
+				"antialias" "1"
 			}
 			"4"
 			{
 				"name"		"TF2"
+				"antialias" "1"
 			}
 			"5"
 			{
 				"name"		"TF2"
+				"antialias" "1"
 			}
 		}
 		"MatchSummaryTeamScores"
@@ -791,6 +919,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2"
+				"antialias" "1"
+				"additive"	"0"
 			}
 		}
 		"MatchSummaryStatsAndMedals"
@@ -798,6 +928,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"MatchSummaryWinner"
@@ -805,6 +937,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"CompMatchStartTeamNames"
@@ -812,6 +946,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"ControlPointTimer"
@@ -819,6 +955,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"ControlPointTimerSmaller"
@@ -826,6 +964,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 
@@ -834,30 +974,37 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
-
+		
 		"TargetID"
 		{
 			"1"
 			{
 				"name"		"Verdana"
+				"dropshadow"	"0"
 			}
 			"2"
 			{
 				"name"		"Verdana"
+				"dropshadow"	"0"
 			}
 			"3"
 			{
 				"name"		"Verdana"
+				"dropshadow"	"0"
 			}
 			"4"
 			{
 				"name"		"Verdana"
+				"dropshadow"	"0"
 			}
 			"5"
 			{
 				"name"		"Verdana"
+				"dropshadow"	"0"
 			}
 		}
 		"ChatFont"
@@ -865,22 +1012,27 @@ Scheme
 			"1"
 			{
 				"name"		"TF2"
+				"dropshadow"	"1"
 			}
 			"2"
 			{
 				"name"		"Verdana"
+				"dropshadow"	"1"
 			}
 			"3"
 			{
 				"name"		"Verdana"
+				"dropshadow"	"1"
 			}
 			"4"
 			{
 				"name"		"Verdana"
+				"dropshadow"	"1"
 			}
 			"5"
 			{
 				"name"		"Verdana"
+				"dropshadow"	"1"
 			}
 		}
 		"ChatMiniFont"
@@ -888,22 +1040,27 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana"
+				"dropshadow"	"1"
 			}
 			"2"
 			{
 				"name"		"Verdana"
+				"dropshadow"	"1"
 			}
 			"3"
 			{
 				"name"		"Verdana"
+				"dropshadow"	"1"
 			}
 			"4"
 			{
 				"name"		"Verdana"
+				"dropshadow"	"1"
 			}
 			"5"
 			{
 				"name"		"Verdana"
+				"dropshadow"	"1"
 			}
 		}
 
@@ -912,21 +1069,25 @@ Scheme
 			"1"
 			{
 				"name"			"Arial Black"
+				"antialias"		"1"
 			}
-		}
-
+		}	
+		
 		MenuSmallFont
 		{
 			"1"
 			{
 				"name"		"TF2"
+				"antialias"		"1"
 			}
-		}
+		}			
 		CapPlayerFont
 		{
 			"1"
 			{
 				"name"		"TF2"
+				"TextColor"	"Black"
+				"antialias" 	"1"
 			}
 		}
 		CapPlayerFontSmall
@@ -934,6 +1095,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2"
+				"TextColor"	"Black"
+				"antialias" 	"1"
 			}
 		}
 
@@ -942,24 +1105,31 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
+				"additive"	"1"
+				"TextColor"	"ProgressOffWhite"
+				"antialias" 	"1"
 			}
-		}
+		}		
 		TFFontMedium
 		{
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"additive"	"0"
+				"antialias" 	"1"
 			}
-		}
-
+		}		
+		
 		InstructionalText
 		{
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"additive"	"0"
+				"antialias" 	"1"
 			}
-		}
-
+		}		
+		
 		MatchmakingDialogTitle
 		{
 			"1"
@@ -994,7 +1164,7 @@ Scheme
 			{
 				"name"		"Trebuchet MS"
 			}
-		}
+		}		
 		MatchmakingDialogMenuMedium
 		{
 			"1"
@@ -1030,12 +1200,14 @@ Scheme
 				"name"		"Verdana"
 			}
 		}
-
+		
 		"TeamMenuBold"
 		{
 			"1"
 			{
 				"name"		"TF2 Build"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"TeamMenu"
@@ -1043,20 +1215,25 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"additive"	"0"
+				"antialias" 	"1"
 			}
-		}
+		}		
 		"IntroMenuCaption"
 		{
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"additive"	"0"
+				"antialias" 	"1"
 			}
-		}
+		}			
 		"AchievementNotification"
 		{
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"antialias" "1"
 			}
 		}
 		"ImportToolSmallestBold"
@@ -1064,6 +1241,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"additive"	"0"
+				"antialias" 	"1"
 			}
 		}
 		"ImportToolSmallest"
@@ -1071,6 +1250,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"additive"	"0"
+				"antialias" 	"1"
 			}
 		}
 		"SpectatorVerySmall"
@@ -1078,6 +1259,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		// Used by scoreboard and spectator UI for names which don't map in the normal fashion
@@ -1086,22 +1269,27 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana"
+				"antialias"	"1"
 			}
 			"2"
 			{
 				"name"		"Verdana"
+				"antialias"	"1"
 			}
 			"3"
 			{
 				"name"		"Verdana"
+				"antialias"	"1"
 			}
 		}
-
+		
 		"ItemFontNameSmallest"
 		{
 			"1"
 			{
 				"name"		"TF2 Build"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"ItemFontNameSmall"
@@ -1109,6 +1297,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"ItemFontNameLarge"
@@ -1116,6 +1306,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"ItemFontNameLarger"
@@ -1123,6 +1315,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"ItemFontAttribSmallest"
@@ -1130,6 +1324,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"additive"	"0"
+				"antialias" 	"1"
 			}
 		}
 		ItemFontAttribSmallv2
@@ -1137,6 +1333,7 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"antialias" "1"
 			}
 		}
 		"ItemFontAttribSmall"
@@ -1144,6 +1341,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"additive"	"0"
+				"antialias" 	"1"
 			}
 		}
 		"ItemFontAttribLarge"
@@ -1151,21 +1350,27 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"additive"	"0"
+				"antialias" 	"1"
 			}
-		}
+		}	
 		"ItemFontAttribLarger"
 		{
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"additive"	"0"
+				"antialias" 	"1"
 			}
 		}
-
+		
 		"AchievementTracker_Name"
 		{
 			"1"
 			{
 				"name"		"TF2 Build"
+				"additive"	"0"
+				"antialias" 	"1"
 			}
 		}
 		"AchievementTracker_NameGlow"
@@ -1173,6 +1378,9 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
+				"blur"		"3"
+				"additive"	"1"
+				"antialias" 	"1"
 			}
 		}
 		"AchievementTracker_Desc"
@@ -1180,6 +1388,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"additive"	"1"
+				"antialias" 	"1"
 			}
 		}
 		"QuestObjectiveTracker_Desc"
@@ -1187,6 +1397,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"additive"	"1"
+				"antialias" 	"1"
 			}
 		}
 		"QuestObjectiveTracker_DescGlow"
@@ -1194,6 +1406,7 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"antialias" 	"1"
 			}
 		}
 		"QuestObjectiveTracker_DescBlur"
@@ -1201,6 +1414,9 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"blur"		"3"
+				"additive"	"1"
+				"antialias" 	"1"
 			}
 		}
 		"ItemTrackerScore_InGame"
@@ -1208,6 +1424,7 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"antialias" 	"1"
 			}
 		}
 
@@ -1215,15 +1432,21 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Verdana"
+				"additive"	"0"
+				"antialias"	"1"
 			}
 			"2"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Verdana"
+				"additive"	"0"
+				"antialias"	"1"
 			}
 			"3"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Verdana"	
+				"additive"	"0"
+				"antialias"	"1"
 			}
 		}
 
@@ -1231,23 +1454,31 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Verdana"
+				"additive"	"0"
+				"antialias"	"1"
 			}
 			"2"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Verdana"
+				"additive"	"0"
+				"antialias"	"1"
 			}
 			"3"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Verdana"
+				"additive"	"0"
+				"antialias"	"1"
 			}
 		}
-
+		
 		"QuestLargeText"
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Verdana"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 
@@ -1256,6 +1487,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Professor"
+				"antialias" "1"
+				"custom"		"1" [$OSX]
 			}
 		}
 
@@ -1264,14 +1497,20 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"additive"	"0"
+				"antialias"	"1"
 			}
 			"2"
 			{
 				"name"		"TF2 Secondary"
+				"additive"	"0"
+				"antialias"	"1"
 			}
 			"3"
 			{
 				"name"		"TF2 Secondary"
+				"additive"	"0"
+				"antialias"	"1"
 			}
 		}
 
@@ -1280,14 +1519,23 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"additive"	"0"
+				"antialias"	"1"
+				"italic"	"1"
 			}
 			"2"
 			{
 				"name"		"TF2 Secondary"
+				"additive"	"0"
+				"antialias"	"1"
+				"italic"	"1"
 			}
 			"3"
 			{
 				"name"		"TF2 Secondary"
+				"additive"	"0"
+				"antialias"	"1"
+				"italic"	"1"
 			}
 		}
 
@@ -1296,14 +1544,20 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"additive"	"0"
+				"antialias"	"1"
 			}
 			"2"
 			{
 				"name"		"TF2 Secondary"
+				"additive"	"0"
+				"antialias"	"1"
 			}
 			"3"
 			{
 				"name"		"TF2 Secondary"
+				"additive"	"0"
+				"antialias"	"1"
 			}
 		}
 
@@ -1312,14 +1566,18 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
-
+		
 		"QuestLargeText_Merasmus"
 		{
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 
@@ -1328,14 +1586,18 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
-
+		
 		"AdFont_AdText"
 		{
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"AdFont_PurchaseButton"
@@ -1343,6 +1605,7 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"antialias" 	"1"
 			}
 		}
 
@@ -1351,6 +1614,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"antialias" "1"
+				"additive"	"0"
 			}
 		}
 
@@ -1359,9 +1624,12 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"antialias" "1"
+				"additive"	"0"
+				"italic"	"1"
 			}
 		}
-
+		
 		//
 		//////////////////// REPLAY FONTS //////////////////////////////
 		//
@@ -1369,23 +1637,26 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Verdana"
 			}
 			"2"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Verdana"
 			}
 			"3"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Verdana"
+				"antialias"	"1"
 			}
 			"4"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Verdana"
+				"antialias"	"1"
 			}
 			"5"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Verdana"
+				"antialias"	"1"
 			}
 		}
 		"ReplayBrowserSmallest"
@@ -1393,33 +1664,38 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"additive"	"0"
+				"antialias" 	"1"
 			}
 		}
 		"ReplaySmaller"
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Verdana"
 			}
 			"2"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Verdana"
 			}
 			"3"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Verdana"
+				"antialias"	"1"
 			}
 			"4"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Verdana"
+				"antialias"	"1"
 			}
 			"5"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Verdana"
+				"antialias"	"1"
 			}
 			"6"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Arial"
 			}
 		}
 		"ReplayMediumSmall"
@@ -1427,6 +1703,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"ReplayMedium"
@@ -1434,6 +1712,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"ReplayMediumBig"
@@ -1441,6 +1721,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"ReplayBrowserTab"
@@ -1448,6 +1730,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"ReplayLarger"
@@ -1455,9 +1739,11 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
-
+		
 		//
 		//////////////////// ECON FONTS //////////////////////////////
 		//
@@ -1466,6 +1752,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"EconFontMedium"
@@ -1473,6 +1761,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 
@@ -1481,6 +1771,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"antialias" "1"
+				"additive"	"0"
 			}
 		}
 
@@ -1489,6 +1781,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"additive"	"0"
+				"antialias" 	"1"
 			}
 		}
 
@@ -1497,6 +1791,7 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
+				"antialias" 	"1"
 			}
 		}
 
@@ -1505,6 +1800,9 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
+				"blur"		"3"
+				"additive"	"1"
+				"antialias" 	"1"
 			}
 		}
 
@@ -1513,6 +1811,9 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
+				"additive"	"0"
+				"antialias" "1"
+				"dropshadow"	"1"
 			}
 		}
 
@@ -1520,7 +1821,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Verdana"
+				"blur"		"3"
+				"additive"	"1"
+				"antialias" 	"1"
 			}
 		}
 
@@ -1528,7 +1832,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Verdana"		
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 
@@ -1536,7 +1842,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Verdana"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 
@@ -1544,7 +1852,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Verdana"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 
@@ -1552,7 +1862,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Verdana"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 	}
