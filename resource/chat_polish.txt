@@ -52,7 +52,7 @@
 		"CHud_Customizations_MenuStyleButton"	"Button Icons"
 
 		"CHud_Customizations_GenericFont"		"Generic Font"
-		"CHud_Customizations_UltrawideFixes"	"UW Fixes"		// Ultrawide Fixes, doesnt fit into the menu so its UW Fixes
+		"CHud_Customizations_UltrawideFixes"	"Ultrawide Mode"
 
 		"CHud_Customizations_MinimalMetal"		"Minimal Metal"
 		"CHud_Customizations_MinimalUber"		"Minimal Über"

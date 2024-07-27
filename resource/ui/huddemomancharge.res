@@ -8,7 +8,7 @@
 		"xpos"			"c162"
 		"ypos"			"r21"
 		"xpos_minmode"	"cs-0.5"
-		"ypos_minmode"	"c50"
+		"ypos_minmode"	"c40"
 		"wide"			"53"
 		"tall"			"6"
 		"wide_minmode"	"40"

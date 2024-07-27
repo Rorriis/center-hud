@@ -1,5 +1,3 @@
-#base "SourceSchemeBase.res"
-
 Scheme
 {
 	Colors
