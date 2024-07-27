@@ -5,12 +5,16 @@
 		"delta_item_x"			"26"
 		"delta_item_start_y"	"90"
 		"delta_item_end_y"		"70"
+		"delta_item_x_minmode"			"26"
+		"delta_item_start_y_minmode"	"108"
+		"delta_item_end_y_minmode"		"98"
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"HudFontMedium"
+		"delta_item_font_minmode"		"HudFontSmall"
 	}
-
+	
 	"AccountBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -34,10 +38,10 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"MinmodeBG"
 		"xpos"			"16"
-		"ypos"			"114"
+		"ypos"			"120"
 		"zpos"			"0"
-		"wide"			"55"
-		"tall"			"24"
+		"wide"			"45"
+		"tall"			"20"
 		"visible"		"0"
 		"visible_minmode"	"1"
 		"enabled"		"1"
@@ -52,20 +56,23 @@
 		"draw_corner_width"	"6"
 		"draw_corner_height" 	"6"
 	}
-
+	
 	"MetalIcon"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"MetalIcon"
 		"xpos"			"22"
+		"xpos_minmode"	"20"
 		"ypos"			"118"
-		"ypos_minmode"	"120"
+		"ypos_minmode"	"124"
 		"zpos"			"1"
 		"wide"			"10"
 		"tall"			"10"
+		"wide_minmode"	"8"
+		"tall_minmode"	"8"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"
+		"scaleImage"	"1"	
 		"icon"			"ico_metal"
 		"iconColor"		"ProgressOffWhite"
 	}
@@ -75,8 +82,11 @@
 		"fieldName"		"AccountValue"
 		"xpos"			"24"
 		"ypos"			"112"
+		"xpos_minmode"	"32"
+		"ypos_minmode"	"115"
 		"zpos"			"2"
 		"wide"			"55"
+		"wide_minmode"	"28"
 		"tall"			"26"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -88,5 +98,6 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"HudFontMediumSmall"
+		"font_minmode"	"HudFontSmall"
 	}
 }
