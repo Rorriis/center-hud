@@ -1,6 +1,20 @@
 "Resource/UI/HudPlayerClass.res"
 {
 	// player class data
+	"HudPlayerClass"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"HudPlayerClass"
+		"xpos"			"0"
+		"ypos"			"0"
+		"ypos_minmode"	"0"
+		"xpos_minmode"	"0"
+		"zpos"			"1"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"enabled"		"1"
+	}
 	"PlayerStatusSpyOutlineImage"
 	{
 		"ControlName"		"CTFImagePanel"
