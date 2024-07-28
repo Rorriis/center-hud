@@ -203,19 +203,19 @@
 		"NumberFont" "HudSelectionText"
 	}	
 	
-	CHudAccountPanel
+	"CHudAccountPanel"
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"c210"
-		"ypos"					"r151"
+		"xpos"					"c212"
+		"ypos"					"r152"
+		"xpos_minmode"			"c216"
 		"ypos_minmode"			"r134"
-		"xpos_minmode"			"c220"
 		"zpos"					"1"			// draw in front of ammo
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
 		"enabled" 				"1"
-		"PaintBackgroundType"	"2"
+		"paintBackgroundtype"	"2"
 	}
 	
 	CHealthAccountPanel
@@ -740,10 +740,8 @@
 		"fieldName" "HudVoiceSelfStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos" "c-256"
-		"ypos" "r110"
-		"xpos_minmode" "c-240"
-		"ypos_minmode" "r100"
+		"xpos" "r42"
+		"ypos" "343"
 		"wide" "32"
 		"tall" "32"
 	}
