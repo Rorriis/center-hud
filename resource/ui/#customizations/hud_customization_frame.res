@@ -75,7 +75,7 @@
 			"labelText"						"HUD Wiki"
 			"font"							"HudFontSmallestBold"
 			"textAlignment"					"center"
-			"Command"						"url https://github.com/Eerorri/center-hud/wiki"
+			"Command"						"url https://github.com/Rorriis/center-hud/wiki"
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
 		}
