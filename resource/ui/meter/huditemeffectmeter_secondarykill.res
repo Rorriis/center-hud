@@ -128,4 +128,25 @@
 		"font"					"HudFontMedium"
 		"font_minmode"			"HudFontMediumSmall"
 	}
+	"ItemEffectMeterCountShadow"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterCountShadow"
+		"xpos"					"15"
+		"ypos"					"2"
+		"zpos"					"2"
+		"wide"					"24"
+		"tall"					"18"
+		"pinCorner"				"2"
+		"visible"				"0"
+		"visible_minmode"		"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"%progresscount%"
+		"textAlignment"			"center"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"HudFontMediumSmall"
+		"fgcolor"				"Black"
+	}
 }
