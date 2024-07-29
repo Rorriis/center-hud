@@ -11,6 +11,10 @@
 		"delta_item_font"		"CenterFont"
 		"textAlignment"			"center"
 		"zpos"					"0"
+		"delta_item_x_minmode"			"42"
+		"delta_item_start_y_minmode"	"2"
+		"delta_item_end_y_minmode"		"2"
+		"delta_item_font_minmode"		"CenterFont"
 	}
 	
 	"Background"
@@ -34,8 +38,11 @@
 		"fieldName"		"AccountValue"
 		"xpos"			"0"
 		"ypos"			"0"
+		"xpos_minmode"	"0"
+		"ypos_minmode"	"0"
 		"zpos"			"2"
 		"wide"			"40"
+		"wide_minmode"	"40"
 		"tall"			"15"
 		"textinsetx"	"5"
 		"autoResize"	"1"
@@ -48,6 +55,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"CenterFont"
+		"font_minmode"	"CenterFont"
 		"fgcolor"		"CenterWhite"
 	}
 	
@@ -78,6 +86,10 @@
 		"visible"		"0"
 	}
 	"MetalIcon"
+	{
+		"visible"		"0"
+	}
+	"AccountValueShadow2"
 	{
 		"visible"		"0"
 	}
