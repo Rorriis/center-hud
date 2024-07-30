@@ -97,13 +97,6 @@
 		"allcaps"				"1"
 	}
 
-	"ItemEffectMeter"
-	{
-		"ControlName"			"ContinuousProgressBar"
-		"fieldName"				"ItemEffectMeter"
-		"xpos"					"9999"
-	}
-
 	"ItemEffectMeterCount"
 	{
 		"ControlName"			"CExLabel"
@@ -128,25 +121,37 @@
 		"font"					"HudFontMedium"
 		"font_minmode"			"HudFontMediumSmall"
 	}
+
 	"ItemEffectMeterCountShadow"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCountShadow"
-		"xpos"					"15"
-		"ypos"					"2"
-		"zpos"					"2"
-		"wide"					"24"
-		"tall"					"18"
+		"xpos"					"26"
+		"ypos"					"9"
+		"xpos_minmode"			"15"
+		"ypos_minmode"			"2"
+		"zpos"					"1"
+		"wide"					"40"
+		"wide_minmode"			"24"
+		"tall"					"22"
+		"tall_minmode"			"18"
 		"pinCorner"				"2"
-		"visible"				"0"
-		"visible_minmode"		"1"
+		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontMediumSmall"
+		"font"					"HudFontMedium"
+		"font_minmode"			"HudFontMediumSmall"
 		"fgcolor"				"Black"
+	}
+	
+	"ItemEffectMeter"
+	{
+		"ControlName"			"ContinuousProgressBar"
+		"fieldName"				"ItemEffectMeter"
+		"xpos"					"9999"
 	}
 }

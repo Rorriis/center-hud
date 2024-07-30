@@ -9,7 +9,7 @@
 		"xpos_minmode"	"c216"
 		"ypos"			"r54"
 		"ypos_minmode"	"r48"
-		"wide"			"94"
+		"wide"			"90"
 		"tall"			"50"
 	}
 
@@ -18,9 +18,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
 		"xpos"			"0"
-		"xpos_minmode"	"0"
 		"ypos"			"0"
-		"ypos_minmode"	"16"
 		"zpos"			"1"
 		"wide"			"90"
 		"tall"			"45"
@@ -72,13 +70,6 @@
 		"scaleImage"	"1"	
 	}
 
-	"ItemEffectMeterLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ItemEffectMeterLabel"
-		"xpos"			"9999"
-	}
-
 	"ItemEffectMeter"
 	{	
 		"ControlName"	"ContinuousProgressBar"
@@ -97,7 +88,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"Left"
+		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor"		"White"
@@ -120,9 +111,16 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"Left"
+		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor"		"White"
+	}
+	
+	"ItemEffectMeterLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ItemEffectMeterLabel"
+		"xpos"			"9999"
 	}
 }
