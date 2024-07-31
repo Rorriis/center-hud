@@ -2,7 +2,7 @@
 {
 	"CHudAccountPanel"
 	{
-		"delta_item_x"			"26"
+		"delta_item_x"			"28"
 		"delta_item_start_y"	"90"
 		"delta_item_end_y"		"70"
 		"PositiveColor"			"0 255 0 255"
@@ -100,9 +100,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AccountValueShadow2"
-		"xpos"			"21"
-		"ypos"			"114"
-		"zpos"			"1"
+		"xpos"			"25"
+		"ypos"			"113"
+		"xpos_minmode"	"21"
+		"ypos_minmode"	"114"
+		"zpos"			"2"
 		"wide"			"55"
 		"tall"			"26"
 		"autoResize"	"1"
