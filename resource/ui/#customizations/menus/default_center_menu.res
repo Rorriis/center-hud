@@ -40,10 +40,15 @@
 
 	"RankPanel"
 	{
-		"xpos"			"c-190"
+		"xpos"			"c-195"
 	}
 
 	"RankBorder"
+	{
+		"xpos"			"cs-0.5"
+	}
+
+	"StatsBorder"
 	{
 		"xpos"			"cs-0.5"
 	}
@@ -662,6 +667,12 @@
 		"SubButton"
 		{
 			"border_default"	"EconItemBorder"
+
+			"SubImage"
+			{
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+			}
 		}
 	}
 
@@ -694,6 +705,12 @@
 		"SubButton"
 		{
 			"border_default"	"EconItemBorder"
+
+			"SubImage"
+			{
+				"xpos"			"cs-0.54"
+				"ypos"			"cs-0.5"
+			}
 		}
 	}
 
@@ -751,6 +768,14 @@
 		"tall"			"24"
 
 		"border_default"	"EconItemBorder"
+
+		"SubImage"
+		{
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.5"
+			"wide"			"14"
+			"tall"			"14"
+		}
 	}
 
 	"ReportBugButton"

@@ -40,10 +40,15 @@
 
 	"RankPanel"
 	{
-		"xpos"			"c-190"
+		"xpos"			"c-195"
 	}
 
 	"RankBorder"
+	{
+		"xpos"			"cs-0.5"
+	}
+
+	"StatsBorder"
 	{
 		"xpos"			"cs-0.5"
 	}
