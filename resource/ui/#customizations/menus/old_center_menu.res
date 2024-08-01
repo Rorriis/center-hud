@@ -40,10 +40,15 @@
 
 	"RankPanel"
 	{
-		"xpos"			"c-190"
+		"xpos"			"c-195"
 	}
 
 	"RankBorder"
+	{
+		"xpos"			"cs-0.5"
+	}
+
+	"StatsBorder"
 	{
 		"xpos"			"cs-0.5"
 	}
@@ -657,6 +662,65 @@
 		"xpos"			"cs-0.5"
 	}
 
+	// command comes from GameMenu.res
+	"ReportPlayerButton"
+	{
+		"xpos"			"c-156"
+		"ypos"			"438"
+		"zpos"			"-1"
+		"wide"			"24"
+		"tall"			"24"
+
+		"SubButton"
+		{
+			"border_default"	"EconItemBorder"
+
+			"SubImage"
+			{
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+			}
+		}
+	}
+
+	"CallVoteButton"
+	{
+		"xpos"			"2"
+		"ypos"			"0"
+		"zpos"			"6"
+		"wide"			"24"
+		"tall"			"24"
+
+		"pin_to_sibling"	"WorkshopButton"
+
+		"SubButton"
+		{
+			"border_default"	"EconItemBorder"
+		}
+	}
+
+	"MutePlayersButton"
+	{
+		"xpos"			"2"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"24"
+		"tall"			"24"
+
+		"pin_to_sibling"	"MOTD_ShowButtonPanel2"
+
+		"SubButton"
+		{
+			"border_default"	"EconItemBorder"
+
+			"SubImage"
+			{
+				"xpos"			"cs-0.54"
+				"ypos"			"cs-0.5"
+			}
+		}
+	}
+
 	"MenuContainerBG"
 	{
 		"xpos"			"cs-0.5"
@@ -748,58 +812,6 @@
 			"xpos"			"5"
 			"ypos"			"6"
 		}
-	}
-
-	// command comes from GameMenu.res
-	"ReportPlayerButton"
-	{
-		"xpos"			"c-156"
-		"ypos"			"438"
-		"zpos"			"-1"
-		"wide"			"24"
-		"tall"			"24"
-
-		"SubButton"
-		{
-			"border_default"	"EconItemBorder"
-		}
-	}
-
-	"CallVoteButton"
-	{
-		"xpos"			"2"
-		"ypos"			"0"
-		"zpos"			"6"
-		"wide"			"24"
-		"tall"			"24"
-
-		"pin_to_sibling"	"WorkshopButton"
-
-		"SubButton"
-		{
-			"border_default"	"EconItemBorder"
-		}
-	}
-
-	"MutePlayersButton"
-	{
-		"xpos"			"2"
-		"ypos"			"0"
-		"zpos"			"7"
-		"wide"			"24"
-		"tall"			"24"
-
-		"pin_to_sibling"	"MOTD_ShowButtonPanel2"
-
-		"SubButton"
-		{
-			"border_default"	"EconItemBorder"
-		}
-	}
-
-	"MenuContainerBG"
-	{
-		"xpos"			"c-130"
 	}
 
 	"NewUserForumsButton"

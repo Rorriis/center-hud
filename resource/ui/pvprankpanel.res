@@ -58,7 +58,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fov"			"70"
+			"fov"			"80"
 			"proportionaltoparent"	"1"
 
 			if_mini
@@ -206,7 +206,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"NameLabel"
-			"xpos"			"65"
+			"xpos"			"58"
 			"ypos"			"5"
 			"wide"			"170"
 			"zpos"			"100"
@@ -229,7 +229,7 @@
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine1"
-			"xpos"			"65"
+			"xpos"			"58"
 			"ypos"			"19"
 			"wide"			"195"
 			"zpos"			"100"
@@ -260,7 +260,7 @@
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine2"
-			"xpos"			"65"
+			"xpos"			"58"
 			"ypos"			"29"
 			"wide"			"195"
 			"zpos"			"100"
@@ -297,10 +297,10 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"StatsContainer"
-			"xpos"			"rs1-5"
-			"ypos"			"-1"
-			"wide"			"f10"
-			"tall"			"200"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"f0"
+			"tall"			"380"
 			"proportionaltoparent"	"1"
 
 			if_mini
@@ -315,8 +315,8 @@
 			{
 				"Controlname"	"EditablePanel"
 				"fieldName"		"XPBar"
-				"xpos"			"rs1"
-				"ypos"			"rs1-142"
+				"xpos"			"rs1-4"
+				"ypos"			"28"
 				"wide"			"f60"
 				"tall"			"30"
 				"proportionaltoparent"	"1"
@@ -423,10 +423,10 @@
 			{
 				"ControlName"	"EditablePanel"
 				"fieldName"		"Stats"
-				"xpos"			"0"
-				"ypos"			"rs1.741"
-				"wide"			"f0"
-				"tall"			"p0.3003"
+				"xpos"			"6"
+				"ypos"			"rs1-64"
+				"wide"			"248"
+				"tall"			"62"
 				"visible"		"1"
 				"proportionaltoparent"	"1"
 				"bgcolor_override"	"0 0 0 100"
@@ -449,8 +449,6 @@
 					"border"		"InnerShadowBorder"
 				}
 
-
-	
 				// First column
 				"GamesLabel"
 				{
@@ -514,7 +512,7 @@
 					"xpos"			"c0"
 					"ypos"			"5"
 					"zpos"			"0"
-					"wide"			"100"
+					"wide"			"120"
 					"tall"			"20"
 					"visible"		"1"
 					"enabled"		"1"
@@ -532,7 +530,7 @@
 					"xpos"			"c0"
 					"ypos"			"25"
 					"zpos"			"0"
-					"wide"			"100"
+					"wide"			"120"
 					"tall"			"20"
 					"visible"		"1"
 					"enabled"		"1"
@@ -569,7 +567,7 @@
 					"xpos"			"c0"
 					"ypos"			"45"
 					"zpos"			"0"
-					"wide"			"100"
+					"wide"			"120"
 					"tall"			"20"
 					"visible"		"1"
 					"enabled"		"1"
