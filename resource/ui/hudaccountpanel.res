@@ -32,7 +32,7 @@
 		"teambg_2"		"replay/thumbnails/meter/hud_main_meter_red"
 		"teambg_3"		"replay/thumbnails/meter/hud_main_meter_blue"
 		"teambg_4"		"replay/thumbnails/meter/hud_main_meter_green"
-		"teambg_5"		"replay/thumbnails/meter/hud_main_meter_yellow"
+		"teambg_5"		"replay/thumbnails/meter/hud_main_meter_ylw"
 	}
 
 	"MinmodeBG"
