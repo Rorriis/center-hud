@@ -126,7 +126,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#TF_Cancel"
+		"labelText"		"#CHud_Cancel"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"

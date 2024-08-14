@@ -46,9 +46,9 @@
 		"proportionaltoparent"	"1"
 
 		"image_name"		"replay\thumbnails\menu\main_menu_button_quickplay"
-		"button_token"		"#TF_Matchmaking_HeaderQuickplay"
+		"button_token"		"#CHud_Matchmaking_HeaderQuickplay"
 		"button_command"	"url https://comfig.app/quickplay/"
-		"desc_token"		"#TF_GameModeDesc_Quickplay"
+		"desc_token"		"#CHud_GameModeDesc_Quickplay"
 
 		if_event
 		{

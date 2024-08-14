@@ -128,7 +128,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#TF_BackCarat"
+		"labelText"		"#CHud_Back"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -139,18 +139,6 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}		
 
-	"CloseButtonShortcut"
-	{
-		"ControlName"		"CExButton"
-		"fieldName"			"CloseButtonShortcut"
-		"wide"				"0"
-		"visible"			"1"
-		"labelText"			"&Q"
-		"Command"			"close"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-	}	
-	
 	"armory_panel"
 	{
 		"ControlName"		"CArmoryPanel"
@@ -176,11 +164,33 @@
 		"enabled"		"1"
 	}
 
+	"SupportCommunityMapMakersButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"SupportCommunityMapMakersButton"
+		"xpos"			"c140"
+		"ypos"			"437"
+		"zpos"			"2"
+		"wide"			"25"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		""
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+	}
+
 	"SupportCommunityMapMakersCheckButton"
 	{
 		"ControlName"	"CheckButton"
 		"fieldName"		"SupportCommunityMapMakersCheckButton"
-		"xpos"			"c170"
+		"xpos"			"c140"
 		"ypos"			"437"
 		"zpos"			"5"
 		"wide"			"25"
@@ -188,20 +198,21 @@
 		"font"			"HudFontSmall"
 		"labelText"		""
 		"visible"		"0"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 
 	"SupportCommunityMapMakersLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"SupportCommunityMapMakersLabel"
-		"textAlignment"		"north-west"
-		"xpos"				"c100"
-		"ypos"				"435"
+		"xpos"				"c48"
+		"ypos"				"426"
 		"zpos"				"5"
-		"wide"				"70"
-		"tall"				"100"
+		"wide"				"90"
+		"tall"				"50"
 		"font"				"HudFontSmallest"
-		"wrap"				"1"
+		"centerwrap"		"1"
 		"labelText"			"#Store_ConfirmStampDonationAddTitle"
 		"visible"			"0"
 	}
@@ -220,7 +231,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#Store_Checkout"
+		"labelText"		"#CHud_Checkout"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -230,5 +241,4 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}	
-	
 }
