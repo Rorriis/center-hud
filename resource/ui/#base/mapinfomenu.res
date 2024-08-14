@@ -91,6 +91,16 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoContinue"
+		"xpos"			"9999"
+		"wide"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+	}
+
+	"AltMapInfoContinue"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"AltMapInfoContinue"
 		"xpos"			"cs0.6"
 		"ypos"			"r40"
 		"zpos"			"6"
@@ -100,7 +110,7 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#TF_Continue"
+		"labelText"		"#CHud_Continue"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -123,7 +133,7 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#TF_WatchIntro"
+		"labelText"		"#CHud_WatchIntro"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -146,7 +156,7 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#TF_Back"
+		"labelText"		"#CHud_Back"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"

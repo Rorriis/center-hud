@@ -88,6 +88,38 @@
 			"scaleImage"	"1"
 		}				
 	}
+
+	"RandomLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"RandomLabel"
+		"xpos"			"c230"
+		"ypos"			"96"
+		"zpos"			"2"
+		"wide"			"90"
+		"tall"			"12"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#CHud_Random"
+		"textAlignment"	"center"
+		"font"			"MenuClassBuckets"
+		"fgcolor"		"TanDark"
+	}
+
+	"randomShortcut"
+	{
+		"ControlName"		"CExButton"
+		"fieldName"			"randomShortcut"
+		"wide"				"0"
+		"visible"			"1"
+		"labelText"			"&R"
+		"Command"			"select 12"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}
 		
 	"Offense"
 	{
@@ -693,7 +725,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#TF_ClassMenu_Cancel"
+		"labelText"		"#CHud_Cancel"
 		"textAlignment"	"center"
 		"Command"		"vguicancel"
 		"font"			"HudFontSmallBold"
@@ -714,7 +746,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#EditLoadout"
+		"labelText"		"#CHud_Loadout"
 		"textAlignment"	"center"
 		"Command"		"openloadout"
 		"font"			"HudFontSmallBold"

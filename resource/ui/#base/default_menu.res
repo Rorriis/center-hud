@@ -226,7 +226,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFLogoImage"
-		"xpos"			"c-290"
+		"xpos"			"c-298"
 		"ypos"			"32"
 		"zpos"			"1"
 		"wide"			"256"
@@ -256,7 +256,7 @@
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankModelPanel"
-		"xpos"			"cs-0.5-256"
+		"xpos"			"cs-0.5-266"
 		"ypos"			"cs-0.5-120"
 		"zpos"			"-53"
 		"wide"			"1000"
@@ -274,7 +274,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CycleRankTypeButton"
-		"xpos"			"cs-0.5-44"
+		"xpos"			"cs-0.5-52"
 		"ypos"			"cs-0.5-134"
 		"wide"			"15"
 		"tall"			"15"
@@ -328,7 +328,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RankTooltipPanel"
-		"xpos"			"c-285"
+		"xpos"			"c-293"
 		"ypos"			"99"
 		"zpos"			"-1"
 		"wide"			"8"
@@ -345,7 +345,7 @@
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankPanel"
-		"xpos"			"c-355"
+		"xpos"			"c-363"
 		"ypos"			"72"
 		"zpos"			"-52"
 		"wide"			"325"
@@ -364,7 +364,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"NoGCMessage"
-		"xpos"			"c-290"
+		"xpos"			"c-298"
 		"ypos"			"94"
 		"zpos"			"-99"
 		"wide"			"260"
@@ -387,7 +387,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"NoGCImage"
-		"xpos"			"c-285"
+		"xpos"			"c-293"
 		"ypos"			"107"
 		"zpos"			"-99"
 		"wide"			"30"
@@ -403,7 +403,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"RankBorder"
-		"xpos"			"c-290"
+		"xpos"			"c-298"
 		"ypos"			"94"
 		"zpos"			"-54"
 		"wide"			"260"
@@ -418,7 +418,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"StatsBorder"
-		"xpos"			"c-290"
+		"xpos"			"c-298"
 		"ypos"			"340"
 		"zpos"			"-54"
 		"wide"			"260"
@@ -1239,7 +1239,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"VRBGPanel"
-		"xpos"			"c-290"
+		"xpos"			"c-298"
 		"ypos"			"373"
 		"zpos"			"-61"
 		"wide"			"260"
@@ -1253,7 +1253,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"VRModeButton"
-		"xpos"			"c-285"
+		"xpos"			"c-293"
 		"ypos"			"379"
 		"zpos"			"-60"
 		"wide"			"270"
@@ -1261,82 +1261,6 @@
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"250"
-			"tall"			"26"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"textinsetx"	"25"
-			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"border_default"	"MainMenuButtonDefault"
-			"border_armed"		"MainMenuButtonArmed"
-			"paintbackground"	"0"
-
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "46 43 42 255"
-
-			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"235 226 202 255"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"6"
-				"ypos"			"6"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-			}
-		}
-	}
-
-	"VRBGPanel"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"VRBGPanel"
-		"xpos"			"c-290"
-		"ypos"			"373"
-		"zpos"			"-61"
-		"wide"			"260"
-		"tall"			"38"
-		"visible"		"1"
-		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
-	}
-
-	"VRModeButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"VRModeButton"
-		"xpos"			"c-285"
-		"ypos"			"379"
-		"zpos"			"-60"
-		"wide"			"270"
-		"tall"			"36"
-		"visible"		"1"
-		"PaintBackgroundType"	"2"
 
 		"SubButton"
 		{
@@ -1404,7 +1328,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"FriendsContainer"
-		"xpos"			"c-290"
+		"xpos"			"c-298"
 		"ypos"			"230"
 		"zpos"			"5"
 		"wide"			"260"
@@ -1749,7 +1673,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MenuContainerBG"
-		"xpos"			"c-290"
+		"xpos"			"c-298"
 		"ypos"			"155"
 		"zpos"			"1"
 		"wide"			"260"
@@ -1762,7 +1686,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CharacterSetupButton"
-		"xpos"			"c-284"
+		"xpos"			"c-292"
 		"ypos"			"162"
 		"zpos"			"2"
 		"wide"			"124"
@@ -1817,7 +1741,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"GeneralStoreButton"
-		"xpos"			"c-160"
+		"xpos"			"c-168"
 		"ypos"			"162"
 		"zpos"			"2"
 		"wide"			"124"
@@ -1872,7 +1796,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"AReplayButton"
-		"xpos"			"c-284"
+		"xpos"			"c-292"
 		"ypos"			"192"
 		"zpos"			"2"
 		"wide"			"124"
@@ -1927,7 +1851,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ASettingsButton"
-		"xpos"			"c-160"
+		"xpos"			"c-168"
 		"ypos"			"192"
 		"zpos"			"2"
 		"wide"			"124"

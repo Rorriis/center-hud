@@ -11,13 +11,23 @@
 		"filter_servermsg"		"Komunikaty serwera"
 		"filter_teamchange"		"Zmiany drużyny"
 		"filter_achievement"	"Powiadomienia o osiągnięciach"
-		"chat_say"				"Mów:"
-		"chat_say_team"			"Mów (DRUŻYNA):"
-		"chat_say_party"		"Say (PARTY):"
+		"chat_say"				"Mów :"
+		"chat_say_team"			"Mów (DRUŻYNA) :"
+		"chat_say_party"		"Say (PARTY) :"
+
+		// Menu Shortcuts
+        "CHud_Back"               "BACK (&Q)"
+        "CHud_Skip"               "SKIP (&E)"
+        "CHud_Continue"           "CONTINUE (&E)"
+        "CHud_Cancel"             "CANCEL (&Q)"
+        "CHud_WatchIntro"         "WATCH MOVIE (&R)"
+        "CHud_Checkout"           "CHECKOUT (&E)"
+        "CHud_Loadout"         	  "LOADOUT (&E)"
+        "CHud_Random"         	  "RANDOM (&R)"
 
 		// Quickplay Stuff
-		"TF_Matchmaking_HeaderQuickplay"	"Quickplay"
-        "TF_GameModeDesc_Quickplay"			"Queue into a community server hosted by players like you. (comfig quickplay)"
+		"CHud_Matchmaking_HeaderQuickplay"	"Quickplay"
+        "CHud_GameModeDesc_Quickplay"		"Queue into a community server hosted by players like you. (comfig quickplay)"
 
 		// Main Menu Stuff
 		"CHud_Menu_ReloadHUD"		"Reload HUD"
