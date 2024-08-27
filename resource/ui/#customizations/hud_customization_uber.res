@@ -7,7 +7,7 @@
 			"Uber"
 			{
 				"ControlName"						"EditablePanel"
-				"fieldName"							"CenteredUber"
+				"fieldName"							"Uber"
 				"xpos"								"155"
 				"ypos"								"358"
 				"zpos"								"0"
