@@ -1,0 +1,76 @@
+﻿"lang"
+{
+	"Language" "russian"
+	"Tokens"
+	{
+		// TF2 stuff
+		"chat_filterbutton"		"Фильтры"
+		"filter_joinleave"		"Присоединение/выход из игры"
+		"filter_namechange"		"Смена имени"
+		"filter_publicchat"		"Общий чат"
+		"filter_servermsg"		"Сообщения сервера"
+		"filter_teamchange"		"Смена команды"
+		"filter_achievement"	"Получение достижений"
+		"chat_say"				"Сказать:"
+		"chat_say_team"			"Сказать (КОМАНДЕ):"
+		"chat_say_party"		"Сказать (ГРУППЕ):"
+
+		// Menu Shortcuts
+        "CHud_Back"               "НАЗАД (&Q)"
+        "CHud_Skip"               "ПРОПУСТИТЬ (&E)"
+        "CHud_Continue"           "ПРОДОЛЖИТЬ (&E)"
+        "CHud_Cancel"             "ОТМЕНА (&Q)"
+        "CHud_WatchIntro"         "ПРОСМОТРЕТЬ РОЛИК (&R)"
+        "CHud_Checkout"           "КОРЗИНА (&E)"
+        "CHud_Loadout"         	  "СНАРЯЖЕНИЕ (&E)"
+        "CHud_Random"         	  "СЛУЧАЙНО (&R)"
+
+		// Quickplay Stuff
+		"TF_Matchmaking_HeaderQuickplay"	"Быстрая Игра"
+        "TF_GameModeDesc_Quickplay"			"Найдите сервер сообщества, созданный такими же игроками, как вы. (comfig quickplay)"
+
+		// Main Menu Stuff
+		"CHud_Menu_ReloadHUD"		"Перезагрузить интерфейс"
+
+		// Customization Menu Stuff
+		"CHud_Menu_MinToggle"		"Минималистичный интерфейс"
+		"CHud_Menu_MatchHudToggle"	"Состояние команды в интерфейсе"
+		"CHud_Menu_ResetOptions"	"Сбросить настройки"
+
+		"CHud_Font_TF2Build"		"TF2 Build"			// This shouldn't be translated
+		"CHud_Font_TF2Secondary"	"TF2 Secondary"		// This shouldn't be translated
+
+		// Customizations
+		"CHud_Customizations_FloatDamageFont"	"Шрифт всплывающего урона"
+		"CHud_Customizations_LastDamageFont"	"Шрифт последнего нанесённого урона"
+		"CHud_Customizations_HealthGainFont"	"Шрифт восстановления здоровья"
+
+		"CHud_Customizations_Speedometer"		"Спидометр"
+		"CHud_Customizations_TransparentView"	"Прозрачное отображение оружия в руках"
+		"CHud_Customizations_PlayerClass"		"Портрет игрока"
+		"CHud_Customizations_KillfeedRows"		"Ряды ленты убийств"
+
+		"CHud_Customizations_Crosshair"			"Прицел"
+		"CHud_Customizations_CrosshairVis"		"Видимость"
+		"CHud_Customizations_CrosshairSize"		"Размер"
+		"CHud_Customizations_CrosshairColor"	"Цвет"
+
+		"CHud_Customizations_MenuStyle"			"Стиль меню"
+		"CHud_Customizations_MenuStyleOld"		"Старый"
+		"CHud_Customizations_MenuStyleAlt"		"Альтернатива"
+		"CHud_Customizations_MenuStyleCenter"	"Центрирование"
+		"CHud_Customizations_MenuStyleButton"	"Иконки кнопок"
+
+		"CHud_Customizations_GenericFont"		"Общий шрифт"
+		"CHud_Customizations_UltrawideFixes"	"Сверхширокий формат монитора"
+
+		"CHud_Customizations_MinimalMetal"		"Минималистичный счётчик металла"
+		"CHud_Customizations_MinimalUber"		"Минималистичный счётчик Убер-заряда"
+
+		"CHud_Customizations_TargetIDStyle"		"Стиль показателя здоровья цели наблюдения"
+		"CHud_Customizations_TargetIDNumbers"	"Число"
+		"CHud_Customizations_TargetIDCross"		"Крест"
+
+		"CHud_Customizations_DisguiseImage"		"Иконка маскировки"
+    }
+}
