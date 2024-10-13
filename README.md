@@ -1,15 +1,15 @@
-![centerhud3long](https://github.com/Eerorri/center-hud/assets/97610612/fe6e4ca8-e06e-4940-9ef7-aa191a214106)
+![centerhud3long](https://github.com/Rorriis/center-hud/assets/97610612/fe6e4ca8-e06e-4940-9ef7-aa191a214106)
 <div id="main" align="center"> 
   Lite version of Center HUD. No menus, no customizations. Just the ingame HUD. Mostly for better compability with other HUD mods, like menu mods.
-  <p><a href="https://github.com/Eerorri/center-hud/releases">Downloads</a>
+  <p><a href="https://github.com/Rorriis/center-hud/releases">Downloads</a>
   ·
-  <a href="https://github.com/Eerorri/center-hud/wiki">Wiki</a>
+  <a href="https://github.com/Rorriis/center-hud/wiki">Wiki</a>
   <br>
-  <a href="https://github.com/Eerorri/center-hud/tree/main">Normal Version (Windows)</a>
+  <a href="https://github.com/Rorriis/center-hud/tree/main">Normal Version (Windows)</a>
   ·
-  <a href="https://github.com/Eerorri/center-hud/tree/linux">Normal Version (Linux)</a>
+  <a href="https://github.com/Rorriis/center-hud/tree/linux">Normal Version (Linux)</a>
   ·
-  <a href="https://github.com/Eerorri/center-hud/tree/tf2c">TF2C Version</a></p>
+  <a href="https://github.com/Rorriis/center-hud/tree/tf2c">TF2C Version</a></p>
 </div>
 
 <div id="credits" align="center">
