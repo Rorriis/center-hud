@@ -27,7 +27,7 @@
   <h2>Credits / Special Thanks</h2>
   <p><a href="https://github.com/CriticalFlaw/TF2HUD.Fixes">Community HUD Fixes</a>
   ·
-  <a href="https://gamebanana.com/mods/385807">Enhanced Default HUD</a>
+  <a href="https://gamebanana.com/mods/385807">(Deleted) Enhanced Default HUD</a>
   ·
   <a href="https://gamebanana.com/mods/314848">Source Text Refont</a>
   ·
