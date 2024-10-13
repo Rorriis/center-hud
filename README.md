@@ -1,15 +1,15 @@
-![centerhud3long](https://github.com/Eerorri/center-hud/assets/97610612/fe6e4ca8-e06e-4940-9ef7-aa191a214106)
+![centerhud3long](https://github.com/Rorriis/center-hud/assets/97610612/fe6e4ca8-e06e-4940-9ef7-aa191a214106)
 <div id="main" align="center"> 
   A TF2 HUD focused on putting critical HUD info in the center, while sticking to the style of the default HUD, adding customization and fixing things.
-  <p><a href="https://github.com/Eerorri/center-hud/releases">Downloads</a>
+  <p><a href="https://github.com/Rorriis/center-hud/releases">Downloads</a>
   ·
-  <a href="https://github.com/Eerorri/center-hud/wiki">Wiki</a>
+  <a href="https://github.com/Rorriis/center-hud/wiki">Wiki</a>
   <br>
-  <a href="https://github.com/Eerorri/center-hud/tree/linux">Linux Version</a>
+  <a href="https://github.com/Rorriis/center-hud/tree/linux">Linux Version</a>
   ·
-  <a href="https://github.com/Eerorri/center-hud/tree/lite">Lite Version</a>
+  <a href="https://github.com/Rorriis/center-hud/tree/lite">Lite Version</a>
   ·
-  <a href="https://github.com/Eerorri/center-hud/tree/tf2c">TF2C Version</a></p>
+  <a href="https://github.com/Rorriis/center-hud/tree/tf2c">TF2C Version</a></p>
 </div>
 
 <div id="translators" align="center">
