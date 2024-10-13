@@ -17,7 +17,9 @@
   <p>Everyone that has helped translate Center HUD to other languages, if you're interested in helping, <a href="https://github.com/Eerorri/center-hud/wiki/Translating">look here.</a></p>
   <p><a href="https://github.com/grousk">grousk (Turkish)</a>
   ·
-  <a href="https://steamcommunity.com/id/bambambambrrrbrrrboopboop/">bjrkk (Romanian)</a></p>
+  <a href="https://steamcommunity.com/id/bambambambrrrbrrrboopboop/">bjrkk (Romanian)</a>
+  ·
+  <a href="https://github.com/realFunnyScout">realFunnyScout (Russian)</a></p>
 </div>
 
 <div id="credits" align="center">
