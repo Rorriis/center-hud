@@ -263,6 +263,8 @@
 			"image_drawcolor"	"20 20 20 255"
 			"SubImage"
 			{
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
 				"wide"			"14"
 				"tall"			"14"
 			}

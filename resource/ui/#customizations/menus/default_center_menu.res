@@ -57,10 +57,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton2"
-		"xpos"			"c-130"
+		"xpos"			"c-132"
 		"ypos"			"438"
 		"zpos"			"-1"
-		"wide"			"25"
+		"wide"			"26"
 		"tall"			"24"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -73,7 +73,7 @@
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"25"
+			"wide"			"26"
 			"tall"			"24"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -119,7 +119,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel2"
-		"xpos"			"-1"
+		"xpos"			"-2"
 		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"25"
@@ -658,7 +658,7 @@
 	// command comes from GameMenu.res
 	"ReportPlayerButton"
 	{
-		"xpos"			"c-156"
+		"xpos"			"c-158"
 		"ypos"			"438"
 		"zpos"			"-1"
 		"wide"			"24"
@@ -741,9 +741,9 @@
 
 	"NewUserForumsButton"
 	{
-		"xpos"			"c-106"
+		"xpos"			"c-109"
 		"ypos"			"438"
-		"wide"			"24"
+		"wide"			"25"
 		"tall"			"24"
 
 		"border_default"	"MainMenuSubButtonBorder"
@@ -751,20 +751,21 @@
 
 	"AchievementsButton"
 	{
-		"wide"			"24"
+		"wide"			"25"
 		"tall"			"24"
 	}
 
 	"CommentaryButton"
 	{
-		"wide"			"24"
+		"wide"			"25"
 		"tall"			"24"
 	}
 
 	"WorkshopButton"
 	{
+		"xpos"			"-2"
 		"zpos"			"3"
-		"wide"			"24"
+		"wide"			"25"
 		"tall"			"24"
 
 		"border_default"	"EconItemBorder"
@@ -782,7 +783,7 @@
 	{
 		"xpos"			"28"
 		"zpos"			"5"
-		"wide"			"24"
+		"wide"			"25"
 		"tall"			"24"
 
 		"border_default"	"EconItemBorder"
@@ -790,13 +791,14 @@
 
 	"TF2SettingsButton"
 	{
-		"wide"			"24"
+		"xpos"			"-2"
+		"wide"			"25"
 		"tall"			"24"
 	}
 
 	"ReloadHUDButton"
 	{
-		"wide"			"24"
+		"wide"			"25"
 		"tall"			"24"
 
 		"SubButton"
@@ -807,7 +809,7 @@
 
 	"ShowHUDOptionsButton"
 	{
-		"wide"			"24"
+		"wide"			"25"
 		"tall"			"24"
 
 		"SubButton"

@@ -1553,10 +1553,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
-		"xpos"			"-1"
+		"xpos"			"-2"
 		"ypos"			"0"
 		"zpos"			"2"
-		"wide"			"26"
+		"wide"			"27"
 		"tall"			"25"
 		"visible"		"1"
 
@@ -1615,7 +1615,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MutePlayersButton"
-		"xpos"			"-1"
+		"xpos"			"-2"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"26"
@@ -1911,7 +1911,7 @@
 		"xpos"			"c-295"
 		"ypos"			"437"
 		"zpos"			"1"
-		"wide"			"26"
+		"wide"			"27"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -1942,7 +1942,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"cs-0.56"
+			"xpos"			"cs-0.6"
 			"ypos"			"cs-0.5"
 			"zpos"			"1"
 			"wide"			"15"
@@ -1959,7 +1959,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"AchievementsButton"
-		"xpos"			"-1"
+		"xpos"			"-3"
 		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"27"
@@ -2254,7 +2254,6 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"default"		"1"
 
 			"pin_to_sibling"	"TF2SettingsButton"
 			"pin_to_sibling_corner"	"1"
@@ -2296,10 +2295,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ShowHUDOptionsButton"
-		"xpos"			"-1"
+		"xpos"			"-3"
 		"ypos"			"0"
 		"zpos"			"6"
-		"wide"			"26"
+		"wide"			"27"
 		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
@@ -2320,7 +2319,6 @@
 			"visible"			"1"
 			"enabled"			"1"
 			"tabPosition"		"0"
-			"default"			"1"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -2340,7 +2338,7 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"cs-0.5"
+				"xpos"			"cs-0.46"
 				"ypos"			"cs-0.5"
 				"zpos"			"1"
 				"wide"			"16"
@@ -2470,21 +2468,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"loadout_solid_line"
-		"scaleImage"	"1"
-	}
-
-	"EvilImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"EvilImage"
-		"xpos"			"cs-0.5"
-		"ypos"			"r52"
-		"zpos"			"-51"
-		"wide"			"50"
-		"tall"			"50"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/silly/evil"
 		"scaleImage"	"1"
 	}
 
