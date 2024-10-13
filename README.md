@@ -1,15 +1,15 @@
-![centerhud3long](https://github.com/Eerorri/center-hud/assets/97610612/fe6e4ca8-e06e-4940-9ef7-aa191a214106)
+![centerhud3long](https://github.com/Rorriis/center-hud/assets/97610612/fe6e4ca8-e06e-4940-9ef7-aa191a214106)
 <div id="main" align="center"> 
   TF2C version of Center HUD. This time it's more classical.
-  <p><a href="https://github.com/Eerorri/center-hud/releases">Downloads</a>
+  <p><a href="https://github.com/Rorriis/center-hud/releases">Downloads</a>
   ·
-  <a href="https://github.com/Eerorri/center-hud/wiki">Wiki</a>
+  <a href="https://github.com/Rorriis/center-hud/wiki">Wiki</a>
   <br>
-  <a href="https://github.com/Eerorri/center-hud/tree/main">Normal Version (Windows)</a>
+  <a href="https://github.com/Rorriis/center-hud/tree/main">Normal Version (Windows)</a>
   ·
-  <a href="https://github.com/Eerorri/center-hud/tree/linux">Normal Version (Linux)</a>
+  <a href="https://github.com/Rorriis/center-hud/tree/linux">Normal Version (Linux)</a>
   ·
-  <a href="https://github.com/Eerorri/center-hud/tree/lite">Normal Version (Lite)</a></p>
+  <a href="https://github.com/Rorriis/center-hud/tree/lite">Normal Version (Lite)</a></p>
 </div>
 
 <div id="credits" align="center">
