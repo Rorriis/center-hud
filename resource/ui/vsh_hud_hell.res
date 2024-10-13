@@ -1,5 +1,5 @@
-"resource/ui/vsh_hud.res"
-{
+"resource/ui/vsh_hud_hell.res"
+{	
 	"ObjectiveStatusRobotDestruction"
 	{
 		"ControlName"		"EditablePanel"
@@ -18,7 +18,7 @@
 		"robot_y_offset"		"47"
 		"robot_x_step"			"23"
 		"robot_y_step"			"0"
-
+		
 
 		"color_blue"			"84 111 127 255"
 		"color_red"				"171 59 59 255"
@@ -54,7 +54,7 @@
 		"wide"			"60"
 		"tall"			"30"
 		"visible"		"1"
-
+	
 		"background"
 		{
 			"ControlName"	"CTFImagePanel"
@@ -68,17 +68,17 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/color_panel_red"
-
+			"image"			"../hud/color_panel_blu"
+				
 			"src_corner_height"		"23"
 			"src_corner_width"		"23"
-
+					
 			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"
-		}
+			"draw_corner_height" 	"5"	
+		}	
 		"playerimage"
 		{
-			"ControlName"	"ImagePanel"
+			"ControlName"	"ImagePanel"		
 			"fieldName"		"playerimage"
 			"xpos"			"12"
 			"ypos"			"11"
@@ -91,7 +91,7 @@
 			"scaleImage"	"1"
 		}
 	}
-
+	
 	"damagecounter"
 	{
 		"ControlName"	"EditablePanel"
@@ -102,7 +102,7 @@
 		"wide"			"80"
 		"tall"			"30"
 		"visible"		"1"
-
+	
 		"background"
 		{
 			"ControlName"	"CTFImagePanel"
@@ -117,16 +117,16 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../vgui/replay/thinlineborder"
-
+				
 			"src_corner_height"		"23"
 			"src_corner_width"		"23"
-
+					
 			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"
-		}
+			"draw_corner_height" 	"5"	
+		}	
 		"dmg_icon"
 		{
-			"ControlName"	"ImagePanel"
+			"ControlName"	"ImagePanel"		
 			"fieldName"		"playerimage"
 			"xpos"			"9"
 			"ypos"			"11"
@@ -135,11 +135,11 @@
 			"tall"			"15"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"vssaxtonhale/dmg_icon"
+			"image"			"vssaxtonhale_hell/dmg_icon"
 			"scaleImage"	"1"
 		}
 	}
-
+	
 	"ScoreContainer"
 	{
 		"fieldName"				"ScoreContainer"
@@ -153,10 +153,28 @@
 		"visible"				"1"
 		"enabled"				"1"
 
+		"BorderImage2"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"BorderImage2"	
+			"xpos"			"c-100"
+			"ypos"			"42"
+			"zpos"			"3"
+			"wide"			"200"
+			"tall"			"50"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"Image"			"vssaxtonhale_hell/boss_bar_layer3"
+			"scaleImage"	"1"					
+		}
+		
 		"BorderImage1"
 		{
 			"ControlName"	"ImagePanel"
-			"fieldName"		"BorderImage1"
+			"fieldName"		"BorderImage1"	
 			"xpos"			"c-100"
 			"ypos"			"42"
 			"zpos"			"1"
@@ -167,10 +185,10 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"Image"			"vssaxtonhale/boss_bar_layer1"
-			"scaleImage"	"1"
+			"Image"			"vssaxtonhale_hell/boss_bar_layer1"
+			"scaleImage"	"1"					
 		}
-
+		
 		"ProgressBarContainer"
 		{
 			"fieldName"				"ProgressBarContainer"
@@ -183,7 +201,25 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"proportionalToParent"	"1"
-
+					
+			"RedProgressBarFill"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldName"		"RedProgressBarFill"
+				"xpos"			"-10"
+				"ypos"			"16"
+				"zpos"			"10"
+				"wide"			"218"
+				"tall"			"18"
+				"autoResize"	"1"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"tabPosition"	"0"
+				"scaleImage"	"0"	
+				"Image"			"vssaxtonhale_hell/boss_bar_layer2"
+			}
+			
 			"BlueProgressBarFill"
 			{
 				"ControlName"	"EditablePanel"
@@ -198,11 +234,11 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"scaleImage"	"0"
-				"Image"			"vssaxtonhale/boss_bar"
+				"scaleImage"	"0"	
+				"Image"			"vssaxtonhale_hell/boss_bar"
 			}
 		}
-
+		
 		"BlueScoreValueContainer"
 		{
 			"ControlName"		"EditablePanel"
@@ -228,13 +264,13 @@
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"textAlignment"	"center"
+				"textAlignment"	"center"	
 				"labelText"		"%score%"
 				"font"			"HudFontMediumSmallBold"
-				"fgcolor"		"TanLight"
+				"fgcolor"		"TanLight"		
 				"proportionalToParent"	"1"
-			}
-
+			}	
+		
 			"ScoreShadow"
 			{
 				"ControlName"	"CExLabel"
@@ -246,63 +282,61 @@
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"textAlignment"	"center"
+				"textAlignment"	"center"	
 				"labelText"		"%score%"
 				"font"			"HudFontMediumSmallBold"
-				"fgcolor"		"Black"
+				"fgcolor"		"Black"		
 				"proportionalToParent"	"1"
 			}
 		}
-
-		"RedScoreValueContainer"
+	}
+	
+	"CountdownContainer"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"CountdownContainer"
+		"xpos"				"c-97"
+		"ypos"				"129"
+		"zpos"				"20"
+		"wide"				"200"
+		"tall"				"100"
+		"visible"			"0"
+		"enabled"			"1"
+		
+		"CountdownLabelTime"
 		{
-			"ControlName"		"EditablePanel"
-			"fieldName"			"RedScoreValueContainer"
-			"xpos"				"c-97"
-			"ypos"				"89"
-			"zpos"				"20"
-			"wide"				"200"
-			"tall"				"100"
-			"visible"			"1"
-			"enabled"			"1"
-			"bgcolor_override"		"0 0 0 0"
+			"ControlName"	"CExLabel"
+			"fieldName"		"CountdownLabelTime"
+			"xpos"			"c-100"
+			"ypos"			"0"
+			"zpos"			"28"
+			"wide"			"200"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"textAlignment"	"center"	
+			"labelText"		"%countdowntime%"
+			"font"			"CenterPrintText"
+			"fgcolor"		"TanLight"		
 			"proportionalToParent"	"1"
-
-			"Score"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"Score"
-				"xpos"			"c-100"
-				"ypos"			"0"
-				"zpos"			"28"
-				"wide"			"200"
-				"tall"			"20"
-				"visible"		"1"
-				"enabled"		"1"
-				"textAlignment"	"center"
-				"labelText"		"%score%"
-				"font"			"CenterPrintText"
-				"fgcolor"		"TanLight"
-				"proportionalToParent"	"1"
-			}
-
-			"ScoreShadow"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"ScoreShadow"
-				"xpos"			"c-99"
-				"ypos"			"1"
-				"zpos"			"27"
-				"wide"			"200"
-				"tall"			"20"
-				"visible"		"1"
-				"enabled"		"1"
-				"textAlignment"	"center"
-				"labelText"		"%score%"
-				"font"			"CenterPrintText"
-				"fgcolor"		"Black"
-				"proportionalToParent"	"1"
-			}
+		}	
+		
+		"CountdownLabelTimeTimeShadow"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"CountdownLabelTimeTimeShadow"
+			"xpos"			"c-99"
+			"ypos"			"1"
+			"zpos"			"27"
+			"wide"			"200"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"textAlignment"	"center"	
+			"labelText"		"%countdowntime%"
+			"font"			"CenterPrintText"
+			"fgcolor"		"Black"		
+			"proportionalToParent"	"1"
 		}
 	}
 }
