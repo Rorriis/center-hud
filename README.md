@@ -1,6 +1,5 @@
 ![centerhud3long](https://github.com/Eerorri/center-hud/assets/97610612/fe6e4ca8-e06e-4940-9ef7-aa191a214106)
 <div id="main" align="center"> 
-  <h3>EDIT: Currently on break, since school stuff. Will return to fix when (or if) the UI scaling update drops</h3>
   <p>Lite version of Center HUD. No menus, no customizations. Just the ingame HUD. Mostly for better compability with other HUD mods, like menu mods.</p>
   <p><a href="https://github.com/Eerorri/center-hud/releases">Downloads</a>
   ·
