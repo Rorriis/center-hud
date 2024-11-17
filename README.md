@@ -1,7 +1,6 @@
 ![centerhud3long](https://github.com/Rorriis/center-hud/assets/97610612/fe6e4ca8-e06e-4940-9ef7-aa191a214106)
 <div id="main" align="center"> 
   A TF2 HUD focused on putting critical HUD info in the center, while sticking to the style of the default HUD, adding customization and fixing things.
-
   <h3><b>IMPORTANT: Keep the folder name as "center-hud", otherwise customizations will break</b>.</h3>
   <p><a href="https://github.com/Rorriis/center-hud/releases">Downloads</a>
   ·
@@ -40,8 +39,6 @@
 
 <div id="other" align="center">
   <h2>Other Links</h2>
-  <p><a href="https://youtu.be/_RjJj9XU_iI">Infomercial Video</a>
-  ·
   <a href="https://imgur.com/a/NLdQS6O">Images</a>
   <br>
   <a href="https://comfig.app/huds/page/center-hud/">comfig huds</a>
