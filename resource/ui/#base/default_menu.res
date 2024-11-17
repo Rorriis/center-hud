@@ -2578,6 +2578,18 @@
 		"fieldname"		"SV_CheatsButton"
 		"enabled"		"0"
 	}
+	"ReloadschemeButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"ReloadschemeButton"
+		"enabled"		"0"
+	}
+	"FullHUDReloadButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"FullHUDReloadButton"
+		"enabled"		"0"
+	}
 	"AddRedPuppetButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -2588,6 +2600,12 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"AddBluePuppetButton"
+		"enabled"		"0"
+	}
+	"KickPuppetButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"KickPuppetButton"
 		"enabled"		"0"
 	}
 }
