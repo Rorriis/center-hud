@@ -39,7 +39,7 @@
 
 <div id="other" align="center">
   <h2>Other Links</h2>
-  <a href="https://imgur.com/a/NLdQS6O">Images</a>
+  <p><a href="https://imgur.com/a/NLdQS6O">Images</a>
   <br>
   <a href="https://comfig.app/huds/page/center-hud/">comfig huds</a>
   ·
