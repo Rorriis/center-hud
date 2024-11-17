@@ -128,8 +128,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"15"
 				"weight"	"500"
+				"tall"		"14"
 				"additive"	"0"
 				"antialias" "1"
 			}
