@@ -5,9 +5,7 @@
   ·
   <a href="https://github.com/Rorriis/center-hud/wiki">Wiki</a>
   <br>
-  <a href="https://github.com/Rorriis/center-hud/tree/main">Normal Version (Windows)</a>
-  ·
-  <a href="https://github.com/Rorriis/center-hud/tree/linux">Normal Version (Linux)</a>
+  <a href="https://github.com/Rorriis/center-hud/tree/main">Normal Version</a>
   ·
   <a href="https://github.com/Rorriis/center-hud/tree/tf2c">TF2C Version</a></p>
 </div>
