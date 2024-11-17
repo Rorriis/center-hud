@@ -442,7 +442,7 @@
 			"ControlName"	"Slider"
 			"fieldName"		"WearSlider"
 			"xpos"			"90"
-			"ypos"			"50"
+			"ypos"			"45"
 			"fixed_item"
 			{
 				"ypos"		"30"
@@ -505,7 +505,7 @@
 		{
 			"ControlName"	"Button"
 			"fieldName"		"NewSeedButton"
-			"font"			"HudFontSmallest"
+			"font"			"StorePromotionsTitle"
 			"xpos"			"8"
 			"ypos"			"75"
 			"fixed_item"
@@ -547,7 +547,7 @@
 			"ControlName"	"TextEntry"
 			"fieldName"		"SeedTextEntry"
 			"font"			"HudFontSmallest"
-			"xpos"			"90"
+			"xpos"			"80"
 			"ypos"			"75"
 			"fixed_item"
 			{
@@ -580,8 +580,8 @@
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"MarketButton"
-			"font"			"HudFontSmallest"
-			"xpos"		"rs1-10"
+			"font"			"StorePromotionsTitle"
+			"xpos"		"rs1-8"
 			"ypos"			"75"
 			"fixed_item"
 			{
@@ -592,7 +592,7 @@
 				"ypos"		"30"
 			}
 			"zpos"		"100"
-			"wide"		"75"
+			"wide"		"95"
 			"tall"		"20"
 			"labelText"			"#TF_ItemAd_ViewOnMarket"
 			"font"			"AdFont_PurchaseButton"

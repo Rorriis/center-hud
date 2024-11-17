@@ -9,4 +9,9 @@
 	{
 		"xpos_minmode"	"36"
 	}
+	"KillstreakIconAnchor"
+	{
+		"xpos"			"cs-0.5+87"
+		"xpos_minmode"	"cs-0.5+83"
+	}
 }

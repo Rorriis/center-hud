@@ -300,7 +300,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"f0"
-			"tall"			"380"
+			"tall"			"132"
 			"proportionaltoparent"	"1"
 
 			if_mini
@@ -424,7 +424,7 @@
 				"ControlName"	"EditablePanel"
 				"fieldName"		"Stats"
 				"xpos"			"6"
-				"ypos"			"rs1-64"
+				"ypos"			"rs1"
 				"wide"			"248"
 				"tall"			"62"
 				"visible"		"1"

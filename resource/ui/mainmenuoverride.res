@@ -1,12 +1,16 @@
-// CUSTOMIZATION
+// CUSTOMIZATIONS
 
-#base "../../cfg/centerhud/hud_menuicons.txt"
-#base "../../cfg/centerhud/hud_menu.txt"
+#base "../../../../cfg/centerhud/hud_menuicons.txt"
+#base "../../../../cfg/centerhud/hud_menu.txt"
+
+// DEV MODE
+
+#base "../../dev/mainmenuoverride_dev.res"
 
 // BASE
 
 #base "#base/default_menu.res"
-#base "../../resource/preload.res"
+#base "../resource/preload.res" 
 #base "#customizations/hud_customization.res"
 
 "Resource/UI/MainMenuOverride.res"

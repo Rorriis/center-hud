@@ -15,7 +15,7 @@
 
 	"TFLogoImage"
 	{
-		"xpos"			"c-130"
+		"xpos"			"cs-0.5"
 	}
 
 	"TFCharacterImage"
@@ -57,10 +57,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton2"
-		"xpos"			"c-132"
+		"xpos"			"c-135"
 		"ypos"			"438"
 		"zpos"			"-1"
-		"wide"			"26"
+		"wide"			"27"
 		"tall"			"24"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -119,10 +119,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel2"
-		"xpos"			"-2"
+		"xpos"			"-3"
 		"ypos"			"0"
 		"zpos"			"5"
-		"wide"			"25"
+		"wide"			"27"
 		"tall"			"24"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -139,8 +139,8 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"25"
-			"tall"			"24"
+			"wide"			"f0"
+			"tall"			"f0"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -150,6 +150,7 @@
 			"textinsety"	"-2"
 			"font"				"TFHudIcons"
 			"use_proportional_insets"	"1"
+			"proportionaltoparent"		"1"
 			"textAlignment"		"center"
 			"centerwrap"	"1"
 			"default"		"1"
@@ -168,7 +169,7 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"cs-0.5"
+				"xpos"			"cs-0.44"
 				"ypos"			"cs-0.5"
 				"zpos"			"1"
 				"wide"			"15"
@@ -186,11 +187,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_ShowButtonPanel"
-		"xpos"			"c98"
-		"ypos"			"166"
+		"xpos"			"c96"
+		"ypos"			"240"
 		"zpos"			"9"
-		"wide"			"36"
-		"tall"			"28"
+		"wide"			"22"
+		"tall"			"22"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -218,8 +219,8 @@
 			"fieldName"		"Notifications_ShowButtonPanel_SB"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"22"
-			"tall"			"22"
+			"wide"			"f0"
+			"tall"			"f0"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -228,6 +229,7 @@
 			"labeltext"		""
 			"default"		"1"
 			"actionsignallevel" "2"
+			"proportionaltoparent"	"1"
 
 			"navActivate"	"<QuickplayButton"
 
@@ -647,7 +649,7 @@
 	"Notifications_Panel"
 	{
 		"xpos"			"c-105"
-		"ypos"			"156"
+		"ypos"			"232"
 	}
 
 	"FriendsContainer"
@@ -655,10 +657,35 @@
 		"xpos"			"cs-0.5"
 	}
 
+	"MenuContainerBG"
+	{
+		"xpos"			"cs-0.5"
+	}
+
+	"CharacterSetupButton"
+	{
+		"xpos"			"c-124"
+	}
+
+	"AReplayButton"
+	{
+		"xpos"			"c-124"
+	}
+
+	"GeneralStoreButton"
+	{
+		"xpos"			"c0"
+	}
+
+	"ASettingsButton"
+	{
+		"xpos"			"c0"
+	}
+
 	// command comes from GameMenu.res
 	"ReportPlayerButton"
 	{
-		"xpos"			"c-158"
+		"xpos"			"c-161"
 		"ypos"			"438"
 		"zpos"			"-1"
 		"wide"			"24"
@@ -689,6 +716,12 @@
 		"SubButton"
 		{
 			"border_default"	"EconItemBorder"
+
+			"SubImage"
+			{
+				"xpos"			"cs-0.52"
+				"ypos"			"cs-0.5"
+			}
 		}
 	}
 
@@ -714,36 +747,11 @@
 		}
 	}
 
-	"MenuContainerBG"
-	{
-		"xpos"			"cs-0.5"
-	}
-
-	"CharacterSetupButton"
-	{
-		"xpos"			"c-124"
-	}
-
-	"AReplayButton"
-	{
-		"xpos"			"c-124"
-	}
-
-	"GeneralStoreButton"
-	{
-		"xpos"			"c0"
-	}
-
-	"ASettingsButton"
-	{
-		"xpos"			"c0"
-	}
-
 	"NewUserForumsButton"
 	{
-		"xpos"			"c-109"
+		"xpos"			"c-112"
 		"ypos"			"438"
-		"wide"			"25"
+		"wide"			"27"
 		"tall"			"24"
 
 		"border_default"	"MainMenuSubButtonBorder"
@@ -751,13 +759,13 @@
 
 	"AchievementsButton"
 	{
-		"wide"			"25"
+		"wide"			"26"
 		"tall"			"24"
 	}
 
 	"CommentaryButton"
 	{
-		"wide"			"25"
+		"wide"			"26"
 		"tall"			"24"
 	}
 
@@ -765,7 +773,7 @@
 	{
 		"xpos"			"-2"
 		"zpos"			"3"
-		"wide"			"25"
+		"wide"			"26"
 		"tall"			"24"
 
 		"border_default"	"EconItemBorder"
@@ -783,7 +791,7 @@
 	{
 		"xpos"			"28"
 		"zpos"			"5"
-		"wide"			"25"
+		"wide"			"26"
 		"tall"			"24"
 
 		"border_default"	"EconItemBorder"
@@ -792,13 +800,13 @@
 	"TF2SettingsButton"
 	{
 		"xpos"			"-2"
-		"wide"			"25"
+		"wide"			"26"
 		"tall"			"24"
 	}
 
 	"ReloadHUDButton"
 	{
-		"wide"			"25"
+		"wide"			"26"
 		"tall"			"24"
 
 		"SubButton"
@@ -809,12 +817,70 @@
 
 	"ShowHUDOptionsButton"
 	{
-		"wide"			"25"
+		"wide"			"27"
 		"tall"			"24"
 
 		"SubButton"
 		{
 			"border_default"	"MainMenuSubButtonBorder"
+
+		"SubImage"
+			{
+				"xpos"			"cs-0.44"
+				"ypos"			"cs-0.5"
+			}
 		}
+	}
+
+	"DevModeEnabledLabel"
+	{
+		"xpos"				"c168"
+		"ypos"				"r55"
+		"wide"				"140"
+		"tall"				"50"
+	}
+
+	"DrawTreeButton"
+	{
+		"xpos"			"c150"
+		"wide"			"180"
+	}
+	"ShowConsoleButton"
+	{
+		"xpos"			"c150"
+		"wide"			"180"
+	}
+	"ReloadschemeButton"
+	{
+		"xpos"			"c150"
+		"wide"			"180"
+	}
+	"FullHUDReloadButton"
+	{
+		"xpos"			"c150"
+		"wide"			"180"
+	}
+	"SV_CheatsButton"
+	{
+		"xpos"			"c150"
+		"wide"			"180"
+	}
+	"AddRedPuppetButton"
+	{
+		"xpos"			"c140"
+		"ypos"			"c0"
+		"wide"			"100"
+	}
+	"AddBluePuppetButton"
+	{
+		"xpos"			"c240"
+		"ypos"			"c0"
+		"wide"			"100"
+	}
+	"KickPuppetButton"
+	{
+		"xpos"			"c150"
+		"ypos"			"c-30"
+		"wide"			"180"
 	}
 }

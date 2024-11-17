@@ -149,14 +149,27 @@
 		"scaleImage"	"1"
 	}
 
+
+	"KillstreakIconAnchor"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"KillstreakIconAnchor"
+		"xpos"			"cs-0.5+87"
+		"xpos_minmode"	"cs-0.5+66"
+		"ypos"			"20"
+		"ypos_minmode"	"16"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"0"
+		"enabled"		"1"
+	}
+
 	"KillStreakIcon"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"KillStreakIcon"
-		"xpos"			"10"
-		"xpos_minmode"	"30"
-		"ypos"			"20"
-		"ypos_minmode"	"16"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"
@@ -164,6 +177,7 @@
 		"enabled"		"1"
 		"image"			"../hud/leaderboard_streak"
 		"scaleImage"	"1"
+		"pin_to_sibling"	"KillstreakIconAnchor"
 	}
 
 	"MoveableSubPanel"

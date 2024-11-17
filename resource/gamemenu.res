@@ -31,6 +31,57 @@
 		"command"		"motd_show"
 		"tooltip"		"#MMenu_News"
 	}
+	"DrawTreeButton"
+	{
+
+        "label"    		"Draw Tree Button"
+		"command"		"engine +vgui_drawtree"
+		"tooltip"		"Draw VGUI Panel Tree"
+	
+	}
+	"ShowConsoleButton"
+	{
+		"label"			"Game Console"
+		"command"		"engine toggleconsole"
+		"tooltip"		"Toggle Game Console"
+	}
+	"ReloadschemeButton"
+	{
+		"label"			"Reloads HUD Scheme"
+		"command"		"engine hud_reloadscheme"
+		"tooltip"		"Reloads HUD scheme"
+	}
+	"FullHUDReloadButton"
+	{
+		"label"			"Full HUD Reload"
+		"command"		"engine toggle mat_aaquality; hud_reloadscheme"
+		"tooltip"		"Full HUD And Material System Reload"
+	}
+	"SV_CheatsButton"
+	{
+		"label"			"Enable Cheats"
+		"command"		"engine sv_cheats 1"
+		"tooltip"		"Enable SV_Cheats (local server only)"
+	}
+
+	"AddRedPuppetButton"
+	{
+		"label"			"Red Puppet"
+		"command"		"engine mp_teams_unbalance_limit 0; bot -team red"
+		"tooltip"		"Add a Red Puppet Bot"
+	}
+	"AddBluePuppetButton"
+	{
+		"label"			"Blue Puppet"
+		"command"		"engine mp_teams_unbalance_limit 0; bot -team blue"
+		"tooltip"		"Add a Blue Puppet Bot"
+	}
+	"KickPuppetButton"
+	{
+		"label"			"Kick Puppets"
+		"command"		"engine mp_teams_unbalance_limit 0; bot_kick all"
+		"tooltip"		"Kick Puppet Bots"
+	}
 
 	// These buttons are only shown while in-game
 	// and also are positioned by the .res file
@@ -39,21 +90,21 @@
 	{
 		"label"			""
 		"command"		"callvote"
-		"OnlyInGame"	"1"
+		"OnlyInGame"	"0"
 		"tooltip" 		"#MMenu_CallVote"
 	}
 	"MutePlayersButton"
 	{
 		"label"			""
 		"command"		"OpenMutePlayerDialog"
-		"OnlyInGame"	"1"
+		"OnlyInGame"	"0"
 		"tooltip" 		"#MMenu_MutePlayers"
 	}
 	"ReportPlayerButton"
 	{
 		"label"			""
 		"command"		"OpenReportPlayerDialog"
-		"OnlyInGame"	"1"
+		"OnlyInGame"	"0"
 		"tooltip"		"#MMenu_ReportPlayer"
 	}
 }

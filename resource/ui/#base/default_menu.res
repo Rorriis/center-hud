@@ -419,7 +419,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"StatsBorder"
 		"xpos"			"c-298"
-		"ypos"			"340"
+		"ypos"			"155"
 		"zpos"			"-54"
 		"wide"			"260"
 		"tall"			"75"
@@ -1329,7 +1329,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"FriendsContainer"
 		"xpos"			"c-298"
-		"ypos"			"230"
+		"ypos"			"305"
 		"zpos"			"5"
 		"wide"			"260"
 		"tall"			"110"
@@ -1499,7 +1499,7 @@
 		"xpos"			"c-75"
 		"ypos"			"437"
 		"zpos"			"1"
-		"wide"			"26"
+		"wide"			"27"
 		"tall"			"25"
 		"visible"		"1"
 
@@ -1553,7 +1553,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
-		"xpos"			"-2"
+		"xpos"			"-3"
 		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"27"
@@ -1615,10 +1615,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MutePlayersButton"
-		"xpos"			"-2"
+		"xpos"			"-3"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"26"
+		"wide"			"27"
 		"tall"			"25"
 		"visible"		"1"
 
@@ -1674,7 +1674,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MenuContainerBG"
 		"xpos"			"c-298"
-		"ypos"			"155"
+		"ypos"			"230"
 		"zpos"			"1"
 		"wide"			"260"
 		"tall"			"75"
@@ -1687,7 +1687,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CharacterSetupButton"
 		"xpos"			"c-292"
-		"ypos"			"162"
+		"ypos"			"236"
 		"zpos"			"2"
 		"wide"			"124"
 		"tall"			"30"
@@ -1742,7 +1742,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"GeneralStoreButton"
 		"xpos"			"c-168"
-		"ypos"			"162"
+		"ypos"			"236"
 		"zpos"			"2"
 		"wide"			"124"
 		"tall"			"30"
@@ -1797,7 +1797,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"AReplayButton"
 		"xpos"			"c-292"
-		"ypos"			"192"
+		"ypos"			"266"
 		"zpos"			"2"
 		"wide"			"124"
 		"tall"			"30"
@@ -1852,7 +1852,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ASettingsButton"
 		"xpos"			"c-168"
-		"ypos"			"192"
+		"ypos"			"266"
 		"zpos"			"2"
 		"wide"			"124"
 		"tall"			"30"
@@ -2551,5 +2551,43 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"StoreHasNewItemsImage"
 		"wide"			"0"
+	}
+	
+	"DevModeEnabledLabel"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"DevModeEnabledLabel"
+		"enabled"		"0"
+	}
+
+	"DrawTreeButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"DrawTreeButton"
+		"enabled"		"0"
+	}
+	"ShowConsoleButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"ShowConsoleButton"
+		"enabled"		"0"
+	}
+	"SV_CheatsButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"SV_CheatsButton"
+		"enabled"		"0"
+	}
+	"AddRedPuppetButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"AddRedPuppetButton"
+		"enabled"		"0"
+	}
+	"AddBluePuppetButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"AddBluePuppetButton"
+		"enabled"		"0"
 	}
 }

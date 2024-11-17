@@ -18,7 +18,7 @@
 		"robot_y_offset"		"47"
 		"robot_x_step"			"23"
 		"robot_y_step"			"0"
-
+		
 
 		"color_blue"			"84 111 127 255"
 		"color_red"				"171 59 59 255"
@@ -49,12 +49,12 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"aivecounter"
 		"xpos"			"c-30"
-		"ypos"			"120"
+		"ypos"			"r80"
 		"zpos"			"-10"
 		"wide"			"60"
 		"tall"			"30"
 		"visible"		"1"
-
+	
 		"background"
 		{
 			"ControlName"	"CTFImagePanel"
@@ -69,16 +69,16 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/color_panel_red"
-
+				
 			"src_corner_height"		"23"
 			"src_corner_width"		"23"
-
+					
 			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"
-		}
+			"draw_corner_height" 	"5"	
+		}	
 		"playerimage"
 		{
-			"ControlName"	"ImagePanel"
+			"ControlName"	"ImagePanel"		
 			"fieldName"		"playerimage"
 			"xpos"			"12"
 			"ypos"			"11"
@@ -91,7 +91,7 @@
 			"scaleImage"	"1"
 		}
 	}
-
+	
 	"damagecounter"
 	{
 		"ControlName"	"EditablePanel"
@@ -102,7 +102,7 @@
 		"wide"			"80"
 		"tall"			"30"
 		"visible"		"1"
-
+	
 		"background"
 		{
 			"ControlName"	"CTFImagePanel"
@@ -117,16 +117,16 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../vgui/replay/thinlineborder"
-
+				
 			"src_corner_height"		"23"
 			"src_corner_width"		"23"
-
+					
 			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"
-		}
+			"draw_corner_height" 	"5"	
+		}	
 		"dmg_icon"
 		{
-			"ControlName"	"ImagePanel"
+			"ControlName"	"ImagePanel"		
 			"fieldName"		"playerimage"
 			"xpos"			"9"
 			"ypos"			"11"
@@ -139,13 +139,13 @@
 			"scaleImage"	"1"
 		}
 	}
-
+	
 	"ScoreContainer"
 	{
 		"fieldName"				"ScoreContainer"
 		"ControlName"			"EditablePanel"
 		"xpos"					"0"
-		"ypos"					"40"
+		"ypos"					"12"
 		"zpos"					"0"
 		"wide"					"f0"
 		"tall"					"f0"
@@ -156,7 +156,7 @@
 		"BorderImage1"
 		{
 			"ControlName"	"ImagePanel"
-			"fieldName"		"BorderImage1"
+			"fieldName"		"BorderImage1"	
 			"xpos"			"c-100"
 			"ypos"			"42"
 			"zpos"			"1"
@@ -168,9 +168,9 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"Image"			"vssaxtonhale/boss_bar_layer1"
-			"scaleImage"	"1"
+			"scaleImage"	"1"					
 		}
-
+		
 		"ProgressBarContainer"
 		{
 			"fieldName"				"ProgressBarContainer"
@@ -183,7 +183,7 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"proportionalToParent"	"1"
-
+					
 			"BlueProgressBarFill"
 			{
 				"ControlName"	"EditablePanel"
@@ -198,11 +198,11 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"scaleImage"	"0"
+				"scaleImage"	"0"	
 				"Image"			"vssaxtonhale/boss_bar"
 			}
 		}
-
+		
 		"BlueScoreValueContainer"
 		{
 			"ControlName"		"EditablePanel"
@@ -228,13 +228,13 @@
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"textAlignment"	"center"
+				"textAlignment"	"center"	
 				"labelText"		"%score%"
 				"font"			"HudFontMediumSmallBold"
-				"fgcolor"		"TanLight"
+				"fgcolor"		"TanLight"		
 				"proportionalToParent"	"1"
-			}
-
+			}	
+		
 			"ScoreShadow"
 			{
 				"ControlName"	"CExLabel"
@@ -246,20 +246,20 @@
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"textAlignment"	"center"
+				"textAlignment"	"center"	
 				"labelText"		"%score%"
 				"font"			"HudFontMediumSmallBold"
-				"fgcolor"		"Black"
+				"fgcolor"		"Black"		
 				"proportionalToParent"	"1"
 			}
 		}
-
+		
 		"RedScoreValueContainer"
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"			"RedScoreValueContainer"
 			"xpos"				"c-97"
-			"ypos"				"89"
+			"ypos"				"r71"
 			"zpos"				"20"
 			"wide"				"200"
 			"tall"				"100"
@@ -279,13 +279,13 @@
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"textAlignment"	"center"
+				"textAlignment"	"center"	
 				"labelText"		"%score%"
 				"font"			"CenterPrintText"
-				"fgcolor"		"TanLight"
+				"fgcolor"		"TanLight"		
 				"proportionalToParent"	"1"
-			}
-
+			}	
+		
 			"ScoreShadow"
 			{
 				"ControlName"	"CExLabel"
@@ -297,10 +297,10 @@
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"textAlignment"	"center"
+				"textAlignment"	"center"	
 				"labelText"		"%score%"
 				"font"			"CenterPrintText"
-				"fgcolor"		"Black"
+				"fgcolor"		"Black"		
 				"proportionalToParent"	"1"
 			}
 		}

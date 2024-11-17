@@ -103,7 +103,7 @@
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
-
+	
 	HudBowCharge
 	{
 		"fieldName"		"HudBowCharge"
@@ -798,7 +798,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-150"
-		"ypos"					"260"
+		"ypos"					"220"
 		"wide"					"300"
 		"tall"					"300"
 		"zpos"					"4"
