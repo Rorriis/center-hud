@@ -7,8 +7,6 @@
   <br>
   <a href="https://github.com/Rorriis/center-hud/tree/main">Normal Version (Windows)</a>
   ·
-  <a href="https://github.com/Rorriis/center-hud/tree/linux">Normal Version (Linux)</a>
-  ·
   <a href="https://github.com/Rorriis/center-hud/tree/lite">Normal Version (Lite)</a></p>
 </div>
 
