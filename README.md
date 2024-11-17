@@ -2,7 +2,7 @@
 <div id="main" align="center"> 
   A TF2 HUD focused on putting critical HUD info in the center, while sticking to the style of the default HUD, adding customization and fixing things.
 
-  IMPORTANT: Keep the folder name as "center-hud", otherwise customizations will break.
+  <h3><b>IMPORTANT: Keep the folder name as "center-hud", otherwise customizations will break</b>.</h3>
   <p><a href="https://github.com/Rorriis/center-hud/releases">Downloads</a>
   ·
   <a href="https://github.com/Rorriis/center-hud/wiki">Wiki</a>
