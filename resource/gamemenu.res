@@ -90,21 +90,21 @@
 	{
 		"label"			""
 		"command"		"callvote"
-		"OnlyInGame"	"0"
+		"OnlyInGame"	"1"
 		"tooltip" 		"#MMenu_CallVote"
 	}
 	"MutePlayersButton"
 	{
 		"label"			""
 		"command"		"OpenMutePlayerDialog"
-		"OnlyInGame"	"0"
+		"OnlyInGame"	"1"
 		"tooltip" 		"#MMenu_MutePlayers"
 	}
 	"ReportPlayerButton"
 	{
 		"label"			""
 		"command"		"OpenReportPlayerDialog"
-		"OnlyInGame"	"0"
+		"OnlyInGame"	"1"
 		"tooltip"		"#MMenu_ReportPlayer"
 	}
 }
