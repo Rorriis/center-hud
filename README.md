@@ -19,9 +19,7 @@
 
 <div id="other" align="center">
   <h2>Other Links</h2>
-  <p><a href="https://youtu.be/_RjJj9XU_iI">Infomercial Video</a>
-  ·
-  <a href="https://imgur.com/a/NLdQS6O">Images</a>
+  <p></p><a href="https://imgur.com/a/NLdQS6O">Images</a>
   <br>
   <a href="https://comfig.app/huds/page/center-hud/">comfig huds</a>
   ·
