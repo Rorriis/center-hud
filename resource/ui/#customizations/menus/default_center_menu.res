@@ -834,10 +834,7 @@
 
 	"DevModeEnabledLabel"
 	{
-		"xpos"				"c168"
-		"ypos"				"r55"
-		"wide"				"140"
-		"tall"				"50"
+		"wide"			"0"
 	}
 
 	"DrawTreeButton"
