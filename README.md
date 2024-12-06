@@ -19,7 +19,9 @@
   ·
   <a href="https://steamcommunity.com/id/bambambambrrrbrrrboopboop/">bjrkk (Romanian)</a>
   ·
-  <a href="https://github.com/realFunnyScout">realFunnyScout (Russian)</a></p>
+  <a href="https://github.com/realFunnyScout">realFunnyScout (Russian)</a>
+  ·
+  Ashe wiki.tf (Spanish)</p>
 </div>
 
 <div id="credits" align="center">
