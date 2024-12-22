@@ -21,7 +21,9 @@
   ·
   <a href="https://github.com/realFunnyScout">realFunnyScout (Russian)</a>
   ·
-  Ashe wiki.tf (Spanish)</p>
+  Ashe wiki.tf (Spanish)
+  ·
+  <a href="https://github.com/Yellow-Dev1l">Yellow-Dev1l (Korean)</a></p>
 </div>
 
 <div id="credits" align="center">
