@@ -1,0 +1,76 @@
+"lang"
+{
+	"Language" "korean"
+	"Tokens"
+	{
+		// TF2 stuff
+		"chat_filterbutton"		"필터"
+		"filter_joinleave"		"입장/퇴장"
+		"filter_namechange"		"이름 변경"
+		"filter_publicchat"		"공개 채팅"
+		"filter_servermsg"		"서버 메시지"
+		"filter_teamchange"		"팀 변경"
+		"filter_achievement"	"도전 과제 알림"
+		"chat_say"				"대화 :"
+		"chat_say_team"			"대화 (팀) :"
+		"chat_say_party"		"대화 (파티) :"
+
+		// Menu Shortcuts
+        "CHud_Back"               "뒤로 (&Q)"
+        "CHud_Skip"               "건너뛰기 (&E)"
+        "CHud_Continue"           "계속하기 (&E)"
+        "CHud_Cancel"             "취소 (&Q)"
+        "CHud_WatchIntro"         "영화 보기 (&R)"
+        "CHud_Checkout"           "체크아웃 (&E)"
+        "CHud_Loadout"         	  "로드아웃 (&E)"
+        "CHud_Random"         	  "무작위 (&R)"
+
+		// Quickplay Stuff
+		"CHud_Matchmaking_HeaderQuickplay"	"퀵플레이"
+        "CHud_GameModeDesc_Quickplay"		"자신과 같은 플레이어가 운영하는 커뮤니티 서버 매칭하기 (comfig 퀵플레이)"
+
+		// Main Menu Stuff
+		"CHud_Menu_ReloadHUD"		"HUD 재설정"
+
+		// Customization Menu Stuff
+		"CHud_Menu_MinToggle"		"HUD 최소화 사용"
+		"CHud_Menu_MatchHudToggle"	"HUD에 팀 상태 표시"
+		"CHud_Menu_ResetOptions"	"설정 초기화"
+
+		"CHud_Font_TF2Build"		"TF2 Build"			// This shouldn't be translated
+		"CHud_Font_TF2Secondary"	"TF2 Secondary"		// This shouldn't be translated
+
+		// Customizations
+		"CHud_Customizations_FloatDamageFont"	"피격 대미지량 글꼴"
+		"CHud_Customizations_LastDamageFont"	"적중 대미지량 글꼴"
+		"CHud_Customizations_HealthGainFont"	"체력 회복량 글꼴"
+
+		"CHud_Customizations_Speedometer"		"속도계"
+		"CHud_Customizations_TransparentView"	"투명 1인칭 모델"
+		"CHud_Customizations_PlayerClass"		"플레이어 병과 표시"
+		"CHud_Customizations_KillfeedRows"		"최대 킬피드 수"
+
+		"CHud_Customizations_Crosshair"			"조준점"
+		"CHud_Customizations_CrosshairVis"		"표시"
+		"CHud_Customizations_CrosshairSize"		"크기"
+		"CHud_Customizations_CrosshairColor"	"색상"
+
+		"CHud_Customizations_MenuStyle"			"메뉴 양식"
+		"CHud_Customizations_MenuStyleOld"		"고전"
+		"CHud_Customizations_MenuStyleAlt"		"기타"
+		"CHud_Customizations_MenuStyleCenter"	"가운데로"
+		"CHud_Customizations_MenuStyleButton"	"버튼 아이콘"
+
+		"CHud_Customizations_GenericFont"		"기본 글꼴"
+		"CHud_Customizations_UltrawideFixes"	"높은 해상도 모드"
+
+		"CHud_Customizations_MinimalMetal"		"금속 표시 최소화"
+		"CHud_Customizations_MinimalUber"		"우버차지 표시 최소화"
+
+		"CHud_Customizations_TargetIDStyle"		"목표 ID 양식"
+		"CHud_Customizations_TargetIDNumbers"	"숫자"
+		"CHud_Customizations_TargetIDCross"		"십자가"
+
+		"CHud_Customizations_DisguiseImage"		"변장 알림 이미지"
+    }
+}
