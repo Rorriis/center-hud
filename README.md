@@ -1,6 +1,6 @@
 ![centerhud3long](https://github.com/Rorriis/center-hud/assets/97610612/fe6e4ca8-e06e-4940-9ef7-aa191a214106)
 
-  <h1>TF2C version of Center HUD.</h1>
+  <h1>TF2C version of Center HUD</h1>
   
   - <a href="https://github.com/Rorriis/center-hud/releases">Downloads</a>
   - <a href="https://github.com/Rorriis/center-hud/wiki">Wiki</a>
