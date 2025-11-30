@@ -52,6 +52,19 @@ Scheme
 			}
 		}	
 
+		"HudFontSmallerOutline"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"12"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"		"1"
+			}
+		}	
+
 		"ItemFontAttribLargeOutline"
 		{
 			"1"
