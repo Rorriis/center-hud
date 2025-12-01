@@ -132,6 +132,45 @@
 			"pin_to_sibling_corner"		"PIN_TOPLEFT"
 		}
 
+		"TroubleshootingButton"
+		{
+			"ControlName"				"CExButton"
+			"fieldName"					"TroubleshootingButton"
+			"xpos"						"5"
+			"ypos"						"0"
+			"tall"						"22"
+			"wide"						"0"
+			"visible"					"1"
+			"enabled"					"1"
+
+			"labelText"					"Troubleshooting"
+			"font"						"HudFontSmallestBold"
+			"textAlignment"				"center"
+			"textinsetx"				"30"
+			"allcaps"					"1"
+
+			"command"					"url https://github.com/RoseyLemonz/center-hud/wiki/Troubleshooting"
+			"actionsignallevel"			"2"
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"	"200 140 50 255"
+			"armedBgColor_override"		"170 110 30 255"
+			"depressedBgColor_override"	"170 110 30 255"
+
+			"defaultFgColor_override"	"White"
+			"armedFgColor_override"		"White"
+			"depressedFgColor_override"	"White"
+
+			"proportionaltoparent"		"1"
+			"auto_wide_tocontents"		"1"
+
+			"pin_to_sibling"			"GitHubWiki"
+			"pin_corner_to_sibling"		"PIN_TOPRIGHT"
+			"pin_to_sibling_corner"		"PIN_TOPLEFT"
+		}
+
 		"ResetAllButton"
 		{
 			"ControlName"				"CExButton"
@@ -167,49 +206,10 @@
 			"proportionaltoparent"		"1"
 			"auto_wide_tocontents"		"1"
 
-			"pin_to_sibling"			"GitHubWiki"
+			"pin_to_sibling"			"TroubleshootingButton"
 			"pin_corner_to_sibling"		"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"		"PIN_TOPLEFT"
 		}	
-
-		"TroubleshootingButton"
-		{
-			"ControlName"				"CExButton"
-			"fieldName"					"TroubleshootingButton"
-			"xpos"						"5"
-			"ypos"						"0"
-			"tall"						"22"
-			"wide"						"0"
-			"visible"					"1"
-			"enabled"					"1"
-
-			"labelText"					"Troubleshooting"
-			"font"						"HudFontSmallestBold"
-			"textAlignment"				"center"
-			"textinsetx"				"30"
-			"allcaps"					"1"
-
-			"command"					"url https://github.com/RoseyLemonz/center-hud/wiki/Troubleshooting"
-			"actionsignallevel"			"2"
-
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"defaultBgColor_override"	"200 140 50 255"
-			"armedBgColor_override"		"170 110 30 255"
-			"depressedBgColor_override"	"170 110 30 255"
-
-			"defaultFgColor_override"	"White"
-			"armedFgColor_override"		"White"
-			"depressedFgColor_override"	"White"
-
-			"proportionaltoparent"		"1"
-			"auto_wide_tocontents"		"1"
-
-			"pin_to_sibling"			"ResetAllButton"
-			"pin_corner_to_sibling"		"PIN_TOPRIGHT"
-			"pin_to_sibling_corner"		"PIN_TOPLEFT"
-		}
 
 		//==========================
 		// MAIN SCROLLER LIST

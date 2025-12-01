@@ -15,6 +15,11 @@
 	{
 		"xpos"			"c-295"
 	}
+	
+	"TFCharacterImage"
+	{
+		"zpos"			"-199"
+	}
 
 	"ButtonBorder"
 	{

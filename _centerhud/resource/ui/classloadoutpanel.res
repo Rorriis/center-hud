@@ -182,7 +182,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"RotateLabel"
 		"font"				"FontStoreOriginalPrice"
-		"labelText"			"#CenHud_Loadout_Class_Rotate"
+		"labelText"			"#CenHud_Loadout_Class_Roll"
 		"tall"				"10"
 		"fgcolor_override"		"TanDark"
 		"auto_wide_tocontents"	"1"
