@@ -3,6 +3,56 @@ Scheme
 	"Fonts"
 	{
 
+		"HudFontGiantSecondary"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"24"
+				"tall_lodef"	"80"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"yres"		"480 599"
+			}
+			"2"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"32"
+				"tall_hidef"	"120"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"yres"		"600 767"
+			}
+			"3"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"44"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"yres"		"768 1023"
+			}
+			"4"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"48"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"yres"		"1024 1199"
+			}
+			"5"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"24"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
 		"HudFontMediumOutline"
 		{
 			"1"

@@ -4,11 +4,6 @@
 #base "hud_customization_home.res"
 
 //==============================================================
-// DAMAGE
-//==============================================================
-#base "hud_customization_DAMAGE.res"
-
-//==============================================================
 // QUICK SETTINGS
 //==============================================================
 #base "hud_customization_quick_settings.res"
@@ -16,7 +11,7 @@
 //==============================================================
 // FOLDER NAME MESSAGE
 //==============================================================
-#base "hud_customization_folder_set.res"
+#base "../../../../../../center-hud/_centerhud/resource/ui/#customization/#customization_menu/hud_customization_folder_set.res"
 #base "hud_customization_folder.res"
 
 //==============================================================
