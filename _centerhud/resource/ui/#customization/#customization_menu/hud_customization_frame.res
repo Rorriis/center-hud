@@ -189,7 +189,7 @@
 			"textinsetx"				"30"
 			"allcaps"					"1"
 
-			"command"					"engine m0_customization_reset"
+			"command"					"engine cenhud_customization_reset"
 			"actionsignallevel"			"2"
 
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -267,7 +267,7 @@
 				"textAlignment"			"center"
 				"allcaps"				"1"
 
-				"command"				"engine m0_custom_home; hud_reloadscheme"
+				"command"				"engine cenhud_custom_home; hud_reloadscheme"
 				"actionsignallevel"		"3"
 
 				"sound_depressed"	"UI/buttonclick.wav"
@@ -292,7 +292,7 @@
 				"textAlignment"			"center"
 				"allcaps"				"1"
 
-				"command"				"engine m0_custom_settings; hud_reloadscheme"
+				"command"				"engine cenhud_custom_settings; hud_reloadscheme"
 				"actionsignallevel"		"3"
 
 				"sound_depressed"	"UI/buttonclick.wav"
@@ -302,35 +302,6 @@
 				"pin_corner_to_sibling"	"PIN_TOPLEFT"
 				"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 				
-				"proportionaltoparent"	"1"
-			}
-			"Damage"
-			{
-				"ControlName"			"CExButton"
-				"fieldName"				"Damage"
-				"xpos"					"0"
-				"ypos"					"3"
-				"zpos"					"20"
-				"wide"					"f20"
-				"tall"					"22"
-				"visible"				"1"
-				"enabled"				"1"
-				
-				"labelText"				"Damage"
-				"font"					"HudFontSmallestBold"
-				"textAlignment"			"center"
-				"allcaps"				"1"
-
-				"command"				"engine m0_custom_damage; hud_reloadscheme"
-				"actionsignallevel"		"3"
-					
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
-
-				"pin_to_sibling"		"Quick_Settings_Button"
-				"pin_corner_to_sibling"	"PIN_TOPLEFT"
-				"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
-
 				"proportionaltoparent"	"1"
 			}
 		}

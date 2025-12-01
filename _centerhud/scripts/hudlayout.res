@@ -1,4 +1,4 @@
-#base "../../../../cfg/m0rehud/m0re_customization_menu.txt"
+#base "../../../../cfg/center-hud/cenhud_customization_menu.txt"
 
 #base "layout_customization.res"
 
