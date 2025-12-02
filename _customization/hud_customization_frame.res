@@ -87,8 +87,8 @@
 			"textAlignment"				"center"
 			"textinsetx"				"30"
 			"command"					"url https://github.com/RoseyLemonz/center-hud/wiki"
-			"proportionaltoparent"		"1"
 			"auto_wide_tocontents"		"1"
+			"proportionaltoparent"		"1"
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 
@@ -120,8 +120,8 @@
 			"textinsetx"				"30"
 			"command"					"url https://github.com/RoseyLemonz/center-hud/wiki/Troubleshooting"
 			"actionsignallevel"			"2"
-			"proportionaltoparent"		"1"
 			"auto_wide_tocontents"		"1"
+			"proportionaltoparent"		"1"
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 
@@ -153,8 +153,8 @@
 			"textinsetx"				"30"
 			"command"					"engine cenhud_customization_reset"
 			"actionsignallevel"			"2"
-			"proportionaltoparent"		"1"
 			"auto_wide_tocontents"		"1"
+			"proportionaltoparent"		"1"
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 
