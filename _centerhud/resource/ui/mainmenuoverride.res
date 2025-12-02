@@ -1,5 +1,3 @@
-#base "#customization/#customization_menu/hud_customization.res"
-
 "resource/ui/mainmenuoverride.res"
 {
 	"MainMenuOverride" {}
