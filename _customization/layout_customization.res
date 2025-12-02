@@ -8,7 +8,7 @@
 		{
 			"CustomizationPanel"
 			{
-				"CustomizationPanelHome"		{visible 0}
+				"CustomizationPanelHome"	{visible 0}
 				"CustomizationPanelQuick"	{visible 0}
 			}
 		}
