@@ -1,4 +1,6 @@
-Work in progress rewrite of Center HUD.
+<div align="center">
+
+# Center HUD
 
 - [Stable Downloads](https://github.com/RoseyLemonz/center-hud/releases)
 - [Discord](https://discord.gg/p5JV3k5CfE)
@@ -29,3 +31,4 @@ Work in progress rewrite of Center HUD.
 ## Special Thanks
 - [GoopSwagger - Helped with the meter BGs](https://gamebanana.com/members/1672887)
 - [Firebert_ - Made the original Centered Vanilla HUD](https://gamebanana.com/members/1767717)
+</div>
