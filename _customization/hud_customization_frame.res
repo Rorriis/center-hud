@@ -1,68 +1,54 @@
-"resource/ui/customizations/#customization_menu/hud_customization_frame.res"
+"_customizations/hud_customization_frame.res"
 {
 	"SafeMode"
 	{
-		"ControlName"					"EditablePanel"
-		"fieldName"						"SafeMode"
-		"xpos"							"cs-0.5"
-		"ypos"							"cs-0.5-5"
-		"wide"							"600"
-		"tall"							"302"
-		"zpos"							"50"
-		"visible"						"1"
-		"enabled"						"1"
-		"paintBackgroundType"			"0"
-		"roundedcorners"				"15"
-		"border"						"GrayDialogBorder"
+		"ControlName"			"EditablePanel"
+		"fieldName"				"SafeMode"
+		"xpos"					"cs-0.5"
+		"ypos"					"cs-0.5-5"
+		"wide"					"600"
+		"tall"					"302"
+		"zpos"					"50"
+		"visible"				"1"
+		"enabled"				"1"
+		"border"				"GrayDialogBorder"
 
-		//==========================
-		// TITLE BAR
-		//==========================
-
-		"Title"
+		"OptionsTitle"
 		{
 			"ControlName"				"CExLabel"
-			"fieldName"					"Title"
+			"fieldName"					"OptionsTitle"
 			"xpos"						"0"
 			"ypos"						"0"
-			"zpos"						"-1"
 			"wide"						"0"
 			"tall"						"35"
 			"visible"					"1"
 			"enabled"					"1"
-			
 			"labelText"					"#TF_OptionCategory_HUD"
 			"font"						"HudFontMediumSmallBold"
 			"textAlignment"				"west"
 			"fgcolor"					"White"
-			"allcaps"					"1"
 			"textinsetx"				"15"
-
-			"paintBackgroundType"		"0"	
-
 			"auto_wide_tocontents"		"1"
-			
 			"proportionaltoparent"		"1"
 			"use_proportional_insets"	"1"
 		}
 
-		"Separator_1"
+		"TitleSeparator"
 		{
-			"ControlName"			"EditablePanel"
-			"fieldName"				"Separator_1"
-			"xpos"					"-1"
-			"ypos"					"0"
-			"zpos"					"0"
-			"wide"					"f2"
-			"tall"					"2"
-			"visible"				"1"
+			"ControlName"				"EditablePanel"
+			"fieldName"					"TitleSeparator"
+			"xpos"						"-1"
+			"ypos"						"0"
+			"zpos"						"2"
+			"wide"						"f2"
+			"tall"						"2"
+			"visible"					"1"
 			"enabled"					"1"
-			"proportionaltoparent"		"1"
 			"paintBackground"			"1"
-			"paintBackgroundtype"	"0"
-			"bgcolor_override"		"TanDark"
+			"bgcolor_override"			"TanDark"
+			"proportionaltoparent"		"1"
 
-			"pin_to_sibling"			"Title"
+			"pin_to_sibling"			"OptionsTitle"
 			"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 		}
 
@@ -72,49 +58,39 @@
 			"fieldName"					"CloseButton"
 			"xpos"						"rs1-7"
 			"ypos"						"7"
-			"zpos"						"20"
 			"wide"						"22"
 			"tall"						"22"
 			"visible"					"1"
 			"enabled"					"1"
-
 			"labelText"					"X"
 			"font"						"HudFontMediumSmallBold"
 			"textAlignment"				"center"
-
 			"command"					"engine cl_mainmenu_safemode 0; mat_queue_mode -1; gameui_allowescape"
 			"actionsignallevel"			"2"
-
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"paintBackground"			"1"
-
 			"proportionaltoparent"		"1"
 			"use_proportional_insets"	"1"
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
 		}
 
-		"GitHubWiki"
+		"WikiButton"
 		{
 			"ControlName"				"CExButton"
-			"fieldName"					"GitHubWiki"
+			"fieldName"					"WikiButton"
 			"xpos"						"5"
-			"ypos"						"0"
-			"zpos"						"20"
 			"wide"						"0"
 			"tall"						"22"
 			"visible"					"1"
 			"enabled"					"1"
-
 			"labelText"					"#CenHud_Menu_HUDWiki"
 			"font"						"HudFontSmallestBold"
 			"textAlignment"				"center"
 			"textinsetx"				"30"
-
 			"command"					"url https://github.com/RoseyLemonz/center-hud/wiki"
-
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			"proportionaltoparent"		"1"
+			"auto_wide_tocontents"		"1"
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
 
 			"defaultBgColor_override"	"80 90 190 255"
 			"armedBgColor_override"		"60 70 170 255"
@@ -123,9 +99,6 @@
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
-
-			"proportionaltoparent"		"1"
-			"auto_wide_tocontents"		"1"
 
 			"pin_to_sibling"			"CloseButton"
 			"pin_corner_to_sibling"		"PIN_TOPRIGHT"
@@ -137,23 +110,20 @@
 			"ControlName"				"CExButton"
 			"fieldName"					"TroubleshootingButton"
 			"xpos"						"5"
-			"ypos"						"0"
 			"tall"						"22"
 			"wide"						"0"
 			"visible"					"1"
 			"enabled"					"1"
-
-			"labelText"					"Troubleshooting"
+			"labelText"					"#CenHud_Menu_Troubleshooting"
 			"font"						"HudFontSmallestBold"
 			"textAlignment"				"center"
 			"textinsetx"				"30"
-			"allcaps"					"1"
-
 			"command"					"url https://github.com/RoseyLemonz/center-hud/wiki/Troubleshooting"
 			"actionsignallevel"			"2"
-
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			"proportionaltoparent"		"1"
+			"auto_wide_tocontents"		"1"
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
 
 			"defaultBgColor_override"	"200 140 50 255"
 			"armedBgColor_override"		"170 110 30 255"
@@ -163,10 +133,7 @@
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
 
-			"proportionaltoparent"		"1"
-			"auto_wide_tocontents"		"1"
-
-			"pin_to_sibling"			"GitHubWiki"
+			"pin_to_sibling"			"WikiButton"
 			"pin_corner_to_sibling"		"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"		"PIN_TOPLEFT"
 		}
@@ -176,24 +143,20 @@
 			"ControlName"				"CExButton"
 			"fieldName"					"ResetAllButton"
 			"xpos"						"5"
-			"ypos"						"0"
-			"zpos"						"20"
 			"wide"						"0"
 			"tall"						"22"
 			"visible"					"1"
 			"enabled"					"1"
-			
 			"labelText"					"#GameUI_UseDefaults"
 			"font"						"HudFontSmallestBold"
 			"textAlignment"				"center"
 			"textinsetx"				"30"
-			"allcaps"					"1"
-
 			"command"					"engine cenhud_customization_reset"
 			"actionsignallevel"			"2"
-
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			"proportionaltoparent"		"1"
+			"auto_wide_tocontents"		"1"
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
 
 			"defaultBgColor_override"	"190 60 60 255"
 			"armedBgColor_override"		"160 30 40 255"
@@ -203,22 +166,15 @@
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
 
-			"proportionaltoparent"		"1"
-			"auto_wide_tocontents"		"1"
-
 			"pin_to_sibling"			"TroubleshootingButton"
 			"pin_corner_to_sibling"		"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"		"PIN_TOPLEFT"
 		}	
-
-		//==========================
-		// MAIN SCROLLER LIST
-		//==========================
 		
-		"Categories_Navigation"
+		"CategoryNav"
 		{
 			"ControlName"				"EditablePanel"
-			"fieldName"					"Categories_Navigation"
+			"fieldName"					"CategoryNav"
 			"xpos"						"15"
 			"ypos"						"48"
 			"wide"						"140"
@@ -226,145 +182,107 @@
 			"zpos"						"50"
 			"visible"					"1"
 			"enabled"					"1"
-
-			"paintBackgroundType"		"0"
-			"bgcolor_override"			"Blank"
-
 			"proportionaltoparent"		"1"
 
 			"InnerShadow"
 			{
 				"ControlName"	"EditablePanel"
 				"fieldname"		"InnerShadow"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"501"
+				"zpos"			"1000"
 				"wide"			"f0"
 				"tall"			"f0"
 				"visible"		"1"	
-				"PaintBackgroundType"	"0"
-				"proportionaltoparent"	"1"
-				"mouseinputenabled"	"0"
-
 				"paintborder"	"1"
 				"border"		"InnerShadowBorder"
+				"proportionaltoparent"	"1"
+				"mouseinputenabled"		"0"
 			}
 
-			"Home_Button"
+			"CategoryHome"
 			{
 				"ControlName"			"CExButton"
-				"fieldName"				"Home_Button"
+				"fieldName"				"CategoryHome"
 				"xpos"					"cs-0.5"
 				"ypos"					"10"
-				"zpos"					"20"
 				"wide"					"f20"
 				"tall"					"22"
 				"visible"				"1"
 				"enabled"				"1"
-				
-				"labelText"				"Home"
+				"labelText"				"#CenHud_Custom_Cat_Home"
 				"font"					"HudFontSmallestBold"
 				"textAlignment"			"center"
-				"allcaps"				"1"
-
 				"command"				"engine cenhud_custom_home; hud_reloadscheme"
 				"actionsignallevel"		"3"
-
+				"proportionaltoparent"	"1"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-
-				"proportionaltoparent"	"1"
 			}
-			"Quick_Settings_Button"
+			"CategoryQuickSettings"
 			{
 				"ControlName"			"CExButton"
-				"fieldName"				"Quick_Settings_Button"
+				"fieldName"				"CategoryQuickSettings"
 				"xpos"					"0"
 				"ypos"					"3"
-				"zpos"					"20"
 				"wide"					"f20"
 				"tall"					"22"
 				"visible"				"1"
 				"enabled"				"1"
-
-				"labelText"				"Quick Settings"
+				"labelText"				"#CenHud_Custom_Cat_Quick"
 				"font"					"HudFontSmallestBold"
 				"textAlignment"			"center"
-				"allcaps"				"1"
-
 				"command"				"engine cenhud_custom_settings; hud_reloadscheme"
 				"actionsignallevel"		"3"
-
+				"proportionaltoparent"	"1"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 
-				"pin_to_sibling"		"Home_Button"
+				"pin_to_sibling"		"CategoryHome"
 				"pin_corner_to_sibling"	"PIN_TOPLEFT"
 				"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
-				
-				"proportionaltoparent"	"1"
 			}
 		}
-		
-		//==========================
-		// MAIN CUSTOMIZATION PANEL
-		//==========================
 
-		"Customizations_Panel"
+		"CustomizationPanel"
 		{
 			"ControlName"				"EditablePanel"
-			"fieldName"					"Customizations_Panel"
+			"fieldName"					"CustomizationPanel"
 			"xpos"						"rs1-15"
 			"ypos"						"48"
-			"zpos"						"-1"
 			"wide"						"f175"
 			"tall"						"205"
 			"visible"					"1"
 			"enabled"					"1"
-			
-			"paintBackground"			"1"
-			"bgcolor_override"			"Blank"
-
 			"proportionaltoparent"		"1"
 
 			"InnerShadow"
 			{
 				"ControlName"	"EditablePanel"
 				"fieldname"		"InnerShadow"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"501"
+				"zpos"			"1000"
 				"wide"			"f0"
 				"tall"			"f0"
 				"visible"		"1"	
-				"PaintBackgroundType"	"0"
-				"proportionaltoparent"	"1"
-				"mouseinputenabled"	"0"
-
 				"paintborder"	"1"
 				"border"		"InnerShadowBorder"
+				"proportionaltoparent"	"1"
+				"mouseinputenabled"		"0"
 			}
 		}
-
-		//==========================
-		// OK/APPLY BUTTON
-		//==========================
 		
-		"Separator_2"
+		"ApplySeparator"
 		{
 			"ControlName"			"EditablePanel"
-			"fieldName"				"Separator_2"
+			"fieldName"				"ApplySeparator"
 			"xpos"					"1"
 			"ypos"					"264"
 			"zpos"					"0"
 			"wide"					"f2"
 			"tall"					"2"
 			"visible"				"1"
-			"enabled"					"1"
-			"proportionaltoparent"		"1"
-			"paintBackground"			"1"
-			"paintBackgroundtype"	"0"
+			"enabled"				"1"
+			"paintBackground"		"1"
 			"bgcolor_override"		"TanDark"
+			"proportionaltoparent"	"1"
 		}
 
 		"ApplyButton"
@@ -373,26 +291,19 @@
 			"fieldName"					"ApplyButton"
 			"xpos"						"cs-0.5"
 			"ypos"						"rs1-8"
-			"zpos"						"55"
 			"wide"						"f20"
 			"tall"						"22"
 			"visible"					"1"
 			"enabled"					"1"
-			
-			"labelText"					"Reload to Apply Changes"
+			"labelText"					"#CenHud_Apply"
 			"font"						"HudFontSmallBold"
 			"textAlignment"				"center"
-			"allcaps"					"1"
-
-			"command"					"engine cl_mainmenu_safemode 0; gameui_allowescape; mat_queue_mode -1; hud_reloadscheme"
+			"command"					"engine cl_mainmenu_safemode 0; mat_queue_mode -1; gameui_allowescape; hud_reloadscheme"
 			"actionsignallevel"			"2"
-
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"paintBackground"			"1"
-			"paintBackgroundType"		"2"
-
+			"proportionaltoparent"		"1"
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+			
 			"defaultBgColor_override"	"CreditsGreen"
 			"armedBgColor_override"		"GreenSolid"
 			"depressedBgColor_override"	"GreenSolid"
@@ -400,8 +311,6 @@
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
-
-			"proportionaltoparent"		"1"
 		}
 	}
 }

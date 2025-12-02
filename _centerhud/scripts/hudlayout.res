@@ -1,7 +1,3 @@
-#base "../../../../cfg/center-hud/cenhud_customization_menu.txt"
-
-#base "layout_customization.res"
-
 "resource/hudlayout.res"
 {
     HudWeaponAmmo
