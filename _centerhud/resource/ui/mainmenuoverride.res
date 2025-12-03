@@ -19,6 +19,12 @@
 		"zpos"			"-199"
 	}
 
+	"StoreHasNewItemsImage"
+	{	
+		"xpos"			"c-192"
+		"ypos"			"c2"
+	}
+
 	"ButtonBorder"
 	{
 		"ControlName"	"EditablePanel"

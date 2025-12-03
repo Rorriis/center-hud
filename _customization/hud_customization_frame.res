@@ -86,7 +86,7 @@
 			"font"						"HudFontSmallestBold"
 			"textAlignment"				"center"
 			"textinsetx"				"30"
-			"command"					"url https://github.com/RoseyLemonz/center-hud/wiki"
+			"command"					"url https://codeberg.org/RoseyLemonz/center-hud/wiki"
 			"auto_wide_tocontents"		"1"
 			"proportionaltoparent"		"1"
 			"sound_depressed"		"UI/buttonclick.wav"
