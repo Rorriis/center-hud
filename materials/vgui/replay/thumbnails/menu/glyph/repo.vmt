@@ -1,7 +1,6 @@
+#base "../../basicmaterial.vmt"
+
 "UnlitGeneric"
 {
 	"$basetexture" "vgui\replay\thumbnails\menu\glyph\repo"
-	"$translucent" 1
-	"$vertexcolor" 1
-	"$ignorez" 1
 }

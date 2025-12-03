@@ -1,8 +1,3 @@
-"UnlitGeneric"
-{
-	"$translucent" 1
-	"$baseTexture" "vgui/replay/thumbnails/menu_thumb_Missing"
-	"$vertexcolor" 1
-	"$no_fullbright" 1
-	"$ignorez" 1
-}
+#base "../replay/thumbnails/basicmaterial.vmt"
+
+"UnlitGeneric"{}
