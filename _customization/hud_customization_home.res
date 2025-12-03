@@ -116,9 +116,9 @@
 				{
 					"ControlName"				"ImagePanel"
 					"fieldName"					"CTAIcon"
-					"xpos"						"16"
-					"ypos"						"126"
-					"wide"						"20"
+					"xpos"						"14"
+					"ypos"						"125"
+					"wide"						"26"
 					"tall"						"o1"
 					"visible"					"1"
 					"enabled"					"1"
