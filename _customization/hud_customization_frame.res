@@ -118,7 +118,7 @@
 			"font"						"HudFontSmallestBold"
 			"textAlignment"				"center"
 			"textinsetx"				"30"
-			"command"					"url https://github.com/RoseyLemonz/center-hud/wiki/Troubleshooting"
+			"command"					"url https://codeberg.org/RoseyLemonz/center-hud/wiki/Troubleshooting"
 			"actionsignallevel"			"2"
 			"auto_wide_tocontents"		"1"
 			"proportionaltoparent"		"1"
