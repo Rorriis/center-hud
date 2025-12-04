@@ -17,11 +17,6 @@
 		"ypos"				"22"
 	}
 
-	"StoreBackgroundPanel"
-	{
-		"zpos"			"-2"
-	}
-
 	"PrevPageButton"
 	{
 		"xpos"			"c190"
