@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/assets/banner.webp" alt="Banner" width="60%"> <br>
+<img src="docs/assets/banner.webp" alt="Banner" width="80%"> <br>
 
 [![Codeberg](https://img.shields.io/badge/Codeberg-2185D0?style=for-the-badge&logo=codeberg&logoColor=white)](https://codeberg.org/RoseyLemonz/center-hud)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RoseyLemonz/center-hud)
