@@ -17,29 +17,33 @@
 			}
 		}
 	}
-	
-	"ClassFilterLabel" {"xpos" "r0" "visible" "0" "enabled" "0" "wide" "0"}
-	
-	"ClassFilterNavPanel" {"xpos" "r0" "visible" "0" "enabled" "0" "wide" "0"}
-	
-	"ClassFilterLabel" {"xpos" "r0" "visible" "0" "enabled" "0" "wide" "0"}
 
-	"NameFilterLabel" {"xpos" "r0" "visible" "0" "enabled" "0" "wide" "0"}
-
-	"NameFilterTextEntry" {"xpos" "r0" "visible" "0" "enabled" "0" "wide" "0"}
-	
-	"SortFilterLabel" {"xpos" "r0" "visible" "0" "enabled" "0" "wide" "0"}
-	
-	"SortFilterComboBox" {"xpos" "r0" "visible" "0" "enabled" "0" "wide" "0"}
-	
-	"TitleLabel"
+	"BackgroundTab"
 	{
-		"ypos"			"8"
+		"wide"			"400"
 	}
+	
+	"ClassFilterLabel" {"xpos" "r0" "visible" "0" "wide" "0"}
+	
+	"ClassFilterNavPanel" {"xpos" "r0" "visible" "0" "wide" "0"}
+	
+	"ClassFilterLabel" {"xpos" "r0" "visible" "0" "wide" "0"}
+
+	"NameFilterLabel" {"xpos" "r0" "visible" "0" "wide" "0"}
+
+	"NameFilterTextEntry" {"xpos" "r0" "visible" "0" "wide" "0"}
+	
+	"SortFilterLabel" {"xpos" "r0" "visible" "0" "wide" "0"}
+	
+	"SortFilterComboBox" {"xpos" "r0" "visible" "0" "wide" "0"}
+	
+	"TitleLabel" {"xpos" "r0" "visible" "0" "wide" "0"}
 	
 	"SubTitleLabel"
 	{
-		"ypos"			"16"
+		"xpos"			"c-285"
+		"ypos"			"18	"
+		"fgcolor"		"TanLight"
 	}
 	
 	"LearnMoreButton"

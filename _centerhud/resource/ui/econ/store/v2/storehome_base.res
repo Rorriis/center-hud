@@ -16,19 +16,6 @@
 		"xpos"				"c-290"
 		"ypos"				"22"
 	}
-	
-	"BackgroundPanel"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"BackgroundPanel"
-		"xpos"			"cs-0.5"
-		"zpos"			"-1"
-		"wide"			"640"
-		"tall"			"f0"
-		"visible"		"1"
-		"bgcolor_override"		"46 43 42 255"
-		"proportiontoparent"	"1"
-	}
 
 	"StoreBackgroundPanel"
 	{

@@ -559,131 +559,131 @@
 			"all"
 			{
 				"userdata"			"0"
-				"image_default"		"class_icons/filter_all"
-				"image_armed"		"class_icons/filter_all"
-				"image_selected"	"class_icons/filter_all_on"
+				"image_default"		"replay/thumbnails/menu/store/filter_all"
+				"image_armed"		"replay/thumbnails/menu/store/filter_all"
+				"image_selected"	"replay/thumbnails/menu/store/filter_all_on"
 				"tooltiptext"		"#TF_Items_All"
 				
 				"SubImage"
 				{
-					"image"			"class_icons/filter_all"
+					"image"			"replay/thumbnails/menu/store/filter_all"
 				}				
 			}
 			"scout"
 			{
 				"userdata"			"1"
-				"image_default"		"class_icons/filter_scout"
-				"image_armed"		"class_icons/filter_scout"
-				"image_selected"	"class_icons/filter_scout_on"
+				"image_default"		"replay/thumbnails/menu/store/filter_scout"
+				"image_armed"		"replay/thumbnails/menu/store/filter_scout"
+				"image_selected"	"replay/thumbnails/menu/store/filter_scout_on"
 				"tooltiptext"		"#TF_Items_Scout"
 				
 				"SubImage"
 				{
-					"image"			"class_icons/filter_scout"
+					"image"			"replay/thumbnails/menu/store/filter_scout"
 				}				
 			}
 			"soldier"
 			{
 				"userdata"			"3"
-				"image_default"		"class_icons/filter_soldier"
-				"image_armed"		"class_icons/filter_soldier"
-				"image_selected"	"class_icons/filter_soldier_on"
+				"image_default"		"replay/thumbnails/menu/store/filter_soldier"
+				"image_armed"		"replay/thumbnails/menu/store/filter_soldier"
+				"image_selected"	"replay/thumbnails/menu/store/filter_soldier_on"
 				"tooltiptext"		"#TF_Items_Soldier"
 
 				"SubImage"
 				{
-					"image"			"class_icons/filter_soldier"
+					"image"			"replay/thumbnails/menu/store/filter_soldier"
 				}				
 			}
 			"pyro"
 			{
 				"userdata"			"7"
-				"image_default"		"class_icons/filter_pyro"
-				"image_armed"		"class_icons/filter_pyro"
-				"image_selected"	"class_icons/filter_pyro_on"
+				"image_default"		"replay/thumbnails/menu/store/filter_pyro"
+				"image_armed"		"replay/thumbnails/menu/store/filter_pyro"
+				"image_selected"	"replay/thumbnails/menu/store/filter_pyro_on"
 				"tooltiptext"		"#TF_Items_Pyro"
 				
 				"SubImage"
 				{
-					"image"			"class_icons/filter_pyro"
+					"image"			"replay/thumbnails/menu/store/filter_pyro"
 				}				
 			}
 			"demo"
 			{
 				"userdata"			"4"
-				"image_default"		"class_icons/filter_demo"
-				"image_armed"		"class_icons/filter_demo"
-				"image_selected"	"class_icons/filter_demo_on"
+				"image_default"		"replay/thumbnails/menu/store/filter_demo"
+				"image_armed"		"replay/thumbnails/menu/store/filter_demo"
+				"image_selected"	"replay/thumbnails/menu/store/filter_demo_on"
 				"tooltiptext"		"#TF_Items_Demoman"
 				
 				"SubImage"
 				{
-					"image"			"class_icons/filter_demo"
+					"image"			"replay/thumbnails/menu/store/filter_demo"
 				}				
 			}	
 			"heavy"
 			{
 				"userdata"			"6"
-				"image_default"		"class_icons/filter_heavy"
-				"image_armed"		"class_icons/filter_heavy"
-				"image_selected"	"class_icons/filter_heavy_on"
+				"image_default"		"replay/thumbnails/menu/store/filter_heavy"
+				"image_armed"		"replay/thumbnails/menu/store/filter_heavy"
+				"image_selected"	"replay/thumbnails/menu/store/filter_heavy_on"
 				"tooltiptext"		"#TF_Items_Heavy"
 				
 				"SubImage"
 				{
-					"image"			"class_icons/filter_heavy"
+					"image"			"replay/thumbnails/menu/store/filter_heavy"
 				}				
 			}
 			"engineer"
 			{
 				"userdata"			"9"
-				"image_default"		"class_icons/filter_engineer"
-				"image_armed"		"class_icons/filter_engineer"
-				"image_selected"	"class_icons/filter_engineer_on"
+				"image_default"		"replay/thumbnails/menu/store/filter_engineer"
+				"image_armed"		"replay/thumbnails/menu/store/filter_engineer"
+				"image_selected"	"replay/thumbnails/menu/store/filter_engineer_on"
 				"tooltiptext"		"#TF_Items_Engineer"
 				
 				"SubImage"
 				{
-					"image"			"class_icons/filter_engineer"
+					"image"			"replay/thumbnails/menu/store/filter_engineer"
 				}				
 			}
 			"medic"
 			{
 				"userdata"			"5"
-				"image_default"		"class_icons/filter_medic"
-				"image_armed"		"class_icons/filter_medic"
-				"image_selected"	"class_icons/filter_medic_on"
+				"image_default"		"replay/thumbnails/menu/store/filter_medic"
+				"image_armed"		"replay/thumbnails/menu/store/filter_medic"
+				"image_selected"	"replay/thumbnails/menu/store/filter_medic_on"
 				"tooltiptext"		"#TF_Items_Medic"
 				
 				"SubImage"
 				{
-					"image"			"class_icons/filter_medic"
+					"image"			"replay/thumbnails/menu/store/filter_medic"
 				}				
 			}
 			"sniper"
 			{
 				"userdata"			"2"
-				"image_default"		"class_icons/filter_sniper"
-				"image_armed"		"class_icons/filter_sniper"
-				"image_selected"	"class_icons/filter_sniper_on"
+				"image_default"		"replay/thumbnails/menu/store/filter_sniper"
+				"image_armed"		"replay/thumbnails/menu/store/filter_sniper"
+				"image_selected"	"replay/thumbnails/menu/store/filter_sniper_on"
 				"tooltiptext"		"#TF_Items_Sniper"
 				
 				"SubImage"
 				{
-					"image"			"class_icons/filter_sniper"
+					"image"			"replay/thumbnails/menu/store/filter_sniper"
 				}				
 			}
 			"spy"
 			{
 				"userdata"			"8"
-				"image_default"		"class_icons/filter_spy"
-				"image_armed"		"class_icons/filter_spy"
-				"image_selected"	"class_icons/filter_spy_on"
+				"image_default"		"replay/thumbnails/menu/store/filter_spy"
+				"image_armed"		"replay/thumbnails/menu/store/filter_spy"
+				"image_selected"	"replay/thumbnails/menu/store/filter_spy_on"
 				"tooltiptext"		"#TF_Items_Spy"
 				
 				"SubImage"
 				{
-					"image"			"class_icons/filter_spy"
+					"image"			"replay/thumbnails/menu/store/filter_spy"
 				}				
 			}	
 		}
