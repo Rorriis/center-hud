@@ -25,6 +25,16 @@
 		"ypos"			"c2"
 	}
 
+	"Notifications_ShowButtonPanel"
+	{
+		"xpos"			"r175"
+	}
+	"Notifications_Panel"
+	{
+		"xpos"			"r232"
+		"ypos"			"70"
+	}
+
 	"ButtonBorder"
 	{
 		"ControlName"	"EditablePanel"
