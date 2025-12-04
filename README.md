@@ -6,12 +6,12 @@
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RoseyLemonz/center-hud)
 [![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/p5JV3k5CfE)
 
-[![Releases](https://img.shields.io/badge/Releases-green?style=for-the-badge)](releases)
-[![Credits](https://img.shields.io/badge/Credits%20%26%20Special%20Thanks-orange?style=for-the-badge)](wiki/credits)
-[![Screenshots](https://img.shields.io/badge/Screenshots-1BB76E?style=for-the-badge)](wiki/screenshots)
+[![Releases](https://img.shields.io/badge/Releases-green?style=for-the-badge)](/RoseyLemonz/center-hud/releases)
+[![Credits](https://img.shields.io/badge/Credits%20%26%20Special%20Thanks-orange?style=for-the-badge)](/RoseyLemonz/center-hud/wiki/Credits)
+[![Screenshots](https://img.shields.io/badge/Screenshots-1BB76E?style=for-the-badge)](/RoseyLemonz/center-hud/wiki/Screenshots)
 
-[![ComfigHuds](https://img.shields.io/badge/Comfig_Huds-009688?style=for-the-badge)](releases)
+[![ComfigHuds](https://img.shields.io/badge/Comfig_Huds-009688?style=for-the-badge)](https://comfig.app/huds/page/center-hud/)
 [![GameBanana](https://img.shields.io/badge/GameBanana-yellow?style=for-the-badge)](https://gamebanana.com/mods/485626)
-[![TF2HUDS](https://img.shields.io/badge/TF2HUDS-red?style=for-the-badge)](releases)
+[![TF2HUDS](https://img.shields.io/badge/TF2HUDS-red?style=for-the-badge)](https://tf2huds.dev/hud/Center-Hud)
 
 </dev>
