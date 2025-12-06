@@ -7,7 +7,7 @@
 		"wide"	"f0"
 		"tall"	"f0"
 		"xpos_minmode"	"0"
-		"ypos_minmode"	"0"
+		"ypos_minmode"	"0"	
 	}
 
 	HudDemomanPipes

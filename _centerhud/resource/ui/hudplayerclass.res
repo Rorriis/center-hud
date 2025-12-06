@@ -5,7 +5,11 @@
 		"xpos"			"cs-0.5-212"
 		"ypos"			"rs1.2"
 		"wide"			"75"
-		"tall"			"75"
+		"tall"			"o1"
+		"xpos_minmode"	"cs-0.5-212"
+		"ypos_minmode"	"rs1.1"
+		"wide_minmode"	"65"
+		"tall_minmode"	"o1"
 	}
 
 	"classmodelpanel"
@@ -13,9 +17,9 @@
 		"xpos"			"cs-0.5-212"
 		"ypos"			"rs1.065"
 		"wide"			"120"
-		"wide_minmode"	"52"
 		"tall"			"o2"
-		"tall_minmode"	"102"
+		"wide_minmode"	"66"
+		"tall_minmode"	"o2"
 		
 		"fov"			"12"
 		
@@ -144,8 +148,8 @@
 		"fieldName"		"PlayerClassBG"
 		"xpos"			"cs-0.5-212"
         "ypos"			"rs1-11"
-		"xpos_minmode"	"-10"
-		"ypos_minmode"	"r40"
+		"xpos_minmode"	"cs-0.5-202"
+		"ypos_minmode"	"r45"
 		"zpos"			"1"		
 		"wide"			"105"
 		"tall"			"50"

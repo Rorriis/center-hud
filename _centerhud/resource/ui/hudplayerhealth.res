@@ -17,36 +17,48 @@
 		"ypos"			"r160"
 		"wide"			"285"
 		"tall"			"5"
-		"visible"		"0"
+		"visible"		"1"
 		"fillColor"		"255 255 255 255"
 	}	
 
 	"PlayerStatusHealthImage"
 	{
-		"xpos"			"-2"
+		"xpos"			"0"
 		"ypos"			"-2"
+		"xpos_minmode"	"0"
+		"ypos_minmode"	"-2"
 		"pin_to_sibling"	"PlayerStatusHealthImageBG"
+		"pin_corner_to_sibling"	"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"	"PIN_CENTER_TOP"
 	}	
 
 	"PlayerStatusHealthImageBG"
 	{
 		"xpos"			"cs-0.5-175"
 		"ypos"			"rs1-34"
+		"xpos_minmode"	"cs-0.5-175"
+		"ypos_minmode"	"rs1"
 	}	
 	"PlayerStatusHealthBonusImage"
 	{
 		"xpos"			"cs-0.5-175"
 		"ypos"			"rs1-34"
+		"xpos_minmode"	"cs-0.5-175"
+		"ypos_minmode"	"rs1-8"
 	}
 	"PlayerStatusHealthValue"
 	{
 		"xpos"			"cs-0.5-175"
 		"ypos"			"rs1-52"
+		"xpos_minmode"	"cs-0.5-175"
+		"ypos_minmode"	"rs1-18"
 	}
 	"PlayerStatusMaxHealthValue"
 	{
 		"xpos"			"cs-0.5-152"
 		"ypos"			"rs1-72"
+		"xpos_minmode"	"cs-0.5-152"
+		"ypos_minmode"	"rs1-38"
 	}
 
 	// PLAYER STATUS EFFECTS
@@ -60,7 +72,8 @@
 		"wide"			"0"
 		"enabled"		"1"
 		"visible"		"1"
-		"xpos_minmode"	"0"
+		"xpos_minmode"	"cs-0.5-148"
+		"ypos_minmode"	"rs1-68"
 	}
 	"PlayerStatusBleedImage"
 	{
