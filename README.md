@@ -13,6 +13,6 @@
 [![ComfigHuds](https://img.shields.io/badge/Comfig_Huds-009688?style=for-the-badge&logo=mastercomfig&logoColor=white)](https://comfig.app/huds/page/center-hud/)
 [![GameBanana](https://img.shields.io/badge/GameBanana-FCEF40?style=for-the-badge&logo=gamebanana&logoColor=black)](https://gamebanana.com/mods/485626)
 
-<img src="docs/image/ingame_1.webp" alt="Ingame Screenshot #1" width="90%"> <br>
+<img src="docs/page/img/ingame_1.webp" alt="Ingame Screenshot #1" width="90%"> <br>
 
 </dev>
