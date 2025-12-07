@@ -19,7 +19,9 @@
 	HudDemomanCharge
 	{
 		"xpos"			"c172"
-		"ypos"			"r22"
+		"ypos"			"r22"	
+		"xpos_minmode"	"c178"
+		"ypos_minmode"	"r7"
 	}
 
 	CHudAccountPanel

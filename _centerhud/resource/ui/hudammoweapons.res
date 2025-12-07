@@ -19,30 +19,45 @@
 	{
 		"xpos"			"cs-0.5+189"
 		"ypos"			"rs1-15"
+		"xpos_minmode"	"cs-0.5+186"
+		"ypos_minmode"	"rs1"
 	}		
 	"AmmoInClipShadow"
 	{
-		"xpos"			"cs-0.5+190"
-		"ypos"			"rs1-14"	
+		"xpos"			"-1"
+		"ypos"			"-1"	
+		"xpos_minmode"	"-1"
+		"ypos_minmode"	"0"
+		"pin_to_sibling"	"AmmoInClip"
 	}						
 	"AmmoInReserve"
 	{
 		"xpos"			"cs-0.5+237"
 		"ypos"			"rs1-20"
+		"xpos_minmode"	"cs-0.5+236"
+		"ypos_minmode"	"rs1-4"
 	}		
 	"AmmoInReserveShadow"
 	{
-		"xpos"			"cs-0.5+238"
-		"ypos"			"rs1-19"
+		"xpos"			"-1"
+		"ypos"			"-1"	
+		"xpos_minmode"	"-1"
+		"ypos_minmode"	"-1"
+		"pin_to_sibling"	"AmmoInReserve"
 	}									
 	"AmmoNoClip"
 	{
 		"xpos"			"cs-0.5+200"
 		"ypos"			"rs1-15"
+		"xpos_minmode"	"cs-0.5+186"
+		"ypos_minmode"	"rs1"
 	}	
 	"AmmoNoClipShadow"
 	{
-		"xpos"			"cs-0.5+201"
-		"ypos"			"rs1-14"
+		"xpos"			"-1"
+		"ypos"			"-1"	
+		"xpos_minmode"	"-1"
+		"ypos_minmode"	"-1"
+		"pin_to_sibling"	"AmmoNoClip"
 	}									
 }
