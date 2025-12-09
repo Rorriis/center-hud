@@ -1,7 +1,9 @@
 #base "huditemeffectmeter_secondary.res"
 
-"HudItemEffectMeter.res"
+"huditemeffectmeter_secondarykills.res"
 {		
+	"HudItemEffectMeter"{}
+
 	"ItemEffectMeterLabel"
 	{
 		"xpos"					"25"

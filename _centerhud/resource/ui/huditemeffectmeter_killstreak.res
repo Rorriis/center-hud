@@ -1,6 +1,6 @@
 #base "meter/huditemeffectmeter_secondarykills.res"
 
-"HudItemEffectMeter.res"
+"huditemeffectmeter_killstreak.res"
 {		
 	HudItemEffectMeter
 	{

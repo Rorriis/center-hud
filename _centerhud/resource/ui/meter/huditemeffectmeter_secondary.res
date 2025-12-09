@@ -1,4 +1,4 @@
-"HudItemEffectMeter.res"
+"huditemeffectmeter_secondary.res"
 {
 	HudItemEffectMeter
 	{

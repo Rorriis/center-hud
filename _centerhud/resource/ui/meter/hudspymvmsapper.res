@@ -1,4 +1,4 @@
-"HudItemEffectMeter.res"
+"hudspymvmvsapper.res"
 {
 	HudItemEffectMeter
 	{

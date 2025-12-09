@@ -1,4 +1,4 @@
-"HudItemEffectMeter.res"
+"huditemeffectmeter_engineer.res"
 {		
 	"SkullIcon"
 	{

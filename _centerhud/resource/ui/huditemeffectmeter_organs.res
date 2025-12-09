@@ -1,7 +1,7 @@
 
 #base "meter/huditemeffectmeter_tertiarykills.res"
 
-"huditemeffectmeter.res"
+"huditemeffectmeter_organs.res"
 {
 	HudItemEffectMeter
 	{
