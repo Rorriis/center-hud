@@ -1,4 +1,4 @@
-"resource/ui/itemmodelpanel.res"
+"Resource/UI/ItemModelPanel.res"
 {
 	"itemmodelpanel"
 	{

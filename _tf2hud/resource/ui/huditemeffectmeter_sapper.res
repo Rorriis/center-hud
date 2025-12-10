@@ -1,4 +1,4 @@
-"resource/ui/huditemeffectmeter_sodapopper.res"
+"Resource/UI/HudItemEffectMeter_SodaPopper.res"
 {
 	HudItemEffectMeter
 	{

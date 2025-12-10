@@ -1,4 +1,4 @@
-"resource/ui/intromenu.res"
+"Resource/UI/IntroMenu.res"
 {
 	"intro"
 	{
