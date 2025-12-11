@@ -14,14 +14,20 @@
 	{
 		"xpos"			"c230"
 		"ypos"			"r55"
+		"xpos_minmode"	"c160"
+		"ypos_minmode"	"rs1-42"
+		"tall_minmode"	"18"
+		"wide_minmode"	"50"
 	}
 	
 	HudDemomanCharge
 	{
 		"xpos"			"c172"
 		"ypos"			"r22"	
-		"xpos_minmode"	"c178"
-		"ypos_minmode"	"r7"
+		"xpos_minmode"	"c172"
+		"ypos_minmode"	"r6"
+		"wide_minmode"	"60"
+		"tall_minmode"	"5"
 	}
 
 	CHudAccountPanel

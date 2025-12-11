@@ -18,8 +18,8 @@
 	"AmmoInClip"
 	{
 		"xpos"			"cs-0.5+189"
-		"ypos"			"rs1-15"
-		"xpos_minmode"	"cs-0.5+186"
+		"ypos"			"rs1-14"
+		"xpos_minmode"	"cs-0.5+188"
 		"ypos_minmode"	"rs1"
 	}		
 	"AmmoInClipShadow"
@@ -33,7 +33,7 @@
 	"AmmoInReserve"
 	{
 		"xpos"			"cs-0.5+237"
-		"ypos"			"rs1-20"
+		"ypos"			"rs1-18"
 		"xpos_minmode"	"cs-0.5+236"
 		"ypos_minmode"	"rs1-4"
 	}		
@@ -49,7 +49,7 @@
 	{
 		"xpos"			"cs-0.5+200"
 		"ypos"			"rs1-15"
-		"xpos_minmode"	"cs-0.5+186"
+		"xpos_minmode"	"cs-0.5+190"
 		"ypos_minmode"	"rs1"
 	}	
 	"AmmoNoClipShadow"

@@ -10,6 +10,29 @@
 		"teambg_2"		"replay/thumbnails/meter/hud_main_meter_red"
 		"teambg_3"		"replay/thumbnails/meter/hud_main_meter_blue"	
 	}
+
+	"MinmodeMeterBG"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"MinmodeMeterBG"
+		"xpos"				"0"
+		"ypos"				"0"
+		"wide"				"50"
+		"tall"				"18"
+		"visible"			"0"
+		"visible_minmode"	"1"
+		"enabled"			"1"
+		"image"				"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		"teambg_1"			"../hud/color_panel_brown"
+		"teambg_2"			"../hud/color_panel_red"
+		"teambg_3"			"../hud/color_panel_blu"
+
+		"src_corner_height"		"60"
+		"src_corner_width"		"60"
+		"draw_corner_width"		"6"
+		"draw_corner_height"	"6"
+	}
 	
 	"ChargeLabel"
 	{
@@ -34,10 +57,66 @@
 	"PipesPresentPanel"
 	{
 		"xpos"			"-2"
-	}
+		"xpos_minmode"	"0"
+		"wide_minmode"	"50"
+		"tall_minmode"	"18"
+		
+		"PipeIcon"
+		{
+			"xpos_minmode"	"3"
+			"ypos_minmode"	"3"
+			"wide_minmode"	"13"
+			"tall_minmode"	"13"
+		}	
+		
+		"NumPipesLabel"
+		{
+			"proportionaltoparent"	"1"
+			"xpos_minmode"			"15"
+			"ypos_minmode"			"1"
+			"tall_minmode"			"18"
+			"wide_minmode"			"35"
+			"font_minmode"			"HudFontMediumSmall"
+			"textalignment_minmode"	"center"
+		}
 
+		"NumPipesLabelDropshadow"
+		{
+			"visible"		"1"
+			"visible_minmode"	"0"
+		}		
+	}
+	
 	"NoPipesPresentPanel"
 	{
 		"xpos"			"-2"
+		"xpos_minmode"	"0"
+		"wide_minmode"	"50"
+		"tall_minmode"	"18"
+		
+		"PipeIcon"
+		{
+			"xpos_minmode"	"3"
+			"ypos_minmode"	"3"
+			"wide_minmode"	"13"
+			"tall_minmode"	"13"
+		}	
+		
+		"NumPipesLabel"
+		{
+			"proportionaltoparent"	"1"
+			"xpos_minmode"			"15"
+			"ypos_minmode"			"1"
+			"tall_minmode"			"18"
+			"wide_minmode"			"35"
+			"font_minmode"			"HudFontMediumSmall"
+			"textalignment_minmode"	"center"
+		}
+
+		"NumPipesLabelDropshadow"
+		{
+			"visible"		"1"
+			"visible_minmode"	"0"
+		}		
 	}
 }
