@@ -1,3 +1,3 @@
-#base "../../_centerhud/resource/ui/hudobjectiverobotdestruction.res"
-
-#base "../../_hudfixes/resource/ui/hudobjectiverobotdestruction.res"
+#base	"../../_centerhud/resource/ui/hudobjectiverobotdestruction.res"
+#base	"../../_fixes/resource/ui/hudobjectiverobotdestruction.res"
+#base	"../../_tf2hud/resource/ui/hudobjectiverobotdestruction.res"

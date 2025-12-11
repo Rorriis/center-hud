@@ -4,6 +4,7 @@
 {
 	"StorePage"
 	{
+		"max_cart_model_panels"	"14"
 		"modelpanels_kv"
 		{
 			"model_xpos"	"24"
@@ -16,6 +17,12 @@
 				"force_square_image"	"0"
 			}
 		}
+		
+		"cart_labels_kv"
+		{
+			"textAlignment"	"center"
+			"wide"			"21"
+		}
 	}
 
 	"BackgroundTab"
@@ -24,21 +31,28 @@
 	}
 	
 	"ClassFilterLabel" {"xpos" "r0" "visible" "0" "wide" "0"}
-	
-	"ClassFilterNavPanel" {"xpos" "r0" "visible" "0" "wide" "0"}
-	
+
 	"ClassFilterLabel" {"xpos" "r0" "visible" "0" "wide" "0"}
 
 	"NameFilterLabel" {"xpos" "r0" "visible" "0" "wide" "0"}
 
 	"NameFilterTextEntry" {"xpos" "r0" "visible" "0" "wide" "0"}
-	
+
 	"SortFilterLabel" {"xpos" "r0" "visible" "0" "wide" "0"}
-	
+
 	"SortFilterComboBox" {"xpos" "r0" "visible" "0" "wide" "0"}
-	
+
 	"TitleLabel" {"xpos" "r0" "visible" "0" "wide" "0"}
-	
+
+	"ClassFilterNavPanel"
+	{
+		"wide"			"230"
+	}
+	"CartButton"
+	{
+		"wide"			"72"
+	}
+
 	"SubTitleLabel"
 	{
 		"xpos"			"c-285"

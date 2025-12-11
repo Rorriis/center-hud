@@ -31,6 +31,10 @@
 	
 	"ItemEffectMeterCount"
 	{
+		"xpos"					"25"
+		"ypos"					"8"
+		"wide"					"40"
+		"font"					"HudFontMedium"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"xpos_minmode"			"15"

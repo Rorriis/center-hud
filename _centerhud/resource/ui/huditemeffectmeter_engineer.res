@@ -1,3 +1,5 @@
+#base "meter/huditemeffectmeter_secondarykills.res"
+
 "huditemeffectmeter_engineer.res"
 {		
 	"SkullIcon"

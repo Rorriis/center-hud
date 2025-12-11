@@ -1,9 +1,8 @@
-#base "../../../cfg/center-hud/cenhud_customization_menu.txt"
-
-#base "../_customization/layout_customization.res"
-#base "../_customization/#customizations/transparent_viewmodels/transparent_viewmodels.res"
-#base "../_customization/#customizations/killfeed/killfeed.res"
-
-#base "../_centerhud/scripts/hudlayout.res"
-
-#base "../_hudfixes/scripts/hudlayout.res"
+#base	"../../../cfg/center-hud/cenhud_customization_menu.txt"
+#base	"../_customization/layout_customization.res"
+#base	"../_extras/_customizations/transparent_viewmodels/transparent_viewmodels.res"
+#base   "../../cfg/hudfixes/hud_killfeed.txt"
+#base	"../_centerhud/scripts/hudlayout.res"
+#base	"../_extras/scripts/hudlayout.res"
+#base	"../_fixes/scripts/hudlayout.res"
+#base	"../_tf2hud/scripts/hudlayout.res"

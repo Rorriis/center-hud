@@ -1,1 +1,2 @@
-#base "../../_hudfixes/resource/ui/objectivestatusescort.res"
+#base	"../../_fixes/resource/ui/objectivestatusescort.res"
+#base	"../../_tf2hud/resource/ui/objectivestatusescort.res"

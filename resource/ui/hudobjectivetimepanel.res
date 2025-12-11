@@ -1,1 +1,2 @@
-#base "../../_hudfixes/resource/ui/hudobjectivetimepanel.res"
+#base	"../../_fixes/resource/ui/hudobjectivetimepanel.res"
+#base	"../../_tf2hud/resource/ui/hudobjectivetimepanel.res"

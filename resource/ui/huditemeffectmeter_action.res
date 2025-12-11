@@ -1,1 +1,1 @@
-#base "../../_tf2hud/resource/ui/huditemeffectmeter.res"
+#base "huditemeffectmeter.res"

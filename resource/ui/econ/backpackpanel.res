@@ -1,3 +1,4 @@
-#base "../../../_centerhud/resource/ui/econ/backpackpanel.res"
-
-#base "../../../_hudfixes/resource/ui/econ/backpackpanel.res"
+#base	"../../../_centerhud/resource/ui/econ/backpackpanel.res"
+#base	"../../../_extras/resource/ui/econ/backpackpanel.res"
+#base	"../../../_fixes/resource/ui/econ/backpackpanel.res"
+#base	"../../../_tf2hud/resource/ui/econ/backpackpanel.res"

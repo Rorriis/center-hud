@@ -1,3 +1,2 @@
-#base "../../_centerhud/resource/ui/hudaccountpanel.res"
-
-#base "../../_hudfixes/resource/ui/hudaccountpanel.res"
+#base	"../../_centerhud/resource/ui/hudaccountpanel.res"
+#base	"../../_tf2hud/resource/ui/hudaccountpanel.res"

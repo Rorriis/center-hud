@@ -38,7 +38,6 @@
 		"tall"	"f0"
 	}
 
-
 	DisguiseStatus
 	{
 		"xpos"		"cs-0.5-218"

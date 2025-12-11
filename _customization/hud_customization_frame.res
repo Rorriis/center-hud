@@ -13,6 +13,19 @@
 		"enabled"				"1"
 		"border"				"GrayDialogBorder"
 
+		// hide vanilla element
+
+		"Background"
+		{
+			"visible"		"0"
+			
+			"TitleLabel" { visible "0"}
+			"SaveSettingsButton" { visible "0"}
+			"LeaveSafeModeButton" { visible "0"}
+			"Explanation" { visible "0"}
+		}
+		"InfoImage" { visible "0"}
+
 		"OptionsTitle"
 		{
 			"ControlName"				"CExLabel"
@@ -311,6 +324,68 @@
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
+		}
+	}
+
+	"ShowHUDOptonsButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ShowHUDOptonsButton"
+		"xpos"			"r55"
+		"ypos"			"28"
+		"zpos"			"1"
+		"wide"			"32"
+		"tall"			"32"
+		//"autoResize"	"0"
+		//"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		//"proportionaltoparent"		"0"
+
+		"ShowHUDOptonsButton2_SB"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"ShowHUDOptonsButton2_SB"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"1"
+			"wide"			"32"
+			"tall"			"32"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"labelText"		""
+			"font"			"HudFontSmallestBold"
+			"textAlignment"	"center"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+
+			"actionsignallevel" "2"
+			"Command"		"engine toggle cl_mainmenu_safemode; mat_queue_mode 0"
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"paintbackground" "0"
+			"image_drawcolor"	"235 226 202 255"
+			"image_armedcolor"	"255 255 255 255"
+
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"1"
+				"wide"			"32"
+				"tall"			"32"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"../vgui/replay/thumbnails/button_hud"
+				"scaleImage"	"1"
+			}
 		}
 	}
 }

@@ -1,3 +1,3 @@
-#base "../../_centerhud/resource/ui/hudobjectiveplayerdestruction.res"
-
-#base "../../_hudfixes/resource/ui/hudobjectiveplayerdestruction.res"
+#base	"../../_centerhud/resource/ui/hudobjectiveplayerdestruction.res"
+#base	"../../_fixes/resource/ui/hudobjectiveplayerdestruction.res"
+#base	"../../_tf2hud/resource/ui/hudobjectiveplayerdestruction.res"

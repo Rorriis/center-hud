@@ -10,17 +10,6 @@
 		"ypos_minmode"	"0"
 	}
 
-	"TheMeasuringStickTM"
-	{
-		"controlName"	"ImagePanel"
-		"xpos"			"cs-0.5"
-		"ypos"			"r160"
-		"wide"			"285"
-		"tall"			"5"
-		"visible"		"1"
-		"fillColor"		"255 255 255 255"
-	}	
-
 	"PlayerStatusHealthImage"
 	{
 		"xpos"			"0"

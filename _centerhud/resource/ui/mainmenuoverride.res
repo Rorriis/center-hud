@@ -4,6 +4,11 @@
 	"EventPromo" {"xpos" r0 "visible" 0 "wide" 0}
 	"WatchStreamButton" {"xpos" r0 "visible" 0 "wide" 0}
 
+	"VersionLabel"
+	{
+		"labelText"			"Center HUD v25a"
+	}
+
 	"RankBorder"
 	{
 		"tall"			"116"
