@@ -33,30 +33,6 @@
 	{
 		"xpos"			"c270"
 		"ypos"			"c26"
-	}	
-	
-	"PrevPageShortcut"
-	{
-		"ControlName"		"CExButton"
-		"fieldName"			"PrevPageShortcut"
-		"wide"				"0"
-		"visible"			"1"
-		"labelText"			"&A"
-		"command"			"prevpage"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-	}
-
-	"NextPageShortcut"
-	{
-		"ControlName"		"CExButton"
-		"fieldName"			"NextPageShortcut"
-		"wide"				"0"
-		"visible"			"1"
-		"labelText"			"&D"
-		"command"			"nextpage"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 
 	"BackpackSpaceLabel"

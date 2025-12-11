@@ -2,5 +2,5 @@
 
 "UnlitGeneric"
 {
-	"$basetexture" "vgui\replay\thumbnails\menu\store\filter_sniper_on"
+	"$basetexture" "vgui/replay/thumbnails/menu/store/filter_sniper_on"
 }

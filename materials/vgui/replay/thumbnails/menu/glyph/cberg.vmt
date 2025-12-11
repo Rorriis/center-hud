@@ -2,5 +2,5 @@
 
 "UnlitGeneric"
 {
-	"$basetexture" "vgui\replay\thumbnails\menu\glyph\cberg"
+	"$basetexture" "vgui/replay/thumbnails/menu/glyph/cberg"
 }
