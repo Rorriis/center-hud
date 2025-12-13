@@ -78,6 +78,9 @@
 		"ypos"				"rs1-11"
 		"wide"				"60"
 		"tall"				"18"
+		"xpos_minmode"		"cs-0.5-222"
+		"ypos_minmode"		"rs1"
+		"zpos_minmode"		"0"
 	}
 
 	HudCloseCaption
