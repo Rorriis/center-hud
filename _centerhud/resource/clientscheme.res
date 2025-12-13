@@ -90,6 +90,18 @@ Scheme
 			}
 		}
 
+		"HudFontSmallish"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"17"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}	
+
 		"HudFontSmaller"
 		{
 			"1"

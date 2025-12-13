@@ -23,7 +23,8 @@
 	HudDemomanCharge
 	{
 		"xpos"			"c172"
-		"ypos"			"r22"	
+		"ypos"			"rs1-16"
+		"tall"			"5"	
 		"xpos_minmode"	"c172"
 		"ypos_minmode"	"r6"
 		"wide_minmode"	"60"
@@ -34,6 +35,10 @@
 	{
 		"xpos"			"c230"
 		"ypos"			"r85"
+		"xpos_minmode"	"c160"
+		"ypos_minmode"	"rs1-42"
+		"wide_minmode"	"100"
+		"tall_minmode"	"18"
 	}
 
     HudMedicCharge
@@ -42,6 +47,10 @@
 		"ypos"	"0"	
 		"wide"	"f0"
 		"tall"	"f0"
+		"xpos_minmode"	"0"
+		"ypos_minmode"	"0"	
+		"wide_minmode"	"f0"
+		"tall_minmode"	"f0"
 	}
 
 	DisguiseStatus
@@ -49,14 +58,18 @@
 		"xpos"		"cs-0.5-218"
 		"wide"		"105"
 		"tall"		"65"
+		"xpos_minmode"		"cs-0.5-202"
+		"ypos_minmode"		"rs1"
+		"wide_minmode"		"100"
+		"tall_minmode"		"20"
 	}
 
 	CHealthAccountPanel
 	{
 		"xpos"					"cs-0.5-144"
 		"ypos"					"rs1+20"
-		"xpos_minmode"			"61"
-		"ypos_minmode"			"r134"
+		"xpos_minmode"			"cs-0.5-142"
+		"ypos_minmode"			"rs1+50"
 	}
 	
 	"CurrencyStatusPanel"
@@ -65,5 +78,11 @@
 		"ypos"				"rs1-11"
 		"wide"				"60"
 		"tall"				"18"
+	}
+
+	HudCloseCaption
+	{
+		"xpos"		"cs-0.5"
+		"ypos"		"246"
 	}
 }

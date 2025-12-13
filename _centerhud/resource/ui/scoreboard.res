@@ -59,7 +59,7 @@
 				"angles_z"		"0"
 				"origin_x"		"130"
 				"origin_y"		"0"
-				"origin_z"		"-114"
+				"origin_z"		"-104"
 			}
 			"Soldier"
 			{
@@ -84,7 +84,7 @@
 			"Medic"
 			{
 				"fov"			"19"
-				"angles_x"		"-5"
+				"angles_x"		"-8"
 				"angles_y"		"173"
 				"angles_z"		"0"
 				"origin_x"		"150"
@@ -124,7 +124,7 @@
 			"Engineer"
 			{
 				"fov"			"23"
-				"angles_x"		"-10"
+				"angles_x"		"-15"
 				"angles_y"		"174"
 				"angles_z"		"0"
 				"origin_x"		"140"

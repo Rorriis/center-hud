@@ -33,7 +33,7 @@
 	"AmmoInReserve"
 	{
 		"xpos"			"cs-0.5+237"
-		"ypos"			"rs1-18"
+		"ypos"			"rs1-19"
 		"xpos_minmode"	"cs-0.5+236"
 		"ypos_minmode"	"rs1-4"
 	}		

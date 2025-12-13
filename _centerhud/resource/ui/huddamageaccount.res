@@ -12,7 +12,7 @@
 		"ypos"					"rs1-58"
 		"textAlignment"			"east"
 		"font"					"HudFontMediumOutline"
-		"xpos_minmode"			"0"
-		"ypos_minmode"			"0"
+		"xpos_minmode"			"cs-0.5+206"
+		"ypos_minmode"			"rs1-36"
     }
 }

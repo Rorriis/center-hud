@@ -6,7 +6,7 @@
 		"ypos"			"rs1.2"
 		"wide"			"75"
 		"tall"			"o1"
-		"xpos_minmode"	"cs-0.5-212"
+		"xpos_minmode"	"cs-0.5-214"
 		"ypos_minmode"	"rs1.1"
 		"wide_minmode"	"65"
 		"tall_minmode"	"o1"
@@ -18,7 +18,9 @@
 		"ypos"			"rs1.065"
 		"wide"			"120"
 		"tall"			"o2"
-		"wide_minmode"	"66"
+		"xpos_minmode"	"cs-0.5-216"
+		"ypos_minmode"	"rs0.75"
+		"wide_minmode"	"90"
 		"tall_minmode"	"o2"
 		
 		"fov"			"12"
@@ -54,6 +56,8 @@
 				"origin_x"			"105"
 				"origin_y"			"5"
 				"origin_z"			"-92"
+				"angles_x_minmode"	"-5"
+				"origin_z_minmode"	"-52"
 			}
 			"Sniper"
 			{
@@ -64,6 +68,8 @@
 				"origin_x"			"130"
 				"origin_y"			"-1"
 				"origin_z"			"-104"
+				"angles_x_minmode"	"0"
+				"origin_z_minmode"	"-60"
 			}
 			"Soldier"
 			{
@@ -74,6 +80,9 @@
 				"origin_x"			"145"
 				"origin_y"			"-2"
 				"origin_z"			"-104"
+				"angles_x_minmode"	"2"
+				"angles_y_minmode"	"170"			
+				"origin_z_minmode"	"-56"
 			}
 			"Demoman"
 			{
@@ -84,6 +93,9 @@
 				"origin_x"			"138"
 				"origin_y"			"-2"
 				"origin_z"			"-102"
+				"angles_x_minmode"	"-3"
+				"angles_y_minmode"	"170"
+				"origin_z_minmode"	"-53"
 			}
 			"Medic"
 			{
@@ -94,6 +106,8 @@
 				"origin_x"			"150"
 				"origin_y"			"-1"
 				"origin_z"			"-104"
+				"angles_x_minmode"	"3"
+				"origin_z_minmode"	"-62"
 			}
 			"Heavy"
 			{
@@ -103,6 +117,9 @@
 				"origin_x"			"200"
 				"origin_y"			"-5"
 				"origin_z"			"-111"
+				"angles_x_minmode"	"0"
+				"angles_y_minmode"	"170"
+				"origin_z_minmode"	"-56"
 			}
 			"Pyro"
 			{
@@ -113,6 +130,8 @@
 				"origin_x"			"175"
 				"origin_y"			"-3"
 				"origin_z"			"-102"
+				"angles_x_minmode"	"0"
+				"origin_z_minmode"	"-50"
 			}
 			"Spy"
 			{
@@ -123,6 +142,8 @@
 				"origin_x"			"170"
 				"origin_y"			"2"
 				"origin_z"			"-106"
+				"angles_x_minmode"	"3"
+				"origin_z_minmode"	"-60"
 			}
 			"Engineer"
 			{
@@ -133,6 +154,10 @@
 				"origin_x"			"140"
 				"origin_y"			"-1"
 				"origin_z"			"-98"
+				"angles_x_minmode"	"0"
+				"origin_x_minmode"	"140"
+				"origin_y_minmode"	"-2"
+				"origin_z_minmode"	"-52"
 			}
 		}
 	}
@@ -141,6 +166,7 @@
 	{
 		"xpos"			"cs-0.5-242"
 		"ypos"			"rs1.27"
+		"xpos_minmode"		"r0"
 	}	
 	"PlayerClassBG"
 	{		
