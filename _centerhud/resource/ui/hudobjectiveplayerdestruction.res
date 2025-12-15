@@ -6,6 +6,10 @@
 		"ypos"			"rs1-11"
 		"wide"			"40"
 		"tall"			"18"
+		"xpos_minmode"	"cs-0.5-204"
+		"ypos_minmode"	"rs1"
+		"wide_minmode"	"40"
+		"tall_minmode"	"18"
 	
 		"CarriedImage"
 		{
@@ -72,31 +76,37 @@
 			"FlagImageBlue"
 			{
 				"xpos"			"10"
+				"ypos_minmode"	"8"
 			}
 
 			"EscrowBlue"
 			{
 				"xpos"			"25"
+				"ypos_minmode"	"4"
 			}
 			
 			"EscrowBlueShadow"
 			{
 				"xpos"			"26"
+				"ypos_minmode"	"5"
 			}
 
 			"FlagImageRed"
 			{
 				"xpos"			"rs1-10"
+				"ypos_minmode"	"8"
 			}
 
 			"EscrowRed"
 			{
 				"xpos"			"rs1-26"
+				"ypos_minmode"	"4"
 			}
 			
 			"EscrowRedShadow"
 			{
 				"xpos"			"rs1-25"
+				"ypos_minmode"	"5"
 			}
 
 			"BlueVictoryContainer"

@@ -6,6 +6,8 @@
 		"right_steal_edge_offset"	"80"
 		"robot_x_offset"		"64"
 		"robot_x_step"			"18"
+		"robot_x_offset_minmode"	"64"
+		"robot_x_step_minmode"	"16"
 	}
 	"ScoreContainer"
 	{
