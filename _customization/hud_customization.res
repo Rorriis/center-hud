@@ -9,6 +9,11 @@
 #base "hud_customization_quick_settings.res"
 
 //==============================================================
+// HEALTH AND AMMO
+//==============================================================
+#base "hud_customization_healthammo.res"
+
+//==============================================================
 // FOLDER NAME MESSAGE
 //==============================================================
 #base "../../center-hud/_customization/hud_customization_folder_set.res"
