@@ -1,7 +1,7 @@
 // Fix 3D player model not displaying properly after a HUD reload
 // Fix player model clipping through the scoreboard border (Fix by impale1)
 
-"Resource/UI/Scoreboard.res"
+"resource/ui/scoreboard.res"
 {
 	"ClassImage"
 	{
