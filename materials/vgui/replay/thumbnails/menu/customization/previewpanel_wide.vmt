@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/replay/thumbnails/menu/customization/previewpanel_wide"
+	"$nolod" 1
+	"$translucent" 1
+	"$vertexcolor" 1
+	"$ignorez" 1
+}
