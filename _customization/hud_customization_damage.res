@@ -41,7 +41,7 @@
 					"tall"						"25"
 					"visible"					"1"
 					"enabled"					"1"
-					"labelText"					"#CenHud_Custom_Damage_Title"
+					"labelText"					"#CenHud_Custom_Cat_Damage"
 					"font"						"HudFontMediumBold"
 					"textAlignment"				"west"
 					"fgcolor"					"White"
@@ -110,6 +110,61 @@
 						"pin_corner_to_sibling"		"PIN_CENTER_BOTTOM"
 					}
 
+					"LastDamageDoneOn"
+					{
+						"ControlName"					"CExButton"
+						"fieldName"						"LastDamageDoneOn"
+						"xpos"							"-5"
+						"ypos"							"6"
+						"zpos"							"5"
+						"wide"							"0"
+						"tall"							"20"
+						"visible"						"1"
+						"enabled"						"1"
+						"allcaps"						"1"
+						"labelText"						"#CenHud_Custom_Gen_Enabled"
+						"textAlignment"					"center"
+						"font"							"HudFontSmallBold"
+						"textinsetx"					"20"
+						"command"						""
+						"actionsignallevel"				"5"
+						"auto_wide_tocontents"			"1"
+						"proportionaltoparent"			"1"
+						"use_proportional_insets"		"1"
+						"sound_depressed"		"UI/buttonclick.wav"
+						"sound_released"		"UI/buttonclickrelease.wav"
+
+						"pin_to_sibling"				"LastDamageDoneSeparator"
+						"pin_to_sibling_corner"			"PIN_BOTTOMLEFT"
+					}
+					"LastDamageDoneOff"
+					{
+						"ControlName"					"CExButton"
+						"fieldName"						"LastDamageDoneOff"
+						"xpos"							"5"
+						"ypos"							"0"
+						"zpos"							"5"
+						"wide"							"0"
+						"tall"							"20"
+						"visible"						"1"
+						"enabled"						"1"
+						"allcaps"						"1"
+						"labelText"						"#CenHud_Custom_Gen_Disabled"
+						"textAlignment"					"center"
+						"font"							"HudFontSmallBold"
+						"textinsetx"					"20"
+						"command"						""
+						"actionsignallevel"				"5"
+						"auto_wide_tocontents"			"1"
+						"proportionaltoparent"			"1"
+						"use_proportional_insets"		"1"
+						"sound_depressed"		"UI/buttonclick.wav"
+						"sound_released"		"UI/buttonclickrelease.wav"
+
+						"pin_to_sibling"				"LastDamageDoneOn"
+						"pin_to_sibling_corner"			"PIN_TOPRIGHT"
+					}
+
 					"LastDamageDonePositionSubTitle"
 					{
 						"ControlName"				"CExLabel"
@@ -126,14 +181,13 @@
 						"fgcolor"					"Gray"
 						"proportionaltoparent"		"1"
 
-						"pin_to_sibling"			"LastDamageDoneSeparator"
-						"pin_to_sibling_corner"		"PIN_CENTER_BOTTOM"
-						"pin_corner_to_sibling"		"PIN_CENTER_TOP"
+						"pin_to_sibling"			"LastDamageDoneOn"
+						"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"		
 					}
-					"LastDamageDoneHealth"
+					"LastDamageDoneAmmo"
 					{
 						"ControlName"				"EditablePanel"
-						"fieldName"					"LastDamageDoneHealth"
+						"fieldName"					"LastDamageDoneAmmo"
 						"xpos"						"0"
 						"ypos"						"2"
 						"wide"						"110"
@@ -144,6 +198,104 @@
 
 						"pin_to_sibling"			"LastDamageDonePositionSubTitle"
 						"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+
+						"Button"
+						{
+							"ControlName"				"CExButton"
+							"fieldName"					"Button"
+							"wide"						"f0"
+							"tall"						"f0"
+							"visible"					"1"
+							"enabled"					"1"
+							"labelText"					""
+							"textAlignment"				"west"
+							"command"					"engine cenhud_ldd_pos_ammo"
+							"actionsignallevel"			"6"
+							"paintBackground"			"1"
+							"paintBorder"				"0"
+							"proportionaltoparent"		"1"
+							"sound_depressed"		"UI/buttonclick.wav"
+							"sound_released"		"UI/buttonclickrelease.wav"
+						}
+
+						"PreviewPanel"
+						{
+							"ControlName"				"EditablePanel"
+							"fieldName"					"PreviewPanel"
+							"xpos"						"cs-0.5"
+							"ypos"						"cs-0.5"
+							"zpos"						"1"
+							"wide"						"f15"
+							"tall"						"f15"
+							"proportionaltoparent"		"1"
+							"mouseinputenabled" 		"0"
+							"paintBackgroundType"		"2"
+							"roundedcorners"			"11"
+
+							"MapBGImage"
+							{
+								"ControlName"	"ImagePanel"
+								"fieldName"		"MapBGImage"
+								"xpos"			"cs-0.5"
+								"ypos"			"cs-0.5"
+								"zpos"			"1"
+								"wide"			"f0"
+								"tall"			"f0"
+								"visible"		"1"
+								"image"			"replay/thumbnails/menu/customization/previewpanel_wide"
+								"drawcolor"		"160 160 160 255"
+								"scaleImage"	"1"	
+								"proportionaltoparent"	"1"			
+							}
+
+							"DamageValue"
+							{
+								"ControlName"		"CExLabel"
+								"fieldName"			"DamageValue"
+								"xpos"				"cs-0.5-10"
+								"ypos"				"4"
+								"zpos"				"3"
+								"wide"				"60"
+								"tall"				"26"
+								"visible"			"1"
+								"enabled"			"1"
+								"labelText"			"-125"
+								"textAlignment"		"west"
+								"font"				"HudFontMediumOutline"
+								"fgcolor"			"255 255 0 255"
+								"proportionaltoparent"	"1"		
+							}
+	
+							"AmmoImage"
+							{
+								"ControlName"	"CTFImagePanel"
+								"fieldName"		"AmmoImage"
+								"xpos"			"cs-0.5"
+								"ypos"			"rs1-2"
+								"zpos"			"2"
+								"wide"			"90"
+								"tall"			"45"
+								"visible"		"1"
+								"image"			"../hud/ammo_blue_bg"
+								"scaleImage"	"1"	
+								"proportionaltoparent"	"1"			
+							}
+						}
+					}		
+					"LastDamageDoneHealth"
+					{
+						"ControlName"				"EditablePanel"
+						"fieldName"					"LastDamageDoneHealth"
+						"xpos"						"5"
+						"ypos"						"0"
+						"wide"						"110"
+						"tall"						"o0.8"
+						"visible"					"1"
+						"enabled"					"1"
+						"proportionaltoparent"		"1"
+
+						"pin_to_sibling"			"LastDamageDoneAmmo"
+						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 
 						"Button"
 						{
@@ -239,104 +391,7 @@
 								"proportionaltoparent"	"1"
 							}
 						}
-					}
-					"LastDamageDoneAmmo"
-					{
-						"ControlName"				"EditablePanel"
-						"fieldName"					"LastDamageDoneAmmo"
-						"xpos"						"5"
-						"ypos"						"0"
-						"wide"						"110"
-						"tall"						"o0.8"
-						"visible"					"1"
-						"enabled"					"1"
-						"proportionaltoparent"		"1"
-						"pin_to_sibling"			"LastDamageDoneHealth"
-						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-
-						"Button"
-						{
-							"ControlName"				"CExButton"
-							"fieldName"					"Button"
-							"wide"						"f0"
-							"tall"						"f0"
-							"visible"					"1"
-							"enabled"					"1"
-							"labelText"					""
-							"textAlignment"				"west"
-							"command"					"engine cenhud_ldd_pos_ammo"
-							"actionsignallevel"			"6"
-							"paintBackground"			"1"
-							"paintBorder"				"0"
-							"proportionaltoparent"		"1"
-							"sound_depressed"		"UI/buttonclick.wav"
-							"sound_released"		"UI/buttonclickrelease.wav"
-						}
-
-						"PreviewPanel"
-						{
-							"ControlName"				"EditablePanel"
-							"fieldName"					"PreviewPanel"
-							"xpos"						"cs-0.5"
-							"ypos"						"cs-0.5"
-							"zpos"						"1"
-							"wide"						"f15"
-							"tall"						"f15"
-							"proportionaltoparent"		"1"
-							"mouseinputenabled" 		"0"
-							"paintBackgroundType"		"2"
-							"roundedcorners"			"11"
-
-							"MapBGImage"
-							{
-								"ControlName"	"ImagePanel"
-								"fieldName"		"MapBGImage"
-								"xpos"			"cs-0.5"
-								"ypos"			"cs-0.5"
-								"zpos"			"1"
-								"wide"			"f0"
-								"tall"			"f0"
-								"visible"		"1"
-								"image"			"replay/thumbnails/menu/customization/previewpanel_wide"
-								"drawcolor"		"160 160 160 255"
-								"scaleImage"	"1"	
-								"proportionaltoparent"	"1"			
-							}
-
-							"DamageValue"
-							{
-								"ControlName"		"CExLabel"
-								"fieldName"			"DamageValue"
-								"xpos"				"cs-0.5-10"
-								"ypos"				"4"
-								"zpos"				"3"
-								"wide"				"60"
-								"tall"				"26"
-								"visible"			"1"
-								"enabled"			"1"
-								"labelText"			"-125"
-								"textAlignment"		"west"
-								"font"				"HudFontMediumOutline"
-								"fgcolor"			"255 255 0 255"
-								"proportionaltoparent"	"1"		
-							}
-	
-							"AmmoImage"
-							{
-								"ControlName"	"CTFImagePanel"
-								"fieldName"		"AmmoImage"
-								"xpos"			"cs-0.5"
-								"ypos"			"rs1-2"
-								"zpos"			"2"
-								"wide"			"90"
-								"tall"			"45"
-								"visible"		"1"
-								"image"			"../hud/ammo_blue_bg"
-								"scaleImage"	"1"	
-								"proportionaltoparent"	"1"			
-							}
-						}
-					}					
+					}			
 					
 					"LastDamageDoneFontSubTitle"
 					{
@@ -354,7 +409,7 @@
 						"fgcolor"					"Gray"
 						"proportionaltoparent"		"1"
 
-						"pin_to_sibling"			"LastDamageDoneHealth"
+						"pin_to_sibling"			"LastDamageDoneAmmo"
 						"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 					}
 					"LastDamageDoneFontSecondary"
