@@ -65,6 +65,19 @@ Scheme
 				"outline"	"1"
 			}
 		}
+		
+		"HudFontMediumBoldOutline"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"24"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
 		"HudFontMediumSmallOutline"
 		{
 			"1"
@@ -146,6 +159,7 @@ Scheme
 
 		"1" "resource/tf.ttf"
 		"2" "resource/tfd.ttf"
+
 		"3"
 		{
 			"font" "resource/fonts/tf2_linux.ttf"	[$LINUX]
@@ -232,6 +246,7 @@ Scheme
 				"range" "0x0020 0x021b"
 			}
 		}
+
 		"4" 
 		{
 			"font" "resource/fonts/tf2secondary.ttf"
@@ -317,6 +332,7 @@ Scheme
 				"range" "0x0020 0x021b"
 			}
 		}
+
 		"5" 
 		{
 			"font" "resource/fonts/tf2professor.ttf"
@@ -402,6 +418,7 @@ Scheme
 				"range" "0x0020 0x021b"
 			}
 		}
+
 		"6" 
 		{
 			"font" "resource/fonts/tf2build.ttf"
@@ -487,6 +504,7 @@ Scheme
 				"range" "0x0020 0x021b"
 			}
 		}
+
 		"7" 
 		{
 			"font" "resource/fonts/ocra.ttf"

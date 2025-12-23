@@ -14,6 +14,11 @@
 #base "hud_customization_healthammo.res"
 
 //==============================================================
+// DAMAGE
+//==============================================================
+#base "hud_customization_damage.res"
+
+//==============================================================
 // FOLDER NAME MESSAGE
 //==============================================================
 #base "../../center-hud/_customization/hud_customization_folder_set.res"
