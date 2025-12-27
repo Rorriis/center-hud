@@ -1,6 +1,8 @@
 <div align="center">
 
 # Center HUD
+## NOTE: This is a Development version of the HUD.
+I do not advise to use this version since it is constantly and rapidly changing.
 
 [![Releases](https://img.shields.io/badge/Releases-green?style=for-the-badge)](releases)
 [![Credits](https://img.shields.io/badge/Credits%20%26%20Special%20Thanks-orange?style=for-the-badge)](wiki/Credits)
