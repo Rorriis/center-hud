@@ -2,7 +2,7 @@
 {
 	"MainMenuOverride"
 	{
-		"ControlName" "CHudMainMenuOverride" "enabled" "1"
+		"ControlName" "CHudMainMenuOverride" "enabled" "1" 
 		
 		"SafeMode"
 		{

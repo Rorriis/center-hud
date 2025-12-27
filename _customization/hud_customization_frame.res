@@ -78,7 +78,7 @@
 			"labelText"					"X"
 			"font"						"HudFontMediumSmallBold"
 			"textAlignment"				"center"
-			"command"					"engine cl_mainmenu_safemode 0; mat_queue_mode -1; gameui_allowescape"
+			"command"					"engine cl_mainmenu_safemode 0; mat_queue_mode -1; gameui_allowescape; cenhud_customization_menu_clear"
 			"actionsignallevel"			"2"
 			"proportionaltoparent"		"1"
 			"use_proportional_insets"	"1"
@@ -457,10 +457,10 @@
 		"enabled"		"1"
 		//"proportionaltoparent"		"0"
 
-		"ShowHUDOptionsButton2_SB"
+		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
-			"fieldName"		"ShowHUDOptionsButton2_SB"
+			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
@@ -479,7 +479,7 @@
 			"default"		"1"
 
 			"actionsignallevel" "2"
-			"Command"		"engine toggle cl_mainmenu_safemode; mat_queue_mode 0"
+			"Command"		"engine toggle cl_mainmenu_safemode; mat_queue_mode 0; cenhud_custom_hom"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -498,7 +498,7 @@
 				"tall"			"32"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"../vgui/replay/thumbnails/button_hud"
+				"image"			"replay/thumbnails/button_hud"
 				"scaleImage"	"1"
 			}
 		}

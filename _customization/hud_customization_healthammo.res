@@ -225,8 +225,8 @@
 							"xpos"						"cs-0.5"
 							"ypos"						"cs-0.5"
 							"zpos"						"1"
-							"wide"						"f15"
-							"tall"						"f15"
+							"wide"						"f18"
+							"tall"						"f18"
 							"proportionaltoparent"		"1"
 							"mouseinputenabled" 		"0"
 							"paintBackgroundType"		"2"
@@ -243,7 +243,6 @@
 								"tall"			"f0"
 								"visible"		"1"
 								"image"			"replay/thumbnails/menu/customization/previewpanel_wide"
-								"drawcolor"		"160 160 160 255"
 								"scaleImage"	"1"	
 								"proportionaltoparent"	"1"			
 							}
@@ -336,8 +335,8 @@
 							"xpos"						"cs-0.5"
 							"ypos"						"cs-0.5"
 							"zpos"						"1"
-							"wide"						"f15"
-							"tall"						"f15"
+							"wide"						"f18"
+							"tall"						"f18"
 							"proportionaltoparent"		"1"
 							"mouseinputenabled" 		"0"
 
@@ -352,7 +351,6 @@
 								"tall"			"f0"
 								"visible"		"1"
 								"image"			"replay/thumbnails/menu/customization/previewpanel_wide"
-								"drawcolor"		"160 160 160 255"
 								"scaleImage"	"1"	
 								"proportionaltoparent"	"1"			
 							}
@@ -463,7 +461,6 @@
 								"tall"			"f0"
 								"visible"		"1"
 								"image"			"replay/thumbnails/menu/customization/previewpanel"
-								"drawcolor"		"160 160 160 255"
 								"scaleImage"	"1"	
 								"proportionaltoparent"	"1"			
 							}
@@ -545,7 +542,6 @@
 								"tall"			"f0"
 								"visible"		"1"
 								"image"			"replay/thumbnails/menu/customization/previewpanel"
-								"drawcolor"		"160 160 160 255"
 								"scaleImage"	"1"	
 								"proportionaltoparent"	"1"			
 							}
@@ -625,7 +621,6 @@
 								"tall"			"f0"
 								"visible"		"1"
 								"image"			"replay/thumbnails/menu/customization/previewpanel"
-								"drawcolor"		"160 160 160 255"
 								"scaleImage"	"1"	
 								"proportionaltoparent"	"1"			
 							}
@@ -707,7 +702,6 @@
 								"tall"			"f0"
 								"visible"		"1"
 								"image"			"replay/thumbnails/menu/customization/previewpanel"
-								"drawcolor"		"160 160 160 255"
 								"scaleImage"	"1"	
 								"proportionaltoparent"	"1"			
 							}
