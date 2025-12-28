@@ -63,6 +63,8 @@
 					"command"		"url https://codeberg.org/RoseyLemonz/center-hud/wiki/Health-And-Ammo"
 					"paintBackground"	"0"
 					"proportionaltoparent"		"1"
+					"sound_depressed"	"UI/buttonclick.wav"
+					"sound_released"	"UI/buttonclickrelease.wav"
 
 					"image_drawcolor"	"255 255 255 255"
 					"image_armedcolor"	"200 200 200 255"
@@ -135,6 +137,8 @@
 						"labelText"		""
 						"command"		"url https://codeberg.org/RoseyLemonz/center-hud/wiki/Floating-Damage"
 						"paintBackground"	"0"
+						"sound_depressed"	"UI/buttonclick.wav"
+						"sound_released"	"UI/buttonclickrelease.wav"
 
 						"pin_to_sibling"	"HealthTitle"
 						"pin_to_sibling_corner"	"PIN_TOPRIGHT"
