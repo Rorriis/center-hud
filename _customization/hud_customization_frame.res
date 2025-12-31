@@ -446,7 +446,7 @@
 			"tall"						"22"
 			"visible"					"1"
 			"enabled"					"1"
-			"labelText"					"#CenHud_Apply"
+			"labelText"					"#CenHud_Menu_Apply"
 			"font"						"HudFontSmallBold"
 			"textAlignment"				"center"
 			"command"					"engine cl_mainmenu_safemode 0; mat_queue_mode -1; gameui_allowescape; hud_reloadscheme"
