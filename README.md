@@ -18,4 +18,4 @@ I do not advise to use this version since it is constantly and rapidly changing.
 
 <img src="docs/page/img/ingame_1.webp" alt="Ingame Screenshot #1" width="90%"> <br>
 
-</dev>
+</div>
