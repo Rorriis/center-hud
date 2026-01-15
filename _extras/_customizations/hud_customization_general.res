@@ -1,4 +1,4 @@
-git"resource/ui/#customizations/hud_customization_general.res"
+"resource/ui/#customizations/hud_customization_general.res"
 {
 	"SafeMode"
 	{
