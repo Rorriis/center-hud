@@ -16,4 +16,9 @@
 		"pin_to_sibling"	"ClassLabel"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
+
+	"OnlyAllowUniqueQuality"
+	{
+		"ypos"			"330"
+	}	
 }

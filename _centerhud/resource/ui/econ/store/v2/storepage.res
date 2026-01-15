@@ -164,7 +164,7 @@
 	"ClassFilterNavPanel"
 	{
 		"xpos"			"c-285"
-		"ypos"			"25"		
+		"ypos"			"25"
 		
 		"Buttons"
 		{
@@ -177,8 +177,8 @@
 				"SubImage"
 				{
 					"image"			"replay/thumbnails/menu/store/filter_all"
-				}				
-			}
+				}
+			}	
 			"scout"
 			{
 				"image_default"		"replay/thumbnails/menu/store/filter_scout"
@@ -188,7 +188,7 @@
 				"SubImage"
 				{
 					"image"			"replay/thumbnails/menu/store/filter_scout"
-				}				
+				}
 			}
 			"soldier"
 			{
@@ -199,7 +199,7 @@
 				"SubImage"
 				{
 					"image"			"replay/thumbnails/menu/store/filter_soldier"
-				}				
+				}
 			}
 			"pyro"
 			{
@@ -210,7 +210,7 @@
 				"SubImage"
 				{
 					"image"			"replay/thumbnails/menu/store/filter_pyro"
-				}				
+				}
 			}
 			"demo"
 			{
@@ -221,7 +221,7 @@
 				"SubImage"
 				{
 					"image"			"replay/thumbnails/menu/store/filter_demo"
-				}				
+				}
 			}	
 			"heavy"
 			{
@@ -232,7 +232,7 @@
 				"SubImage"
 				{
 					"image"			"replay/thumbnails/menu/store/filter_heavy"
-				}				
+				}
 			}
 			"engineer"
 			{
@@ -243,7 +243,7 @@
 				"SubImage"
 				{
 					"image"			"replay/thumbnails/menu/store/filter_engineer"
-				}				
+				}
 			}
 			"medic"
 			{
@@ -254,7 +254,7 @@
 				"SubImage"
 				{
 					"image"			"replay/thumbnails/menu/store/filter_medic"
-				}				
+				}
 			}
 			"sniper"
 			{
@@ -265,7 +265,7 @@
 				"SubImage"
 				{
 					"image"			"replay/thumbnails/menu/store/filter_sniper"
-				}				
+				}
 			}
 			"spy"
 			{
@@ -276,8 +276,8 @@
 				"SubImage"
 				{
 					"image"			"replay/thumbnails/menu/store/filter_spy"
-				}				
-			}	
+				}
+			}
 		}
 	}
 }

@@ -10,4 +10,13 @@
 			"wide"				"370"
 		}
 	}
+	
+	"NextTipButton"
+	{
+		"ypos"			"308"
+	}
+	"ResetStatsButton"
+	{
+		"ypos"			"308"
+	}
 }
