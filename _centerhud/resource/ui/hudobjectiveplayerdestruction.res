@@ -76,7 +76,8 @@
 			"FlagImageBlue"
 			{
 				"xpos"			"10"
-				"ypos_minmode"	"8"
+				"xpos_minmode"	"12"
+				"ypos_minmode"	"s0.8"
 			}
 
 			"EscrowBlue"
@@ -94,7 +95,8 @@
 			"FlagImageRed"
 			{
 				"xpos"			"rs1-10"
-				"ypos_minmode"	"8"
+				"xpos_minmode"	"rs1-12"
+				"ypos_minmode"	"s0.8"
 			}
 
 			"EscrowRed"
