@@ -101,19 +101,19 @@
 	
 	"NameFilterTextEntry"
 	{
+		"xpos"			"c202"
+		"ypos"			"23"
+	}
+
+	"SubcategoryFilterComboBox"
+	{
 		"xpos"			"c-50"
 		"ypos"			"23"
 	}
-	
-	"SubcategoryFilterComboBox"
-	{
-		"xpos"			"c50"
-		"ypos"			"23"
-	}
-	
+
 	"SortFilterComboBox"
 	{
-		"xpos"			"c172"
+		"xpos"			"c71"
 		"ypos"			"23"
 		"wide"			"122"
 	}
