@@ -186,4 +186,7 @@
 		"pin_to_sibling"			"RotateKey"
 		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
+
+	"RedButton" {"xpos" r0 "visible" 0 "wide" 0}
+	"BlueButton" {"xpos" r0 "visible" 0 "wide" 0}
 }

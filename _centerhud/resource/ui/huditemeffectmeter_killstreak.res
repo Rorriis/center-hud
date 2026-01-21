@@ -6,6 +6,8 @@
 	{
 		"xpos"			"c-323"
 		"ypos"			"r49"
+		"xpos_minmode"	"c-310"
+		"ypos_minmode"	"r20"
 	}
 	
 	"ItemEffectMeterBG"
@@ -22,6 +24,11 @@
 		"xpos"					"15"
 		"ypos"					"26"
 		"wide"					"42"
+	}
+
+	"SkullIcon"
+	{
+		"image"			"../hud/leaderboard_streak"
 	}
 
 	"ItemEffectMeterCount"

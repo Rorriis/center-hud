@@ -1,9 +1,13 @@
+#base "huditemeffectmeter_main.res"
+
 "hudspymvmvsapper.res"
 {
 	HudItemEffectMeter
 	{
 		"xpos"			"c102"
 		"ypos"			"r55"
+		"xpos_minmode"	"c-310"
+		"ypos_minmode"	"r6	0"
 		"x_offset"		"0"
 	}
 	
