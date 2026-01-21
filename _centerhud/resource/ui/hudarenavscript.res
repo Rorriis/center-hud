@@ -53,12 +53,16 @@
 			{
 				"xpos_minmode"	"0"
 				"ypos_minmode"	"0"
+				"wide_minmode"	"f0"
+				"tall_minmode"	"f0"
 			}	
 		
 			"ScoreShadow"
 			{
 				"xpos_minmode"	"2"
 				"ypos_minmode"	"1"
+				"wide_minmode"	"f0"
+				"tall_minmode"	"f0"
 			}
 		}
 		"RedScoreValueContainer"
@@ -72,12 +76,16 @@
 			{
 				"xpos_minmode"	"-2"
 				"ypos_minmode"	"0"
+				"wide_minmode"	"f0"
+				"tall_minmode"	"f0"
 			}	
 		
 			"ScoreShadow"
 			{
 				"xpos_minmode"	"0"
 				"ypos_minmode"	"1"
+				"wide_minmode"	"f0"
+				"tall_minmode"	"f0"
 			}
 		}
 
