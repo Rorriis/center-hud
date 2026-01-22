@@ -49,7 +49,8 @@
 
 		"DisconnectButton"
 		{
-			"wide"			"30"
+			"wide"			"30" [!$POSIX]
+			"wide"			"30" [$POSIX]
 			"labeltext"		""
 
 			"SubImage"
@@ -60,24 +61,14 @@
 
 		"ResumeButton"
 		{
-			"wide"			"0"
-			"textAlignment"	"center"
-			"textinsetx"	"25"
-			"auto_wide_tocontents"	"1"
-			"use_proportional_insets"	"1"
-
-			"SubImage" {"xpos" r0 "visible" 0 "wide" 0}
+			"wide"			"100" [!$POSIX]
+			"wide"			"100" [$POSIX]
 		}
 
 		"FindAGameButton"
 		{
-			"wide"			"0"
-			"textAlignment"	"center"
-			"textinsetx"	"25"
-			"auto_wide_tocontents"	"1"
-			"use_proportional_insets"	"1"
-
-			"SubImage" {"xpos" r0 "visible" 0 "wide" 0}
+			"wide"			"130" [!$POSIX]
+			"wide"			"130" [$POSIX]
 		}
 	}
 }
