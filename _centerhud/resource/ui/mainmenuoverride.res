@@ -8,7 +8,7 @@
 	{
 		"xpos"			"rs1-10"
 		"ypos"			"rs1-6"
-		"labelText"		"Center HUD v25a"
+		"labelText"		"Center HUD v25-alpha"
 		"font"			"HudFontSmallest"
 		"fgcolor"		"TanDark"
 	}
