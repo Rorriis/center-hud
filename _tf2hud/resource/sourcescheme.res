@@ -82,7 +82,7 @@ Scheme
 		FrameGrip.Color1				"TFTanMedium"
 		FrameGrip.Color2				"TFDarkBrown"
 		FrameTitleButton.FgColor		"TFTanBright"
-		FrameTitleBar.Font			"DefaultLarge"		[!$_disabled_]
+		FrameTitleBar.Font			"DefaultLarge"		[!$OSX]
 		FrameTitleBar.TextColor			"TFTanBright"
 		FrameTitleBar.DisabledTextColor	"TFTanLight"
 		
@@ -99,8 +99,8 @@ Scheme
 		ListPanel.SelectedBgColor			"SelectionBG"
 		ListPanel.SelectedOutOfFocusBgColor	"SelectionBG2"
 		
-		MainMenu.TextColor			"TanLight"			[!$_disabled_]
-		MainMenu.ArmedTextColor		"117 107 94 255"	[!$_disabled_]
+		MainMenu.TextColor			"TanLight"			[!$OSX]
+		MainMenu.ArmedTextColor		"117 107 94 255"	[!$OSX]
 		MainMenu.Inset				"32"
 		
 		Menu.TextInset					"6"
@@ -135,7 +135,7 @@ Scheme
 	{
 		"MainMenuFont"
 		{
-			"1"	[!$_disabled_]
+			"1"	[!$OSX]
 			{
 				"name"		"TF2 Build"
 				"tall"		"18"
@@ -146,9 +146,9 @@ Scheme
 		}
 		"MenuLarge"
 		{
-			"1"	[$_disabled_]
+			"1"	[$X360]
 			{
-				"tall$_disabled_"		"24"
+				"tall_hidef"		"24"
 			}
 		}
 
@@ -158,14 +158,14 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"35"
-				"tall$_disabled_"	"40"
+				"tall_lodef"	"40"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
 		}
 
-		"Default" [$_disabled_]
+		"Default" [$OSX]
 		{
 			"1"
 			{
@@ -223,42 +223,42 @@ Scheme
 		}
 		
 				
-		AchievementItemTitle	[!$_disabled_]
+		AchievementItemTitle	[!$OSX]
 		{
 			"1"
 			{
-				"name"		"Arial" [!$_disabled_]
-				"name"		"Verdana Bold" [$_disabled_]
+				"name"		"Arial" [!$OSX]
+				"name"		"Verdana Bold" [$OSX]
 				"weight"		"1500"
-				"tall"			"16" [!$_disabled_]
-				"tall"			"18" [$_disabled_]
+				"tall"			"16" [!$OSX]
+				"tall"			"18" [$OSX]
 				"antialias"		"1"
 			}
 		}
 		
-		AchievementItemTitleLarge	[!$_disabled_]
+		AchievementItemTitleLarge	[!$OSX]
 		{
 			"1"
 			{
-				"name"		"Arial" [!$_disabled_]
-				"name"		"Verdana Bold" [$_disabled_]
+				"name"		"Arial" [!$OSX]
+				"name"		"Verdana Bold" [$OSX]
 				"weight"		"1500"
-				"tall"			"18" [!$_disabled_]
-				"tall"			"19" [$_disabled_]
+				"tall"			"18" [!$OSX]
+				"tall"			"19" [$OSX]
 				"antialias"		"1"
 			}
 		}
 		
-		AchievementItemDescription	[!$_disabled_]
+		AchievementItemDescription	[!$OSX]
 		{
 			"1"
 			{
-				"name"		"Arial" [!$_disabled_]
-				"name"		"Verdana" [$_disabled_]
+				"name"		"Arial" [!$OSX]
+				"name"		"Verdana" [$OSX]
 				"weight"		"1000"
-				"tall"			"14" [!$_disabled_]
-				"tall"			"12" [$_disabled_]
-				"antialias"		"1" [!$_disabled_]
+				"tall"			"14" [!$OSX]
+				"tall"			"12" [$OSX]
+				"antialias"		"1" [!$OSX]
 			}
 		}
 

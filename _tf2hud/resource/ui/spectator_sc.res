@@ -69,12 +69,12 @@
 		"xpos_minmode"	"c-300"
 		"ypos"			"50"
 		"ypos_minmode"	"3"
-		"ypos$_disabled_"	"79"
-		"ypos$_disabled_"	"85"
+		"ypos_hidef"	"79"
+		"ypos_lodef"	"85"
 		"wide"			"600"
 		"wide_minmode"	"300"
 		"tall"			"18"
-		"tall$_disabled_"		"23"
+		"tall_hidef"		"23"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -106,15 +106,15 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"MapLabel"
 		"font"			"HudFontSmall"
-		"font$_disabled_"		"HudFontMedium"
+		"font_hidef"		"HudFontMedium"
 		"xpos"			"r260"	[$WIN32]
 		"ypos"			"16"	[$WIN32]
-		"xpos"			"r285"	[$_disabled_]
-		"ypos"			"32"	[$_disabled_]
+		"xpos"			"r285"	[$X360]
+		"ypos"			"32"	[$X360]
 		"wide"			"240"	[$WIN32]
-		"wide"			"220"	[$_disabled_]
+		"wide"			"220"	[$X360]
 		"tall"			"20"
-		"tall$_disabled_"		"30"
+		"tall_hidef"		"30"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -205,7 +205,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"	[$WIN32]
 		"visible_minmode"		"0"
-		"visible"		"0"	[$_disabled_]
+		"visible"		"0"	[$X360]
 		"enabled"		"1"
 		"labelText"		"#TF_Spectator_CycleTargetFwd"
 		"textAlignment"		"west"
@@ -233,17 +233,17 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TipLabel"
 		"xpos"			"15"
-		"xpos$_disabled_"	"60"
-		"xpos$_disabled_"	"45"
+		"xpos_hidef"	"60"
+		"xpos_lodef"	"45"
 		"ypos"			"r67"
-		"ypos$_disabled_"		"28"
-		"ypos$_disabled_"		"35"
+		"ypos_lodef"		"28"
+		"ypos_hidef"		"35"
 		"wide"			"145"
-		"wide$_disabled_"	"230"
-		"wide$_disabled_"	"240"
+		"wide_hidef"	"230"
+		"wide_lodef"	"240"
 		"tall"			"64"
-		"tall$_disabled_"	"70"
-		"tall$_disabled_"	"70"
+		"tall_hidef"	"70"
+		"tall_lodef"	"70"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -251,10 +251,10 @@
 		"enabled"		"1"
 		"labelText"		"%tip%"
 		"textAlignment"		"center"	[$WIN32]
-		"textAlignment"		"north-west"	[$_disabled_]
+		"textAlignment"		"north-west"	[$X360]
 		"font"			"SpectatorKeyHints"
-		"font$_disabled_"	"HudFontSmall"
-		"font$_disabled_"	"DefaultVerySmall"
+		"font_hidef"	"HudFontSmall"
+		"font_lodef"	"DefaultVerySmall"
 		"wrap"			"1"
 	}
 	"itempanel"

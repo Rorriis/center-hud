@@ -22,8 +22,8 @@
 		"xpos_minmode"	"15"	[$WIN32]
 		"ypos"			"r88"	[$WIN32]
 		"ypos_minmode"	"r54"	[$WIN32]
-		"xpos"			"57"	[$_disabled_]
-		"ypos"			"r110"	[$_disabled_]
+		"xpos"			"57"	[$X360]
+		"ypos"			"r110"	[$X360]
 		"zpos"			"2"
 		"wide"			"75"
 		"wide_minmode"	"37"
@@ -42,8 +42,8 @@
 		"xpos_minmode"	"-5"	[$WIN32]
 		"ypos"			"r67"	[$WIN32]
 		"ypos_minmode"	"r44"	[$WIN32]
-		"xpos"			"35"	[$_disabled_]
-		"ypos"			"r89"	[$_disabled_]
+		"xpos"			"35"	[$X360]
+		"ypos"			"r89"	[$X360]
 		"zpos"			"2"
 		"wide"			"55"
 		"wide_minmode"	"27"
@@ -64,8 +64,8 @@
 		"xpos_minmode"	"-5"	[$WIN32]
 		"ypos"			"r67"	[$WIN32]
 		"ypos_minmode"	"r44"	[$WIN32]
-		"xpos"			"35"	[$_disabled_]
-		"ypos"			"r89"	[$_disabled_]
+		"xpos"			"35"	[$X360]
+		"ypos"			"r89"	[$X360]
 		"zpos"			"7"
 		"wide"			"55"
 		"wide_minmode"	"27"
@@ -84,8 +84,8 @@
 		"xpos_minmode"	"-10"		[$WIN32]
 		"ypos"			"r60"	[$WIN32]
 		"ypos_minmode"		"r40"	[$WIN32]
-		"xpos"			"41"	[$_disabled_]
-		"ypos"			"r82"	[$_disabled_]
+		"xpos"			"41"	[$X360]
+		"ypos"			"r82"	[$X360]
 		"zpos"			"1"		
 		"wide"			"100"
 		"tall"			"50"
@@ -94,9 +94,9 @@
 		"scaleImage"	"1"
 		"image"			"../hud/character_red_bg"	
 		"teambg_2"		"../hud/character_red_bg"
-		"teambg_2$_disabled_"	"../hud/character_red_bg$_disabled_"
+		"teambg_2_lodef"	"../hud/character_red_bg_lodef"
 		"teambg_3"		"../hud/character_blue_bg"
-		"teambg_3$_disabled_"	"../hud/character_blue_bg$_disabled_"
+		"teambg_3_lodef"	"../hud/character_blue_bg_lodef"
 	}
 
 	"classmodelpanelBG"
@@ -107,8 +107,8 @@
 		"xpos_minmode"	"-15"		[$WIN32]
 		"ypos"			"r60"	[$WIN32]
 		"ypos_minmode"		"r40"	[$WIN32]
-		"xpos"			"41"	[$_disabled_]
-		"ypos"			"r82"	[$_disabled_]
+		"xpos"			"41"	[$X360]
+		"ypos"			"r82"	[$X360]
 		"zpos"			"1"		
 		"wide"			"109"
 		"tall"			"50"
@@ -117,9 +117,9 @@
 		"scaleImage"	"1"
 		"image"				"../hud/character_red_bg_clipped"	
 		"teambg_2"			"../hud/character_red_bg_clipped"
-		"teambg_2$_disabled_"	"../hud/character_red_bg$_disabled__clipped"
+		"teambg_2_lodef"	"../hud/character_red_bg_lodef_clipped"
 		"teambg_3"			"../hud/character_blue_bg_clipped"
-		"teambg_3$_disabled_"	"../hud/character_blue_bg$_disabled__clipped"
+		"teambg_3_lodef"	"../hud/character_blue_bg_lodef_clipped"
 	}
 
 	"classmodelpanel"
@@ -321,9 +321,9 @@
 			"scaleImage"			"1"
 			"teambg_1"				"../hud/color_panel_brown"
 			"teambg_2"				"../hud/color_panel_red"
-			"teambg_2$_disabled_"		"../hud/color_panel_red"
+			"teambg_2_lodef"		"../hud/color_panel_red"
 			"teambg_3"				"../hud/color_panel_blu"
-			"teambg_3$_disabled_"		"../hud/color_panel_blu"
+			"teambg_3_lodef"		"../hud/color_panel_blu"
 			"proportionaltoparent"	"1"
 		
 			"src_corner_height"		"23"				// pixels inside the image

@@ -7,9 +7,9 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"10"	[$WIN32]
-		"xpos"			"42"	[$_disabled_]
+		"xpos"			"42"	[$X360]
 		"ypos"			"275"
-		"ypos$_disabled_"		"245"
+		"ypos_hidef"		"245"
 		"wide"	 		"280"
 		"tall"	 		"120"
 		"PaintBackgroundType"	"2"
@@ -22,7 +22,7 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"10"	[$WIN32]
-		"xpos"			"42"	[$_disabled_]
+		"xpos"			"42"	[$X360]
 		"ypos"			"395"
 		"wide"	 		"260"
 		"tall"	 		"2"
@@ -55,8 +55,8 @@
 		"fieldName"		"HudChatHistory"
 		"xpos"			"10"	[$WIN32]
 		"ypos"			"17"	[$WIN32]
-		"xpos"			"10"	[$_disabled_]
-		"ypos"			"10"	[$_disabled_]
+		"xpos"			"10"	[$X360]
+		"ypos"			"10"	[$X360]
 		"wide"	 		"260"
 		"tall"			"75"
 		"wrap"			"1"

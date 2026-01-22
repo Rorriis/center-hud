@@ -365,9 +365,9 @@
 		"labelText"		"%server%"
 		"textAlignment"		"west"
 		"xpos"			"11"
-		"xpos$_disabled_"	"31"
+		"xpos_hidef"	"31"
 		"ypos"			"60"
-		"ypos$_disabled_"	"62"
+		"ypos_lodef"	"62"
 		"wide"			"300"
 		"tall"			"20"
 		"autoResize"	"0"
@@ -630,7 +630,7 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"ClassImage"
 		"xpos"			"22"
-		"xpos$_disabled_"	"12"
+		"xpos_lodef"	"12"
 		"ypos"			"350"
 		"zpos"			"3"
 		"wide"			"92"
@@ -1714,7 +1714,7 @@
 		}
 	}
 
-	"ButtonLegendBG"		[$_disabled_]
+	"ButtonLegendBG"		[$X360]
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ButtonLegendBG"
@@ -1732,7 +1732,7 @@
 		"PaintBackgroundType"	"0"
 	}
 	
-	"ButtonLegend"		[$_disabled_]
+	"ButtonLegend"		[$X360]
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ButtonLegend"

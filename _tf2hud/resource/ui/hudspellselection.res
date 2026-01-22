@@ -26,9 +26,9 @@
 		"image"			"../hud/ammo_blue_bg"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/ammo_red_bg"
-		"teambg_2$_disabled_"	"../hud/ammo_red_bg$_disabled_"
+		"teambg_2_lodef"	"../hud/ammo_red_bg_lodef"
 		"teambg_3"		"../hud/ammo_blue_bg"
-		"teambg_3$_disabled_"	"../hud/ammo_blue_bg$_disabled_"				
+		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"				
 	}
 	
 	"Spellbook"

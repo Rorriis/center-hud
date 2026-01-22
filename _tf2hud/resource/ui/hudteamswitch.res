@@ -25,8 +25,8 @@
 		"font"			"TFFontMedium"
 		"xpos"			"80"
 		"ypos"			"58"
-		"ypos$_disabled_"	"40"
-		"ypos$_disabled_"	"36"
+		"ypos_hidef"	"40"
+		"ypos_lodef"	"36"
 		"zpos"			"1"
 		"wide"			"240"
 		"tall"			"55"
@@ -45,11 +45,11 @@
 		"font"			"HudFontSmallBold"
 		"xpos"			"80"
 		"ypos"			"28"
-		"ypos$_disabled_"	"23"
-		"ypos$_disabled_"	"20"
+		"ypos_hidef"	"23"
+		"ypos_lodef"	"20"
 		"zpos"			"1"
 		"wide"			"230"	[$WIN32]
-		"wide"			"180"	[$_disabled_]
+		"wide"			"180"	[$X360]
 		"tall"			"55"
 		"autoResize"		"0"
 		"pinCorner"		"0"

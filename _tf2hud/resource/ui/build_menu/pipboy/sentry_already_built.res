@@ -5,7 +5,7 @@
 	"ItemNameLabel"
 	{	
 		"labelText"		"#TF_Object_Sentry"
-		"labelText$_disabled_"		"#TF_Object_Sentry_360"
+		"labelText_lodef"		"#TF_Object_Sentry_360"
 	}
 	
 	"NumberLabel"

@@ -11,8 +11,8 @@
 		"xpos_minmode"	"r52"	[$WIN32]
 		"ypos_minmode"	"r68"	[$WIN32]
 		"x_offset_minmode"		"0"	[$WIN32]
-		"xpos"			"r194"	[$_disabled_]
-		"ypos"			"r124"	[$_disabled_]
+		"xpos"			"r194"	[$X360]
+		"ypos"			"r124"	[$X360]
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -34,9 +34,9 @@
 		"image"			"../hud/misc_ammo_area_horiz2_blue"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/misc_ammo_area_horiz2_red"
-		"teambg_2$_disabled_"	"../hud/misc_ammo_area_red$_disabled_"
+		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
 		"teambg_3"		"../hud/misc_ammo_area_horiz2_blue"
-		"teambg_3$_disabled_"	"../hud/misc_ammo_area_blue$_disabled_"				
+		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
 	}
 	
 	"ItemEffectMeterLabel"
