@@ -582,7 +582,6 @@ try {
 
 		Write-Host -foregroundcolor "Red" "If you have EDITED any ORIGINAL center-hud fies, they will be OVERWRITTEN."
 		Write-Host -foregroundcolor "Green" "If you have ADDED any NEW center-hud files, they will NOT be OVERWRITTEN."
-		Write-Host -foregroundcolor "Blue" "This script is best used by those making use of #users/custom."
 		Write-Host ""
 
 		Write-Host -foregroundcolor "White" "To proceed, you must type r-6969."
