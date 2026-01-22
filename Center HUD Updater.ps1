@@ -508,7 +508,6 @@ try {
 		Write-Host -foregroundcolor "White" -NoNewLine "Making new _tf2hud folders..."
 		New-Item -Path $PSScriptRoot\_tf2hud\resource -Name "ui" -ItemType "Directory" > $null
 		New-Item -Path $PSScriptRoot\_tf2hud -Name "scripts" -ItemType "Directory" > $null
-		New-Item -Path $PSScriptRoot\_tf2hud -Name "resource/tug_of_war" -ItemType "Directory" > $null
 		Write-Host -foregroundcolor "Blue" "Complete"
 
 		Write-Host -foregroundcolor "Blue" "Complete"
@@ -524,7 +523,7 @@ try {
 		Extract_VPK_Directory "$misc_dir" "resource/"
 		Extract_VPK_Files "$misc_dir" "scripts/HudLayout.res" "scripts/HudAnimations_tf.txt" "scripts/mod_textures.txt"
 		Extract_VPK_Files "$platform_dir" "resource/sourceschemebase.res"
-		Extract_VPK_Files "$hl2_dir" "resource/ui/basechat.res" "resource/ui/econ/confirmdialog.res" "resource/ui/econ/messageboxdialog.res"
+		Extract_VPK_Files "$hl2_dir" "resource/ui/basechat.res" "resource/ui/econ/confirmdialog.res" "resource/ui/econ/messageboxdialog.res" "resource/ui/replaybrowser/mainpanel.res"
 		Pop-Location
 		Write-Host -foregroundcolor "Blue" "Complete"
 
@@ -590,14 +589,14 @@ try {
 		Write-Host -foregroundcolor "Green" "If you have ADDED any NEW center-hud files, they will NOT be OVERWRITTEN."
 		Write-Host ""
 
-		Write-Host -foregroundcolor "White" "To proceed, you must type r-6969."
+		Write-Host -foregroundcolor "White" "To proceed, you must type r0."
 		Write-Host -foregroundcolor "White" "To close, type anything else."
 		Write-Host ""
 
 		$selection = Read-Host "Please type your option"
 
 		switch ($selection) {
-			"r-6969" {
+			"r0" {
 				# Initialize the start time
 				$startTime = Get-Date
 
@@ -608,7 +607,7 @@ try {
 				Write-Host -foregroundcolor "White" -NoNewLine "Downloading files from Codeberg..."
 				$zip = [System.IO.Compression.ZipArchive]::new(
 					[System.IO.MemoryStream]::new(
-					(Invoke-WebRequest https://codeberg.org/RoseyLemonz/center-hud/archive/main.zip).Content),
+					(Invoke-WebRequest -UseBasicParsing https://codeberg.org/RoseyLemonz/center-hud/archive/rewrite.zip).Content),
 					[System.IO.Compression.ZipArchiveMode]::Read)
 				Write-Host -foregroundcolor "Blue" "Complete"
 
@@ -630,7 +629,7 @@ try {
 				Write-Host -foregroundcolor "Green" "============="
 				Write-Host -foregroundcolor "Green" "Task Complete"
 				Write-Host -foregroundcolor "Green" "============="
-				Write-Host -foregroundcolor "White" "Latest hud files from Codeberg have been downloaded and extracted."
+				Write-Host -foregroundcolor "White" "Latest HUD files from Codeberg have been downloaded and extracted."
 				Shared_Timer $startTime
 			}
 
