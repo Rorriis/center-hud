@@ -66,12 +66,12 @@ try {
 	# center-hud (this script's folder)
 	$centerhud = Resolve-Path "$PSScriptRoot"
 	# ../Team Fortress 2/tf
-	$tf = Maybe_Path $center-hud "../.."
+	$tf = Maybe_Path $centerhud "../.."
 	# vpk.exe shipped with TF2 (used for unpacking the game's default hud)
 	$vpk = Maybe_Path $tf "../bin/vpk.exe"
 
 	# in case someone typed out the script name from a prompt, cd to center-hud's folder
-	Set-Location "$center-hud"
+	Set-Location "$centerhud"
 
 	# https://docs.microsoft.com/en-us/troubleshoot/windows-client/shell-experience/command-line-string-limitation
 	# although these docs are for cmd.exe, they seem to apply to powershell as well.
