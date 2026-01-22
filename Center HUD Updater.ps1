@@ -23,9 +23,9 @@ try {
 	##############
 	function Options_Menu {
 		Clear-Host
-		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "=================="
-		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Center HUD Updater"
-		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "=================="
+		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" " ================== "
+		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" " Center HUD Updater "
+		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" " ================== "
 		Write-Host -foregroundcolor "White" "This PowerShell script can be used to perform a few different tasks seen below."
 		Write-Host -foregroundcolor "White" "Please type ? for an explanation of these options if you're not certain!"
 		Write-Host ""
@@ -87,7 +87,7 @@ try {
 	$untranslatedLanguages = "bulgarian", "czech", "danish", "dutch", "english", "greek", "hungarian", "korean", "portuguese", "swedish", "thai"
 
 	# Discord Link
-	$discord = "https://discord.gg/TkxNKU2"
+	$discord = "https://discord.gg/p5JV3k5CfE"
 
 	# tf2 executable names
 	$osPlatform = [System.Environment]::OSVersion.Platform
@@ -445,9 +445,9 @@ try {
 	###########################
 	function Run_InstallTroubleshooter {
 		Clear-Host
-		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "====================="
-		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Checking Installation"
-		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "====================="
+		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" " ===================== "
+		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" " Checking Installation "
+		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" " ===================== "
 		Write-Host -foregroundcolor "White" "This function will check for common installation problems and provide a potential solution"
 		Write-Host ""
 
@@ -460,9 +460,9 @@ try {
 
 		Else {
 			Write-Host ""
-			Write-Host -foregroundcolor "White" -backgroundcolor "Green" "====================="
-			Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Install Checks Passed"
-			Write-Host -foregroundcolor "White" -backgroundcolor "Green" "====================="
+			Write-Host -foregroundcolor "White" -backgroundcolor "Green" " ===================== "
+			Write-Host -foregroundcolor "White" -backgroundcolor "Green" " Install Checks Passed "
+			Write-Host -foregroundcolor "White" -backgroundcolor "Green" " ===================== "
 			Write-Host -foregroundcolor "White" "No common issues with installation detected."
 			Write-Host -foregroundcolor "White" "If you continue to have problems, post in our Discord for additional help (ctrl + click to open):"
 			Write-Host -foregroundcolor "Blue" $discord
@@ -478,9 +478,9 @@ try {
 		$startTime = Get-Date
 
 		Clear-Host
-		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "==================="
-		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Extract Default HUD"
-		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "==================="
+		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" " =================== "
+		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" " Extract Default HUD "
+		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" " =================== "
 		Write-Host ""
 
 		# Perform any necessary checks
@@ -490,9 +490,9 @@ try {
 
 		Write-Host ""
 
-		Write-Host -foregroundcolor "White" -backgroundcolor "Green" "=================="
-		Write-Host -foregroundcolor "White" -backgroundcolor "Green" "File Checks Passed"
-		Write-Host -foregroundcolor "White" -backgroundcolor "Green" "=================="
+		Write-Host -foregroundcolor "White" -backgroundcolor "Green" " ================== "
+		Write-Host -foregroundcolor "White" -backgroundcolor "Green" " File Checks Passed "
+		Write-Host -foregroundcolor "White" -backgroundcolor "Green" " ================== "
 		Write-Host -foregroundcolor "White" "You appear to have all files needed to update your default hud files."
 		Write-Host -foregroundcolor "White" "Beginning update."
 		Write-Host ""
@@ -562,9 +562,9 @@ try {
 		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
 		Write-Host ""
 
-		Write-Host -foregroundcolor "White" -backgroundcolor "Green" "============="
-		Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Task Complete"
-		Write-Host -foregroundcolor "White" -backgroundcolor "Green" "============="
+		Write-Host -foregroundcolor "White" -backgroundcolor "Green" " ============= "
+		Write-Host -foregroundcolor "White" -backgroundcolor "Green" " Task Complete "
+		Write-Host -foregroundcolor "White" -backgroundcolor "Green" " ============= "
 		Shared_Timer $startTime
 	}
 
@@ -573,9 +573,9 @@ try {
 	######################
 	function Run_UpdateFromGitHub {
 		Clear-Host
-		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "=================="
-		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Update from Codeberg"
-		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "=================="
+		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" " ==================== "
+		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" " Update from Codeberg "
+		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" " ==================== "
 		Write-Host ""
 
 		# Perform any necessary checks
@@ -583,10 +583,10 @@ try {
 		Check_InvokeWebRequest
 
 		Write-Host ""
-		Write-Host -foregroundcolor "White" -backgroundcolor "Red" "===================="
-		Write-Host -foregroundcolor "White" -backgroundcolor "Red" "IMPORTANT DISCLAIMER"
-		Write-Host -foregroundcolor "White" -backgroundcolor "Red" "====DON'T IGNORE===="
-		Write-Host -foregroundcolor "White" -backgroundcolor "Red" "===================="
+		Write-Host -foregroundcolor "White" -backgroundcolor "Red" " ==================== "
+		Write-Host -foregroundcolor "White" -backgroundcolor "Red" " IMPORTANT DISCLAIMER "
+		Write-Host -foregroundcolor "White" -backgroundcolor "Red" " ====DON'T IGNORE==== "
+		Write-Host -foregroundcolor "White" -backgroundcolor "Red" " ==================== "
 		Write-Host ""
 
 		Write-Host -foregroundcolor "Red" "If you have EDITED any ORIGINAL center-hud fies, they will be OVERWRITTEN."
@@ -631,9 +631,9 @@ try {
 				Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
 				Write-Host ""
 
-				Write-Host -foregroundcolor "White" -backgroundcolor "Green" "============="
-				Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Task Complete"
-				Write-Host -foregroundcolor "White" -backgroundcolor "Green" "============="
+				Write-Host -foregroundcolor "White" -backgroundcolor "Green" " ============= "
+				Write-Host -foregroundcolor "White" -backgroundcolor "Green" " Task Complete "
+				Write-Host -foregroundcolor "White" -backgroundcolor "Green" " ============= "
 				Write-Host -foregroundcolor "White" "Latest hud files from Codeberg have been downloaded and extracted."
 				Shared_Timer $startTime
 			}
@@ -653,9 +653,9 @@ try {
 	function Show-Help {
 		Clear-Host
 		Write-Host ""
-		Write-Host -ForegroundColor White -BackgroundColor Blue "====================="
-		Write-Host -ForegroundColor White -BackgroundColor Blue "Function Explanations"
-		Write-Host -ForegroundColor White -BackgroundColor Blue "====================="
+		Write-Host -ForegroundColor White -BackgroundColor Blue " ===================== "
+		Write-Host -ForegroundColor White -BackgroundColor Blue " Function Explanations "
+		Write-Host -ForegroundColor White -BackgroundColor Blue " ===================== "
 		Write-Host ""
 
 		$helpItems = @(
