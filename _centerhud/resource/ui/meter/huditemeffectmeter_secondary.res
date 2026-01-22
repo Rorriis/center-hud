@@ -69,5 +69,5 @@
 		"xpos_minmode"			"cs-0.5"
 		"ypos_minmode"			"3"
 		"wide_minmode"			"42"
-	}					
+	}
 }
