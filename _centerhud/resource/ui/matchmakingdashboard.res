@@ -47,11 +47,17 @@
 			"xpos"		"150"
 		}
 
+		"QuitButton"
+		{
+			"depressedBgColor_override" "192 28 0 50"
+		}
+
 		"DisconnectButton"
 		{
 			"wide"			"30" [!$POSIX]
 			"wide"			"30" [$POSIX]
 			"labeltext"		""
+			"depressedBgColor_override" "192 28 0 50"
 
 			"SubImage"
 			{
@@ -69,6 +75,7 @@
 		{
 			"wide"			"130" [!$POSIX]
 			"wide"			"130" [$POSIX]
+			"depressedBgColor_override" "GreenSolid"
 		}
 	}
 }
