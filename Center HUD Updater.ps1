@@ -144,7 +144,7 @@ try {
 
 			Write-Host -ForegroundColor "Red" "Outcome"
 			Write-Host -ForegroundColor "White" "The script cannot be used unless it is within your Team Fortress folder"
-			Write-Host -ForegroundColor "White" "The exact path it is looking for is: ..\steamapps\common\Team Fortress 2\tf\custom\<some folder name>"
+			Write-Host -ForegroundColor "White" "The exact path it is looking for is: ..\steamapps\common\Team Fortress 2\tf\custom\center-hud"
 			Write-Host ""
 
 			Write-Host -ForegroundColor "Green" "Solution"
@@ -532,31 +532,6 @@ try {
 		Copy-Item "$PSScriptRoot/_map-files/hudarenavscript.res" -Destination "$PSScriptRoot/_tf2hud/resource/ui/hudarenavscript.res"
 		Copy-Item "$PSScriptRoot/_map-files/hudobjectivearenahybrid.res" -Destination "$PSScriptRoot/_tf2hud/resource/ui/hudobjectivearenahybrid.res"
 		Write-Host -foregroundcolor "Blue" "Complete"
-
-		# Remove various modifiers (OSX, X360, _lodef, _hidef, lines.)
-		Write-Host -ForegroundColor "White" -NoNewLine "Removing various conditional modifiers..."
-
-		$files = Get-ChildItem -File -Recurse -Path $PSScriptRoot\_tf2hud
-		$totalFiles = $files.Count
-		$currentFile = 0
-		$activity = "Removing Conditional Modifiers"
-
-		foreach ($file in $files) {
-			$currentFile++
-			$progressPercentage = ($currentFile / $totalFiles) * 100
-			$progressStatus = "Processing file $currentFile of $totalFiles"
-
-			Write-Progress -PercentComplete $progressPercentage -Status $progressStatus -Activity $activity
-
-			$content = Get-Content $file.FullName
-			$modifiedContent = $content -replace '\$OSX|\$X360|_lodef|_hidef', '$$_disabled_'
-			$modifiedContent | Set-Content -Path $file.FullName -Force
-		}
-
-		Write-Progress -Completed -Activity $activity
-
-		Write-Host -foregroundcolor "Blue" "Complete"
-		Write-Host ""
 
 		Write-Host -foregroundcolor "Green" "============="
 		Write-Host -foregroundcolor "Green" "Task Complete"
