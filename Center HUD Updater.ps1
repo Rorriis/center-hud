@@ -23,9 +23,9 @@ try {
 	##############
 	function Options_Menu {
 		Clear-Host
-		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" " ================== "
-		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" " Center HUD Updater "
-		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" " ================== "
+		Write-Host -foregroundcolor "DarkYellow" "=================="
+		Write-Host -foregroundcolor "DarkYellow" "Center HUD Updater"
+		Write-Host -foregroundcolor "DarkYellow" "=================="
 		Write-Host -foregroundcolor "White" "This PowerShell script can be used to perform a few different tasks seen below."
 		Write-Host -foregroundcolor "White" "Please type ? for an explanation of these options if you're not certain!"
 		Write-Host ""
@@ -136,18 +136,18 @@ try {
 		Write-Host -ForegroundColor "White" -NoNewLine "Checking script location... "
 
 		if ($scriptDirectory -like "*$parentDirectory\*") {
-			Write-Host -ForegroundColor "White" -BackgroundColor "Blue" "Script is located in the correct parent directory"
+			Write-Host -ForegroundColor "Blue" "Script is located in the correct parent directory"
 		}
 		else {
-			Write-Host -ForegroundColor "White" -BackgroundColor "Red" "Script is NOT located in the expected parent directory"
+			Write-Host -ForegroundColor "Red" "Script is NOT located in the expected parent directory"
 			Write-Host ""
 
-			Write-Host -ForegroundColor "White" -BackgroundColor "Red" "Outcome"
+			Write-Host -ForegroundColor "Red" "Outcome"
 			Write-Host -ForegroundColor "White" "The script cannot be used unless it is within your Team Fortress folder"
 			Write-Host -ForegroundColor "White" "The exact path it is looking for is: ..\steamapps\common\Team Fortress 2\tf\custom\<some folder name>"
 			Write-Host ""
 
-			Write-Host -ForegroundColor "White" -BackgroundColor "Green" "Solution"
+			Write-Host -ForegroundColor "Green" "Solution"
 			Write-Host -ForegroundColor "White" "Move the script to the appropriate directory before using it again"
 			Write-Host ""
 
@@ -172,20 +172,20 @@ try {
 		}
 
 		if (Get-Process -Name $procnames -ErrorAction SilentlyContinue) {
-			Write-Host -ForegroundColor "White" -BackgroundColor "Red" "$($procnames -join " / ") detected"
+			Write-Host -ForegroundColor "Red" "$($procnames -join " / ") detected"
 			Write-Host ""
 
-			Write-Host -ForegroundColor "White" -BackgroundColor "Red" "Outcome"
+			Write-Host -ForegroundColor "Red" "Outcome"
 			Write-Host -ForegroundColor "White" "This function cannot run with Team Fortress 2 open"
 			Write-Host ""
 
-			Write-Host -ForegroundColor "White" -BackgroundColor "Green" "Solution"
+			Write-Host -ForegroundColor "Green" "Solution"
 			Write-Host -ForegroundColor "White" "Close TF2 before using this function again"
 			Write-Host ""
 			Break
 		}
 		else {
-			Write-Host -ForegroundColor "White" -BackgroundColor "Blue" "TF2 not running"
+			Write-Host -ForegroundColor "Blue" "TF2 not running"
 		}
 	}
 
@@ -200,18 +200,18 @@ try {
 		(
 			![String]::IsNullOrEmpty($vpk)
 		) {
-			Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "File found"
+			Write-Host -foregroundcolor "Blue" "File found"
 		}
 
 		Else {
-			Write-Host -foregroundcolor "White" -backgroundcolor "Red"  "Could not locate vpk.exe"
+			Write-Host -foregroundcolor "Red"  "Could not locate vpk.exe"
 			Write-Host ""
 
-			Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Outcome"
+			Write-Host -foregroundcolor "Red" "Outcome"
 			Write-Host -foregroundcolor "White" "The script will not be able to extract the default hud from your game files"
 			Write-Host ""
 
-			Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Solution"
+			Write-Host -foregroundcolor "Green" "Solution"
 			Write-Host -foregroundcolor "White" "Verify that the hud is installed correctly."
 			Write-Host -foregroundcolor "White" "Expected location: ../Team Fortress 2/custom/center-hud/Center HUD Updater.ps1"
 			Write-Host ""
@@ -230,18 +230,18 @@ try {
 		(
 			Get-Command -Name "Invoke-WebRequest" -ErrorAction SilentlyContinue
 		) {
-			Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Invoke-WebRequest found"
+			Write-Host -foregroundcolor "Blue" "Invoke-WebRequest found"
 		}
 
 		Else {
-			Write-Host -foregroundcolor "White" -backgroundcolor "Red"  "Could not locate Invoke-WebRequest"
+			Write-Host -foregroundcolor "Red"  "Could not locate Invoke-WebRequest"
 			Write-Host ""
 
-			Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Additional Information"
+			Write-Host -foregroundcolor "Blue" "Additional Information"
 			Write-Host -foregroundcolor "White" "Invoke-WebRequest is used to download the hud file from Codeberg"
 			Write-Host ""
 
-			Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Solution"
+			Write-Host -foregroundcolor "Green" "Solution"
 			Write-Host -foregroundcolor "White" "Update your operating system to at least Windows 8"
 			Write-Host ""
 			Break
@@ -267,17 +267,17 @@ try {
 		}
 
 		if ($found) {
-			Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "File found"
+			Write-Host -foregroundcolor "Blue" "File found"
 		}
 		Else {
-			Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Could not locate $names"
+			Write-Host -foregroundcolor "Red" "Could not locate $names"
 			Write-Host ""
 
-			Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Outcome"
+			Write-Host -foregroundcolor "Red" "Outcome"
 			Write-Host -foregroundcolor "White" "Default hud will load instead of Center HUD"
 			Write-Host ""
 
-			Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Solution"
+			Write-Host -foregroundcolor "Green" "Solution"
 			Write-Host -foregroundcolor "White" "- Verify that center-hud is placed in ../tf/custom"
 			Write-Host -foregroundcolor "White" "- Verify that TF2 is not installed on a separate drive"
 			Write-Host -foregroundcolor "White" "- Verify that you do not have multiple custom folders"
@@ -294,18 +294,18 @@ try {
 		(
 			![String]::IsNullOrEmpty($misc_dir)
 		) {
-			Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "File found"
+			Write-Host -foregroundcolor "Blue" "File found"
 		}
 
 		Else {
-			Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Could not locate tf2_misc_dir.vpk"
+			Write-Host -foregroundcolor "Red" "Could not locate tf2_misc_dir.vpk"
 			Write-Host ""
 
-			Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Outcome"
+			Write-Host -foregroundcolor "Red" "Outcome"
 			Write-Host -foregroundcolor "White" "Default hud will load instead of Center HUD"
 			Write-Host ""
 
-			Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Solution"
+			Write-Host -foregroundcolor "Green" "Solution"
 			Write-Host -foregroundcolor "White" "Verify that you don't have two HUD folders nested inside of of each other"
 			Write-Host -foregroundcolor "Red" "WRONG: ../tf/custom/center-hud-main/center-hud/"
 			Write-Host -foregroundcolor "Green" "RIGHT: ../tf/custom/center-hud/"
@@ -320,18 +320,18 @@ try {
 		(
 			Test-Path -Path "info.vdf"
 		) {
-			Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "File found"
+			Write-Host -foregroundcolor "Blue" "File found"
 		}
 
 		Else {
-			Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Could not locate info.vdf"
+			Write-Host -foregroundcolor "Red" "Could not locate info.vdf"
 			Write-Host ""
 
-			Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Outcome"
+			Write-Host -foregroundcolor "Red" "Outcome"
 			Write-Host -foregroundcolor "White" "Default hud will load with only bits of custom hud loading (custom font, misplaced XP bar in main menu, etc)"
 			Write-Host ""
 
-			Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Solution"
+			Write-Host -foregroundcolor "Green" "Solution"
 			Write-Host -foregroundcolor "White" "Verify that info.vdf (located in ../custom/center-hud) was not deleted when you installed the hud"
 			Write-Host ""
 			Break
@@ -364,17 +364,17 @@ try {
 		}
 
 		if ($notFoundPaths.Count -eq 0) {
-			Write-Host -ForegroundColor "White" -BackgroundColor "Blue" "All folders found"
+			Write-Host -ForegroundColor "Blue" "All folders found"
 		}
 		else {
-			Write-Host -ForegroundColor "White" -BackgroundColor "Red" "Could not locate some or all important folders"
+			Write-Host -ForegroundColor "Red" "Could not locate some or all important folders"
 			Write-Host ""
 
-			Write-Host -ForegroundColor "White" -BackgroundColor "Red" "Outcome"
+			Write-Host -ForegroundColor "Red" "Outcome"
 			Write-Host -ForegroundColor "White" "The HUD will not work properly, or may even crash"
 			Write-Host ""
 
-			Write-Host -ForegroundColor "White" -BackgroundColor "Green" "Solution"
+			Write-Host -ForegroundColor "Green" "Solution"
 			Write-Host -ForegroundColor "White" "Verify that you have the following folders in your HUD:"
 			foreach ($path in $notFoundPaths) {
 				Write-Host -ForegroundColor "White" "- $path"
@@ -445,9 +445,9 @@ try {
 	###########################
 	function Run_InstallTroubleshooter {
 		Clear-Host
-		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" " ===================== "
-		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" " Checking Installation "
-		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" " ===================== "
+		Write-Host -foregroundcolor "Blue" "====================="
+		Write-Host -foregroundcolor "Blue" "Checking Installation"
+		Write-Host -foregroundcolor "Blue" "====================="
 		Write-Host -foregroundcolor "White" "This function will check for common installation problems and provide a potential solution"
 		Write-Host ""
 
@@ -460,9 +460,9 @@ try {
 
 		Else {
 			Write-Host ""
-			Write-Host -foregroundcolor "White" -backgroundcolor "Green" " ===================== "
-			Write-Host -foregroundcolor "White" -backgroundcolor "Green" " Install Checks Passed "
-			Write-Host -foregroundcolor "White" -backgroundcolor "Green" " ===================== "
+			Write-Host -foregroundcolor "Green" "====================="
+			Write-Host -foregroundcolor "Green" "Install Checks Passed"
+			Write-Host -foregroundcolor "Green" "====================="
 			Write-Host -foregroundcolor "White" "No common issues with installation detected."
 			Write-Host -foregroundcolor "White" "If you continue to have problems, post in our Discord for additional help (ctrl + click to open):"
 			Write-Host -foregroundcolor "Blue" $discord
@@ -478,9 +478,9 @@ try {
 		$startTime = Get-Date
 
 		Clear-Host
-		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" " =================== "
-		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" " Extract Default HUD "
-		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" " =================== "
+		Write-Host -foregroundcolor "Blue" "==================="
+		Write-Host -foregroundcolor "Blue" "Extract Default HUD"
+		Write-Host -foregroundcolor "Blue" "==================="
 		Write-Host ""
 
 		# Perform any necessary checks
@@ -490,28 +490,28 @@ try {
 
 		Write-Host ""
 
-		Write-Host -foregroundcolor "White" -backgroundcolor "Green" " ================== "
-		Write-Host -foregroundcolor "White" -backgroundcolor "Green" " File Checks Passed "
-		Write-Host -foregroundcolor "White" -backgroundcolor "Green" " ================== "
+		Write-Host -foregroundcolor "Green" "=================="
+		Write-Host -foregroundcolor "Green" "File Checks Passed"
+		Write-Host -foregroundcolor "Green" "=================="
 		Write-Host -foregroundcolor "White" "You appear to have all files needed to update your default hud files."
 		Write-Host -foregroundcolor "White" "Beginning update."
 		Write-Host ""
 
-		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
+		Write-Host -foregroundcolor "Blue" "Complete"
 
 		# Delete old folder
 		Write-Host -foregroundcolor "White" -NoNewLine "Deleting _tf2hud folder..."
 		Remove-Item $PSScriptRoot\_tf2hud -ErrorAction SilentlyContinue -recurse
-		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
+		Write-Host -foregroundcolor "Blue" "Complete"
 
 		# Make new folders
 		Write-Host -foregroundcolor "White" -NoNewLine "Making new _tf2hud folders..."
 		New-Item -Path $PSScriptRoot\_tf2hud\resource -Name "ui" -ItemType "Directory" > $null
 		New-Item -Path $PSScriptRoot\_tf2hud -Name "scripts" -ItemType "Directory" > $null
 		New-Item -Path $PSScriptRoot\_tf2hud -Name "resource/tug_of_war" -ItemType "Directory" > $null
-		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
+		Write-Host -foregroundcolor "Blue" "Complete"
 
-		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
+		Write-Host -foregroundcolor "Blue" "Complete"
 
 		$misc_dir = Resolve-Path "../../tf2_misc_dir.vpk"
 		$platform_dir = Resolve-Path "../../../platform/platform_misc_dir.vpk"
@@ -526,18 +526,15 @@ try {
 		Extract_VPK_Files "$platform_dir" "resource/sourceschemebase.res"
 		Extract_VPK_Files "$hl2_dir" "resource/ui/basechat.res" "resource/ui/econ/confirmdialog.res" "resource/ui/econ/messageboxdialog.res"
 		Pop-Location
-		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
+		Write-Host -foregroundcolor "Blue" "Complete"
 
 		# Copy files that cannot be extracted from TF2 core files
 		Write-Host -foregroundcolor "White" -NoNewLine "Copying necessary platform files..."
-		Copy-Item "$PSScriptRoot/#dev/vsh_hud.res" -Destination "$PSScriptRoot/_tf2hud/resource/ui/vsh_hud.res"
-		Copy-Item "$PSScriptRoot/#dev/vsh_hud_hell.res" -Destination "$PSScriptRoot/_tf2hud/resource/ui/vsh_hud_hell.res"
-		Copy-Item "$PSScriptRoot/#dev/tug_of_war_hud.res" -Destination "$PSScriptRoot/_tf2hud/resource/tug_of_war/tug_of_war_hud.res"
-		Copy-Item "$PSScriptRoot/#dev/cp_powerhouse_event_hud.res" -Destination "$PSScriptRoot/_tf2hud/resource/ui/cp_powerhouse_event_hud.res"
-		Copy-Item "$PSScriptRoot/#dev/tug_of_war_hud.res" -Destination "$PSScriptRoot/_tf2hud/resource/ui/hudarenavscript.res"
-		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
+		Copy-Item "$PSScriptRoot/_map-files/hudarenavscript.res" -Destination "$PSScriptRoot/_tf2hud/resource/ui/hudarenavscript.res"
+		Copy-Item "$PSScriptRoot/_map-files/hudobjectivearenahybrid.res" -Destination "$PSScriptRoot/_tf2hud/resource/ui/hudobjectivearenahybrid.res"
+		Write-Host -foregroundcolor "Blue" "Complete"
 
-		# Remove various modifiers (OSX, X360, _minmode, _lodef, _hidef, and if_ lines.)
+		# Remove various modifiers (OSX, X360, _lodef, _hidef, lines.)
 		Write-Host -ForegroundColor "White" -NoNewLine "Removing various conditional modifiers..."
 
 		$files = Get-ChildItem -File -Recurse -Path $PSScriptRoot\_tf2hud
@@ -553,18 +550,18 @@ try {
 			Write-Progress -PercentComplete $progressPercentage -Status $progressStatus -Activity $activity
 
 			$content = Get-Content $file.FullName
-			$modifiedContent = $content -replace '\$OSX|\$X360|_minmode|_lodef|_hidef|if_', '$$_disabled_'
+			$modifiedContent = $content -replace '\$OSX|\$X360|_lodef|_hidef', '$$_disabled_'
 			$modifiedContent | Set-Content -Path $file.FullName -Force
 		}
 
 		Write-Progress -Completed -Activity $activity
 
-		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
+		Write-Host -foregroundcolor "Blue" "Complete"
 		Write-Host ""
 
-		Write-Host -foregroundcolor "White" -backgroundcolor "Green" " ============= "
-		Write-Host -foregroundcolor "White" -backgroundcolor "Green" " Task Complete "
-		Write-Host -foregroundcolor "White" -backgroundcolor "Green" " ============= "
+		Write-Host -foregroundcolor "Green" "============="
+		Write-Host -foregroundcolor "Green" "Task Complete"
+		Write-Host -foregroundcolor "Green" "============="
 		Shared_Timer $startTime
 	}
 
@@ -573,9 +570,9 @@ try {
 	######################
 	function Run_UpdateFromGitHub {
 		Clear-Host
-		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" " ==================== "
-		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" " Update from Codeberg "
-		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" " ==================== "
+		Write-Host -foregroundcolor "Blue" "===================="
+		Write-Host -foregroundcolor "Blue" "Update from Codeberg"
+		Write-Host -foregroundcolor "Blue" "===================="
 		Write-Host ""
 
 		# Perform any necessary checks
@@ -583,10 +580,10 @@ try {
 		Check_InvokeWebRequest
 
 		Write-Host ""
-		Write-Host -foregroundcolor "White" -backgroundcolor "Red" " ==================== "
-		Write-Host -foregroundcolor "White" -backgroundcolor "Red" " IMPORTANT DISCLAIMER "
-		Write-Host -foregroundcolor "White" -backgroundcolor "Red" " ====DON'T IGNORE==== "
-		Write-Host -foregroundcolor "White" -backgroundcolor "Red" " ==================== "
+		Write-Host -foregroundcolor "Red" "===================="
+		Write-Host -foregroundcolor "Red" "IMPORTANT DISCLAIMER"
+		Write-Host -foregroundcolor "Red" "====DON'T IGNORE===="
+		Write-Host -foregroundcolor "Red" "===================="
 		Write-Host ""
 
 		Write-Host -foregroundcolor "Red" "If you have EDITED any ORIGINAL center-hud fies, they will be OVERWRITTEN."
@@ -613,33 +610,33 @@ try {
 					[System.IO.MemoryStream]::new(
 					(Invoke-WebRequest https://codeberg.org/RoseyLemonz/center-hud/archive/main.zip).Content),
 					[System.IO.Compression.ZipArchiveMode]::Read)
-				Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
+				Write-Host -foregroundcolor "Blue" "Complete"
 
 				Write-Host -foregroundcolor "White" -NoNewLine "Unzipping files..."
 				[System.IO.Compression.ZipFileExtensions]::ExtractToDirectory($zip, ".")
-				Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
+				Write-Host -foregroundcolor "Blue" "Complete"
 				$zip.Dispose()
 				Remove-Variable "zip"
 
 				Write-Host -foregroundcolor "White" -NoNewLine "Moving folders and files out of extracted zip..."
 				Copy-Item -Path ./center-hud/* -Destination $PSScriptRoot -Force -Recurse
-				Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
+				Write-Host -foregroundcolor "Blue" "Complete"
 
 				Write-Host -foregroundcolor "White" -NoNewLine "Removing folders and files used in the process.."
 				Remove-Item "./center-hud" -ErrorAction SilentlyContinue -Recurse
-				Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
+				Write-Host -foregroundcolor "Blue" "Complete"
 				Write-Host ""
 
-				Write-Host -foregroundcolor "White" -backgroundcolor "Green" " ============= "
-				Write-Host -foregroundcolor "White" -backgroundcolor "Green" " Task Complete "
-				Write-Host -foregroundcolor "White" -backgroundcolor "Green" " ============= "
+				Write-Host -foregroundcolor "Green" "============="
+				Write-Host -foregroundcolor "Green" "Task Complete"
+				Write-Host -foregroundcolor "Green" "============="
 				Write-Host -foregroundcolor "White" "Latest hud files from Codeberg have been downloaded and extracted."
 				Shared_Timer $startTime
 			}
 
 			"anything else" {
 				Write-Host ""
-				Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Test failed succesfully"
+				Write-Host -foregroundcolor "Green" "Test failed succesfully"
 				Write-Host ""
 				Break
 			}
@@ -652,9 +649,9 @@ try {
 	function Show-Help {
 		Clear-Host
 		Write-Host ""
-		Write-Host -ForegroundColor White -BackgroundColor Blue " ===================== "
-		Write-Host -ForegroundColor White -BackgroundColor Blue " Function Explanations "
-		Write-Host -ForegroundColor White -BackgroundColor Blue " ===================== "
+		Write-Host -ForegroundColor "Blue" "====================="
+		Write-Host -ForegroundColor "Blue" "Function Explanations"
+		Write-Host -ForegroundColor "Blue" "====================="
 		Write-Host ""
 
 		$helpItems = @(
@@ -664,7 +661,7 @@ try {
 		)
 
 		foreach ($item in $helpItems) {
-			Write-Host -ForegroundColor White -BackgroundColor Blue $item.Title
+			Write-Host -ForegroundColor "Blue" $item.Title
 			Write-Host -ForegroundColor $item.Color $item.Description
 			Write-Host ""
 		}
