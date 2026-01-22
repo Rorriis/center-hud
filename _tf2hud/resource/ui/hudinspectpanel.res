@@ -1,4 +1,4 @@
-"resource/ui/hudinspectpanel.res"
+"Resource/UI/HudInspectPanel.res"
 {	
 	"itempanel"
 	{

@@ -1,4 +1,4 @@
-"resource/ui/mvmcriteria.res"
+"Resource/UI/MvMCriteria.res"
 {
 	"MvMTourOfDutyGroupBox"
 	{

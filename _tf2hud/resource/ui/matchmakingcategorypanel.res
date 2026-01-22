@@ -1,4 +1,4 @@
-"resource/ui/matchmakingcategorypanel.res"
+"Resource/UI/MatchmakingCategoryPanel.res"
 {
 	"MatchmakingCategoryPanel"
 	{
@@ -75,8 +75,7 @@
 			"labeltext"		"#TF_Casual_ViewMaps"
 			"textAlignment"	"west"
 			"font"	"MMenuPlayListDesc"
-			"textinsetx"	"18"
-			"use_proportional_insets"	"1"
+			"textinsetx"	"40"
 
 			"stay_armed_on_click"	"1"
 

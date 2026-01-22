@@ -1,6 +1,6 @@
-#base "matchmakingdashboardsidepanel.res"
+#base "MatchMakingDashboardSidePanel.res"
 
-"resource/ui/matchmakingpingpanel.res"
+"Resource/UI/MatchMakingPingPanel.res"
 {
 	"PingPanel"
 	{

@@ -1,4 +1,4 @@
-"resource/ui/teammenu.res"
+"Resource/UI/TeamMenu.res"
 {
 	"team"
 	{
@@ -78,7 +78,7 @@
 		"enabled"		"1"
 		"tabPosition"	"3"
 		"labelText"		"&3"	[$WIN32]
-		"labelText"		""		[$X360]
+		"labelText"		""		[$_disabled_]
 		"textAlignment"	"south-west"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -106,7 +106,7 @@
 		"enabled"		"1"
 		"tabPosition"	"4"
 		"labelText"		"&4"	[$WIN32]
-		"labelText"		""		[$X360]
+		"labelText"		""		[$_disabled_]
 		"textAlignment"	"south-west"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -134,7 +134,7 @@
 		"enabled"		"1"
 		"tabPosition"	"1"
 		"labelText"		"&1"	[$WIN32]
-		"labelText"		""		[$X360]
+		"labelText"		""		[$_disabled_]
 		"textAlignment"	"south-west"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -160,7 +160,7 @@
 		"enabled"		"1"
 		"tabPosition"	"2"
 		"labelText"		"&2"	[$WIN32]
-		"labelText"		""		[$X360]
+		"labelText"		""		[$_disabled_]
 		"textAlignment"	"south-west"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -176,10 +176,10 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
 		"xpos"			"r190"
-		"xpos_hidef"			"r200"
+		"xpos$_disabled_"			"r200"
 		"ypos"			"r40"
-		"ypos_lodef"			"r64"
-		"ypos_hidef"			"r54"
+		"ypos$_disabled_"			"r64"
+		"ypos$_disabled_"			"r54"
 		"zpos"			"6"
 		"wide"			"150"
 		"tall"			"30"
@@ -201,18 +201,18 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuSelect"
 		"xpos"			"30"
-		"xpos_lodef"			"52"
-		"xpos_hidef"			"72"
+		"xpos$_disabled_"			"52"
+		"xpos$_disabled_"			"72"
 		"ypos"			"r40"
-		"ypos_lodef"			"r60"
-		"ypos_hidef"			"r54"
+		"ypos$_disabled_"			"r60"
+		"ypos$_disabled_"			"r54"
 		"zpos"			"6"
 		"wide"			"450"
 		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"visible_lodef"		"0"
+		"visible$_disabled_"		"0"
 		"enabled"		"1"
 		"labelText"		"#TF_SelectATeam"
 		"textAlignment"	"west"
@@ -227,15 +227,15 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuAuto"
 		"xpos"			"c-280" [$WIN32] 
-		"xpos"			"c-276" [$X360]
-		"xpos_lodef"			"c-255"
-		"xpos_hidef"			"c-260"
+		"xpos"			"c-276" [$_disabled_]
+		"xpos$_disabled_"			"c-255"
+		"xpos$_disabled_"			"c-260"
 		"ypos"			"55"
-		"ypos_lodef"			"72"
-		"ypos_hidef"			"65"
+		"ypos$_disabled_"			"72"
+		"ypos$_disabled_"			"65"
 		"zpos"			"1"
 		"wide"			"102" [$WIN32] 
-		"wide"			"94" [$X360]
+		"wide"			"94" [$_disabled_]
 		"tall"			"24"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -255,13 +255,13 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuSpectate"
 		"xpos"			"c-112"
-		"xpos_lodef"			"c-125"
-		"xpos_hidef"			"c-109"
+		"xpos$_disabled_"			"c-125"
+		"xpos$_disabled_"			"c-109"
 		"ypos"			"255"
-		"ypos_lodef"	"292"
+		"ypos$_disabled_"	"292"
 		"zpos"			"1"
 		"wide"			"44"
-		"wide_lodef"	"70"
+		"wide$_disabled_"	"70"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -273,7 +273,7 @@
 		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"MenuSmallestFont"
-		"font_lodef"	"MenuSmallFont"
+		"font$_disabled_"	"MenuSmallFont"
 		"fgcolor"		"white"
 	}
 
@@ -300,8 +300,8 @@
 			"angles_y" "180"
 			"angles_z" "0"
 			"origin_x" "290"
-			"origin_x_hidef" "305"
-			"origin_x_lodef" "320"
+			"origin_x$_disabled_" "305"
+			"origin_x$_disabled_" "320"
 			"origin_y" "0"
 			"origin_z" "-34"
 		}
@@ -313,13 +313,13 @@
 		"fieldName"		"ShadedBar"
 		"xpos"			"0"
 		"ypos"			"r50"
-		"ypos_lodef"			"r74"
-		"ypos_hidef"			"r65"
+		"ypos$_disabled_"			"r74"
+		"ypos$_disabled_"			"r65"
 		"zpos"			"5"
 		"wide"			"f0"
 		"tall"			"50"
-		"tall_lodef"			"74"
-		"tall_hidef"			"65"
+		"tall$_disabled_"			"74"
+		"tall$_disabled_"			"65"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -335,10 +335,10 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueCount"
 		"xpos"			"c5"
-		"xpos_lodef"			"c8"
+		"xpos$_disabled_"			"c8"
 		"ypos"			"53"
-		"ypos_lodef"			"72"
-		"ypos_hidef"	"63"
+		"ypos$_disabled_"			"72"
+		"ypos$_disabled_"	"63"
 		"zpos"			"1"
 		"wide"			"90"
 		"tall"			"30"
@@ -359,10 +359,10 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedCount"
 		"xpos"			"c193"
-		"xpos_lodef"			"c176"
+		"xpos$_disabled_"			"c176"
 		"ypos"			"53"
-		"ypos_lodef"			"72"
-		"ypos_hidef"	"63"
+		"ypos$_disabled_"			"72"
+		"ypos$_disabled_"	"63"
 		"zpos"			"1"
 		"wide"			"90"
 		"tall"			"30"
@@ -401,8 +401,8 @@
 			"angles_y" "180"
 			"angles_z" "0"
 			"origin_x" "290"
-			"origin_x_lodef" "320"
-			"origin_x_hidef" "305"
+			"origin_x$_disabled_" "320"
+			"origin_x$_disabled_" "305"
 			"origin_y" "0"
 			"origin_z" "-34"
 			
@@ -474,8 +474,8 @@
 			"angles_y" "180"
 			"angles_z" "0"
 			"origin_x" "290"
-			"origin_x_lodef" "320"
-			"origin_x_hidef" "305"
+			"origin_x$_disabled_" "320"
+			"origin_x$_disabled_" "305"
 			"origin_y" "0"
 			"origin_z" "-34"
 			
@@ -547,8 +547,8 @@
 			"angles_y" "180"
 			"angles_z" "0"
 			"origin_x" "290"
-			"origin_x_lodef" "320"
-			"origin_x_hidef" "305"
+			"origin_x$_disabled_" "320"
+			"origin_x$_disabled_" "305"
 			"origin_y" "0"
 			"origin_z" "-34"
 			
@@ -596,8 +596,8 @@
 			"angles_y" "180"
 			"angles_z" "0"
 			"origin_x" "290"
-			"origin_x_lodef" "320"
-			"origin_x_hidef" "305"
+			"origin_x$_disabled_" "320"
+			"origin_x$_disabled_" "305"
 			"origin_y" "0"
 			"origin_z" "-34"
 			
@@ -622,26 +622,26 @@
 		}
 	}			
 	
-	"Footer" [$X360]
+	"Footer" [$_disabled_]
 	{
 		"ControlName"		"CTFFooter"
 		"fieldName"			"Footer"
 		"zpos"				"6"
 		"tall"				"80"
 		"button_separator"	"10"
-		"button_separator_lodef"	"5"
+		"button_separator$_disabled_"	"5"
 		"buttongap"			"50"
-		"buttongap_hidef"		"35"
-		"buttongap_lodef"			"18"
+		"buttongap$_disabled_"		"35"
+		"buttongap$_disabled_"			"18"
 		"textadjust"		"3"
-		"textadjust_lodef"		"0"
+		"textadjust$_disabled_"		"0"
 		"buttonoffsety"		"20"
-		"buttonoffsety_hidef"		"0"
-		"buttonoffsety_lodef"		"18"
+		"buttonoffsety$_disabled_"		"0"
+		"buttonoffsety$_disabled_"		"18"
 		"center"			"0"
-		"button_pin_right_lodef"	"55"
+		"button_pin_right$_disabled_"	"55"
 		"fonttext"			"MatchmakingDialogMenuLarge"
-		"fonttext_lodef"			"MatchmakingDialogMenuSmall"
+		"fonttext$_disabled_"			"MatchmakingDialogMenuSmall"
 		"fgcolor"			"HudOffWhite" 	
 		
 		"button"

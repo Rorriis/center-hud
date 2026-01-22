@@ -1,4 +1,4 @@
-"resource/ui/huditemeffectmeter_cleaver.res"
+"Resource/UI/HudItemEffectMeter_Cleaver.res"
 {
 	HudItemEffectMeter
 	{
@@ -32,9 +32,9 @@
 		"image"			"../hud/misc_ammo_area_horiz2_blue"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/misc_ammo_area_horiz2_red"
-		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
+		"teambg_2$_disabled_"	"../hud/misc_ammo_area_red$_disabled_"
 		"teambg_3"		"../hud/misc_ammo_area_horiz2_blue"
-		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
+		"teambg_3$_disabled_"	"../hud/misc_ammo_area_blue$_disabled_"				
 	}
 	
 	"ItemEffectMeterLabel"

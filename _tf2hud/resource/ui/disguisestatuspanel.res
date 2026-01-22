@@ -1,4 +1,4 @@
-"resource/ui/itemmodelpanel.res"
+"Resource/UI/ItemModelPanel.res"
 {
 	"itemmodelpanel"
 	{
@@ -49,9 +49,9 @@
 		"scaleImage"		"1"
 		"teambg_1"		"../hud/color_panel_brown"
 		"teambg_2"		"../hud/color_panel_red"
-		"teambg_2_lodef"	"../hud/color_panel_red"
+		"teambg_2$_disabled_"	"../hud/color_panel_red"
 		"teambg_3"		"../hud/color_panel_blu"
-		"teambg_3_lodef"	"../hud/color_panel_blu"
+		"teambg_3$_disabled_"	"../hud/color_panel_blu"
 		
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"

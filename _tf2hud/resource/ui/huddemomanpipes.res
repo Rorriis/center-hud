@@ -1,4 +1,4 @@
-"resource/ui/huddemomanpipes.res"
+"Resource/UI/HudDemomanPipes.res"
 {
 	"background"
 	{
@@ -16,9 +16,9 @@
 		"image"			"../hud/misc_ammo_area_blue"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/misc_ammo_area_red"
-		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
+		"teambg_2$_disabled_"	"../hud/misc_ammo_area_red$_disabled_"
 		"teambg_3"		"../hud/misc_ammo_area_blue"
-		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
+		"teambg_3$_disabled_"	"../hud/misc_ammo_area_blue$_disabled_"				
 	}
 	
 	"ChargeLabel"
@@ -106,7 +106,7 @@
 			"zpos"			"2"
 			"wide"			"35"
 			"tall"			"20"
-			"tall_lodef"	"28"
+			"tall$_disabled_"	"28"
 			"autoResize"	"1"
 			"pinCorner"		"2"
 			"visible"		"1"
@@ -118,7 +118,7 @@
 			"brighttext"	"0"
 			"font"			"HudFontMedium"
 			"font_minmode"	"HudFontSmall"
-			"font_lodef"	"HudFontMediumBig"
+			"font$_disabled_"	"HudFontMediumBig"
 		}
 		"NumPipesLabelDropshadow"
 		{
@@ -131,7 +131,7 @@
 			"zpos"			"2"
 			"wide"			"35"
 			"tall"			"20"
-			"tall_lodef"	"28"
+			"tall$_disabled_"	"28"
 			"autoResize"	"1"
 			"pinCorner"		"2"
 			"visible"		"1"
@@ -143,7 +143,7 @@
 			"brighttext"	"0"
 			"font"			"HudFontMedium"
 			"font_minmode"	"HudFontSmall"
-			"font_lodef"	"HudFontMediumBig"
+			"font$_disabled_"	"HudFontMediumBig"
 			"fgcolor"		"black"
 		}		
 	}
@@ -189,7 +189,7 @@
 			"zpos"			"2"
 			"wide"			"35"
 			"tall"			"20"
-			"tall_lodef"	"28"
+			"tall$_disabled_"	"28"
 			"autoResize"	"1"
 			"pinCorner"		"2"
 			"visible"		"1"
@@ -201,7 +201,7 @@
 			"brighttext"	"0"
 			"font"			"HudFontMedium"
 			"font_minmode"	"HudFontSmall"
-			"font_lodef"	"HudFontMediumBig"
+			"font$_disabled_"	"HudFontMediumBig"
 		}
 		"NumPipesLabelDropshadow"
 		{
@@ -214,7 +214,7 @@
 			"zpos"			"2"
 			"wide"			"35"
 			"tall"			"20"
-			"tall_lodef"	"28"
+			"tall$_disabled_"	"28"
 			"autoResize"	"1"
 			"pinCorner"		"2"
 			"visible"		"1"
@@ -226,7 +226,7 @@
 			"brighttext"	"0"
 			"font"			"HudFontMedium"
 			"font_minmode"	"HudFontSmall"
-			"font_lodef"	"HudFontMediumBig"
+			"font$_disabled_"	"HudFontMediumBig"
 			"fgcolor"		"black"
 		}			
 	}				

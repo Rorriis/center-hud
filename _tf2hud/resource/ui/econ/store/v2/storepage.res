@@ -1,4 +1,4 @@
-"resource/ui/storepage.res"
+"Resource/UI/StorePage.res"
 {
 	"StorePage"
 	{

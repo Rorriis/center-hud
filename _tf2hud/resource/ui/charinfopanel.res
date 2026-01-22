@@ -1,4 +1,4 @@
-"resource/ui/charinfopanel.res"
+"Resource/UI/CharInfoPanel.res"
 {
 	"character_info"
 	{

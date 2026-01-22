@@ -1,4 +1,4 @@
-"resource/ui/tfhudrobotdestruction_robotindicator.res"
+"Resource/UI/TFHudRobotDestruction_RobotIndicator.res"
 {
 	"ActiveState"
 	{

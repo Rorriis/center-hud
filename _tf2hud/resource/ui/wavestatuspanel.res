@@ -1,4 +1,4 @@
-"resource/ui/wavestatuspanel.res"
+"Resource/UI/WaveStatusPanel.res"
 {
 	"Background"
 	{

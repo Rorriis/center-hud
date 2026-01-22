@@ -274,8 +274,8 @@ Scheme
 		Frame.OutOfFocusBgColor			"TransparentBlack"
 		Frame.FocusTransitionEffectTime	"0.0"	[$WIN32] // time it takes for a window to fade in/out on focus/out of focus
 		Frame.TransitionEffectTime		"0.0"	[$WIN32] // time it takes for a window to fade in/out on open/close
-		Frame.FocusTransitionEffectTime	"0.15"	[$X360] // time it takes for a window to fade in/out on focus/out of focus
-		Frame.TransitionEffectTime		"0.15"	[$X360] // time it takes for a window to fade in/out on open/close
+		Frame.FocusTransitionEffectTime	"0.15"	[$_disabled_] // time it takes for a window to fade in/out on focus/out of focus
+		Frame.TransitionEffectTime		"0.15"	[$_disabled_] // time it takes for a window to fade in/out on open/close
 		Frame.AutoSnapRange				"0"
 		FrameGrip.Color1				"Blank"
 		FrameGrip.Color2				"Blank"
@@ -482,7 +482,7 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"13"	[$WIN32]
-				"tall"		"20"	[$X360]
+				"tall"		"20"	[$_disabled_]
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"600 767"
@@ -711,8 +711,8 @@ Scheme
 			// note that this scales with the screen resolution
 			"1"
 			{
-				"name"		"Trebuchet MS" [!$OSX]
-				"name"		"Helvetica" [$OSX]
+				"name"		"Trebuchet MS" [!$_disabled_]
+				"name"		"Helvetica" [$_disabled_]
 				"tall"		"18"
 				"weight"	"900"
 				"antialias" "1"
@@ -744,7 +744,7 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"13"	[$WIN32]
-				"tall"		"23"	[$X360]
+				"tall"		"23"	[$_disabled_]
 				"weight"	"700"
 				"yres"	"600 767"
 			}
@@ -776,7 +776,7 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"24"
-				"tall_lodef"	"80"
+				"tall$_disabled_"	"80"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -786,7 +786,7 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"32"
-				"tall_hidef"	"120"
+				"tall$_disabled_"	"120"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -825,7 +825,7 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"44"
-				"tall_lodef"	"52"
+				"tall$_disabled_"	"52"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -838,7 +838,7 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"35"
-				"tall_lodef"	"40"
+				"tall$_disabled_"	"40"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -851,7 +851,7 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"36"
-				"tall_hidef"	"48"
+				"tall$_disabled_"	"48"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -885,7 +885,7 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"24"
-				"tall_lodef"		"28"
+				"tall$_disabled_"		"28"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -939,8 +939,8 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"18"
-				"tall_hidef"	"24"
-				"tall_lodef"	"18"
+				"tall$_disabled_"	"24"
+				"tall$_disabled_"	"18"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -952,8 +952,8 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"18"
-				"tall_hidef"	"24"
-				"tall_lodef"	"20"
+				"tall$_disabled_"	"24"
+				"tall$_disabled_"	"20"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -965,7 +965,7 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"14"
-				"tall_lodef"	"16"
+				"tall$_disabled_"	"16"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -1111,8 +1111,8 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"12"
-				"tall_hidef"	"14"
-				"tall_lodef"	"16"
+				"tall$_disabled_"	"14"
+				"tall$_disabled_"	"16"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -1131,19 +1131,19 @@ Scheme
 		}
 		GameUIButtons
 		{
-			"1"	//[$X360]
+			"1"	//[$_disabled_]
 			{
 				"bitmap"	"1"
 				"name"		"Buttons"
 				"scalex"	"0.5"
-				"scalex_lodef"		"0.75"
+				"scalex$_disabled_"		"0.75"
 				"scaley"	"0.5"
-				"scaley_lodef"		"0.75"
+				"scaley$_disabled_"		"0.75"
 			}
 		}
 		GameUIButtonsSmall
 		{
-			"1"	[$X360]
+			"1"	[$_disabled_]
 			{
 				"bitmap"	"1"
 				"name"		"Buttons"
@@ -1153,7 +1153,7 @@ Scheme
 		}
 		GameUIButtonsSmallest
 		{
-			"1"	[$X360]
+			"1"	[$_disabled_]
 			{
 				"bitmap"	"1"
 				"name"		"Buttons"
@@ -1168,9 +1168,9 @@ Scheme
 				"bitmap"	"1"
 				"name"		"ButtonsSC"
 				"scalex"	"0.5"
-				"scalex_lodef"		"0.75"
+				"scalex$_disabled_"		"0.75"
 				"scaley"	"0.5"
-				"scaley_lodef"		"0.75"
+				"scaley$_disabled_"		"0.75"
 			}
 		}
 		GameUIButtonsSteamControllerSmall
@@ -1199,8 +1199,8 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"18"
-				"tall_hidef"	"24"
-				"tall_lodef"	"18"
+				"tall$_disabled_"	"24"
+				"tall$_disabled_"	"18"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1212,8 +1212,8 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"16"
-				"tall_hidef"	"22"
-				"tall_lodef"	"22"
+				"tall$_disabled_"	"22"
+				"tall$_disabled_"	"22"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1247,8 +1247,8 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"8"
-				"tall_hidef"	"9"
-				"tall_lodef"	"10"
+				"tall$_disabled_"	"9"
+				"tall$_disabled_"	"10"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1260,7 +1260,7 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"8"
-				"tall_hidef"	"7"
+				"tall$_disabled_"	"7"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1282,7 +1282,7 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"15"	[$WIN32]
-				"tall"		"21"	[$X360]
+				"tall"		"21"	[$_disabled_]
 				"weight"	"700"
 				"antialias" 	"1"
 				"yres"		"600 767"
@@ -1327,7 +1327,7 @@ Scheme
 				"outline"	"1"
 				"range"		"0x0000 0x017F" // Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
-			"1"	[$X360]
+			"1"	[$_disabled_]
 			{
 				"name"		"Tahoma"
 				"tall"		"18"
@@ -1438,7 +1438,7 @@ Scheme
 			{
 				"name"		"Tahoma"
 				"tall"		"16"
-				"tall_hidef"	"24"
+				"tall$_disabled_"	"24"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
@@ -1483,7 +1483,7 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"11"
-				"tall_lodef"	"14"
+				"tall$_disabled_"	"14"
 				"antialias" "1"
 				"weight"	"500"
 			}
@@ -1505,8 +1505,8 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"13"
-				"tall_hidef"	"14"
-				"tall_lodef"	"17"
+				"tall$_disabled_"	"14"
+				"tall$_disabled_"	"17"
 				"weight"	"800"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -1519,13 +1519,13 @@ Scheme
 			{
 				"name"			"TF2 Professor"
 				"tall"			"28"
-				"tall_lodef"	"48"
-				"tall_hidef"	"48"
+				"tall$_disabled_"	"48"
+				"tall$_disabled_"	"48"
 				"antialias"		"1" 
-				"custom"		"1" [$OSX]
+				"custom"		"1" [$_disabled_]
 				"weight"		"500"
-				"weight_lodef"	"800"
-				"weight_hidef"	"1000"
+				"weight$_disabled_"	"800"
+				"weight$_disabled_"	"1000"
 			}
 		}
 		"ChalkboardTitleBig"
@@ -1534,13 +1534,13 @@ Scheme
 			{
 				"name"			"TF2 Professor"
 				"tall"			"40"
-				"tall_lodef"	"48"
-				"tall_hidef"	"48"
+				"tall$_disabled_"	"48"
+				"tall$_disabled_"	"48"
 				"antialias"		"1"
-				"custom"		"1" [$OSX]
+				"custom"		"1" [$_disabled_]
 				"weight"		"500"
-				"weight_lodef"	"800"
-				"weight_hidef"	"1000"
+				"weight$_disabled_"	"800"
+				"weight$_disabled_"	"1000"
 			}
 		}
 		"ChalkboardTitleMedium"
@@ -1549,10 +1549,10 @@ Scheme
 			{
 				"name"		"TF2 Professor"
 				"tall"		"24"
-				"tall_lodef"	"36"
-				"tall_hidef"	"36"
+				"tall$_disabled_"	"36"
+				"tall$_disabled_"	"36"
 				"antialias" "1"
-				"custom"		"1" [$OSX]
+				"custom"		"1" [$_disabled_]
 				"weight"	"500"
 			}
 		}
@@ -1561,12 +1561,12 @@ Scheme
 			"1"
 			{
 				"name"			"TF2 Professor"
-				"tall"			"14" [!$OSX]
-				"tall"			"15" [$OSX]
-				"tall_lodef"	"32"
-				"tall_hidef"	"32"
+				"tall"			"14" [!$_disabled_]
+				"tall"			"15" [$_disabled_]
+				"tall$_disabled_"	"32"
+				"tall$_disabled_"	"32"
 				"antialias"		"1"
-				"custom"		"1" [$OSX]
+				"custom"		"1" [$_disabled_]
 				"weight"		"500"
 			}
 		}
@@ -1587,8 +1587,8 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"8"
-				"tall_hidef"	"10"
-				"tall_lodef"	"14"
+				"tall$_disabled_"	"10"
+				"tall$_disabled_"	"14"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -1600,8 +1600,8 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"10"
-				"tall_hidef"	"12"
-				"tall_lodef"	"14"
+				"tall$_disabled_"	"12"
+				"tall$_disabled_"	"14"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -1637,8 +1637,8 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"20"
-				"tall_hidef"	"24"
-				"tall_lodef"	"24"
+				"tall$_disabled_"	"24"
+				"tall$_disabled_"	"24"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
@@ -1675,8 +1675,8 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"34"
-				"tall_hidef"	"38"
-				"tall_lodef"	"38"
+				"tall$_disabled_"	"38"
+				"tall$_disabled_"	"38"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
@@ -1690,7 +1690,7 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"36"
-				"tall_hidef"	"48"
+				"tall$_disabled_"	"48"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1702,7 +1702,7 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"52"
-				"tall_lodef"		"80"
+				"tall$_disabled_"		"80"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
 				"yres"		"1 599"
@@ -1712,7 +1712,7 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"72"
-				"tall_hidef"	"120"
+				"tall$_disabled_"	"120"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
 				"yres"		"600 767"
@@ -1820,8 +1820,8 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"10"
-				"tall_hidef"	"12"
-				"tall_lodef"	"14"
+				"tall$_disabled_"	"12"
+				"tall$_disabled_"	"14"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -1964,7 +1964,7 @@ Scheme
 			{
 				"name"			"Arial Black"
 				"tall"			"8"
-				"tall_lodef"	"12"
+				"tall$_disabled_"	"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"300"
 				"antialias"		"1"
@@ -1977,10 +1977,10 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"14"
-				"tall_lodef"	"18"
+				"tall$_disabled_"	"18"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"300"
-				"weight_lodef"	"600"
+				"weight$_disabled_"	"600"
 				"antialias"		"1"
 			}
 		}			
@@ -2015,8 +2015,8 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"8"
-				"tall_hidef"	"10"
-				"tall_lodef"	"12"
+				"tall$_disabled_"	"10"
+				"tall$_disabled_"	"12"
 				"weight"	"0"
 				"additive"	"1"
 				"antialias" 	"1"
@@ -2028,8 +2028,8 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"9"
-				"tall_hidef"	"10"
-				"tall_lodef"	"16"
+				"tall$_disabled_"	"10"
+				"tall$_disabled_"	"16"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -2041,8 +2041,8 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"11"  [!$OSX]
-				"tall"		"9"  [$OSX]
+				"tall"		"11"  [!$_disabled_]
+				"tall"		"9"  [$_disabled_]
 				"weight"	"800"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -2055,7 +2055,7 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"36"
-				"tall_lodef"		"28"
+				"tall$_disabled_"		"28"
 				"weight"	"500"
 			}
 		}
@@ -2065,7 +2065,7 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"30"
-				"tall_lodef"		"22"
+				"tall$_disabled_"		"22"
 				"weight"	"500"
 			}
 		}
@@ -2075,7 +2075,7 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"28"
-				"tall_lodef"	"24"
+				"tall$_disabled_"	"24"
 				"weight"	"500"
 			}
 		}
@@ -2121,7 +2121,7 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"22"
-				"tall_lodef"		"18"
+				"tall$_disabled_"		"18"
 				"weight"	"900"
 			}
 		}
@@ -2131,7 +2131,7 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"18"
-				"tall_lodef"		"18"
+				"tall$_disabled_"		"18"
 				"weight"	"900"
 			}
 		}
@@ -2521,7 +2521,7 @@ Scheme
 				"name"		"TF2 Professor"
 				"tall"		"20"
 				"antialias" "1"
-				"custom"		"1" [$OSX]
+				"custom"		"1" [$_disabled_]
 				"weight"	"500"
 			}
 		}
@@ -2846,8 +2846,8 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"18"
-				"tall_hidef"	"24"
-				"tall_lodef"	"18"
+				"tall$_disabled_"	"24"
+				"tall$_disabled_"	"18"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -2870,8 +2870,8 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"18"
-				"tall_hidef"	"24"
-				"tall_lodef"	"20"
+				"tall$_disabled_"	"24"
+				"tall$_disabled_"	"20"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -5728,7 +5728,7 @@ Scheme
 		"2" "resource/tfd.ttf"
 		"3"
 		{
-			"font" "resource/tf2.ttf"
+			"font" "resource/TF2.ttf"
 			"name" "TF2"
 			"russian"
 			{
@@ -5741,7 +5741,7 @@ Scheme
 		}
 		"4" 
 		{
-			"font" "resource/tf2secondary.ttf"
+			"font" "resource/TF2Secondary.ttf"
 			"name" "TF2 Secondary"
 			"russian"
 			{
@@ -5754,7 +5754,7 @@ Scheme
 		}
 		"5" 
 		{
-			"font" "resource/tf2professor.ttf"
+			"font" "resource/TF2Professor.ttf"
 			"name" "TF2 Professor"
 			"russian"
 			{
@@ -5767,7 +5767,7 @@ Scheme
 		}	
 		"6" 
 		{
-			"font" "resource/tf2build.ttf"
+			"font" "resource/TF2Build.ttf"
 			"name" "TF2 Build"
 			"russian"
 			{
@@ -5843,13 +5843,13 @@ Scheme
 				"range" "0x0000 0x007E"
 			}
 		}
-		"10"		"resource/linux_fonts/dejavusans.ttf"
-		"11"		"resource/linux_fonts/dejavusans-bold.ttf"
-		"12"		"resource/linux_fonts/dejavusans-boldoblique.ttf"
-		"13"		"resource/linux_fonts/dejavusans-oblique.ttf"
-		"14"		"resource/linux_fonts/liberationsans-regular.ttf"
-		"15"		"resource/linux_fonts/liberationsans-bold.ttf"
-		"16"		"resource/linux_fonts/liberationmono-regular.ttf"
-		"17"		"resource/linux_fonts/firasans-regular.ttf"
+		"10"		"resource/linux_fonts/DejaVuSans.ttf"
+		"11"		"resource/linux_fonts/DejaVuSans-Bold.ttf"
+		"12"		"resource/linux_fonts/DejaVuSans-BoldOblique.ttf"
+		"13"		"resource/linux_fonts/DejaVuSans-Oblique.ttf"
+		"14"		"resource/linux_fonts/LiberationSans-Regular.ttf"
+		"15"		"resource/linux_fonts/LiberationSans-Bold.ttf"
+		"16"		"resource/linux_fonts/LiberationMono-Regular.ttf"
+		"17"		"resource/linux_fonts/FiraSans-Regular.ttf"
 	}
 }

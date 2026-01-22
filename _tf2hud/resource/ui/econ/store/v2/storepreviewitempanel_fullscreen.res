@@ -1,4 +1,4 @@
-"resource/ui/storepreviewitempanel.res"
+"Resource/UI/StorePreviewItemPanel.res"
 {
 	"FullscreenStorePreview"
 	{

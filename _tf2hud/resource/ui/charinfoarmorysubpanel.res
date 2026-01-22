@@ -1,4 +1,4 @@
-"resource/ui/charinfoarmorysubpanel.res"
+"Resource/UI/CharInfoArmorySubPanel.res"
 {
 	"armory_panel"
 	{

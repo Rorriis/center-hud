@@ -1,4 +1,4 @@
-"resource/ui/mainmenuoverride.res"
+"Resource/UI/MainMenuOverride.res"
 {
 	MainMenuOverride
 	{

@@ -1,4 +1,4 @@
-"resource/ui/fullloadoutpanel.res"
+"Resource/UI/FullLoadoutPanel.res"
 {
 	"class_loadout_panel"
 	{

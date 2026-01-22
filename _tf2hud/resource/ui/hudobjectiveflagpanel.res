@@ -1,4 +1,4 @@
-"resource/ui/hudobjectiveflagpanel.res"
+"Resource/UI/HudObjectiveFlagPanel.res"
 {	
 	"ObjectiveStatusFlagPanel"
 	{
@@ -24,7 +24,7 @@
 		"fieldName"		"LeftSideBG"
 		"xpos"			"c-140"
 		"ypos"			"r75"	[$WIN32]
-		"ypos"			"r96"	[$X360]
+		"ypos"			"r96"	[$_disabled_]
 		"zpos"			"1"
 		"wide"			"280"
 		"tall"			"80"
@@ -60,7 +60,7 @@
 		"fieldName"		"RightSideBG"
 		"xpos"			"c-140"
 		"ypos"			"r75"	[$WIN32]
-		"ypos"			"r96"	[$X360]
+		"ypos"			"r96"	[$_disabled_]
 		"zpos"			"1"
 		"wide"			"280"
 		"tall"			"80"
@@ -96,7 +96,7 @@
 		"fieldName"		"OutlineBG"
 		"xpos"			"c-140"
 		"ypos"			"r75"	[$WIN32]
-		"ypos"			"r96"	[$X360]
+		"ypos"			"r96"	[$_disabled_]
 		"zpos"			"2"
 		"wide"			"280"
 		"tall"			"80"
@@ -132,20 +132,20 @@
 		"fieldName"		"BlueScore"
 		"xpos"			"c-130"
 		"ypos"			"r47"
-		"ypos_lodef"	"r88"
-		"ypos_hidef"	"r93"
+		"ypos$_disabled_"	"r88"
+		"ypos$_disabled_"	"r93"
 		"zpos"			"8"
 		"wide"			"75"
 		"tall"			"35"
-		"tall_hidef"	"100"
-		"tall_lodef"	"75"
+		"tall$_disabled_"	"100"
+		"tall$_disabled_"	"75"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"west"	
 		"labelText"		"%bluescore%"
 		"font"			"HudFontBig"
-		"font_hidef"	"HudFontGiant"
-		"font_lodef"	"HudFontGiant"
+		"font$_disabled_"	"HudFontGiant"
+		"font$_disabled_"	"HudFontGiant"
 		"fgcolor"		"TanLight"
 		
 		"if_hybrid"
@@ -175,20 +175,20 @@
 		"fieldName"		"BlueScoreShadow"
 		"xpos"			"c-128"
 		"ypos"			"r46"
-		"ypos_lodef"	"r87"
-		"ypos_hidef"	"r92"
+		"ypos$_disabled_"	"r87"
+		"ypos$_disabled_"	"r92"
 		"zpos"			"7"
 		"wide"			"75"
 		"tall"			"35"
-		"tall_hidef"	"100"
-		"tall_lodef"	"75"
+		"tall$_disabled_"	"100"
+		"tall$_disabled_"	"75"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"west"	
 		"labelText"		"%bluescore%"
 		"font"			"HudFontBig"
-		"font_hidef"	"HudFontGiant"
-		"font_lodef"	"HudFontGiant"
+		"font$_disabled_"	"HudFontGiant"
+		"font$_disabled_"	"HudFontGiant"
 		"fgcolor"		"Black"
 		
 		"if_hybrid"
@@ -218,20 +218,20 @@
 		"fieldName"		"RedScore"
 		"xpos"			"c57"
 		"ypos"			"r47"
-		"ypos_lodef"	"r88"
-		"ypos_hidef"	"r93"
+		"ypos$_disabled_"	"r88"
+		"ypos$_disabled_"	"r93"
 		"zpos"			"8"
 		"wide"			"75"
 		"tall"			"35"
-		"tall_hidef"	"100"
-		"tall_lodef"	"75"
+		"tall$_disabled_"	"100"
+		"tall$_disabled_"	"75"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%redscore%"
 		"font"			"HudFontBig"
-		"font_hidef"	"HudFontGiant"
-		"font_lodef"	"HudFontGiant"
+		"font$_disabled_"	"HudFontGiant"
+		"font$_disabled_"	"HudFontGiant"
 		"fgcolor"		"TanLight"		
 		
 		"if_hybrid"
@@ -261,20 +261,20 @@
 		"fieldName"		"RedScoreShadow"
 		"xpos"			"c59"
 		"ypos"			"r46"
-		"ypos_lodef"	"r87"
-		"ypos_hidef"	"r92"
+		"ypos$_disabled_"	"r87"
+		"ypos$_disabled_"	"r92"
 		"zpos"			"7"
 		"wide"			"75"
 		"tall"			"35"
-		"tall_hidef"	"100"
-		"tall_lodef"	"75"
+		"tall$_disabled_"	"100"
+		"tall$_disabled_"	"75"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%redscore%"
 		"font"			"HudFontBig"
-		"font_hidef"	"HudFontGiant"
-		"font_lodef"	"HudFontGiant"
+		"font$_disabled_"	"HudFontGiant"
+		"font$_disabled_"	"HudFontGiant"
 		"fgcolor"		"Black"		
 		
 		"if_hybrid"
@@ -304,7 +304,7 @@
 		"fieldName"		"OutlineImage"
 		"xpos"			"c-50"
 		"ypos"			"r127"	[$WIN32]
-		"ypos"			"r148"	[$X360]
+		"ypos"			"r148"	[$_disabled_]
 		"zpos"			"9"
 		"wide"			"100"
 		"tall"			"50"
@@ -320,7 +320,7 @@
 		"fieldName"		"CarriedImage"
 		"xpos"			"c-50"
 		"ypos"			"r137"	[$WIN32]
-		"ypos"			"r158"	[$X360]
+		"ypos"			"r158"	[$_disabled_]
 		"zpos"			"10"
 		"wide"			"100"
 		"tall"			"100"
@@ -345,12 +345,12 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
 		"xpos"			"c-70"	[$WIN32]
-		"xpos"			"c-60"	[$X360]
+		"xpos"			"c-60"	[$_disabled_]
 		"ypos"			"r28"	[$WIN32]
-		"ypos"			"r48"	[$X360]
+		"ypos"			"r48"	[$_disabled_]
 		"zpos"			"4"
 		"wide"			"140"	[$WIN32]
-		"wide"			"120"	[$X360]
+		"wide"			"120"	[$_disabled_]
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
@@ -387,18 +387,18 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayingToBG"
 		"xpos"			"c-75"	[$WIN32]
-		"xpos"			"c-70"	[$X360]
+		"xpos"			"c-70"	[$_disabled_]
 		"ypos"			"r31"	[$WIN32]
-		"ypos"			"r51"	[$X360]
+		"ypos"			"r51"	[$_disabled_]
 		"zpos"			"3"
 		"wide"			"150"	[$WIN32]
-		"wide"			"140"	[$X360]
+		"wide"			"140"	[$_disabled_]
 		"tall"			"38"	[$WIN32]
-		"tall"			"35"	[$X360]
+		"tall"			"35"	[$_disabled_]
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_bg_playingto"
-		"image_hidef"	"../hud/objectives_flagpanel_bg_playingto_hidef"
+		"image$_disabled_"	"../hud/objectives_flagpanel_bg_playingto$_disabled_"
 		"scaleImage"	"1"	
 		
 		"if_hybrid"
@@ -428,7 +428,7 @@
 		"fieldName"		"BlueFlag"
 		"xpos"			"c-135"
 		"ypos"			"r95"	[$WIN32]
-		"ypos"			"r116"	[$X360]
+		"ypos"			"r116"	[$_disabled_]
 		"zpos"			"5"
 		"wide"			"160"
 		"tall"			"90"
@@ -468,7 +468,7 @@
 		"fieldName"		"RedFlag"
 		"xpos"			"c-25"
 		"ypos"			"r95"	[$WIN32]
-		"ypos"			"r116"	[$X360]
+		"ypos"			"r116"	[$_disabled_]
 		"zpos"			"5"
 		"wide"			"160"
 		"tall"			"90"
@@ -508,7 +508,7 @@
 		"fieldName"		"CaptureFlag"
 		"xpos"			"c-40"
 		"ypos"			"r95"	[$WIN32]
-		"ypos"			"r116"	[$X360]
+		"ypos"			"r116"	[$_disabled_]
 		"zpos"			"5"
 		"wide"			"80"
 		"tall"			"80"
@@ -564,7 +564,7 @@
 		"fieldName"		"SpecCarriedImage"
 		"xpos"			"c-50"
 		"ypos"			"r137"	[$WIN32]
-		"ypos"			"r158"	[$X360]
+		"ypos"			"r158"	[$_disabled_]
 		"zpos"			"10"
 		"wide"			"100"
 		"tall"			"100"

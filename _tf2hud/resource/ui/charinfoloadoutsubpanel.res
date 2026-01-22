@@ -1,4 +1,4 @@
-"resource/ui/charinfoloadoutsubpanel.res"
+"Resource/UI/CharInfoLoadoutSubPanel.res"
 {
 	"CharInfoLoadoutSubPanel"
 	{

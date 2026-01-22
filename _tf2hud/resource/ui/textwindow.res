@@ -1,4 +1,4 @@
-"resource/ui/textwindow.res"
+"Resource/UI/TextWindow.res"
 {
 	"info"
 	{

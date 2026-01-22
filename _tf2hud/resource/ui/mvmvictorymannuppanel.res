@@ -1,4 +1,4 @@
-"resource/ui/mvmvictorymannuppanel.res"
+"Resource/UI/MvMVictoryMannUpPanel.res"
 {			
 	//Mouse over panel
 	"mouseoveritempanel"

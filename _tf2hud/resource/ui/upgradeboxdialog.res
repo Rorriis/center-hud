@@ -1,4 +1,4 @@
-"resource/ui/upgradeboxdialog.res"
+"Resource/UI/UpgradeBoxDialog.res"
 {
 	"ConfirmDialog"
 	{

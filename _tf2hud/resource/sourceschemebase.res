@@ -46,7 +46,7 @@ Scheme
 		Button.BgColor					"Blank"
 		Button.ArmedTextColor			"White"
 		Button.ArmedBgColor				"Blank"				[$WIN32]
-		Button.ArmedBgColor				"190 115 0 255"		[$X360]
+		Button.ArmedBgColor				"190 115 0 255"		[$_disabled_]
 		Button.DepressedTextColor		"White"
 		Button.DepressedBgColor			"Blank"
 		Button.FocusBorderColor			"Black"
@@ -71,12 +71,12 @@ Scheme
 		Frame.ClientInsetX				8
 		Frame.ClientInsetY				6
 		Frame.BgColor					"160 160 160 128"	[$WIN32]
-		Frame.BgColor					"80 80 80 192"		[$X360]
+		Frame.BgColor					"80 80 80 192"		[$_disabled_]
 		Frame.OutOfFocusBgColor			"160 160 160 32"	[$WIN32]
-		Frame.OutOfFocusBgColor			"80 80 80 192"		[$X360]
+		Frame.OutOfFocusBgColor			"80 80 80 192"		[$_disabled_]
 		Frame.FocusTransitionEffectTime	"0.3"							// time it takes for a window to fade in/out on focus/out of focus
 		Frame.TransitionEffectTime		"0.3"				[$WIN32]	// time it takes for a window to fade in/out on open/close
-		Frame.TransitionEffectTime		"0.2"				[$X360]		// time it takes for a window to fade in/out on open/close
+		Frame.TransitionEffectTime		"0.2"				[$_disabled_]		// time it takes for a window to fade in/out on open/close
 		Frame.AutoSnapRange				"0"
 		FrameGrip.Color1				"200 200 200 196"
 		FrameGrip.Color2				"0 0 0 196"
@@ -188,9 +188,9 @@ Scheme
 
 		// scheme-specific colors
 		MainMenu.TextColor			"White"				[$WIN32]
-		MainMenu.TextColor			"200 200 200 255"	[$X360]
+		MainMenu.TextColor			"200 200 200 255"	[$_disabled_]
 		MainMenu.ArmedTextColor		"200 200 200 255"	[$WIN32]
-		MainMenu.ArmedTextColor		"White"				[$X360]
+		MainMenu.ArmedTextColor		"White"				[$_disabled_]
 		MainMenu.DepressedTextColor	"192 186 80 255"
 		MainMenu.MenuItemHeight		"22"
 		MainMenu.Inset				"32"
@@ -202,14 +202,14 @@ Scheme
 		NewGame.TextColor			"White"
 		NewGame.FillColor			"0 0 0 255"
 		NewGame.SelectionColor		"Orange"			[$WIN32]
-		NewGame.SelectionColor		"0 0 0 255"			[$X360]
+		NewGame.SelectionColor		"0 0 0 255"			[$_disabled_]
 		NewGame.DisabledColor		"128 128 128 196"
 
-		MessageDialog.MatchmakingBG			"46 43 42 255"	[$X360]
-		MessageDialog.MatchmakingBGBlack			"22 22 22 255"	[$X360]
+		MessageDialog.MatchmakingBG			"46 43 42 255"	[$_disabled_]
+		MessageDialog.MatchmakingBGBlack			"22 22 22 255"	[$_disabled_]
 		
-		MatchmakingMenuItemTitleColor			"200 184 151 255"	[$X360]
-		MatchmakingMenuItemDescriptionColor		"200 184 151 255"	[$X360]
+		MatchmakingMenuItemTitleColor			"200 184 151 255"	[$_disabled_]
+		MatchmakingMenuItemDescriptionColor		"200 184 151 255"	[$_disabled_]
 
 		"QuickListBGDeselected"		"AchievementsDarkGrey"
 	 	"QuickListBGSelected"           "AchievementsLightGrey"
@@ -258,14 +258,14 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "Lucida Console" [!$OSX]
-				"name"		 "Lucida Console" [$X360]
-				"name"		 "Verdana" [$OSX]
+				"name"		 "Lucida Console" [!$_disabled_]
+				"name"		 "Lucida Console" [$_disabled_]
+				"name"		 "Verdana" [$_disabled_]
 				"tall"		"14" [$LINUX]
-				"tall"		"11" [$OSX]
+				"tall"		"11" [$_disabled_]
 				"tall"		 "10"
-				"tall_lodef" "15"
-				"tall_hidef" "20"
+				"tall$_disabled_" "15"
+				"tall$_disabled_" "20"
 				"weight"	 "0"
 				"outline"	 "1"
 			}
@@ -274,8 +274,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana" [$OSX]
+				"name"		"Tahoma" [!$_disabled_]
+				"name"		"Verdana" [$_disabled_]
 				"tall"		"16" [!$LINUX]
 				"tall"		"18" [$LINUX]
 				"weight"	"500"
@@ -285,7 +285,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$OSX]
+				"name"		"Tahoma" [!$_disabled_]
 				"name"		"Verdana Bold" [$POSIX]
 				"tall"		"16" [!$LINUX]
 				"tall"		"18" [$LINUX]
@@ -296,8 +296,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana" [$OSX]
+				"name"		"Tahoma" [!$_disabled_]
+				"name"		"Verdana" [$_disabled_]
 				"tall"		"16" [!$LINUX]
 				"tall"		"18" [$LINUX]
 				"weight"	"500"
@@ -308,8 +308,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana" [$OSX]
+				"name"		"Tahoma" [!$_disabled_]
+				"name"		"Verdana" [$_disabled_]
 				"tall"		"12" [!$POSIX]
 				"tall"		"15" [$POSIX]
 				"weight"	"0"
@@ -319,8 +319,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana" [$OSX]
+				"name"		"Tahoma" [!$_disabled_]
+				"name"		"Verdana" [$_disabled_]
 				"tall"		"13"
 				"weight"	"0"
 				"dropshadow" "1"
@@ -330,8 +330,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana" [$OSX]
+				"name"		"Tahoma" [!$_disabled_]
+				"name"		"Verdana" [$_disabled_]
 				"tall"		"12"
 				"weight"	"0"
 			}
@@ -341,8 +341,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana" [$OSX]
+				"name"		"Tahoma" [!$_disabled_]
+				"name"		"Verdana" [$_disabled_]
 				"tall"		"18"
 				"weight"	"0"
 			}
@@ -351,13 +351,13 @@ Scheme
 		{
 			"1"	[$WIN32]
 			{
-				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana" [$OSX]
+				"name"		"Tahoma" [!$_disabled_]
+				"name"		"Verdana" [$_disabled_]
 				"tall"		"12" [!$LINUX]
 				"tall"		"15" [$LINUX]
 				"weight"	"1000"
 			}
-			"1"	[$X360]
+			"1"	[$_disabled_]
 			{
 				"name"		"Tahoma"
 				"tall"		"24"
@@ -365,27 +365,27 @@ Scheme
 				"outline"	"1"
 			}
 		}
-		"ChapterTitle"	[$X360]
+		"ChapterTitle"	[$_disabled_]
 		{
 			"1"
 			{
 				"name"			"Tahoma"
 				"tall"			"20"
-				"tall_hidef"	"28"
+				"tall$_disabled_"	"28"
 				"weight"		"2000"
 				"outline"		"1"
 			}
 		}
-		"ChapterTitleBlur"	[$X360]
+		"ChapterTitleBlur"	[$_disabled_]
 		{
 			"1"
 			{
 				"name"			"Tahoma"
 				"tall"			"20"
-				"tall_hidef"	"28"
+				"tall$_disabled_"	"28"
 				"weight"		"2000"
 				"blur"			"3"
-				"blur_hidef"	"5"
+				"blur$_disabled_"	"5"
 			}
 		}
 		"MenuLarge"
@@ -463,26 +463,26 @@ Scheme
 		
 		GameUIButtons
 		{
-			"1"	[$X360]
+			"1"	[$_disabled_]
 			{
 				"bitmap"	"1"
 				"name"		"Buttons"
 				"scalex"	"0.63"
 				"scaley"	"0.63"
-				"scalex_hidef"	"1.0"
-				"scaley_hidef"	"1.0"
-				"scalex_lodef"	"0.75"
-				"scaley_lodef"	"0.75"
+				"scalex$_disabled_"	"1.0"
+				"scaley$_disabled_"	"1.0"
+				"scalex$_disabled_"	"0.75"
+				"scaley$_disabled_"	"0.75"
 			}
 		}
 		"ConsoleText"
 		{
 			"1"
 			{
-				"name"		 "Lucida Console" [!$OSX]
-				"name"		 "Lucida Console" [$X360]
-				"name"		 "Verdana" [$OSX]
-				"tall"		"11" [$OSX]
+				"name"		 "Lucida Console" [!$_disabled_]
+				"name"		 "Lucida Console" [$_disabled_]
+				"name"		 "Verdana" [$_disabled_]
+				"tall"		"11" [$_disabled_]
 				"tall"		"14" [$LINUX]
 				"tall"		"10"
 				"weight"	"500"
@@ -604,8 +604,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "Lucida Console" [!$OSX]
-				"name"		 "Verdana" [$OSX]
+				"name"		 "Lucida Console" [!$_disabled_]
+				"name"		 "Verdana" [$_disabled_]
 				"tall"		"11" [$POSIX]
 				"tall"		"10" [!$POSIX]
 				"weight"	"0"
@@ -622,8 +622,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "Lucida Console" [!$OSX]
-				"name"		 "Verdana" [$OSX]
+				"name"		 "Lucida Console" [!$_disabled_]
+				"name"		 "Verdana" [$_disabled_]
 				"tall"		"14" [$LINUX]
 				"tall"		"11" [$POSIX]
 				"tall"		"10"
@@ -638,12 +638,12 @@ Scheme
 //			}
 		}
 
-		"CloseCaption_Normal"
+		"CloseCaption"
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana" [$OSX]
+				"name"		"Tahoma" [!$_disabled_]
+				"name"		"Verdana" [$_disabled_]
 				"tall"		"16"
 				"weight"	"500"
 			}
@@ -652,8 +652,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana Italic" [$OSX]
+				"name"		"Tahoma" [!$_disabled_]
+				"name"		"Verdana Italic" [$_disabled_]
 				"tall"		"16"
 				"weight"	"500"
 				"italic"	"1"
@@ -663,8 +663,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana Bold" [$OSX]
+				"name"		"Tahoma" [!$_disabled_]
+				"name"		"Verdana Bold" [$_disabled_]
 				"tall"		"16"
 				"weight"	"900"
 			}
@@ -673,8 +673,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana Bold Italic" [$OSX]
+				"name"		"Tahoma" [!$_disabled_]
+				"name"		"Verdana Bold Italic" [$_disabled_]
 				"tall"		"16"
 				"weight"	"900"
 				"italic"	"1"
@@ -705,28 +705,28 @@ Scheme
 			}
 		}
 
-		AppchooserGameTitleFont	[$X360]
+		AppchooserGameTitleFont	[$_disabled_]
 		{
 			"1"
 			{
 				"name"			"Trebuchet MS"
 				"tall"			"16"
-				"tall_hidef"	"24"
+				"tall$_disabled_"	"24"
 				"weight"		"900"
 				"antialias"		"1"
 			}
 		}
 
-		AppchooserGameTitleFontBlur	[$X360]
+		AppchooserGameTitleFontBlur	[$_disabled_]
 		{
 			"1"
 			{
 				"name"			"Trebuchet MS"
 				"tall"			"16"
-				"tall_hidef"	"24"
+				"tall$_disabled_"	"24"
 				"weight"		"900"
 				"blur"			"3"
-				"blur_hidef"	"5"
+				"blur$_disabled_"	"5"
 				"antialias"		"1"
 			}
 		}
@@ -812,7 +812,7 @@ Scheme
 			"1"
 			{
 				"name"		"Arial" [!$POSIX]
-				"name"		"Verdana" [$OSX]
+				"name"		"Verdana" [$_disabled_]
 				"weight"		"1000"
 				"tall"			"14" [!$POSIX]
 				"tall"			"15" [$POSIX]
@@ -825,10 +825,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana" [$OSX]
+				"name"		"Tahoma" [!$_disabled_]
+				"name"		"Verdana" [$_disabled_]
 				"tall"		"35"
-				"tall_lodef"	"40"
+				"tall$_disabled_"	"40"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -999,8 +999,8 @@ Scheme
 
 		ScrollBarButtonBorder
 		{
-			"inset" "2 2 0 0" [!$OSX]
-			"inset" "-3 2 0 0" [$OSX]
+			"inset" "2 2 0 0" [!$_disabled_]
+			"inset" "-3 2 0 0" [$_disabled_]
 			Left
 			{
 				"1"
@@ -1040,8 +1040,8 @@ Scheme
 		
 		ScrollBarButtonDepressedBorder
 		{
-			"inset" "2 2 0 0" [!$OSX]
-			"inset" "-3 2 0 0" [$OSX]
+			"inset" "2 2 0 0" [!$_disabled_]
+			"inset" "-3 2 0 0" [$_disabled_]
 			Left
 			{
 				"1"
@@ -1288,17 +1288,17 @@ Scheme
 	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
 	CustomFontFiles
 	{
-		"1"		"resource/halflife2.ttf"
-		"2"		"resource/hl2ep2.ttf"	
+		"1"		"resource/HALFLIFE2.ttf"
+		"2"		"resource/HL2EP2.ttf"	
 		"3"		"resource/marlett.ttf"
 
-		"4"		"resource/linux_fonts/dejavusans.ttf"
-		"5"		"resource/linux_fonts/dejavusans-bold.ttf"
-		"6"		"resource/linux_fonts/dejavusans-boldoblique.ttf"
-		"7"		"resource/linux_fonts/dejavusans-oblique.ttf"
-		"8"		"resource/linux_fonts/liberationsans-regular.ttf"
-		"9"		"resource/linux_fonts/liberationsans-bold.ttf"
-		"10"		"resource/linux_fonts/liberationmono-regular.ttf"
-		"11"		"resource/linux_fonts/firasans-regular.ttf"
+		"4"		"resource/linux_fonts/DejaVuSans.ttf"
+		"5"		"resource/linux_fonts/DejaVuSans-Bold.ttf"
+		"6"		"resource/linux_fonts/DejaVuSans-BoldOblique.ttf"
+		"7"		"resource/linux_fonts/DejaVuSans-Oblique.ttf"
+		"8"		"resource/linux_fonts/LiberationSans-Regular.ttf"
+		"9"		"resource/linux_fonts/LiberationSans-Bold.ttf"
+		"10"		"resource/linux_fonts/LiberationMono-Regular.ttf"
+		"11"		"resource/linux_fonts/FiraSans-Regular.ttf"
 	}
 }

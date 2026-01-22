@@ -1,4 +1,4 @@
-"resource/ui/hudbowcharge.res"
+"Resource/UI/HudBowCharge.res"
 {	
 	"ChargeMeter"
 	{	

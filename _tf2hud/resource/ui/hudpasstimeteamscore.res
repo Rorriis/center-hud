@@ -1,4 +1,4 @@
-"resource/ui/hudpasstimeteamscore.res"
+"Resource/UI/HudPasstimeTeamScore.res"
 {
 	"HudTeamScore"
 	{
@@ -169,7 +169,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/objectives_flagpanel_bg_playingto"
-			"image_hidef"	"../hud/objectives_flagpanel_bg_playingto_hidef"
+			"image$_disabled_"	"../hud/objectives_flagpanel_bg_playingto$_disabled_"
 			"scaleImage"	"1"	
 		}
 	}

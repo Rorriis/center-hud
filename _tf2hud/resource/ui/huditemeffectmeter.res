@@ -1,4 +1,4 @@
-"resource/ui/huditemeffectmeter.res"
+"Resource/UI/HudItemEffectMeter.res"
 {
 	HudItemEffectMeter
 	{
@@ -9,8 +9,8 @@
 		"xpos_minmode"	"r52"	[$WIN32]
 		"ypos"			"r62"	[$WIN32]
 		"ypos_minmode"	"r54"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
+		"xpos"			"r194"	[$_disabled_]
+		"ypos"			"r74"	[$_disabled_]
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -32,9 +32,9 @@
 		"image"			"../hud/misc_ammo_area_horiz1_blue"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/misc_ammo_area_horiz1_red"
-		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
+		"teambg_2$_disabled_"	"../hud/misc_ammo_area_red$_disabled_"
 		"teambg_3"		"../hud/misc_ammo_area_horiz1_blue"
-		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
+		"teambg_3$_disabled_"	"../hud/misc_ammo_area_blue$_disabled_"				
 	}
 	
 	"ItemEffectMeterLabel"

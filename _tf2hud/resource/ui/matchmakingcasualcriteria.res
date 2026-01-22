@@ -1,4 +1,4 @@
-"resource/ui/matchmakingcasualcriteria.res"
+"Resource/UI/MatchmakingCasualCriteria.res"
 {
 	"PlaylistBGPanel"
 	{

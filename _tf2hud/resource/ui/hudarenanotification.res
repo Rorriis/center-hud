@@ -1,4 +1,4 @@
-"resource/ui/hudarenanotification.res"
+"Resource/UI/HudArenaNotification.res"
 {
 	"HudArenaNotificationBG"
 	{
@@ -30,7 +30,7 @@
 		"wide"			"50"
 		"tall"			"50"
 		"wide"			"230"	[$WIN32]
-		"wide"			"180"	[$X360]
+		"wide"			"180"	[$_disabled_]
 		"tall"			"55"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -47,11 +47,11 @@
 		"font"			"HudFontSmallBold"
 		"xpos"			"75"
 		"ypos"			"30"
-		"ypos_hidef"	"23"
-		"ypos_lodef"	"20"
+		"ypos$_disabled_"	"23"
+		"ypos$_disabled_"	"20"
 		"zpos"			"1"
 		"wide"			"230"	[$WIN32]
-		"wide"			"180"	[$X360]
+		"wide"			"180"	[$_disabled_]
 		"tall"			"55"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -69,11 +69,11 @@
 		"font"			"HudFontSmallest"
 		"xpos"			"75"
 		"ypos"			"75"
-		"ypos_hidef"	"23"
-		"ypos_lodef"	"20"
+		"ypos$_disabled_"	"23"
+		"ypos$_disabled_"	"20"
 		"zpos"			"1"
 		"wide"			"230"	[$WIN32]
-		"wide"			"180"	[$X360]
+		"wide"			"180"	[$_disabled_]
 		"tall"			"30"
 		"autoResize"		"0"
 		"pinCorner"		"0"
