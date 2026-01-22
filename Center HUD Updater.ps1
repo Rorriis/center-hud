@@ -33,7 +33,7 @@ try {
 		Write-Host -foregroundcolor "Yellow" "What would you like to do?"
 		Write-Host "1: Check HUD installation"
 		Write-Host "2: Update & Modify Default HUD Files"
-		Write-Host "3: Download latest files from Github"
+		Write-Host "3: Download latest files from Codeberg"
 		Write-Host ""
 		Write-Host "?: Help with these options"
 		Write-Host "Q: Quit"
@@ -64,7 +64,7 @@ try {
 	# Shared Paths
 	##############
 	# center-hud (this script's folder)
-	$center-hud = Resolve-Path "$PSScriptRoot"
+	$centerhud = Resolve-Path "$PSScriptRoot"
 	# ../Team Fortress 2/tf
 	$tf = Maybe_Path $center-hud "../.."
 	# vpk.exe shipped with TF2 (used for unpacking the game's default hud)
@@ -130,7 +130,7 @@ try {
 		$parentDirectory = "steamapps\common\Team Fortress 2\tf\custom"
 
 		# Get the resolved path of the script's directory
-		$scriptDirectory = $center-hud
+		$scriptDirectory = $centerhud
 
 		# Check if the script's path contains the parent directory
 		Write-Host -ForegroundColor "White" -NoNewLine "Checking script location... "
@@ -238,7 +238,7 @@ try {
 			Write-Host ""
 
 			Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Additional Information"
-			Write-Host -foregroundcolor "White" "Invoke-WebRequest is used to download the hud file from Github"
+			Write-Host -foregroundcolor "White" "Invoke-WebRequest is used to download the hud file from Codeberg"
 			Write-Host ""
 
 			Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Solution"
@@ -574,7 +574,7 @@ try {
 	function Run_UpdateFromGitHub {
 		Clear-Host
 		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "=================="
-		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Update from Github"
+		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Update from Codeberg"
 		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "=================="
 		Write-Host ""
 
@@ -609,7 +609,7 @@ try {
 				Add-Type -Assembly System.IO.Compression
 				Add-Type -Assembly System.IO.Compression.FileSystem
 
-				Write-Host -foregroundcolor "White" -NoNewLine "Downloading files from GitHub..."
+				Write-Host -foregroundcolor "White" -NoNewLine "Downloading files from Codeberg..."
 				$zip = [System.IO.Compression.ZipArchive]::new(
 					[System.IO.MemoryStream]::new(
 					(Invoke-WebRequest https://codeberg.org/RoseyLemonz/center-hud/archive/main.zip).Content),
@@ -634,7 +634,7 @@ try {
 				Write-Host -foregroundcolor "White" -backgroundcolor "Green" "============="
 				Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Task Complete"
 				Write-Host -foregroundcolor "White" -backgroundcolor "Green" "============="
-				Write-Host -foregroundcolor "White" "Latest hud files from GitHub have been downloaded and extracted."
+				Write-Host -foregroundcolor "White" "Latest hud files from Codeberg have been downloaded and extracted."
 				Shared_Timer $startTime
 			}
 
@@ -661,7 +661,7 @@ try {
 		$helpItems = @(
 			@{ Title = "1. Check HUD Installation"; Color = "Green"; Description = "No files will be deleted or replaced. Checks for common installation issues." },
 			@{ Title = "2. Update & Modify Default HUD Files"; Color = "Yellow"; Description = "_tf2hud folder will be deleted/replaced. Updates with latest HUD files, useful after TF2 updates." },
-			@{ Title = "3. Update Files from GitHub"; Color = "Red"; Description = "Overwrites HUD files with latest from GitHub." }
+			@{ Title = "3. Update Files from Codeberg"; Color = "Red"; Description = "Overwrites HUD files with latest from Codeberg." }
 		)
 
 		foreach ($item in $helpItems) {
