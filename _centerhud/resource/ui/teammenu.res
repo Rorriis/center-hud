@@ -3,7 +3,10 @@
 	"CancelButton"
 	{
 		"xpos"			"cs-0.5+180"
+		"ypos"			"r38"
+		"tall"			"25"
 		"labelText"		"#CenHud_Cancel"
+		"font"			"HudFontSmallBold"
 	}
 	
 	"TeamMenuSelect"

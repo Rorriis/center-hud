@@ -2,24 +2,22 @@
 {
 	"Skip"
 	{
-		"xpos"			"cs-0.5"
+		"xpos"			"cs-0.5+180"
+		"ypos"			"r38"
+		"tall"			"25"
 		"labelText"		"#CenHud_Skip"
+		"font"			"HudFontSmallBold"
 		"default"		"1"
 		"fgcolor"		"TanLight"
-	}
-
-	"Continue"
-	{
-		"xpos"			"cs-0.5+180"
-		"labelText"		"#CenHud_Continue"
-		"default"		"1"
-		"visible"		"1"
 	}
 	
 	"Back"
 	{
 		"xpos"			"cs-0.5-180"
+		"ypos"			"r38"
+		"tall"			"25"
 		"labelText"		"#CenHud_Back"
+		"font"			"HudFontSmallBold"
 		"default"		"1"
 		"fgcolor"		"TanLight"
 	}
