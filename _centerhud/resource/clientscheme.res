@@ -160,6 +160,16 @@ Scheme
 		"1" "resource/tf.ttf"
 		"2" "resource/tfd.ttf"
 
+		// Cheat Sheet
+		// 0x0020 0x007F (Basic Latin)
+		// 0x0080 0x00FF (Latin-1 Supplement)
+		// 0x0100 0x017F (Latin Extended-A)
+		// 0x0370 0x03FF (Greek and Coptic)
+		// 0x0400 0x04FF (Cyrillic)
+		// 0x0590 0x05FF (Hebrew)
+		// 0x0600 0x06FF (Arabic)
+		// 0x0102 0x0111 (Vietnamese)
+
 		"3"
 		{
 			"font" "resource/fonts/tf2_linux.ttf"	[$LINUX]
@@ -591,6 +601,12 @@ Scheme
 			}
 		}
 
+		"8" 
+		{
+			"font" "resource/ocr-a-extended.ttf"
+			"name" "OCR A Extended"
+		}
+
 		"10" "resource/halflife2.ttf"
 		"11" "resource/hl2ep2.ttf"
 		"12" "resource/marlett.ttf"
@@ -609,7 +625,7 @@ Scheme
 		"font"	"resource/fonts/streamermode.ttf"
 		"name"	"Streamer Mode"				
 		
-		"arabic"
+			"arabic"
 			{
 				"range" "0x0000 0xFFFF"
 			}
