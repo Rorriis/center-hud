@@ -1,6 +1,6 @@
 #base "intromenu.res"
 
-"Resource/UI/IntroMenu.res"
+"resource/ui/intromenu.res"
 {
 	"ContinueHintIcon" [$WIN32]
 	{

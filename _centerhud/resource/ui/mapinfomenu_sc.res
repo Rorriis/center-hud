@@ -1,6 +1,6 @@
 #base "mapinfomenu.res"
 
-"Resource/UI/MapInfoMenu.res"
+"resource/ui/mapinfomenu.res"
 {
 	"MapInfoContinueHintIcon"
 	{

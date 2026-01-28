@@ -1,6 +1,6 @@
 #base "classselection.res"
 
-"Resource/UI/ClassSelection.res"
+"resource/ui/classselection.res"
 {
 	"PrevOptionHintIcon"
 	{

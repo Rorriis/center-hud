@@ -1,6 +1,6 @@
 #base "spectator.res"
 
-"Resource/UI/Spectator.res"
+"resource/ui/spectator.res"
 {
 	"CycleTargetFwdHintIcon"
 	{

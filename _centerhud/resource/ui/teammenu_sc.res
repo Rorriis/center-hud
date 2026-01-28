@@ -1,6 +1,6 @@
 #base "teammenu.res"
 
-"Resource/UI/TeamMenu.res"
+"resource/ui/teammenu.res"
 {
 	"PrevOptionHintIcon"
 	{

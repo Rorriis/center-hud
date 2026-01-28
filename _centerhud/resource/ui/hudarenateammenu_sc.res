@@ -1,6 +1,6 @@
 #base "hudarenateammenu.res"
 
-"Resource/UI/ArenaTeamMenu.res"
+"resource/ui/arenateammenu.res"
 {
 	"PrevOptionHintIcon"
 	{
