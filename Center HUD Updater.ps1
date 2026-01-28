@@ -38,7 +38,6 @@ try {
 		Write-Host "?: Help with these options"
 		Write-Host "Q: Quit"
 		Write-Host ""
-		Write-Host ""
 	}
 
 	############
@@ -208,11 +207,11 @@ try {
 			Write-Host ""
 
 			Write-Host -foregroundcolor "Red" "Outcome"
-			Write-Host -foregroundcolor "White" "The script will not be able to extract the default hud from your game files"
+			Write-Host -foregroundcolor "White" "The script will not be able to extract the default HUD from your game files"
 			Write-Host ""
 
 			Write-Host -foregroundcolor "Green" "Solution"
-			Write-Host -foregroundcolor "White" "Verify that the hud is installed correctly."
+			Write-Host -foregroundcolor "White" "Verify that the HUD is installed correctly."
 			Write-Host -foregroundcolor "White" "Expected location: ../Team Fortress 2/custom/center-hud/Center HUD Updater.ps1"
 			Write-Host ""
 			Break
@@ -238,7 +237,7 @@ try {
 			Write-Host ""
 
 			Write-Host -foregroundcolor "Blue" "Additional Information"
-			Write-Host -foregroundcolor "White" "Invoke-WebRequest is used to download the hud file from Codeberg"
+			Write-Host -foregroundcolor "White" "Invoke-WebRequest is used to download the HUD file from Codeberg"
 			Write-Host ""
 
 			Write-Host -foregroundcolor "Green" "Solution"
@@ -274,11 +273,11 @@ try {
 			Write-Host ""
 
 			Write-Host -foregroundcolor "Red" "Outcome"
-			Write-Host -foregroundcolor "White" "Default hud will load instead of Center HUD"
+			Write-Host -foregroundcolor "White" "Default HUD will load instead of Center HUD"
 			Write-Host ""
 
 			Write-Host -foregroundcolor "Green" "Solution"
-			Write-Host -foregroundcolor "White" "- Verify that center-hud is placed in ../tf/custom"
+			Write-Host -foregroundcolor "White" "- Verify that Center HUD is placed in ../tf/custom"
 			Write-Host -foregroundcolor "White" "- Verify that TF2 is not installed on a separate drive"
 			Write-Host -foregroundcolor "White" "- Verify that you do not have multiple custom folders"
 			Write-Host -foregroundcolor "White" "- Verify that you have TF2 installed at all lmao"
@@ -302,7 +301,7 @@ try {
 			Write-Host ""
 
 			Write-Host -foregroundcolor "Red" "Outcome"
-			Write-Host -foregroundcolor "White" "Default hud will load instead of Center HUD"
+			Write-Host -foregroundcolor "White" "Default HUD will load instead of Center HUD"
 			Write-Host ""
 
 			Write-Host -foregroundcolor "Green" "Solution"
@@ -328,11 +327,11 @@ try {
 			Write-Host ""
 
 			Write-Host -foregroundcolor "Red" "Outcome"
-			Write-Host -foregroundcolor "White" "Default hud will load with only bits of custom hud loading (custom font, misplaced XP bar in main menu, etc)"
+			Write-Host -foregroundcolor "White" "Default HUD will load with only bits of custom HUD loading (custom font, misplaced XP bar in main menu, etc)"
 			Write-Host ""
 
 			Write-Host -foregroundcolor "Green" "Solution"
-			Write-Host -foregroundcolor "White" "Verify that info.vdf (located in ../custom/center-hud) was not deleted when you installed the hud"
+			Write-Host -foregroundcolor "White" "Verify that info.vdf (located in ../custom/center-hud) was not deleted when you installed the HUD"
 			Write-Host ""
 			Break
 		}
@@ -343,8 +342,10 @@ try {
 		# Define the paths to check
 		$pathsToCheck = @(
 			"_centerhud/*",
-			"_fixes/*",
+			"_customization/*",
 			"_extras/*",
+			"_fixes/*",
+			"_map-files/*",
 			"_tf2hud/*",
 			"_customization/*",
 			"materials/*",
@@ -493,7 +494,7 @@ try {
 		Write-Host -foregroundcolor "Green" "=================="
 		Write-Host -foregroundcolor "Green" "File Checks Passed"
 		Write-Host -foregroundcolor "Green" "=================="
-		Write-Host -foregroundcolor "White" "You appear to have all files needed to update your default hud files."
+		Write-Host -foregroundcolor "White" "You appear to have all files needed to update your default HUD files."
 		Write-Host -foregroundcolor "White" "Beginning update."
 		Write-Host ""
 
@@ -560,8 +561,8 @@ try {
 		Write-Host -foregroundcolor "Red" "===================="
 		Write-Host ""
 
-		Write-Host -foregroundcolor "Red" "If you have EDITED any ORIGINAL center-hud fies, they will be OVERWRITTEN."
-		Write-Host -foregroundcolor "Green" "If you have ADDED any NEW center-hud files, they will NOT be OVERWRITTEN."
+		Write-Host -foregroundcolor "Red" "If you have EDITED any ORIGINAL Center HUD files, they will be OVERWRITTEN."
+		Write-Host -foregroundcolor "Green" "If you have ADDED any NEW Center HUD files, they will NOT be OVERWRITTEN."
 		Write-Host ""
 
 		Write-Host -foregroundcolor "White" "To proceed, you must type r0."
