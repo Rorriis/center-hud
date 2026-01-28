@@ -1,24 +1,50 @@
-"Resource/UI/build_menu/HudMenuEngyBuild.res"
-{	
-	"TitleLabel"
+"Resource/UI/disguise_menu/HudMenuSpyDisguise.res"
+{		
+	"SpyIcon"
 	{
-		"labelText"		"#Building_hud_building"
+		"ControlName"	"CIconPanel"
+		"fieldName"		"SpyIcon"
+		"xpos"			"10"
+		"ypos"			"-2"
+		"zpos"			"1"
+		"wide"			"45"
+		"tall"			"45"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"icon"			"hud_spy_disguise_menu_icon"
+		"iconColor"		"255 255 255 255"
 	}
 	
-	"TitleLabelDropshadow"
+	"TitleLabel"
 	{
-		"labelText"		"#Building_hud_building"
+		"xpos"			"55"
+	}
+
+	"TitleLabelDropshadow"
+	{	
+		"xpos"			"57"
+		"zpos"			"2"
+		"tall"			"45"
+	}	
+		
+	"ShadedBar"
+	{
+		"xpos"			"cs-0.5"
+		"zpos"			"1"
+		"wide"			"f25"
+		"proportionaltoparent"	"1"
 	}
 
 	"ButtonLegendBG"
 	{
 		"xpos"			"cs-0.5"
-		"ypos"			"rs1-10"
+		"ypos"			"rs1-30"
 		"wide"			"f25"
 		"tall"			"34"
 		"proportionaltoparent"	"1"
 	}
-
+		
 	"CancelHintIcon"
 	{
 		"xpos"			"-10"
@@ -43,7 +69,7 @@
 		"pin_to_sibling_corner"	"PIN_CENTER_RIGHT"
 	}
 	
-	"BuildHintIcon"
+	"TeamToggleHintIcon"
 	{
 		"xpos"			"20"
 		"ypos"			"0"
@@ -53,7 +79,7 @@
 		"pin_to_sibling_corner"	"PIN_CENTER_RIGHT"
 	}
 	
-	"BuildHintLabel_Bright"
+	"TeamToggleHintLabel"
 	{
 		"xpos"			"5"
 		"ypos"			"0"
@@ -61,35 +87,22 @@
 		"wide"			"0"
 		"tall"			"25"
 		"auto_wide_tocontents"	"1"
-		"pin_to_sibling"	"BuildHintIcon"
+		"pin_to_sibling"	"TeamToggleHintIcon"
 		"pin_corner_to_sibling"	"PIN_CENTER_LEFT"
 		"pin_to_sibling_corner"	"PIN_CENTER_RIGHT"
 	}
 	
-	"BuildHintLabel_Dim"
-	{
-		"xpos"			"5"
-		"ypos"			"0"
-		"zpos"			"2"
-		"wide"			"0"
-		"tall"			"25"
-		"auto_wide_tocontents"	"1"
-		"pin_to_sibling"	"BuildHintIcon"
-		"pin_corner_to_sibling"	"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner"	"PIN_CENTER_RIGHT"
-	}
-	
-	"DestroyHintIcon"
+	"DisguiseHintIcon"
 	{
 		"xpos"			"20"
 		"ypos"			"0"
 		"zpos"			"2"
-		"pin_to_sibling"	"BuildHintLabel_Bright"
+		"pin_to_sibling"	"TeamToggleHintLabel"
 		"pin_corner_to_sibling"	"PIN_CENTER_LEFT"
 		"pin_to_sibling_corner"	"PIN_CENTER_RIGHT"
 	}
 	
-	"DestroyHintLabel_Bright"
+	"DisguiseHintLabel"
 	{
 		"xpos"			"5"
 		"ypos"			"0"
@@ -97,24 +110,20 @@
 		"wide"			"0"
 		"tall"			"25"
 		"auto_wide_tocontents"	"1"
-		"pin_to_sibling"	"DestroyHintIcon"
-		"pin_corner_to_sibling"	"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner"	"PIN_CENTER_RIGHT"
-	}
-	
-	"DestroyHintLabel_Dim"
-	{
-		"xpos"			"5"
-		"ypos"			"0"
-		"zpos"			"2"
-		"wide"			"0"
-		"tall"			"25"
-		"auto_wide_tocontents"	"1"
-		"pin_to_sibling"	"DestroyHintIcon"
+		"pin_to_sibling"	"DisguiseHintIcon"
 		"pin_corner_to_sibling"	"PIN_CENTER_LEFT"
 		"pin_to_sibling_corner"	"PIN_CENTER_RIGHT"
 	}
 
-	"PrevHintIcon" {"xpos" "r0" "wide" "0" "visible" "0"}
-	"NextHintIcon" {"xpos" "r0" "wide" "0" "visible" "0"}
+	"PrevHintIcon"	{"xpos" "r0" "wide" "0" "visible" "0"}
+	"NextHintIcon"	{"xpos" "r0" "wide" "0" "visible" "0"}
+
+	"NumberBg1" 	{"xpos" "r0" "wide" "0" "visible" "0"}
+	"NumberLabel1"	{"xpos" "r0" "wide" "0" "visible" "0"}
+
+	"NumberBg2" 	{"xpos" "r0" "wide" "0" "visible" "0"}
+	"NumberLabel2"	{"xpos" "r0" "wide" "0" "visible" "0"}
+	
+	"NumberBg3" 	{"xpos" "r0" "wide" "0" "visible" "0"}
+	"NumberLabel3"	{"xpos" "r0" "wide" "0" "visible" "0"}
 }

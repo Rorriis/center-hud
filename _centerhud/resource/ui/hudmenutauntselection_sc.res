@@ -18,10 +18,25 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ButtonLegendBG"
 		"xpos"			"cs-0.5"
-		"ypos"			"148"
+		"ypos"			"rs1-25"
 		"zpos"			"1"
 		"wide"			"f25"
-		"tall"			"28"
+		"tall"			"34"
+		"visible"		"1"
+		"fillcolor"		"0 0 0 190"
+		"proportionaltoparent"	"1"
+		"PaintBackgroundType"	"0"
+	}
+
+	"ItemLegendBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ItemLegendBG"
+		"xpos"			"cs-0.5"
+		"ypos"			"68"
+		"zpos"			"1"
+		"wide"			"f25"
+		"tall"			"62"
 		"visible"		"1"
 		"fillcolor"		"0 0 0 190"
 		"proportionaltoparent"	"1"
@@ -34,9 +49,13 @@
 
 	"CancelHintIcon"
 	{
-		"xpos"			"15"
-		"ypos"			"150"
+		"xpos"			"-10"
+		"ypos"			"0"
 		"zpos"			"2"
+
+		"pin_to_sibling"		"ButtonLegendBG"
+		"pin_corner_to_sibling"	"PIN_CENTER_LEFT"
+		"pin_to_sibling_corner"	"PIN_CENTER_LEFT"
 	}
 	
 	"CancelHintLabel"
@@ -45,6 +64,7 @@
 		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"0"
+		"tall"			"25"
 		"auto_wide_tocontents"	"1"
 		"pin_to_sibling"	"CancelHintIcon"
 		"pin_corner_to_sibling"	"PIN_CENTER_LEFT"
@@ -67,6 +87,7 @@
 		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"0"
+		"tall"			"25"
 		"auto_wide_tocontents"	"1"
 		"pin_to_sibling"	"TauntHintIcon"
 		"pin_corner_to_sibling"	"PIN_CENTER_LEFT"
@@ -89,6 +110,7 @@
 		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"0"
+		"tall"			"25"
 		"auto_wide_tocontents"	"1"
 		"pin_to_sibling"	"WeaponTauntHintIcon"
 		"pin_corner_to_sibling"	"PIN_CENTER_LEFT"
