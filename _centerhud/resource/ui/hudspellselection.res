@@ -17,7 +17,8 @@
 
 		"if_killstreak_visible"
 		{
-			"ypos"			"r86"
+			"xpos"			"cs-0.5-292"
+			"ypos"			"r90"
 			"ypos_minmode"	"r82"
 		}
 	}
@@ -36,27 +37,30 @@
 
 	"Spellbook"
 	{
-		"xpos"			"8"
-		"ypos"			"rs1"
-		"wide"			"28"
-		"tall"			"o1.1"
+		"xpos"			"cs-0.5+4"
+		"ypos"			"rs1+8"
+		"wide"			"52"
+		"tall"			"o1.05"
 		"proportionaltoparent" "1"	
 	}
 
 	"SpellIcon"
 	{
-		"xpos"			"rs1-14"
+		"xpos"			"rs1-15"
 		"ypos"			"15"
 		"xpos_minmode"	"16"
 		"ypos_minmode"	"35"
+		"wide"			"20"
+		"tall"			"o1"
 		"proportionaltoparent"	"1"
 	}
 	
 	"CountText"
 	{
-		"xpos"			"24"
-		"ypos"			"17"
+		"xpos"			"23"
+		"ypos"			"14"
 		"zpos"			"1"
+		"tall"			"21"
 		"xpos_minmode"	"46"
 		"ypos_minmode"	"37"
 	}
@@ -64,8 +68,9 @@
 	"CountTextShadow"
 	{
 		"xpos"			"-1"
-		"ypos"			"-1"
+		"ypos"			"-2"
 		"zpos"			"0"
+		"tall"			"21"
 		"xpos_minmode"	"-1"
 		"ypos_minmode"	"-1"
 		"pin_to_sibling"	"CountText"

@@ -583,7 +583,7 @@ try {
 				Write-Host -foregroundcolor "White" -NoNewLine "Downloading files from Codeberg..."
 				$zip = [System.IO.Compression.ZipArchive]::new(
 					[System.IO.MemoryStream]::new(
-					(Invoke-WebRequest -UseBasicParsing https://codeberg.org/RoseyLemonz/center-hud/archive/main.zip).Content),
+					(Invoke-WebRequest -UseBasicParsing https://codeberg.org/RoseyLemonz/center-hud/archive/rewrite.zip).Content),
 					[System.IO.Compression.ZipArchiveMode]::Read)
 				Write-Host -foregroundcolor "Blue" "Complete"
 

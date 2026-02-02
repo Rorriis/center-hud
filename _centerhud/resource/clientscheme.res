@@ -2,7 +2,6 @@ Scheme
 {
 	"Fonts"
 	{
-
 		"HudFontGiantSecondary"
 		{
 			"1"
@@ -172,8 +171,7 @@ Scheme
 
 		"3"
 		{
-			"font" "resource/fonts/tf2_linux.ttf"	[$LINUX]
-			"font" "resource/fonts/tf2.ttf" 		[!$LINUX]
+			"font" "resource/fonts/tf2.ttf"
 			"name" "TF2"	
 
 			// Cyrillic

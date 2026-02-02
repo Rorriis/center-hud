@@ -44,14 +44,25 @@
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"enabled"				"0"
+		"proportionaltoparent"	"1"
 		"disabledFgColor2_override"	"White"
+		
+		"xpos_minmode"			"cs-0.5"
+		"ypos_minmode"			"rs1-2"
+		"wide_minmode"			"48"
+		"tall_minmode"			"8"
+		"textalignment_minmode"	"center"
 	}
 
 	"ChargeMeter"
 	{	
 		"xpos"					"24"
 		"ypos"					"28"
-		"wide"					"40"
+		"wide"					"40"		
+		"xpos_minmode"			"cs-0.5"
+		"ypos_minmode"			"3"
+		"wide_minmode"			"42"
+		"proportionaltoparent"	"1"
 	}
 
 	"PipesPresentPanel"
