@@ -2538,7 +2538,7 @@
 						"ypos"							"6"
 						"zpos"							"20"
 						"wide"							"f55"
-						"tall"							"75"
+						"tall"							"15"
 						"visible"						"1"
 						"enabled"						"1"
 						"proportionaltoparent"			"1"
