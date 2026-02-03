@@ -1,4 +1,4 @@
-#base "hudobjectiveplayerdestruction.res"
+#base	"hudobjectiveplayerdestruction.res"
 
 "resource/ui/selbyenhud.res"
 {

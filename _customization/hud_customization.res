@@ -19,6 +19,11 @@
 #base "hud_customization_damage.res"
 
 //==============================================================
+// CROSSHAIR
+//==============================================================
+#base "hud_customization_crosshair.res"
+
+//==============================================================
 // FOLDER NAME MESSAGE
 //==============================================================
 #base "../../center-hud/_customization/hud_customization_folder_set.res"
