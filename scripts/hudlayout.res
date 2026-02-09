@@ -1,11 +1,11 @@
 
 // Customization
 
-#base	"../../../cfg/center-hud/cenhud_customization_menu.txt"
-#base	"../_customization/layout_customization.res"
-
 //#base	"../_extras/_customizations/transparent_viewmodels/transparent_viewmodels.res"
 //#base   "../../../cfg/hudfixes/hud_killfeed.txt"
+
+#base	"../../../cfg/center-hud/cenhud_customization_menu.txt"
+#base	"../_customization/layout_customization.res"
 
 // Base
 

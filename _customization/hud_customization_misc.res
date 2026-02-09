@@ -8,3 +8,4 @@
 // High res custom class portrait support? (soup)
 // Comfig quickplay option?
 // Easter eggs, or course
+// improve skin quality (budhud)
