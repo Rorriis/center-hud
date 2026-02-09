@@ -40,8 +40,14 @@
 	}
 	"Notifications_Panel"
 	{
-		"xpos"			"r232"
-		"ypos"			"70"
+		"xpos"			"rs1-12"
+		"ypos"			"62"
+	}
+
+	"MOTD_Panel"
+	{
+		"xpos"			"rs1-12"
+		"ypos"			"62"
 	}
 
 	"ButtonBorder"
