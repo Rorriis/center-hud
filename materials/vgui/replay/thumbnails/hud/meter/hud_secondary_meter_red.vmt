@@ -3,5 +3,5 @@
 "UnlitGeneric"
 {
 	"$baseTexture" "hud/gradient_red"
-	"$detail" "vgui/replay/thumbnails/meter/hud_left_meter"
+	"$detail" "vgui/replay/thumbnails/hud/meter/hud_secondary_meter"
 }

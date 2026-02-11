@@ -663,7 +663,7 @@
 				"tall"			"18"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"replay/thumbnails/menu/glyph/mus_back"
+				"image"			"replay/thumbnails/menu/glyph/music/mus_back"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
 			}
@@ -716,7 +716,7 @@
 				"tall"			"18"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"replay/thumbnails/menu/glyph/mus_pause"
+				"image"			"replay/thumbnails/menu/glyph/music/mus_pause"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
 			}
@@ -768,7 +768,7 @@
 				"tall"			"18"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"replay/thumbnails/menu/glyph/mus_play"
+				"image"			"replay/thumbnails/menu/glyph/music/mus_play"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
 			}
@@ -820,7 +820,7 @@
 				"tall"			"18"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"replay/thumbnails/menu/glyph/mus_next"
+				"image"			"replay/thumbnails/menu/glyph/music/mus_next"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
 			}

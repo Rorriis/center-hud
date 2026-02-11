@@ -207,7 +207,7 @@
 						"visible"		"1"
 						"enabled"		"1"
 						"scaleImage"	"1"
-						"image"			"replay/thumbnails/menu/glyph/cberg"
+						"image"			"replay/thumbnails/menu/glyph/logo/cberg"
 						"proportionaltoparent"	"1"
 					}			
 				}
@@ -242,7 +242,7 @@
 						"visible"		"1"
 						"enabled"		"1"
 						"scaleImage"	"1"
-						"image"			"replay/thumbnails/menu/glyph/ghub"
+						"image"			"replay/thumbnails/menu/glyph/logo/ghub"
 						"proportionaltoparent"	"1"
 					}			
 				}
@@ -277,7 +277,7 @@
 						"visible"		"1"
 						"enabled"		"1"
 						"scaleImage"	"1"
-						"image"			"replay/thumbnails/menu/glyph/coms"
+						"image"			"replay/thumbnails/menu/glyph/logo/comfig"
 						"proportionaltoparent"	"1"
 					}			
 				}
@@ -310,7 +310,7 @@
 						"visible"		"1"
 						"enabled"		"1"
 						"scaleImage"	"1"
-						"image"			"replay/thumbnails/menu/glyph/gbanana"
+						"image"			"replay/thumbnails/menu/glyph/logo/gbanana"
 						"proportionaltoparent"	"1"
 					}	
 				}

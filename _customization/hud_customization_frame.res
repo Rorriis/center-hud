@@ -521,7 +521,7 @@
 				"tall"			"32"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"replay/thumbnails/button_hud"
+				"image"			"replay/thumbnails/menu/button_hud"
 				"scaleImage"	"1"
 			}
 		}
