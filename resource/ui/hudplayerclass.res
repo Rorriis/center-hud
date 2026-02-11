@@ -3,6 +3,9 @@
 
 #base   "../../../../cfg/hudfixes/hud_player_model.txt"
 #base   "../../../../cfg/hudfixes/hud_spy_disguise.txt"
+
+#base	"../../_customization/crosshair/crosshair.res"
+
 #base	"../../_extras/_customizations/crosshair/crosshair.res"
 #base	"../../_extras/_customizations/speedometer/speedometer.res"
 
