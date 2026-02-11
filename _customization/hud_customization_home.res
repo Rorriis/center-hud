@@ -207,7 +207,7 @@
 						"visible"		"1"
 						"enabled"		"1"
 						"scaleImage"	"1"
-						"image"			"replay/thumbnails/menu/glyph/logo/cberg"
+						"image"			"replay/thumbnails/menu/glyph/logo/codeberg"
 						"proportionaltoparent"	"1"
 					}			
 				}
@@ -242,7 +242,7 @@
 						"visible"		"1"
 						"enabled"		"1"
 						"scaleImage"	"1"
-						"image"			"replay/thumbnails/menu/glyph/logo/ghub"
+						"image"			"replay/thumbnails/menu/glyph/logo/github"
 						"proportionaltoparent"	"1"
 					}			
 				}
@@ -310,7 +310,7 @@
 						"visible"		"1"
 						"enabled"		"1"
 						"scaleImage"	"1"
-						"image"			"replay/thumbnails/menu/glyph/logo/gbanana"
+						"image"			"replay/thumbnails/menu/glyph/logo/gamebanana"
 						"proportionaltoparent"	"1"
 					}	
 				}

@@ -16,5 +16,6 @@
 .gitignore export-ignore
 .git export-ignore
 .github export-ignore
-docs export-ignore
-README.md export-ignore
+docs/page export-ignore
+docs/wiki export-ignore
+README.md export-ignored
