@@ -13,6 +13,21 @@
 		"fgcolor"		"TanDark"
 	}
 
+	"Kaito"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Kaito"
+		"xpos"			"c-2g0"
+		"ypos"			"rs1-60"
+		"zpos"			"-51"
+		"wide"			"350"
+		"tall"			"o1"
+		"visible"		"1"
+		"image"			"replay/thumbnails/hud/kaito"
+		"scaleImage"	"1"
+		"proportionaltoparent"	"1"
+	}
+
 	"RankBorder"
 	{
 		"tall"			"116"
@@ -25,6 +40,7 @@
 	
 	"TFCharacterImage"
 	{
+		"xpos"			"r0"
 		"zpos"			"-199"
 	}
 
