@@ -94,7 +94,7 @@
 					"ypos"						"40"	
 					"zpos"						"20"
 					"wide"						"f20"
-					"tall"						"290"
+					"tall"						"280"
 					"visible"					"1"
 					"enabled"					"1"
 					"proportionaltoparent"		"1"
