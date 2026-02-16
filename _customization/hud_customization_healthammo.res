@@ -1,5 +1,3 @@
-// TODO: Better looking burger dropdown ico
-
 "_customizations/hud_customization_damage.res"
 {
 	"SafeMode"
