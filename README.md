@@ -10,8 +10,8 @@ I do not advise to use this version since it is constantly and rapidly changing.
 [![Screenshots](https://img.shields.io/badge/Screenshots-1BB76E?style=for-the-badge)](https://codeberg.org/RoseyLemonz/center-hud/wiki/Screenshots)
 
 [![Codeberg Page](https://img.shields.io/badge/Codeberg-2185D0?style=for-the-badge&logo=codeberg&logoColor=white)](https://codeberg.org/RoseyLemonz/center-hud)
-[![GitHub Page](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RoseyLemonz/center-hud) 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![Wiki](https://img.shields.io/badge/Wiki-333333?style=for-the-badge&logo=gitbook&logoColor=white)](https://codeberg.org/RoseyLemonz/center-hud)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 [![comfig huds Page](https://img.shields.io/badge/Comfig_Huds-009688?style=for-the-badge&logo=mastercomfig&logoColor=white)](https://comfig.app/huds/page/center-hud/)
 [![GameBanana Page](https://img.shields.io/badge/GameBanana-FCEF40?style=for-the-badge&logo=gamebanana&logoColor=black)](https://gamebanana.com/mods/485626)
