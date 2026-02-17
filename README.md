@@ -5,9 +5,9 @@ NOTE: This is a Development version of the HUD.
 
 I do not advise to use this version since it is constantly and rapidly changing.
 
-[![Releases](https://img.shields.io/badge/Releases-green?style=for-the-badge)](releases)
-[![Credits](https://img.shields.io/badge/Credits%20%26%20Special%20Thanks-orange?style=for-the-badge)](wiki/Credits)
-[![Screenshots](https://img.shields.io/badge/Screenshots-1BB76E?style=for-the-badge)](wiki/Screenshots)
+[![Releases](https://img.shields.io/badge/Releases-green?style=for-the-badge)](https://codeberg.org/RoseyLemonz/center-hud/releases)
+[![Credits](https://img.shields.io/badge/Credits%20%26%20Special%20Thanks-orange?style=for-the-badge)](https://codeberg.org/RoseyLemonz/center-hud/wiki/Credits)
+[![Screenshots](https://img.shields.io/badge/Screenshots-1BB76E?style=for-the-badge)](https://codeberg.org/RoseyLemonz/center-hud/wiki/Screenshots)
 
 [![Codeberg Page](https://img.shields.io/badge/Codeberg-2185D0?style=for-the-badge&logo=codeberg&logoColor=white)](https://codeberg.org/RoseyLemonz/center-hud)
 [![GitHub Page](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RoseyLemonz/center-hud) 
