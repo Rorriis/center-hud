@@ -18,5 +18,5 @@
 .github export-ignore
 docs/page export-ignore
 docs/wiki export-ignore
-README.md export-ignored
-CONTRIBUTING.md export-ignored
+README.md export-ignore
+CONTRIBUTING.md export-ignore
