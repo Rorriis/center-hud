@@ -1,1 +1,1 @@
-#base "../../../../../cfg/center-hud/cenhud_xhair_size.txt"
+#base "../../../../cfg/center-hud/cenhud_xhair_size.txt"
