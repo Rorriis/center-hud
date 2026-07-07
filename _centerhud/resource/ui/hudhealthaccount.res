@@ -2,6 +2,6 @@
 {
 	"CHealthAccountPanel"
 	{
-		"delta_item_font"		"HudFontMediumOutline"
+		"delta_item_font"		"HudFontMedium"
 	}
 }

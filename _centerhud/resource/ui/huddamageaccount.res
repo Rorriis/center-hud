@@ -2,8 +2,8 @@
 {
 	"CDamageAccountPanel"
 	{
-		"delta_item_font"		"HudFontMediumSmallOutline"
-		"delta_item_font_big"	"HudFontMediumOutline"
+		"delta_item_font"		"HudFontMediumSmall"
+		"delta_item_font_big"	"HudFontMedium"
 	}	
     
     "DamageAccountValue"
@@ -11,7 +11,7 @@
 		"xpos"					"cs-0.5+166"
 		"ypos"					"rs1-58"
 		"textAlignment"			"east"
-		"font"					"HudFontMediumOutline"
+		"font"					"HudFontMedium"
 		"xpos_minmode"			"cs-0.5+206"
 		"ypos_minmode"			"rs1-36"
     }
