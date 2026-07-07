@@ -8,9 +8,9 @@
 			{
 				"ControlName"			"CScrollableList"
 				"fieldName"				"CustomizationPanelQuick"
-				"wide"					"f0"
-				"tall"					"f0"
-				"visible"				"0"
+				"wide"					"f5"
+				"tall"					"200"
+				"visible"				"1"
 				"enabled"				"1"
 				"proportionaltoparent"	"1"
 
