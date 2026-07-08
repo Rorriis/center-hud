@@ -7,7 +7,7 @@
 		"xpos"					"cs-0.5"
 		"ypos"					"cs-0.5-5"
 		"wide"					"600"
-		"tall"					"300"
+		"tall"					"350"
 		"zpos"					"50"
 		"visible"				"1"
 		"enabled"				"1"
@@ -185,31 +185,50 @@
 
 		"CustomizationPanel"
 		{
-			"ControlName"				"EditablePanel"
+			"ControlName"				"CScrollableList"
 			"fieldName"					"CustomizationPanel"
 			"xpos"						"cs-0.5"
 			"ypos"						"48"
 			"wide"						"f40"
-			"tall"						"210"
+			"tall"						"260"
 			"visible"					"1"
 			"enabled"					"1"
 			"proportionaltoparent"		"1"
 
-			"InnerShadow"
+			"Scrollbar"
 			{
-				"ControlName"	"EditablePanel"
-				"fieldname"		"InnerShadow"
-				"zpos"			"1000"
-				"wide"			"f0"
-				"tall"			"f0"
-				"visible"		"1"	
-				"paintborder"	"1"
-				"border"		"InnerShadowBorder"
+				"xpos"					"rs1+1"
+				"wide"					"6"
+				"tall"					"f0"
+				"zpos"					"1000"
 				"proportionaltoparent"	"1"
-				"mouseinputenabled"		"0"
+
+				"Slider"
+				{
+					"paintBackgroundType"	"0"
+					"fgcolor_override"		"TanLight"
+				}
+
+				"nobuttons"				"1"
 			}
 		}
 
+		"InnerShadow"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldname"		"InnerShadow"
+			"zpos"			"1000"
+			"wide"			"f40"
+			"tall"			"260"
+			"visible"		"1"	
+			"paintborder"	"1"
+			"border"		"InnerShadowBorder"
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"		"0"
+
+			"pin_to_sibling"	"CustomizationPanel"
+		}
+		
 		"ApplyButton"
 		{
 			"ControlName"				"CExButton"

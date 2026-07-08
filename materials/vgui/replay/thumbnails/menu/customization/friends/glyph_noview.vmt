@@ -1,6 +1,0 @@
-#base "../../../basicmaterial.vmt"
-
-"UnlitGeneric"
-{
-	"$basetexture" "vgui/replay/thumbnails/menu/customization/friends/glyph_noview"
-}

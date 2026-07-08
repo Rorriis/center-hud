@@ -1,7 +1,0 @@
-#base "../basicmaterial.vmt"
-
-"UnlitGeneric"
-{
-	"$baseTexture"	"vgui/replay/thumbnails/hud/kaito"
-}
-
