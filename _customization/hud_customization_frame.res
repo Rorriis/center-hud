@@ -45,25 +45,6 @@
 			"use_proportional_insets"	"1"
 		}
 
-		"TitleSeparator"
-		{
-			"ControlName"				"EditablePanel"
-			"fieldName"					"TitleSeparator"
-			"xpos"						"-1"
-			"ypos"						"0"
-			"zpos"						"2"
-			"wide"						"f2"
-			"tall"						"2"
-			"visible"					"1"
-			"enabled"					"1"
-			"paintBackground"			"1"
-			"bgcolor_override"			"QuestMap_InactiveGrey"
-			"proportionaltoparent"		"1"
-
-			"pin_to_sibling"			"OptionsTitle"
-			"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
-		}
-
 		"CloseButton"
 		{
 			"ControlName"				"CExButton"
@@ -77,7 +58,7 @@
 			"labelText"					"X"
 			"font"						"HudFontMediumSmallBold"
 			"textAlignment"				"center"
-			"command"					"engine cl_mainmenu_safemode 0; mat_queue_mode -1; gameui_allowescape; hud_customization_menu_clear"
+			"command"					"engine cl_mainmenu_safemode 0; mat_queue_mode -1; gameui_allowescape"
 			"actionsignallevel"			"2"
 			"proportionaltoparent"		"1"
 			"use_proportional_insets"	"1"
@@ -295,7 +276,7 @@
 			"default"		"1"
 
 			"actionsignallevel" "2"
-			"Command"		"engine toggle cl_mainmenu_safemode; mat_queue_mode 0; cenhud_custom_hom"
+			"Command"		"engine toggle cl_mainmenu_safemode; mat_queue_mode 0"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
