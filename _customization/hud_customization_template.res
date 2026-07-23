@@ -18,8 +18,8 @@
 
 				"ignorescheme"				"1"
 
-				"collapsed_height"			"30"
-				"expanded_height"			"220"
+				"collapsed_height"			"210"
+				"expanded_height"			"30"
 				"resize_time"				"0.6"
 
 				"Container"			{ "visible" "0" }
