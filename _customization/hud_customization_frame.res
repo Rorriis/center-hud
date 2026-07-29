@@ -243,7 +243,7 @@
 				"labelText"				"#CenHud_Custom_Cat_Quick"
 				"font"					"HudFontSmallestBold"
 				"textAlignment"			"center"
-				"command"				"engine hud_custom_settings; hud_reloadscheme"
+				"command"				"engine hud_custom_quick; hud_reloadscheme"
 				"actionsignallevel"		"3"
 				"proportionaltoparent"	"1"
 				"sound_depressed"	"UI/buttonclick.wav"
@@ -299,6 +299,29 @@
 				"pin_corner_to_sibling"	"PIN_TOPLEFT"
 				"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 			}
+			"CategoryFonts"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"CategoryFonts"
+				"xpos"					"0"
+				"ypos"					"2"
+				"wide"					"f20"
+				"tall"					"22"
+				"visible"				"1"
+				"enabled"				"1"
+				"labelText"				"#CenHud_Custom_Cat_Fonts"
+				"font"					"HudFontSmallestBold"
+				"textAlignment"			"center"
+				"command"				"engine hud_custom_font; hud_reloadscheme"
+				"actionsignallevel"		"3"
+				"proportionaltoparent"	"1"
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+
+				"pin_to_sibling"		"CategoryStyle"
+				"pin_corner_to_sibling"	"PIN_TOPLEFT"
+				"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+			}
 			"CategoryCrosshairs"
 			{
 				"ControlName"			"CExButton"
@@ -318,7 +341,7 @@
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 
-				"pin_to_sibling"		"CategoryStyle"
+				"pin_to_sibling"		"CategoryFonts"
 				"pin_corner_to_sibling"	"PIN_TOPLEFT"
 				"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 			}

@@ -5,10 +5,10 @@
 	"CustomizationPanel"
 	{
 		
-	"CustomizationPanelQuick"
+	"CustomizationPanelGeneral"
 	{
 		"ControlName"			"CScrollableList"
-		"fieldName"				"CustomizationPanelQuick"
+		"fieldName"				"CustomizationPanelGeneral"
 		"wide"					"f0"
 		"tall"					"f0"
 		"visible"				"0"
@@ -40,7 +40,7 @@
 			"tall"						"35"
 			"visible"					"1"
 			"paintBackground"			"1"
-			"bgcolor_override"			"GreenSolid"
+			"bgcolor_override"			"Red"
 			"proportionaltoparent"		"1"
 		}
 		"Title"
@@ -53,7 +53,7 @@
 			"tall"						"35"
 			"visible"					"1"
 			"enabled"					"1"
-			"labelText"					"#CenHud_Custom_Cat_Quick"
+			"labelText"					"#CenHud_Custom_Cat_General"
 			"font"						"HudFontMediumSmallBold"
 			"auto_wide_tocontents"		"1"
 			"proportionaltoparent"		"1"
@@ -75,7 +75,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		""
-			"command"		"url https://codeberg.org/RoseyLemonz/center-hud/wiki/Quick-Settings"
+			"command"		"url https://codeberg.org/RoseyLemonz/center-hud/wiki/General"
 			"paintBackground"	"0"
 			"proportionaltoparent"		"1"
 
