@@ -227,7 +227,7 @@
 					{
 						"ControlName"						"CExButton"
 						"fieldName"							"Size_14"
-						"xpos"								"1"
+						"xpos"								"2"
 						"ypos"								"0"
 						"zpos"								"20"
 						"visible"							"1"
@@ -251,7 +251,7 @@
 					{
 						"ControlName"						"CExButton"
 						"fieldName"							"Size_16"
-						"xpos"								"1"
+						"xpos"								"2"
 						"ypos"								"0"
 						"zpos"								"20"
 						"visible"							"1"
@@ -275,7 +275,7 @@
 					{
 						"ControlName"						"CExButton"
 						"fieldName"							"Size_18"
-						"xpos"								"1"
+						"xpos"								"2"
 						"ypos"								"0"
 						"zpos"								"20"
 						"visible"							"1"
@@ -299,7 +299,7 @@
 					{
 						"ControlName"						"CExButton"
 						"fieldName"							"Size_20"
-						"xpos"								"1"
+						"xpos"								"2"
 						"ypos"								"0"
 						"zpos"								"20"
 						"visible"							"1"
@@ -323,7 +323,7 @@
 					{
 						"ControlName"						"CExButton"
 						"fieldName"							"Size_22"
-						"xpos"								"1"
+						"xpos"								"2"
 						"ypos"								"0"
 						"zpos"								"20"
 						"visible"							"1"
@@ -347,7 +347,7 @@
 					{
 						"ControlName"						"CExButton"
 						"fieldName"							"Size_24"
-						"xpos"								"1"
+						"xpos"								"2"
 						"ypos"								"0"
 						"zpos"								"20"
 						"visible"							"1"
@@ -371,7 +371,7 @@
 					{
 						"ControlName"						"CExButton"
 						"fieldName"							"Size_26"
-						"xpos"								"1"
+						"xpos"								"2"
 						"ypos"								"0"
 						"zpos"								"20"
 						"visible"							"1"
@@ -395,7 +395,7 @@
 					{
 						"ControlName"						"CExButton"
 						"fieldName"							"Size_28"
-						"xpos"								"1"
+						"xpos"								"2"
 						"ypos"								"0"
 						"zpos"								"20"
 						"visible"							"1"
@@ -421,8 +421,8 @@
 			{
 				"ControlName"				"EditablePanel"
 				"fieldName"					"Color"
-				"xpos"						"-4"
-				"ypos"						"8"
+				"xpos"						"-7"
+				"ypos"						"10"
 				"zpos"						"50"
 				"wide"						"90"
 				"tall"						"115"
