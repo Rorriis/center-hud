@@ -40,7 +40,7 @@
 			"tall"						"35"
 			"visible"					"1"
 			"paintBackground"			"1"
-			"bgcolor_override"			"GreenSolid"
+			"bgcolor_override"			"StoreGreen"
 			"proportionaltoparent"		"1"
 		}
 		"Title"
@@ -49,6 +49,7 @@
 			"fieldName"					"Title"
 			"xpos"						"-15"
 			"ypos"						"2"
+			"zpos"						"1"
 			"wide"						"0"
 			"tall"						"35"
 			"visible"					"1"
@@ -69,7 +70,7 @@
 			"fieldName"		"Info"
 			"xpos"			"-15"
 			"ypos"			"2"
-			"zpos"			"7"
+			"zpos"			"2"
 			"wide"			"18"
 			"tall"			"18"
 			"visible"		"1"
@@ -84,7 +85,7 @@
 			"pin_corner_to_sibling"	"PIN_CENTER_RIGHT"
 
 			"image_drawcolor"	"255 255 255 255"
-			"image_armedcolor"	"200 200 200 255"
+			"image_armedcolor"	"235 235 235 255"
 	
 			"SubImage"
 			{

@@ -3,8 +3,8 @@
 
 #base	"../_customization/crosshair/crosshair_color.res"
 
-#base	"../_extras/_customizations/crosshair/crosshair_color.res"
-#base	"../_extras/_customizations/crosshair/crosshair_scheme.res"
+#base	"../_customization/crosshair/crosshair_color.res"
+#base	"../_customization/crosshair/crosshair_scheme.res"
 
 // Base
 

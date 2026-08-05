@@ -1,6 +1,6 @@
 Scheme
 {
-	"Fonts"
+	Fonts
 	{
 		"HudFontGiantSecondary"
 		{

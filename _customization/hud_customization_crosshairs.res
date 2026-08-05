@@ -15,7 +15,6 @@
 		"enabled"				"1"
 		"proportionaltoparent"	"1"
 
-
 		"TitleBacker"
 		{
 			"ControlName"				"Panel"
@@ -24,7 +23,7 @@
 			"tall"						"35"
 			"visible"					"1"
 			"paintBackground"			"1"
-			"bgcolor_override"			"Purple"
+			"bgcolor_override"			"QuestGold"
 			"proportionaltoparent"		"1"
 		}
 		"Title"
@@ -33,12 +32,14 @@
 			"fieldName"					"Title"
 			"xpos"						"-15"
 			"ypos"						"2"
+			"zpos"						"1"
 			"wide"						"0"
 			"tall"						"35"
 			"visible"					"1"
 			"enabled"					"1"
 			"labelText"					"#CenHud_Custom_Cat_Crosshairs"
 			"font"						"HudFontMediumSmallBold"
+			"fgcolor_override"			"White"
 			"auto_wide_tocontents"		"1"
 			"proportionaltoparent"		"1"
 
@@ -53,7 +54,7 @@
 			"fieldName"		"Info"
 			"xpos"			"-15"
 			"ypos"			"2"
-			"zpos"			"7"
+			"zpos"			"2"
 			"wide"			"18"
 			"tall"			"18"
 			"visible"		"1"
@@ -68,7 +69,7 @@
 			"pin_corner_to_sibling"	"PIN_CENTER_RIGHT"
 
 			"image_drawcolor"	"255 255 255 255"
-			"image_armedcolor"	"200 200 200 255"
+			"image_armedcolor"	"235 235 235 255"
 	
 			"SubImage"
 			{
@@ -92,10 +93,10 @@
 			"ControlName"				"EditablePanel"
 			"fieldName"					"Options"
 			"xpos"						"cs-0.5"
-			"ypos"						"40"	
+			"ypos"						"42"	
 			"zpos"						"20"
-			"wide"						"f20"
-			"tall"						"280"
+			"wide"						"f15"
+			"tall"						"185"
 			"visible"					"1"
 			"enabled"					"1"
 			"proportionaltoparent"		"1"
@@ -175,13 +176,11 @@
 					"xpos"						"0"
 					"ypos"						"0"
 					"zpos"						"10"
-					"wide"						"0"
 					"tall"						"15"
 					"visible"					"1"
 					"enabled"					"1"
 					"labelText"					"#CenHud_Custom_Gen_Size"
 					"font"						"HudFontSmallBold"
-					"fgcolor"					"White"
 					"auto_wide_tocontents"		"1"
 					"use_proportional_insets"	"1"
 					"proportionaltoparent"		"1"
@@ -506,29 +505,6 @@
 						"defaultbgcolor_override"			"CrosshairBlack"
 						"armedbgcolor_override"				"CrosshairBlackHover"
 					}
-					"Color_Grey"
-					{
-						"ControlName"						"CExButton"
-						"fieldName"							"Color_Grey"
-						"xpos"								"2"
-						"ypos"								"0"
-						"zpos"								"20"
-						"wide"								"20"
-						"tall"								"17"
-						"visible"							"1"
-						"enabled"							"1"
-						"proportionaltoparent"				"1"
-						"labelText"							""
-						"command"							"engine hud_xhair_color_grey"
-						"actionsignallevel"					"7"
-						"sound_depressed"					"UI/buttonclick.wav"
-
-						"defaultbgcolor_override"			"CrosshairGrey"
-						"armedbgcolor_override"				"CrosshairGreyHover"
-
-						"pin_to_sibling"					"Color_Black"
-						"pin_to_sibling_corner"				"PIN_TOPRIGHT"
-					}
 					"Color_White"
 					{
 						"ControlName"						"CExButton"
@@ -549,13 +525,13 @@
 						"defaultbgcolor_override"			"CrosshairWhite"
 						"armedbgcolor_override"				"CrosshairWhiteHover"
 
-						"pin_to_sibling"					"Color_Grey"
+						"pin_to_sibling"					"Color_Black"
 						"pin_to_sibling_corner"				"PIN_TOPRIGHT"
 					}
-					"Color_Blank1"
+					"Color_LGrey"
 					{
 						"ControlName"						"CExButton"
-						"fieldName"							"Color_Blank1"
+						"fieldName"							"Color_LGrey"
 						"xpos"								"2"
 						"ypos"								"0"
 						"zpos"								"20"
@@ -565,11 +541,37 @@
 						"enabled"							"1"
 						"proportionaltoparent"				"1"
 						"labelText"							""
-						"command"							"engine hud_xhair_color_white"
+						"command"							"engine hud_xhair_color_lgrey"
 						"actionsignallevel"					"7"
 						"sound_depressed"					"UI/buttonclick.wav"
 
+						"defaultbgcolor_override"			"CrosshairLGrey"
+						"armedbgcolor_override"				"CrosshairLGreyHover"
+
 						"pin_to_sibling"					"Color_White"
+						"pin_to_sibling_corner"				"PIN_TOPRIGHT"
+					}
+					"Color_Grey"
+					{
+						"ControlName"						"CExButton"
+						"fieldName"							"Color_Grey"
+						"xpos"								"2"
+						"ypos"								"0"
+						"zpos"								"20"
+						"wide"								"20"
+						"tall"								"17"
+						"visible"							"1"
+						"enabled"							"1"
+						"proportionaltoparent"				"1"
+						"labelText"							""
+						"command"							"engine hud_xhair_color_grey"
+						"actionsignallevel"					"7"
+						"sound_depressed"					"UI/buttonclick.wav"
+
+						"defaultbgcolor_override"			"CrosshairGrey"
+						"armedbgcolor_override"				"CrosshairGreyHover"
+
+						"pin_to_sibling"					"Color_LGrey"
 						"pin_to_sibling_corner"				"PIN_TOPRIGHT"
 					}
 
@@ -784,30 +786,7 @@
 
 						"pin_to_sibling"					"Color_Orange"
 						"pin_to_sibling_corner"				"PIN_BOTTOMLEFT"
-					}
-					"Color_Blue"
-					{
-						"ControlName"						"CExButton"
-						"fieldName"							"Color_Blue"
-						"xpos"								"2"
-						"ypos"								"0"
-						"zpos"								"20"
-						"wide"								"20"
-						"tall"								"17"
-						"visible"							"1"
-						"enabled"							"1"
-						"proportionaltoparent"				"1"
-						"labelText"							""
-						"command"							"engine hud_xhair_color_blue"
-						"actionsignallevel"					"7"
-						"sound_depressed"					"UI/buttonclick.wav"
-
-						"defaultbgcolor_override"			"CrosshairBlue"
-						"armedbgcolor_override"				"CrosshairBlueHover"
-
-						"pin_to_sibling"					"Color_Blu"
-						"pin_to_sibling_corner"				"PIN_TOPRIGHT"
-					}
+					}					
 					"Color_Cyan"
 					{
 						"ControlName"						"CExButton"
@@ -828,7 +807,7 @@
 						"defaultbgcolor_override"			"CrosshairCyan"
 						"armedbgcolor_override"				"CrosshairCyanHover"
 
-						"pin_to_sibling"					"Color_Blue"
+						"pin_to_sibling"					"Color_Blu"
 						"pin_to_sibling_corner"				"PIN_TOPRIGHT"
 					}	
 					"Color_Teal"
@@ -852,6 +831,29 @@
 						"armedbgcolor_override"				"CrosshairTealHover"
 
 						"pin_to_sibling"					"Color_Cyan"
+						"pin_to_sibling_corner"				"PIN_TOPRIGHT"
+					}
+					"Color_Blue"
+					{
+						"ControlName"						"CExButton"
+						"fieldName"							"Color_Blue"
+						"xpos"								"2"
+						"ypos"								"0"
+						"zpos"								"20"
+						"wide"								"20"
+						"tall"								"17"
+						"visible"							"1"
+						"enabled"							"1"
+						"proportionaltoparent"				"1"
+						"labelText"							""
+						"command"							"engine hud_xhair_color_blue"
+						"actionsignallevel"					"7"
+						"sound_depressed"					"UI/buttonclick.wav"
+
+						"defaultbgcolor_override"			"CrosshairBlue"
+						"armedbgcolor_override"				"CrosshairBlueHover"
+
+						"pin_to_sibling"					"Color_Teal"
 						"pin_to_sibling_corner"				"PIN_TOPRIGHT"
 					}
 
@@ -879,33 +881,10 @@
 						"pin_to_sibling"					"Color_Blu"
 						"pin_to_sibling_corner"				"PIN_BOTTOMLEFT"
 					}
-					"Color_Green"
+					"Color_GreenMint"
 					{
 						"ControlName"						"CExButton"
-						"fieldName"							"Color_Green"
-						"xpos"								"2"
-						"ypos"								"0"
-						"zpos"								"20"
-						"wide"								"20"
-						"tall"								"17"
-						"visible"							"1"
-						"enabled"							"1"
-						"proportionaltoparent"				"1"
-						"labelText"							""
-						"command"							"engine hud_xhair_color_green"
-						"actionsignallevel"					"7"
-						"sound_depressed"					"UI/buttonclick.wav"
-
-						"defaultbgcolor_override"			"CrosshairGreen"
-						"armedbgcolor_override"				"CrosshairGreenHover"
-
-						"pin_to_sibling"					"Color_GreenDark"
-						"pin_to_sibling_corner"				"PIN_TOPRIGHT"
-					}
-					"Color_Blank2"
-					{
-						"ControlName"						"CExButton"
-						"fieldName"							"Color_Blank2"
+						"fieldName"							"Color_GreenMint"
 						"xpos"								"2"
 						"ypos"								"0"
 						"zpos"								"20"
@@ -919,7 +898,10 @@
 						"actionsignallevel"					"7"
 						"sound_depressed"					"UI/buttonclick.wav"
 
-						"pin_to_sibling"					"Color_Green"
+						"defaultbgcolor_override"			"CrosshairGreenMint"
+						"armedbgcolor_override"				"CrosshairGreenMintHover"
+
+						"pin_to_sibling"					"Color_GreenDark"
 						"pin_to_sibling_corner"				"PIN_TOPRIGHT"
 					}
 					"Color_GreenPale"
@@ -942,7 +924,30 @@
 						"defaultbgcolor_override"			"CrosshairGreenPale"
 						"armedbgcolor_override"				"CrosshairGreenPaleHover"
 
-						"pin_to_sibling"					"Color_Blank2"
+						"pin_to_sibling"					"Color_GreenMint"
+						"pin_to_sibling_corner"				"PIN_TOPRIGHT"
+					}
+					"Color_Green"
+					{
+						"ControlName"						"CExButton"
+						"fieldName"							"Color_Green"
+						"xpos"								"2"
+						"ypos"								"0"
+						"zpos"								"20"
+						"wide"								"20"
+						"tall"								"17"
+						"visible"							"1"
+						"enabled"							"1"
+						"proportionaltoparent"				"1"
+						"labelText"							""
+						"command"							"engine hud_xhair_color_green"
+						"actionsignallevel"					"7"
+						"sound_depressed"					"UI/buttonclick.wav"
+
+						"defaultbgcolor_override"			"CrosshairGreen"
+						"armedbgcolor_override"				"CrosshairGreenHover"
+
+						"pin_to_sibling"					"Color_GreenPale"
 						"pin_to_sibling_corner"				"PIN_TOPRIGHT"
 					}
 				}
