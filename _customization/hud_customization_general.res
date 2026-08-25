@@ -146,10 +146,6 @@
 					"textAlignment"				"west"
 					"use_proportional_insets"	"1"
 					"proportionaltoparent"		"1"
-
-					"paintBackground"			"1"
-					"bgcolor_override"			"Hitmarker"
-					"paintBackgroundType"		"2"
 				}
 					
 				"On"
