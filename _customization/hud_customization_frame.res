@@ -353,7 +353,7 @@
 				"ypos"					"2"
 				"wide"					"f20"
 				"tall"					"22"
-				"visible"				"1"
+				"visible"				"0"
 				"enabled"				"1"
 				"labelText"				"#CenHud_Custom_Cat_Misc"
 				"font"					"HudFontSmallestBold"
