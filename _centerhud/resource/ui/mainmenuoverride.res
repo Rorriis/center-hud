@@ -7,7 +7,7 @@
 	"VersionLabel"
 	{
 		"xpos"			"rs1-10"
-		"ypos"			"rs1-6"
+		"ypos"			"rs1-8"
 		"labelText"		"Center HUD v25-alpha"
 		"font"			"HudFontSmallest"
 		"fgcolor"		"TanDark"
