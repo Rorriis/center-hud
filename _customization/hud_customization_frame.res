@@ -312,7 +312,7 @@
 				"labelText"				"#CenHud_Custom_Cat_Fonts"
 				"font"					"HudFontSmallestBold"
 				"textAlignment"			"center"
-				"command"				"engine hud_custom_font; hud_reloadscheme"
+				"command"				"engine hud_custom_fonts; hud_reloadscheme"
 				"actionsignallevel"		"3"
 				"proportionaltoparent"	"1"
 				"sound_depressed"	"UI/buttonclick.wav"

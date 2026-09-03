@@ -1,14 +1,14 @@
-"_customizations/hud_customization_general.res"
+"_customizations/hud_customization_style.res"
 {
 	"SafeMode"
 	{
 	"CustomizationPanel"
 	{
 		
-	"CustomizationPanelGeneral"
+	"CustomizationPanelStyle"
 	{
 		"ControlName"			"CScrollableList"
-		"fieldName"				"CustomizationPanelGeneral"
+		"fieldName"				"CustomizationPanelStyle"
 		"wide"					"f0"
 		"tall"					"f0"
 		"visible"				"0"
@@ -54,7 +54,7 @@
 			"tall"						"35"
 			"visible"					"1"
 			"enabled"					"1"
-			"labelText"					"#CenHud_Custom_Cat_General"
+			"labelText"					"#CenHud_Custom_Cat_Style"
 			"font"						"HudFontMediumSmallBold"
 			"auto_wide_tocontents"		"1"
 			"proportionaltoparent"		"1"

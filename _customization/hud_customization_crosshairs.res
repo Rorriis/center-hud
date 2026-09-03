@@ -105,7 +105,7 @@
 			{
 				"ControlName"					"CExButton"
 				"fieldName"						"On"
-				"xpos"							"5"
+				"xpos"							"6"
 				"ypos"							"4"
 				"zpos"							"5"
 				"wide"							"0"
@@ -420,7 +420,7 @@
 			{
 				"ControlName"				"EditablePanel"
 				"fieldName"					"Color"
-				"xpos"						"-7"
+				"xpos"						"-2"
 				"ypos"						"10"
 				"zpos"						"50"
 				"wide"						"90"
